@@ -158,3 +158,52 @@ curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/j
   -d '{"name":"Reportei Customer 3"}' \
   https://integrations.reportei.com/customers
 ```
+
+Update a customer
+--------------
+
+* `PUT /customers/{uuid}` updates a customer from the current merchant.
+
+**Required parameters**: `name` representing the customer name.
+
+This endpoint will return `200 OK` with the current JSON representation of the customer if the update was a success. See the [Show a customer](#show-a-customer) endpoint for more info on the payload.
+
+###### Example JSON Request
+
+``` json
+{
+  "name": "Reportei Customer 3.1"
+}
+```
+
+###### Copy as cURL
+
+``` shell
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+  -d '{"name":"Reportei Customer 3.1"}' -X PUT \
+  https://integrations.reportei.com/customers/{$uuid}
+```
+
+Delete a customer
+--------------
+
+* `POST /customers/{uuid}` deletes a customer from the current merchant.
+
+This endpoint will return `200 OK` if the deletion was a success.
+
+###### Example JSON Response
+
+``` json
+{
+    "success": true,
+    "message": "Record successfully removed"
+}
+```
+
+###### Copy as cURL
+
+``` shell
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+  -d '{"name":"Reportei Customer 3.1"}' -X PUT \
+  https://integrations.reportei.com/customers
+```
