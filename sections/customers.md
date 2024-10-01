@@ -7,8 +7,8 @@ Endpoints:
 - [Show a customer](#show-a-customer)
 - [Show current customer settings](#update-who-can-access-a-project)
 - [Create a customer](#create-a-customer)
-- [Update a customer](#get-person)
-- [Delete a customer](#get-my-personal-info)
+- [Update a customer](#update-a-customer)
+- [Delete a customer](#delete-a-customer)
 
 List all customers
 --------------
