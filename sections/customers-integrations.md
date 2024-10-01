@@ -12,12 +12,11 @@ Create a customer integration session
 
 This endpoint allows you to create a session for customers to manage and integrate their networks. The session acts like a "checkout" process, where the customer can view existing integrations and other available networks for integration.
 
-**Note**: The session has a duration of `5 minutes`, after that if the link is accessed, `403 Unauthorized` will be returned.
-
 * `POST /customer-integrations/session` will return an object containing the session details, including a session link (`session_link`) that the customer will use to access their integration management page.
 
 **Authorization**: Both the `Authorization` header (Bearer token) and customer api_token (`x-customer-token`) must be provided in the request headers.
 
+**Session Expiry**: The session has a duration of `5 minutes`, after that if the link is accessed, `403 Unauthorized` will be returned.
 
 ###### Example JSON Response
 <!-- START POST /customer-integrations/session -->
