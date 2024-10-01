@@ -6,7 +6,7 @@ Endpoints:
 - [List all customers](#list-all-customers)
 - [Show a customer](#show-a-customer)
 - [Show current customer settings](#update-who-can-access-a-project)
-- [Create a customer](#get-pingable-people)
+- [Create a customer](#create-a-customer)
 - [Update a customer](#get-person)
 - [Delete a customer](#get-my-personal-info)
 
@@ -115,4 +115,46 @@ Show current customer settings
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
 -H "x-customer-token: $CUSTOMER_TOKEN" \
 https://integrations.reportei.com/customers/settings
+```
+
+Create a customer
+--------------
+
+* `POST /customers` creates a new customer for the current merchant.
+
+**Required parameters**: `name` representing the customer name.
+
+This endpoint will return `201 Created` with the current JSON representation of the customer if the creation was a success. See the [Get a Campfire line](#get-a-campfire-line) endpoint for more info on the payload.
+
+**Important notes on Access Token**: When a customer is created, an api_token (`x-customer-token`) is only provided at this moment and must be stored by the consumer. This token is necessary for all subsequent customer-related requests and will not be retrievable again. Be sure to store this token securely, as it will not be provided in any other requests.
+
+###### Example JSON Request
+
+``` json
+{
+  "name": "Reportei Customer 3"
+}
+```
+
+###### Example JSON Response
+<!-- START POST /customers -->
+```json
+{
+  "customer": {
+    "name": "Reportei Customer 3",
+    "uuid": "9cdc0998-cd1c-406c-98b2-a40448486657",
+    "updated_at": "2024-10-01 17:15:12",
+    "created_at": "2024-10-01 17:15:12",
+    "merchant": "Reportei",
+    "api_token": "6d37ffcc936ffa1d2bf4f99dbea973b760988e6fe755a22c328d3d3f908f5f87"
+  }
+}
+```
+<!-- END POST /customers -->
+###### Copy as cURL
+
+``` shell
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+  -d '{"name":"Reportei Customer 3"}' \
+  https://integrations.reportei.com/customers
 ```
