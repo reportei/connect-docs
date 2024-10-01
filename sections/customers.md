@@ -124,7 +124,7 @@ Create a customer
 
 **Required parameters**: `name` representing the customer name.
 
-This endpoint will return `201 Created` with the current JSON representation of the customer if the creation was a success. See the [Get a Campfire line](#get-a-campfire-line) endpoint for more info on the payload.
+This endpoint will return `201 Created` with the current JSON representation of the customer if the creation was a success. See the [Show a customer](#show-a-customer) endpoint for more info on the payload.
 
 **Important notes on Api Token**: When a customer is created, an api_token (`x-customer-token`) is only provided at this moment and must be stored by the consumer. This token is necessary for all subsequent customer-related requests and will not be retrievable again. Be sure to store this token securely, as it will not be provided in any other requests.
 
