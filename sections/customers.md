@@ -80,3 +80,39 @@ Show a customer
 ``` shell
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customers/{$uuid}
 ```
+
+Show current customer settings
+------------------------
+
+* `GET /customers/settings` will return a merchant customer alongside their settings given x-customer-token.
+
+###### Example JSON Response
+<!-- START GET /customers/settings -->
+```json
+{
+  "customer": {
+      "uuid": "073c1e15-94d0-49b3-9861-a0e9b7ffb06c",
+      "name": "Reportei Customer 1",
+      "created_at": "2024-09-24 19:06:08",
+      "updated_at": "2024-09-24 19:06:08",
+      "merchant": "Reportei",
+      "integrations": [
+        {
+          "uuid": "6110b666-0327-4a81-b48e-9feb34d72f78",
+          "integration": "Instagram Business",
+          "name": "reportei",
+          "slug": "instagram_business",
+          "status": "active"
+        }
+      ]
+  }
+}
+```
+<!-- END GET /customers/settings -->
+###### Copy as cURL
+
+``` shell
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
+-H "x-customer-token: $CUSTOMER_TOKEN" \
+https://integrations.reportei.com/customers/settings
+```
