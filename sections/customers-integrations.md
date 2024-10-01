@@ -16,7 +16,7 @@ This endpoint allows you to create a session for customers to manage and integra
 
 **Authorization**: Both the `Authorization` header (Bearer token) and customer api_token (`x-customer-token`) must be provided in the request headers.
 
-**Session Expiry**: The session has a duration of `5 minutes`, after that if the link is accessed, `403 Unauthorized` will be returned.
+**Session Expiry**: The session has a duration of `5 minutes`, after that if the link is accessed, `401 Unauthorized` will be returned.
 
 ###### Example JSON Response
 <!-- START POST /customer-integrations/session -->
@@ -65,6 +65,28 @@ Show a customer integration
 }
 ```
 <!-- END GET /customer-integrations/{$uuid} -->
+###### Copy as cURL
+
+``` shell
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customer-integrations/{$uuid}
+```
+
+Delete a customer integration
+--------------
+
+* `DELETE /customer-integrations/{$uuid}?session_id={$session_uuid}` will delete a customer integration with {{$uuid}}.
+
+**Required Parameters**: This endpoint requires you to pass both the integration uuid and a valid session uuid.
+
+###### Example JSON Response
+<!-- START DELETE /customer-integrations/{$uuid}?session_id={$session_uuid} -->
+```json
+{
+  "success": true,
+  "message": "Record successfully removed"
+}
+```
+<!-- END DELETE /customer-integrations/{$uuid}?session_id={$session_uuid} -->
 ###### Copy as cURL
 
 ``` shell
