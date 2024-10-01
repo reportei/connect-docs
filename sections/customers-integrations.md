@@ -41,3 +41,32 @@ curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
 -H "x-customer-token: $CUSTOMER_TOKEN" \
 https://integrations.reportei.com/customer-integrations/session
 ```
+
+Show a customer integration
+--------------
+
+* `GET /customer-integrations/{$uuid}` will return an object containing the customer integration.
+
+###### Example JSON Response
+<!-- START GET /customer-integrations/{$uuid} -->
+```json
+{
+  "customer_integration": {
+      "uuid": "4addc0da-8583-4dbb-a0e9-c7e2e8470f50",
+      "source_name": "reportei",
+      "status": "active",
+      "created_at": "2024-09-24 17:08:08",
+      "updated_at": "2024-09-24 17:08:08",
+      "integration": {
+        "name": "Instagram Business",
+        "slug": "instagram_business"
+      }
+  }
+}
+```
+<!-- END GET /customer-integrations/{$uuid} -->
+###### Copy as cURL
+
+``` shell
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customer-integrations/{$uuid}
+```
