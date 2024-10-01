@@ -18,6 +18,8 @@ This endpoint allows you to create a session for customers to manage and integra
 
 **Session Expiry**: The session has a duration of `5 minutes`, after that if the link is accessed, `401 Unauthorized` will be returned.
 
+**Session Link**: Once a session is generated, you might access or redirect the customer to `session_link`, this will display the web page where the user will be able to manage current and new integrations. 
+
 ###### Example JSON Response
 <!-- START POST /customer-integrations/session -->
 ```json
