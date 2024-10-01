@@ -8,7 +8,7 @@ Endpoints:
 Show current merchant settings
 -------------
 
-* `GET /merchants/settings` will return a list of all active Integrations available for the current merchant, as well as other settings, such as rate limit.
+* `GET /merchants/settings` will return a list of all Integrations available for the current merchant, as well as other settings, such as rate limit.
 
 ###### Example JSON Response
 <!-- START GET /merchants/settings -->
