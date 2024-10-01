@@ -1,4 +1,4 @@
-Customers
+Customers Integrations
 ======
 
 Endpoints:
@@ -10,9 +10,14 @@ Endpoints:
 Create a customer integration session
 --------------
 
-For a customer to be able to integrate their networks it is necessary to create a session, it will act like a checkout, once the customer accesses the session_link, they will be redirected to a page inside reportei where they can see their current integrations and all other networks that are available for integration. The session has a duration of `5 minutes`, after that if the link is accessed, `403 Unauthorized` will be returned.
+This endpoint allows you to create a session for customers to manage and integrate their networks. The session acts like a "checkout" process, where the customer can view existing integrations and other available networks for integration.
 
-* `POST /customer-integrations/session` will return a paginated list of customers from the current merchant.
+**Note**: The session has a duration of `5 minutes`, after that if the link is accessed, `403 Unauthorized` will be returned.
+
+* `POST /customer-integrations/session` will return an object containing the session details, including a session link (`session_link`) that the customer will use to access their integration management page.
+
+**Authorization**: Both the `Authorization` header (Bearer token) and customer api_token (`x-customer-token`) must be provided in the request headers.
+
 
 ###### Example JSON Response
 <!-- START POST /customer-integrations/session -->
