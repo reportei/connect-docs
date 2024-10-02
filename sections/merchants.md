@@ -49,5 +49,5 @@ Show current merchant settings
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/merchants/settings
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://connect.reportei.com/merchants/settings
 ```

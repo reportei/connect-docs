@@ -26,7 +26,7 @@ This endpoint allows you to create a session for customers to manage and integra
 {
   "integration_session": {
     "session_uuid": "679e77d9-b270-4fb9-9f2c-27bcaebddc52",
-    "session_link": "http://integrations.reportei.com/customer-integrations/session/679e77d9-b270-4fb9-9f2c-27bcaebddc52",
+    "session_link": "http://connect.reportei.com/customer-integrations/session/679e77d9-b270-4fb9-9f2c-27bcaebddc52",
     "expires_at": "2024-10-02T06:14:50.898761Z",
     "merchant": "Reportei",
     "merchant_uuid": "c1e6c85a-6441-4107-ab36-b8bf581b40e0",
@@ -41,7 +41,7 @@ This endpoint allows you to create a session for customers to manage and integra
 ``` shell
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
 -H "x-customer-token: $CUSTOMER_TOKEN" \
-https://integrations.reportei.com/customer-integrations/session
+https://connect.reportei.com/customer-integrations/session
 ```
 
 Show a customer integration
@@ -70,7 +70,7 @@ Show a customer integration
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customer-integrations/{$uuid}
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://connect.reportei.com/customer-integrations/{$uuid}
 ```
 
 Delete a customer integration
@@ -92,5 +92,5 @@ Delete a customer integration
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customer-integrations/{$uuid}
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://connect.reportei.com/customer-integrations/{$uuid}
 ```

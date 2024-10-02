@@ -39,7 +39,7 @@ List all customers
         "current_page": 1,
         "from": 1,
         "last_page": 1,
-        "path": "http://integrations.reportei.com/api/customers",
+        "path": "http://connect.reportei.com/api/customers",
         "per_page": 15,
         "to": 2,
         "total": 2,
@@ -52,7 +52,7 @@ List all customers
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customers
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://connect.reportei.com/customers
 ```
 
 
@@ -78,7 +78,7 @@ Show a customer
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/customers/{$uuid}
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://connect.reportei.com/customers/{$uuid}
 ```
 
 Show current customer settings
@@ -114,7 +114,7 @@ Show current customer settings
 ``` shell
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
 -H "x-customer-token: $CUSTOMER_TOKEN" \
-https://integrations.reportei.com/customers/settings
+https://connect.reportei.com/customers/settings
 ```
 
 Create a customer
@@ -156,7 +156,7 @@ This endpoint will return `201 Created` with the current JSON representation of 
 ``` shell
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3"}' \
-  https://integrations.reportei.com/customers
+  https://connect.reportei.com/customers
 ```
 
 Update a customer
@@ -181,7 +181,7 @@ This endpoint will return `200 OK` with the current JSON representation of the c
 ``` shell
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3.1"}' -X PUT \
-  https://integrations.reportei.com/customers/{$uuid}
+  https://connect.reportei.com/customers/{$uuid}
 ```
 
 Delete a customer
@@ -205,5 +205,5 @@ This endpoint will return `200 OK` if the deletion was a success.
 ``` shell
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3.1"}' -X PUT \
-  https://integrations.reportei.com/customers
+  https://connect.reportei.com/customers
 ```
