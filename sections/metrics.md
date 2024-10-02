@@ -25,7 +25,23 @@ _Optional parameters_:
 
 This endpoint will return an object with the values of the requested metrics.
 
+_Metric Structure_:
+1. `id`: A unique identifier for the metric.
+1. `reference_key`: The general name of the metric, e.g., ig:story_replies (Instagram story replies).
+1. `metrics`: An array of specific metric values requested, e.g., replies.
+1. `dimensions` (optional): Additional breakdown of the metric, e.g., stories, date, device.
+1. `component`: The type of the metric, which alters the final response structure. The available component types are:
+    * `number_v1`: Returns a single numerical value.
+    * `datatable_v1`: Returns tabular data.
+    * `chart_v1`: Returns data in a format that can be visualized in a chart.
+
+<!-- **For a list of available metrics and dimensions per integration**, see [Metrics](https://github.com/reportei/connect-docs/blob/master/sections/metrics.md#metrics) -->
+
+**Note**: Depending on the network of the customer integration, some combinations of metrics and dimensions may not be compatible.
+
+
 ###### Example JSON Request
+This example includes 3 different metrics: `ig:story_replies` (number_v1), `ig:followers_gender` (chart_v1), and `ig:story_replies` (datatable_v1).
 
 ``` json
 {
@@ -34,7 +50,7 @@ This endpoint will return an object with the values of the requested metrics.
   "end": "2024-09-01",
   "metrics": [
     {
-        "id": "b03f07f5-d54a-4df4-b5ff-2448f21c3450",
+        "id": "f35a44ce-dac5-4188-aace-5c44a8952176",
         "reference_key": "ig:story_replies",
         "component": "number_v1",
         "metrics": [
@@ -43,6 +59,29 @@ This endpoint will return an object with the values of the requested metrics.
         "dimensions": [
             "stories"
         ]
+    },
+    {       
+      "id": "3051ed66-a05c-462a-aece-e1d900e78b02",
+      "reference_key": "ig:followers_gender",
+      "component": "chart_v1",
+      "metrics": [
+          "followers"
+      ],
+      "dimensions": [
+          "gender"
+      ]
+    },
+    {
+      "id": "b3a949ac-f6ae-4bd1-bb90-1e8e0cbe8ed5",
+      "reference_key": "ig:clicks_breakdown",
+      "component": "datatable_v1",
+      "metrics": [
+          "count",
+          "ctr"
+      ],
+      "dimensions": [
+          "clicks_breakdown"
+      ],
     }
   ]
 }
@@ -51,9 +90,44 @@ This endpoint will return an object with the values of the requested metrics.
 ###### Example JSON Response
 
 ``` json
-{
-  "b03f07f5-d54a-4df4-b5ff-2448f21c3450": {
+{   
+  "f35a44ce-dac5-4188-aace-5c44a8952176": {
     "values": 55645
+  },
+  "3051ed66-a05c-462a-aece-e1d900e78b02": {
+      "labels": [
+          "Male",
+          "Female",
+          "Unknown"
+      ],
+      "values": [
+        {
+          "data": [
+            12628,
+            8815,
+            2745
+          ]
+        }
+      ]
+  },
+  "b3a949ac-f6ae-4bd1-bb90-1e8e0cbe8ed5": {
+    "values": [
+      [
+        "Email",
+        2,
+        0.0002254283137962128
+      ],
+      [
+        "Websites",
+        428,
+        0.04824165915238954
+      ],
+      [
+        "Total",
+        430,
+        0.048467087466185756
+      ]
+    ]
   }
 }
 ```
@@ -76,7 +150,7 @@ _Required parameters_:
 * `customer_integration` - $uuid of desired customer integration.
 * `start` - Analysis start date (ISO 8601)
 * `end` - Analysis end date (ISO 8601)
-* `metrics` - Array containing metric structure
+* `metrics` - Array containing metric structure, see the [Get metrics data](#get-metrics-data) endpoint for more info on structure and available metrics.
 
 _Optional parameters_:
 
@@ -85,38 +159,7 @@ _Optional parameters_:
 
 This endpoint will return `200 OK` once the process of getting metrics data has started, after the metrics are fetched, the payload containing the metrics data will be posted to the provided `metrics_webhook_url`.
 
-###### Example JSON Request
-
-``` json
-{
-  "customer_integration": "4addc0da-8583-4dbb-a0e9-c7e2e8470f50",
-  "start": "2024-01-01",
-  "end": "2024-09-01",
-  "metrics": [
-    {
-        "id": "b03f07f5-d54a-4df4-b5ff-2448f21c3450",
-        "reference_key": "ig:story_replies",
-        "component": "number_v1",
-        "metrics": [
-            "replies"
-        ],
-        "dimensions": [
-            "stories"
-        ]
-    }
-  ]
-}
-```
-
-###### Example Webhook Payload
-
-``` json
-{
-  "b03f07f5-d54a-4df4-b5ff-2448f21c3450": {
-    "values": 55645
-  }
-}
-```
+**Note**: The request body structure is identical to the [Get metrics data](#get-metrics-data) endpoint. Similarly, the payload posted to the `metrics_webhook_url` will follow the same format as the [Get metrics data](#get-metrics-data) response.
 
 <!-- END GET /metrics/get-data -->
 ###### Copy as cURL
