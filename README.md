@@ -31,7 +31,7 @@ Authorization: Bearer {access_token}
 x-customer-token: {customer_token}
 ```
 
-The `x-customer-token` is provided when you create or access a customer and is necessary for any subsequent customer-related requests. Make sure to store it securely.
+The `x-customer-token` is provided when you create a customer and is necessary for any subsequent customer-related requests. Make sure to store it securely.
 
 ## Pagination
 
