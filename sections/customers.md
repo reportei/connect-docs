@@ -1,6 +1,8 @@
 Customers
 ======
 
+In this API, customers refer to your users or clients. You, as the merchant, can use the API to manage your customers and their integrations. When dealing with customer-specific data, you’ll need to include an additional authentication header (x-customer-token), which identifies the specific customer whose data you are accessing. This token ensures secure access to customer data and is required for all customer-related requests.
+
 Endpoints:
 
 - [List all customers](#list-all-customers)

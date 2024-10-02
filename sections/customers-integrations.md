@@ -1,6 +1,10 @@
 Customers Integrations
 ======
 
+Customer integrations refer to the connections your customers establish with various platforms, such as Instagram, Facebook, and others the merchant has available, see [Show merchant settings](#merchant-settings) to check available integrations.
+
+When interacting with customer integrations, you’ll use the x-customer-token for secure access to customer-specific data.
+
 Endpoints:
 
 - [Create a customer integration session](#create-a-customer-integration-session)
