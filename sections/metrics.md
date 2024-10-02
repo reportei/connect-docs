@@ -136,7 +136,38 @@ This example includes 3 different metrics: `ig:story_replies` (number_v1), `ig:f
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/metrics/get-data
+curl -X POST https://connect.reportei.com/metrics/get-data \
+-H "Authorization: Bearer $ACCESS_TOKEN" \
+-H "x-customer-token: $CUSTOMER_TOKEN" \
+-H "Content-Type: application/json" \
+-d '{
+  "customer_integration": "4addc0da-8583-4dbb-a0e9-c7e2e8470f50",
+  "start": "2024-01-01",
+  "end": "2024-09-01",
+  "metrics": [
+    {
+        "id": "f35a44ce-dac5-4188-aace-5c44a8952176",
+        "reference_key": "ig:story_replies",
+        "component": "number_v1",
+        "metrics": ["replies"],
+        "dimensions": ["stories"]
+    },
+    {
+        "id": "3051ed66-a05c-462a-aece-e1d900e78b02",
+        "reference_key": "ig:followers_gender",
+        "component": "chart_v1",
+        "metrics": ["followers"],
+        "dimensions": ["gender"]
+    },
+    {
+        "id": "b3a949ac-f6ae-4bd1-bb90-1e8e0cbe8ed5",
+        "reference_key": "ig:clicks_breakdown",
+        "component": "datatable_v1",
+        "metrics": ["count", "ctr"],
+        "dimensions": ["clicks_breakdown"]
+    }
+  ]
+}'
 ```
 
 Get metrics data asynchronously
@@ -165,5 +196,37 @@ This endpoint will return `200 OK` once the process of getting metrics data has 
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://integrations.reportei.com/metrics/get-data
+curl -X POST https://connect.reportei.com/metrics/get-data-async \
+-H "Authorization: Bearer $ACCESS_TOKEN" \
+-H "x-customer-token: $CUSTOMER_TOKEN" \
+-H "Content-Type: application/json" \
+-d '{
+  "metrics_webhook_url": "https://your-webhook-url.com/receive-metrics",
+  "customer_integration": "4addc0da-8583-4dbb-a0e9-c7e2e8470f50",
+  "start": "2024-01-01",
+  "end": "2024-09-01",
+  "metrics": [
+    {
+        "id": "f35a44ce-dac5-4188-aace-5c44a8952176",
+        "reference_key": "ig:story_replies",
+        "component": "number_v1",
+        "metrics": ["replies"],
+        "dimensions": ["stories"]
+    },
+    {
+        "id": "3051ed66-a05c-462a-aece-e1d900e78b02",
+        "reference_key": "ig:followers_gender",
+        "component": "chart_v1",
+        "metrics": ["followers"],
+        "dimensions": ["gender"]
+    },
+    {
+        "id": "b3a949ac-f6ae-4bd1-bb90-1e8e0cbe8ed5",
+        "reference_key": "ig:clicks_breakdown",
+        "component": "datatable_v1",
+        "metrics": ["count", "ctr"],
+        "dimensions": ["clicks_breakdown"]
+    }
+  ]
+}'
 ```
