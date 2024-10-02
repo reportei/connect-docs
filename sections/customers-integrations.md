@@ -74,7 +74,9 @@ Show a customer integration
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" https://connect.reportei.com/customer-integrations/{$uuid}
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
+-H "x-customer-token: $CUSTOMER_TOKEN" \
+https://connect.reportei.com/customer-integrations/{$uuid}
 ```
 
 Delete a customer integration
