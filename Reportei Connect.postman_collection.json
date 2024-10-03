@@ -1,0 +1,491 @@
+{
+	"info": {
+		"_postman_id": "b1e33aed-5e13-4bfd-a375-b002e30bf05a",
+		"name": "Reportei Connect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17991087",
+		"_collection_link": "https://lively-robot-437727.postman.co/workspace/Reportei~64c450b7-f09b-43ce-a677-3d3f54a0d5b6/collection/17991087-b1e33aed-5e13-4bfd-a375-b002e30bf05a?action=share&source=collection_link&creator=17991087"
+	},
+	"item": [
+		{
+			"name": "Merchant",
+			"item": [
+				{
+					"name": "Show current merchant settings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/merchants/settings",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"merchants",
+								"settings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "List all customers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customers",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show a customer",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const responseData = pm.response.json();",
+									"",
+									"// Extract the customer API token from the response",
+									"const customerToken = responseData.data && responseData.data.customer && responseData.data.customer.api_token;",
+									"",
+									"if (customerToken) {",
+									"    // Set the customer token in the environment variable",
+									"    pm.environment.set(\"x_customer_token\", customerToken);",
+									"",
+									"    // Log success message",
+									"    console.log(\"Customer API token has been set: \" + customerToken);",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "00737e75c879682c1a41dee63877e11a267a8ba958a611219aed714ea7d86566",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customers/:customer_id",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers",
+								":customer_id"
+							],
+							"variable": [
+								{
+									"key": "customer_id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show current customer settings",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const responseData = pm.response.json();",
+									"",
+									"// Extract the customer API token from the response",
+									"const customerToken = responseData.data && responseData.data.customer && responseData.data.customer.api_token;",
+									"",
+									"if (customerToken) {",
+									"    // Set the customer token in the environment variable",
+									"    pm.environment.set(\"x_customer_token\", customerToken);",
+									"",
+									"    // Log success message",
+									"    console.log(\"Customer API token has been set: \" + customerToken);",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "ff8c4c43c9f30abb5f5c9451a6172bcb1e29f161265b460c2a709835f7443459",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customers/settings",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers",
+								"settings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create a customer",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Reportei Customer 34347\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/customers",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a customer",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Customer_75_Shopify\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/customers/:customer_id",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers",
+								":customer_id"
+							],
+							"variable": [
+								{
+									"key": "customer_id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a customer",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customers/:customer_id",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers",
+								":customer_id"
+							],
+							"variable": [
+								{
+									"key": "customer_id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customers Integration",
+			"item": [
+				{
+					"name": "Create a customer integration session",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "ff8c4c43c9f30abb5f5c9451a6172bcb1e29f161265b460c2a709835f7443459asd",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customer-integrations/session",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customer-integrations",
+								"session"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a customer integration",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Customer_1_Reportei\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/customer-integrations/:integration_id?session_id=",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customer-integrations",
+								":integration_id"
+							],
+							"query": [
+								{
+									"key": "session_id",
+									"value": ""
+								}
+							],
+							"variable": [
+								{
+									"key": "integration_id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show a customer integration",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customer-integrations/4addc0da-8583-4dbb-a0e9-c7e2e8470f50",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customer-integrations",
+								"4addc0da-8583-4dbb-a0e9-c7e2e8470f50"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List all customer integrations",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/customer-integrations",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customer-integrations"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Metrics",
+			"item": [
+				{
+					"name": "Get metrics data",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "bf2c06a40e56aafb77576094c87042d59692666d794a80d28a8a8d6a0d9bae45",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customer_integration\": \"4addc0da-8583-4dbb-a0e9-c7e2e8470f50\",\n    \"start\": \"2024-01-01\",\n    \"end\": \"2024-09-01\",\n    \"metrics\": [\n        {\n            \"id\": \"b03f07f5-d54a-4df4-b5ff-2448f21c3450\",\n            \"reference_key\": \"ig:sad\",\n            \"component\": \"number_v1\",\n            \"metrics\": [\n                \"replies\"\n            ],\n            \"dimensions\": [\n                \"stories\"\n            ]\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/metrics/get-data",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"metrics",
+								"get-data"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{API_TOKEN}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"var Header = require('postman-collection').Header;",
+					"pm.request.headers.add(new Header(\"Accept:application/json\"))"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "http://localhost:8080/api",
+			"type": "string"
+		},
+		{
+			"key": "baseWebURL",
+			"value": "http://localhost:8080",
+			"type": "string"
+		},
+		{
+			"key": "API_TOKEN",
+			"value": ""
+		}
+	]
+}
