@@ -79,7 +79,7 @@ All errors will return an HTTP status code alongside a descriptive message in th
 
 ```json
 {
-  "response": "Invalid Customer Token"
+  "message": "Invalid Customer Token"
 }
 ```
 
