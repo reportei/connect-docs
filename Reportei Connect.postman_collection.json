@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "b1e33aed-5e13-4bfd-a375-b002e30bf05a",
+		"_postman_id": "98285e16-cdf7-4884-94cf-78581c2c8df7",
 		"name": "Reportei Connect",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17991087",
-		"_collection_link": "https://lively-robot-437727.postman.co/workspace/Reportei~64c450b7-f09b-43ce-a677-3d3f54a0d5b6/collection/17991087-b1e33aed-5e13-4bfd-a375-b002e30bf05a?action=share&source=collection_link&creator=17991087"
+		"_collection_link": "https://lively-robot-437727.postman.co/workspace/Reportei~64c450b7-f09b-43ce-a677-3d3f54a0d5b6/collection/17991087-98285e16-cdf7-4884-94cf-78581c2c8df7?action=share&source=collection_link&creator=17991087"
 	},
 	"item": [
 		{
@@ -93,17 +93,17 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseURL}}/customers/:customer_id",
+							"raw": "{{baseURL}}/customers/:customer_uuid",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"customers",
-								":customer_id"
+								":customer_uuid"
 							],
 							"variable": [
 								{
-									"key": "customer_id",
+									"key": "customer_uuid",
 									"value": ""
 								}
 							]
@@ -168,7 +168,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Reportei Customer 34347\"\n}",
+							"raw": "{\n    \"name\": \"Reportei Customer\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -212,17 +212,17 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/customers/:customer_id",
+							"raw": "{{baseURL}}/customers/:customer_uuid",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"customers",
-								":customer_id"
+								":customer_uuid"
 							],
 							"variable": [
 								{
-									"key": "customer_id",
+									"key": "customer_uuid",
 									"value": ""
 								}
 							]
@@ -246,17 +246,17 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseURL}}/customers/:customer_id",
+							"raw": "{{baseURL}}/customers/:customer_uuid",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"customers",
-								":customer_id"
+								":customer_uuid"
 							],
 							"variable": [
 								{
-									"key": "customer_id",
+									"key": "customer_uuid",
 									"value": ""
 								}
 							]
@@ -279,7 +279,7 @@
 						"header": [
 							{
 								"key": "x-customer-token",
-								"value": "ff8c4c43c9f30abb5f5c9451a6172bcb1e29f161265b460c2a709835f7443459asd",
+								"value": "ffed805ce1d7badcea46951c14d1705ae8a2d07cb75ef6bc3ebfc3258bc5d5c3",
 								"type": "text"
 							}
 						],
@@ -321,13 +321,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/customer-integrations/:integration_id?session_id=",
+							"raw": "{{baseURL}}/customer-integrations/:customer_integration_uuid?session_id=",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"customer-integrations",
-								":integration_id"
+								":customer_integration_uuid"
 							],
 							"query": [
 								{
@@ -337,7 +337,7 @@
 							],
 							"variable": [
 								{
-									"key": "integration_id",
+									"key": "customer_integration_uuid",
 									"value": ""
 								}
 							]
@@ -360,13 +360,19 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseURL}}/customer-integrations/4addc0da-8583-4dbb-a0e9-c7e2e8470f50",
+							"raw": "{{baseURL}}/customer-integrations/:customer_integration_uuid",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"customer-integrations",
-								"4addc0da-8583-4dbb-a0e9-c7e2e8470f50"
+								":customer_integration_uuid"
+							],
+							"variable": [
+								{
+									"key": "customer_integration_uuid",
+									"value": ""
+								}
 							]
 						}
 					},
@@ -382,7 +388,7 @@
 						"header": [
 							{
 								"key": "x-customer-token",
-								"value": "8dd132f557f662320a01ad1e274948269942a2d80aeaccb1dd6c861778ebb279",
+								"value": "ffed805ce1d7badcea46951c14d1705ae8a2d07cb75ef6bc3ebfc3258bc5d5c3",
 								"type": "text"
 							}
 						],
@@ -410,13 +416,13 @@
 						"header": [
 							{
 								"key": "x-customer-token",
-								"value": "bf2c06a40e56aafb77576094c87042d59692666d794a80d28a8a8d6a0d9bae45",
+								"value": "ffed805ce1d7badcea46951c14d1705ae8a2d07cb75ef6bc3ebfc3258bc5d5c3",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"customer_integration\": \"4addc0da-8583-4dbb-a0e9-c7e2e8470f50\",\n    \"start\": \"2024-01-01\",\n    \"end\": \"2024-09-01\",\n    \"metrics\": [\n        {\n            \"id\": \"b03f07f5-d54a-4df4-b5ff-2448f21c3450\",\n            \"reference_key\": \"ig:sad\",\n            \"component\": \"number_v1\",\n            \"metrics\": [\n                \"replies\"\n            ],\n            \"dimensions\": [\n                \"stories\"\n            ]\n        }\n    ]\n}",
+							"raw": "{\n    \"customer_integration\": \"c1b291bf-d134-407d-af2f-a5be4d88c047\",\n    \"start\": \"2024-01-01\",\n    \"end\": \"2024-09-01\",\n    \"metrics\": [\n        {\n            \"id\": \"b03f07f5-d54a-4df4-b5ff-2448f21c3450\",\n            \"reference_key\": \"ig:sad\",\n            \"component\": \"number_v1\",\n            \"metrics\": [\n                \"replies\"\n            ],\n            \"dimensions\": [\n                \"stories\"\n            ]\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -431,6 +437,39 @@
 							"path": [
 								"metrics",
 								"get-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get metrics data async",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-customer-token",
+								"value": "ffed805ce1d7badcea46951c14d1705ae8a2d07cb75ef6bc3ebfc3258bc5d5c3",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customer_integration\": \"c1b291bf-d134-407d-af2f-a5be4d88c047\",\n    \"metrics_webhook_url\": \"https://d737-2804-16d8-4c70-100-9488-9c11-4c4f-6ef.ngrok-free.app\",\n    \"start\": \"2024-01-01\",\n    \"end\": \"2024-09-01\",\n    \"metrics\": [\n        {\n            \"id\": \"b03f07f5-d54a-4df4-b5ff-2448f21c3450\",\n            \"reference_key\": \"ig:story_replies\",\n            \"component\": \"number_v1\",\n            \"metrics\": [\n                \"replies\"\n            ],\n            \"dimensions\": [\n                \"stories\"\n            ]\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/metrics/get-data-async",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"metrics",
+								"get-data-async"
 							]
 						}
 					},
@@ -475,12 +514,7 @@
 	"variable": [
 		{
 			"key": "baseURL",
-			"value": "http://localhost:8080/api",
-			"type": "string"
-		},
-		{
-			"key": "baseWebURL",
-			"value": "http://localhost:8080",
+			"value": "https://connect.reportei.com/api",
 			"type": "string"
 		},
 		{
