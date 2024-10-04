@@ -79,6 +79,7 @@ All errors will return an HTTP status code alongside a descriptive message in th
 
 ```json
 {
+  "code": 401,
   "message": "Invalid Customer Token"
 }
 ```
