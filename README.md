@@ -9,6 +9,7 @@ To use this API, you'll need the following:
 
 - An API key (Bearer Token) for authentication.
 - The `x-customer-token` for endpoints that interact with specific customer data
+- Download the Postman collection for this API from [here](./sections/Reportei%20Connect.postman_collection.json)
 
 ## Authentication
 
