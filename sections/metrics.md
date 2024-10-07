@@ -1,4 +1,4 @@
-Customers
+Metrics
 ======
 
 Endpoints:
