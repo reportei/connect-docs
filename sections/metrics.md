@@ -92,7 +92,12 @@ This example includes 3 different metrics: `ig:story_replies` (number_v1), `ig:f
 ``` json
 {   
   "f35a44ce-dac5-4188-aace-5c44a8952176": {
-    "values": 55645
+    "values": 55645,
+    "comparison": {
+         "values": null,
+         "difference": null,
+         "absoluteDifference": null
+    }
   },
   "3051ed66-a05c-462a-aece-e1d900e78b02": {
       "labels": [
