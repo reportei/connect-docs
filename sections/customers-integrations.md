@@ -43,7 +43,7 @@ This endpoint allows you to create a session for customers to manage and integra
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
+curl -s -X POST -H "Authorization: Bearer $ACCESS_TOKEN" \
 -H "x-customer-token: $CUSTOMER_TOKEN" \
 https://connect.reportei.com/customer-integrations/session
 ```

@@ -156,7 +156,7 @@ This endpoint will return `201 Created` with the current JSON representation of 
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+curl -s -X POST -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3"}' \
   https://connect.reportei.com/customers
 ```
@@ -181,7 +181,7 @@ This endpoint will return `200 OK` with the current JSON representation of the c
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+curl -s -X PUT -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3.1"}' -X PUT \
   https://connect.reportei.com/customers/{$uuid}
 ```
@@ -205,7 +205,7 @@ This endpoint will return `200 OK` if the deletion was a success.
 ###### Copy as cURL
 
 ``` shell
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+curl -s -X DELETE -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3.1"}' -X PUT \
   https://connect.reportei.com/customers
 ```

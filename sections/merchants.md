@@ -45,7 +45,7 @@ Show current merchant settings
     }
 }
 ```
-<!-- END GET /chats.json -->
+<!-- END GET /merchants/settings -->
 ###### Copy as cURL
 
 ``` shell
