@@ -5,6 +5,8 @@ Customer integrations refer to the connections your customers establish with var
 
 When interacting with customer integrations, you’ll use the x-customer-token for secure access to customer-specific data.
 
+**Customer Integration Status**: Every customer integration is prompted to be expired or have the token revoked by the customer, with that, you can check the `status` field of the customer integration to check if the integration is active. See the [Show a customer integration](#show-a-customer-integration) for more status details.
+
 Endpoints:
 
 - [Create a customer integration session](#create-a-customer-integration-session)
@@ -52,6 +54,10 @@ Show a customer integration
 --------------
 
 * `GET /customer-integrations/{$uuid}` will return an object containing the customer integration.
+
+Possible statuses: `active`, `expired`, `revoked`.
+
+If an integration has a status different than `active`, in order to enable it again, you need to create a new session and prompt the user to reintegrate the network, there will be a text message indicating that the integration needs attention.
 
 ###### Example JSON Response
 <!-- START GET /customer-integrations/{$uuid} -->
