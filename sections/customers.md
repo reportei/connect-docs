@@ -223,7 +223,7 @@ curl -s -X DELETE -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: app
   https://connect.reportei.com/customers
 ```
 
-Update Customer Payment Status
+Update a customer payment status
 --------------
 
 * `POST /customers/{uuid}/update-payment-status` updates a customer payment status.
