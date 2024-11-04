@@ -11,6 +11,7 @@ Endpoints:
 - [Create a customer](#create-a-customer)
 - [Update a customer](#update-a-customer)
 - [Delete a customer](#delete-a-customer)
+- [Update a customer payment status](#update-a-customer-payment-status)
 
 List all customers
 --------------
@@ -27,6 +28,8 @@ List all customers
             "name": "Reportei Customer 1",
             "created_at": "2024-09-24 17:07:34",
             "updated_at": "2024-09-24 17:07:34",
+            "trial_ends_at": "2024-10-08 17:15:12",
+            "is_paying": false,
             "merchant": "Reportei"
         },
         {
@@ -34,6 +37,8 @@ List all customers
             "name": "Reportei Customer 2",
             "created_at": "2024-09-24 19:06:08",
             "updated_at": "2024-09-24 19:06:08",
+            "trial_ends_at": "2024-10-08 17:15:12",
+            "is_paying": true,
             "merchant": "Reportei"
         }
     ],
@@ -72,6 +77,8 @@ Show a customer
     "name": "Reportei Customer 1",
     "created_at": "2024-09-24 17:07:34",
     "updated_at": "2024-09-24 17:07:34",
+    "trial_ends_at": "2024-10-08 17:15:12",
+    "is_paying": false,
     "merchant": "Reportei"
   }
 }
@@ -97,6 +104,8 @@ Show current customer settings
       "name": "Reportei Customer 1",
       "created_at": "2024-09-24 19:06:08",
       "updated_at": "2024-09-24 19:06:08",
+      "trial_ends_at": "2024-10-08 17:15:12",
+      "is_paying": false,
       "merchant": "Reportei",
       "integrations": [
         {
@@ -130,6 +139,8 @@ This endpoint will return `201 Created` with the current JSON representation of 
 
 **Important notes on Api Token**: When a customer is created, an api_token (`x-customer-token`) is only provided at this moment and must be stored by the consumer. This token is necessary for all subsequent customer-related requests and will not be retrievable again. Be sure to store this token securely, as it will not be provided in any other requests.
 
+**Trial Period**: When a customer is created, a trial period of 7 days is automatically applied (`trial_ends_at`), after the trial ends the requests to [Customer Integrations](./customers-integrations.md) and [Metrics](./metrics.md) endpoints will return a `401 Unauthorized`, to continue using the API for this customer, you will need mark them as a paying customer, see [Update a customer payment status](#update-a-customer-payment-status).
+
 ###### Example JSON Request
 
 ``` json
@@ -147,6 +158,8 @@ This endpoint will return `201 Created` with the current JSON representation of 
     "uuid": "9cdc0998-cd1c-406c-98b2-a40448486657",
     "updated_at": "2024-10-01 17:15:12",
     "created_at": "2024-10-01 17:15:12",
+    "trial_ends_at": "2024-10-08 17:15:12",
+    "is_paying": false,
     "merchant": "Reportei",
     "api_token": "6d37ffcc936ffa1d2bf4f99dbea973b760988e6fe755a22c328d3d3f908f5f87"
   }
@@ -189,7 +202,7 @@ curl -s -X PUT -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: applic
 Delete a customer
 --------------
 
-* `POST /customers/{uuid}` deletes a customer from the current merchant.
+* `DELETE /customers/{uuid}` deletes a customer from the current merchant.
 
 This endpoint will return `200 OK` if the deletion was a success.
 
@@ -208,4 +221,40 @@ This endpoint will return `200 OK` if the deletion was a success.
 curl -s -X DELETE -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
   -d '{"name":"Reportei Customer 3.1"}' -X PUT \
   https://connect.reportei.com/customers
+```
+
+Update Customer Payment Status
+--------------
+
+* `POST /customers/{uuid}/update-payment-status` updates a customer payment status.
+
+**Required parameters**: `is_paying` Value used to inficate if customer is paying or not.
+
+
+This endpoint will return `200 OK` if the payment status was updated successfully. After the update you will be able to make requests to [Customer Integrations](./customers-integrations.md) and [Metrics](./metrics.md) endpoints even after the trial period has ended.
+
+###### Example JSON Request
+
+``` json
+{
+  "is_paying": true
+}
+```
+
+
+###### Example JSON Response
+
+``` json
+{
+    "success": true,
+    "message": "Customer is now marked as a paying customer"
+}
+```
+
+###### Copy as cURL
+
+``` shell
+curl -s -X POST -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+  -d '{"is_paying":true}' -X POST \
+  https://connect.reportei.com/customers/{$uuid}/update-payment-status
 ```
