@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "98285e16-cdf7-4884-94cf-78581c2c8df7",
+		"_postman_id": "31c52cd9-96bc-4824-9f79-9eb44f4fa6a6",
 		"name": "Reportei Connect",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17991087",
-		"_collection_link": "https://lively-robot-437727.postman.co/workspace/Reportei~64c450b7-f09b-43ce-a677-3d3f54a0d5b6/collection/17991087-98285e16-cdf7-4884-94cf-78581c2c8df7?action=share&source=collection_link&creator=17991087"
+		"_collection_link": "https://lively-robot-437727.postman.co/workspace/Reportei~64c450b7-f09b-43ce-a677-3d3f54a0d5b6/collection/17991087-31c52cd9-96bc-4824-9f79-9eb44f4fa6a6?action=share&source=collection_link&creator=17991087"
 	},
 	"item": [
 		{
@@ -253,6 +253,43 @@
 							"path": [
 								"customers",
 								":customer_uuid"
+							],
+							"variable": [
+								{
+									"key": "customer_uuid",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a customer's payment status",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"is_paying\": false\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/customers/:customer_uuid/update-payment-status",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"customers",
+								":customer_uuid",
+								"update-payment-status"
 							],
 							"variable": [
 								{
