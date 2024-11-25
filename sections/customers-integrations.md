@@ -20,11 +20,21 @@ This endpoint allows you to create a session for customers to manage and integra
 
 * `POST /customer-integrations/session` will return an object containing the session details, including a session link (`session_link`) that the customer will use to access their integration management page.
 
+**Optional parameters**: `redirect_url` Url that shows up in the button at the footer of the web page, used as a final redirect after the customer finishes integrating the accounts.
+
 **Authorization**: Both the `Authorization` header (Bearer token) and customer api_token (`x-customer-token`) must be provided in the request headers.
 
 **Session Expiry**: The session has a duration of `5 minutes`, after that if the link is accessed, `401 Unauthorized` will be returned.
 
 **Session Link**: Once a session is generated, you might access or redirect the customer to `session_link`, this will display the web page where the user will be able to manage current and new integrations. 
+
+###### Example JSON Request
+<!-- START POST /customer-integrations/session -->
+``` json
+{
+  "redirect_url": "https://reportei.com/dashboard"
+}
+```
 
 ###### Example JSON Response
 <!-- START POST /customer-integrations/session -->
@@ -37,7 +47,8 @@ This endpoint allows you to create a session for customers to manage and integra
     "merchant": "Reportei",
     "merchant_uuid": "c1e6c85a-6441-4107-ab36-b8bf581b40e0",
     "customer": "Reportei Customer",
-    "customer_uuid": "073c1e15-94d0-49b3-9861-a0e9b7ffb06c"
+    "customer_uuid": "073c1e15-94d0-49b3-9861-a0e9b7ffb06c",
+    "redirect_url": "https://reportei.com/dashboard"
   }
 }
 ```
