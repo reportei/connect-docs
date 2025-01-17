@@ -1,0 +1,209 @@
+{
+	"metrics":
+	{
+		"reach":
+		{
+			"label": "Reach"
+		},
+		"page_fans":
+		{
+			"label": "Page Likes",
+			"group_by": "latest_value"
+		},
+		"page_engaged_users":
+		{
+			"label": "Page Engagement"
+		},
+		"page_impressions_unique":
+		{
+			"label": "Page Reach"
+		},
+		"page_impressions":
+		{
+			"label": "Total Impressions"
+		},
+		"page_fan_adds_by_paid_non_paid_unique":
+		{
+			"label": "New likes"
+		},
+		"page_fan_removes":
+		{
+			"label": "Dislikes"
+		},
+		"page_impressions_organic_unique":
+		{
+			"label": "Unique Organic Impressions"
+		},
+		"page_impressions_paid_unique":
+		{
+			"label": "Unique Paid Impressions"
+		},
+		"page_messages_new_conversations_unique":
+		{
+			"label": "New Page Conversations"
+		},
+		"page_messages_reported_conversations_unique":
+		{
+			"label": "Page Reported Conversations"
+		},
+		"page_posts_count":
+		{
+			"label": "Posts Count"
+		},
+		"page_posts_shares":
+		{
+			"label": "Shares"
+		},
+		"page_posts_reactions":
+		{
+			"label": "Total Reactions on Posts"
+		},
+		"page_posts_all_reactions":
+		{
+			"label": "Total Reactions on Posts"
+		},
+		"page_posts_comments":
+		{
+			"label": "Comments"
+		},
+		"page_posts":
+		{
+			"label": "Posts",
+			"options": ["align_left"]
+		},
+		"page_reels":
+		{
+			"label": "Reels",
+			"options": ["align_left"]
+		},
+		"reactions":
+		{
+			"label": "Reactions"
+		},
+		"type":
+		{
+			"label": "Type"
+		},
+		"total_reach":
+		{
+			"label": "Total Reach"
+		},
+		"organic_reach":
+		{
+			"label": "Organic Reach"
+		},
+		"paid_reach":
+		{
+			"label": "Paid Reach"
+		},
+		"comments":
+		{
+			"label": "Comments"
+		},
+		"shares":
+		{
+			"label": "Shares"
+		},
+		"created_at":
+		{
+			"label": "Created at",
+			"formatting_function": "format_to_date_full",
+			"isDate": true
+		},
+		"page_posts_impressions_unique":
+		{
+			"label": "Total reach of posts"
+		},
+		"page_post_rate_engagements":
+		{
+			"label": "Publication engagement rate"
+		},
+		"page_post_engagements":
+		{
+			"label": "Total engagement of posts"
+		},
+		"page_engagement_rate":
+		{
+			"label": "Page engagement rate"
+		},
+		"page_post_organic_reach":
+		{
+			"label": "Organic Reach of Posts"
+		},
+		"page_post_paid_reach":
+		{
+			"label": "Paid Reach of Posts"
+		},
+		"page_post_organic_impressions":
+		{
+			"label": "Organic Impressions of Posts"
+		},
+		"page_organic_impressions":
+		{
+			"label": "Organic Page Impressions"
+		},
+		"total_reactions":
+		{
+			"label": "Total Reactions"
+		},
+		"post_video_views":
+		{
+			"label": "Video views"
+		},
+		"avg_time":
+		{
+			"label": "Video Average Watchtime",
+			"formatting_function": "milliseconds_to_minutes_with_seconds"
+		},
+		"impressions":
+		{
+			"label": "Impressions"
+		},
+		"plays":
+		{
+			"label": "Plays"
+		},
+		"time_played":
+		{
+			"label": "Minutes Viewed in Reels",
+			"formatting_function": "milliseconds_to_minutes"
+		},
+		"likes":
+		{
+			"label": "Likes"
+		},
+		"page_follows":
+		{
+			"label": "Page Follows"
+		}
+	},
+	"dimensions":
+	{
+		"city":
+		{
+			"label": "Cities",
+			"options": ["align_left"]
+		},
+		"country":
+		{
+			"label": "Country",
+			"options": ["align_left"]
+		},
+		"posts_type":
+		{
+			"label": "Type",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"page_posts":
+		{
+			"label": "Post",
+			"options": ["align_left"]
+		},
+		"page_reels":
+		{
+			"label": "Reel",
+			"options": ["align_left"]
+		}
+	}
+}

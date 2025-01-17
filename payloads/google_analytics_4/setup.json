@@ -1,0 +1,380 @@
+{
+	"metrics":
+	{
+		"sessions":
+		{
+			"label": "Sessions"
+		},
+		"sessionsToTransactions":
+		{
+			"label": "Sessions to Transaction"
+		},
+		"eventCount":
+		{
+			"label": "Event count"
+		},
+		"totalUsers":
+		{
+			"label": "Total Users"
+		},
+		"eventCountPerUser":
+		{
+			"label": "Event count per user"
+		},
+		"totalRevenue":
+		{
+			"label": "Total revenue",
+			"formatting_function": "currency"
+		},
+		"itemName":
+		{
+			"label": "Item name",
+			"options": ["align_left"]
+		},
+		"itemsViewed":
+		{
+			"label": "Items viewed"
+		},
+		"itemsAddedToCart":
+		{
+			"label": "Items added to cart"
+		},
+		"itemsPurchased":
+		{
+			"label": "Items purchased"
+		},
+		"itemRevenue":
+		{
+			"label": "Item revenue",
+			"formatting_function": "currency"
+		},
+		"screenPageViews":
+		{
+			"label": "Visits"
+		},
+		"userEngagementDuration":
+		{
+			"label": "Time on page",
+			"formatting_function": "seconds_to_hours"
+		},
+		"newUsers":
+		{
+			"label": "New users"
+		},
+		"engagementRate":
+		{
+			"label": "Engagement Rate",
+			"formatting_function": "percentage"
+		},
+		"eventsPerSession":
+		{
+			"label": "Events per session"
+		},
+		"engagedSessions":
+		{
+			"label": "Engaged sessions"
+		},
+		"conversions":
+		{
+			"label": "Conversions"
+		},
+		"eventValue":
+		{
+			"label": "Event Revenue",
+			"formatting_function": "currency"
+		},
+		"purchaseRevenue":
+		{
+			"label": "Purchase revenue",
+			"formatting_function": "currency"
+		},
+		"grossPurchaseRevenue":
+		{
+			"label": "Gross purchase revenue",
+			"formatting_function": "currency"
+		},
+		"advertiserAdClicks":
+		{
+			"label": "Clicks"
+		},
+		"advertiserAdCostPerClick":
+		{
+			"label": "Cost per Click",
+			"formatting_function": "currency"
+		},
+		"averagePurchaseRevenue":
+		{
+			"label": "Average Order Value",
+			"formatting_function": "currency"
+		},
+		"averageRevenuePerUser":
+		{
+			"label": "ARPU",
+			"formatting_function": "currency"
+		},
+		"averagePurchaseRevenuePerPayingUser":
+		{
+			"label": "ARPPU",
+			"formatting_function": "currency"
+		},
+		"totalAdRevenue":
+		{
+			"label": "Total Advertising Revenue",
+			"formatting_function": "currency"
+		},
+		"transactions":
+		{
+			"label": "Transactions"
+		},
+		"activeUsers":
+		{
+			"label": "Users",
+			"group_by": "recalculate"
+		},
+		"pagesPerVisit":
+		{
+			"label": "Pages per visit"
+		},
+		"firstTimePurchasers":
+		{
+			"label": "New buyers"
+		},
+		"totalPurchasers":
+		{
+			"label": "Total buyers"
+		},
+		"conversionRate":
+		{
+			"label": "Ecommerce Conversion Rate",
+			"formatting_function": "add_percentage",
+			"group_by": "recalculate"
+		},
+		"avgEngagementTime":
+		{
+			"label": "Average Engagement Time",
+			"formatting_function": "seconds_to_hours"
+		},
+		"advertiserAdCostPerConversion":
+		{
+			"label": "Cost per Conversion",
+			"formatting_function": "currency"
+		},
+		"returnOnAdSpend":
+		{
+			"label": "ROAS",
+			"formatting_function": "add_percentage"
+		},
+		"addToCarts":
+		{
+			"label": "Quantity Added To Cart"
+		},
+		"checkouts":
+		{
+			"label": "Quantity Checked Out"
+		},
+		"ecommercePurchases":
+		{
+			"label": "Ecommerce purchases"
+		},
+		"cartToViewRate":
+		{
+			"label": "Cart-to-Detail Rate",
+			"formatting_function": "add_percentage"
+		},
+		"engagedSessionsByUsers":
+		{
+			"label": "Engaged Sessions by Users"
+		},
+		"itemViewEvents":
+		{
+			"label": "Viewed Product"
+		},
+		"organicGoogleSearchClicks":
+		{
+			"label": "Organic Clicks"
+		},
+		"organicGoogleSearchImpressions":
+		{
+			"label": "Organic Impressions"
+		},
+		"organicGoogleSearchClickThroughRate":
+		{
+			"label": "Organic Click Rate",
+			"formatting_function": "percentage"
+		},
+		"activeUserEngagementDuration":
+		{
+			"label": "Average Engagement Time per Active User",
+			"formatting_function": "seconds_to_hours"
+		},
+		"organicGoogleSearchAveragePosition":
+		{
+			"label": "Organic Search Average Position"
+		},
+		"keyEvents":
+		{
+			"label": "Main Events"
+		}
+	},
+	"dimensions":
+	{
+		"date":
+		{
+			"label": "Date"
+		},
+		"userGender":
+		{
+			"label": "Gender"
+		},
+		"userAgeBracket":
+		{
+			"label": "User age bracket"
+		},
+		"eventName":
+		{
+			"label": "Event Name",
+			"options": ["align_left"]
+		},
+		"country":
+		{
+			"label": "Country",
+			"options": ["align_left"]
+		},
+		"city":
+		{
+			"label": "City",
+			"options": ["align_left"]
+		},
+		"deviceCategory":
+		{
+			"label": "Device"
+		},
+		"region":
+		{
+			"label": "Region"
+		},
+		"pagePath":
+		{
+			"label": "Page",
+			"options": ["align_left"]
+		},
+		"sessionSource":
+		{
+			"label": "Session source",
+			"options": ["align_left"]
+		},
+		"sessionSourceMedium":
+		{
+			"label": "Session source / medium",
+			"options": ["align_left"]
+		},
+		"sessionSourcePlatform":
+		{
+			"label": "Session source platform",
+			"options": ["align_left"]
+		},
+		"sessionGoogleAdsAccountName":
+		{
+			"label": "Session Google Ads account",
+			"options": ["align_left"]
+		},
+		"sessionMedium":
+		{
+			"label": "Session medium",
+			"options": ["align_left"]
+		},
+		"sessionDefaultChannelGroup":
+		{
+			"label": "Session default channel group",
+			"options": ["align_left"]
+		},
+		"sessionCampaignName":
+		{
+			"label": "Session campaign",
+			"options": ["align_left"]
+		},
+		"googleAdsKeyword":
+		{
+			"label": "Google Ads keyword",
+			"options": ["align_left"]
+		},
+		"googleAdsCampaignName":
+		{
+			"label": "Google Ads campaign",
+			"options": ["align_left"]
+		},
+		"pageTitle":
+		{
+			"label": "Page title",
+			"options": ["align_left"]
+		},
+		"firstUserMedium":
+		{
+			"label": "Media Attributed to First User",
+			"options": ["align_left"]
+		},
+		"firstUserManualTerm":
+		{
+			"label": "First user manual term",
+			"options": ["align_left"]
+		},
+		"firstUserManualAdContent":
+		{
+			"label": "Manual First User Ad Content",
+			"options": ["align_left"]
+		},
+		"firstUserSource":
+		{
+			"label": "First user source",
+			"options": ["align_left"]
+		},
+		"firstUserCampaignName":
+		{
+			"label": "First user campaign",
+			"options": ["align_left"]
+		},
+		"sourceMedium":
+		{
+			"label": "Source / Medium",
+			"options": ["align_left"]
+		},
+		"source":
+		{
+			"label": "UTM Source",
+			"options": ["align_left"]
+		},
+		"medium":
+		{
+			"label": "UTM Medium",
+			"options": ["align_left"]
+		},
+		"campaignName":
+		{
+			"label": "UTM Campaign",
+			"options": ["align_left"]
+		},
+		"manualAdContent":
+		{
+			"label": "UTM Manual Ad Content",
+			"options": ["align_left"]
+		},
+		"manualTerm":
+		{
+			"label": "UTM Term",
+			"options": ["align_left"]
+		},
+		"landingPagePlusQueryString":
+		{
+			"label": "Landing Page + Query String",
+			"options": ["align_left"]
+		}
+	},
+	"default":
+	{
+		"calculate_chart":
+		{
+			"metric": "sessions",
+			"dimension": "userAgeBracket"
+		}
+	}
+}

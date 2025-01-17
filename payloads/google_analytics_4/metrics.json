@@ -1,0 +1,477 @@
+{
+	"widgets": [
+	{
+		"reference_key": "google_analytics_4:all_sessions",
+		"component": "number_v1",
+		"metrics": ["sessions"]
+	},
+	{
+		"reference_key": "google_analytics_4:view_product",
+		"component": "number_v1",
+		"metrics": ["itemViewEvents"]
+	},
+	{
+		"reference_key": "google_analytics_4:abandoned_carts",
+		"component": "number_v1",
+		"metrics": ["abandonedCarts"]
+	},
+	{
+		"reference_key": "google_analytics_4:all_users",
+		"component": "number_v1",
+		"metrics": ["activeUsers"]
+	},
+	{
+		"reference_key": "google_analytics_4:new_users",
+		"component": "number_v1",
+		"metrics": ["newUsers"]
+	},
+	{
+		"reference_key": "google_analytics_4:all_pageviews",
+		"component": "number_v1",
+		"metrics": ["screenPageViews"]
+	},
+	{
+		"reference_key": "google_analytics_4:pageview_session",
+		"component": "number_v1",
+		"calculated": true,
+		"metrics": ["pagesPerVisit"]
+	},
+	{
+		"reference_key": "google_analytics_4:event_count",
+		"component": "number_v1",
+		"metrics": ["eventCount"]
+	},
+	{
+		"reference_key": "google_analytics_4:first_time_purchasers",
+		"component": "number_v1",
+		"metrics": ["firstTimePurchasers"]
+	},
+	{
+		"reference_key": "google_analytics_4:total_purchasers",
+		"component": "number_v1",
+		"metrics": ["totalPurchasers"]
+	},
+	{
+		"reference_key": "google_analytics_4:conversion_rate",
+		"component": "number_v1",
+		"calculated": true,
+		"metrics": ["conversionRate"]
+	},
+	{
+		"reference_key": "google_analytics_4:gender",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["totalUsers"],
+		"dimensions": ["userGender"],
+		"custom":
+		{
+			"disable_unknown": true
+		}
+	},
+	{
+		"reference_key": "google_analytics_4:age",
+		"component": "chart_v1",
+		"chart_type": "bar",
+		"metrics": ["sessions", "totalUsers"],
+		"dimensions": ["userAgeBracket"],
+		"sort": ["userAgeBracket"]
+	},
+	{
+		"reference_key": "google_analytics_4:countries",
+		"component": "datatable_v1",
+		"metrics": ["engagedSessions", "activeUsers"],
+		"dimensions": ["country"],
+		"sort": ["-engagedSessions"]
+	},
+	{
+		"reference_key": "google_analytics_4:top_products_sold",
+		"component": "datatable_v1",
+		"metrics": ["itemsViewed", "itemsAddedToCart", "itemsPurchased", "itemRevenue"],
+		"dimensions": ["itemName"],
+		"sort": ["-itemsAddedToCart"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:first_user_campaign_name",
+		"component": "datatable_v1",
+		"metrics": ["newUsers", "engagedSessions", "engagementRate", "engagedSessionsByUsers", "avgEngagementTime", "eventCount", "conversions", "totalRevenue"],
+		"dimensions": ["firstUserCampaignName"],
+		"sort": ["-engagedSessions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:google_ads_keyword",
+		"component": "datatable_v1",
+		"metrics": ["totalUsers", "sessions", "engagedSessions", "advertiserAdClicks", "advertiserAdCostPerClick", "conversions", "advertiserAdCostPerConversion", "eventValue", "totalRevenue", "returnOnAdSpend"],
+		"dimensions": ["googleAdsKeyword"],
+		"sort": ["-sessions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:session_default_channel_group_datatable",
+		"component": "datatable_v1",
+		"metrics": ["totalUsers", "sessions", "engagedSessions", "avgEngagementTime", "engagedSessionsByUsers", "eventsPerSession", "engagementRate", "eventCount", "conversions", "totalRevenue"],
+		"dimensions": ["sessionDefaultChannelGroup"],
+		"sort": ["-sessions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:sessions_by_session_default_channel_group_chart",
+		"component": "chart_v1",
+		"chart_type": "bar",
+		"metrics": ["sessions"],
+		"dimensions": ["sessionDefaultChannelGroup"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:users_per_session_default_channel_group_over_time",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["activeUsers"],
+		"dimensions": ["date", "sessionDefaultChannelGroup"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:campaign_results",
+		"component": "datatable_v1",
+		"metrics": ["activeUsers", "sessions", "engagedSessions", "engagementRate", "addToCarts", "conversions", "totalRevenue"],
+		"dimensions": ["sessionCampaignName"],
+		"sort": ["-sessions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:device_category",
+		"component": "datatable_v1",
+		"metrics": ["activeUsers", "itemViewEvents", "addToCarts", "checkouts", "ecommercePurchases"],
+		"dimensions": ["deviceCategory"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:organic_search_traffic",
+		"component": "datatable_v1",
+		"metrics": ["organicGoogleSearchClicks", "organicGoogleSearchImpressions", "organicGoogleSearchClickThroughRate", "organicGoogleSearchAveragePosition", "engagedSessions", "engagementRate", "activeUserEngagementDuration", "eventCount", "keyEvents"],
+		"dimensions": ["landingPagePlusQueryString"],
+		"sort": ["-organicGoogleSearchClicks"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:top_campaigns",
+		"component": "datatable_v1",
+		"metrics": ["totalUsers", "sessions", "engagedSessions", "avgEngagementTime", "engagedSessionsByUsers"],
+		"dimensions": ["sessionDefaultChannelGroup", "sessionCampaignName"],
+		"sort": ["-sessions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:event_conversion_first_user_campaign_name",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "totalRevenue"],
+		"dimensions": ["eventName", "firstUserCampaignName"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:event_conversion_first_user_ad_content",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "totalRevenue"],
+		"dimensions": ["eventName", "firstUserManualAdContent"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:event_conversion_first_user_ad_name",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "totalRevenue"],
+		"dimensions": ["eventName", "firstUserManualTerm"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:event_conversion_by_session_source",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "totalRevenue"],
+		"dimensions": ["eventName", "sessionSource"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:event_conversion_first_user_ad_medium",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "totalRevenue"],
+		"dimensions": ["eventName", "firstUserMedium"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:google_ads_campaign",
+		"component": "datatable_v1",
+		"metrics": ["activeUsers", "sessions", "engagedSessions", "advertiserAdClicks", "advertiserAdCostPerClick", "conversions", "advertiserAdCostPerConversion", "eventValue", "totalRevenue", "returnOnAdSpend"],
+		"dimensions": ["googleAdsCampaignName"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:cities",
+		"component": "datatable_v1",
+		"metrics": ["sessions"],
+		"dimensions": ["city"],
+		"sort": ["-sessions"]
+	},
+	{
+		"reference_key": "google_analytics_4:top_content",
+		"component": "datatable_v1",
+		"metrics": ["screenPageViews", "avgEngagementTime"],
+		"dimensions": ["pagePath"],
+		"sort": ["-screenPageViews"]
+	},
+	{
+		"reference_key": "google_analytics_4:sessions_to_transaction",
+		"component": "number_v1",
+		"calculated": true,
+		"metrics": ["sessionsToTransactions"]
+	},
+	{
+		"reference_key": "google_analytics_4:content_sources",
+		"component": "datatable_v1",
+		"metrics": ["sessions", "newUsers", "totalUsers", "totalRevenue", "engagementRate", "eventCount", "conversions", "eventsPerSession", "engagedSessions"],
+		"dimensions": ["sessionSource", "sessionMedium"],
+		"sort": ["-sessions"]
+	},
+	{
+		"reference_key": "google_analytics_4:conversion_events_by_session_medium",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "totalRevenue"],
+		"dimensions": ["eventName", "sessionSourceMedium"],
+		"sort": ["-conversions"]
+	},
+	{
+		"reference_key": "google_analytics_4:conversions_count",
+		"component": "number_v1",
+		"metrics": ["conversions"]
+	},
+	{
+		"reference_key": "google_analytics_4:media_source_by_event",
+		"component": "datatable_v1",
+		"metrics": ["conversions"],
+		"dimensions": ["sourceMedium", "eventName"],
+		"sort": ["-conversions"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:transactions_count",
+		"component": "number_v1",
+		"metrics": ["transactions"]
+	},
+	{
+		"reference_key": "google_analytics_4:quantity_added_to_cart",
+		"component": "number_v1",
+		"metrics": ["addToCarts"]
+	},
+	{
+		"reference_key": "google_analytics_4:quantity_checked_out",
+		"component": "number_v1",
+		"metrics": ["checkouts"]
+	},
+	{
+		"reference_key": "google_analytics_4:ecommerce_purchase_amount",
+		"component": "number_v1",
+		"metrics": ["ecommercePurchases"]
+	},
+	{
+		"reference_key": "google_analytics_4:average_purchase_revenue",
+		"component": "number_v1",
+		"metrics": ["averagePurchaseRevenue"]
+	},
+	{
+		"reference_key": "google_analytics_4:engagement_rate",
+		"component": "number_v1",
+		"metrics": ["engagementRate"]
+	},
+	{
+		"reference_key": "google_analytics_4:average_engagement_time",
+		"component": "number_v1",
+		"calculated": true,
+		"metrics": ["avgEngagementTime"]
+	},
+	{
+		"reference_key": "google_analytics_4:average_engagement_time_per_sessions",
+		"component": "number_v1",
+		"calculated": true,
+		"metrics": ["avgEngagementTimeSession"]
+	},
+	{
+		"reference_key": "google_analytics_4:engaged_sessions",
+		"component": "number_v1",
+		"metrics": ["engagedSessions"]
+	},
+	{
+		"reference_key": "google_analytics_4:event_value",
+		"component": "number_v1",
+		"metrics": ["eventValue"]
+	},
+	{
+		"reference_key": "google_analytics_4:total_revenue",
+		"component": "number_v1",
+		"metrics": ["totalRevenue"]
+	},
+	{
+		"reference_key": "google_analytics_4:average_revenue_per_paying_user",
+		"component": "number_v1",
+		"metrics": ["averagePurchaseRevenuePerPayingUser"]
+	},
+	{
+		"reference_key": "google_analytics_4:average_revenue_per_user",
+		"component": "number_v1",
+		"metrics": ["averageRevenuePerUser"]
+	},
+	{
+		"reference_key": "google_analytics_4:total_advertising_revenue",
+		"component": "number_v1",
+		"metrics": ["totalAdRevenue"]
+	},
+	{
+		"reference_key": "google_analytics_4:top_events",
+		"component": "datatable_v1",
+		"metrics": ["eventCount", "totalUsers", "eventCountPerUser", "totalRevenue"],
+		"dimensions": ["eventName"],
+		"sort": ["-eventCount"]
+	},
+	{
+		"reference_key": "google_analytics_4:top_conversions",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "eventValue"],
+		"dimensions": ["eventName"],
+		"sort": ["-conversions"]
+	},
+	{
+		"reference_key": "google_analytics_4:conversions_by_event",
+		"component": "datatable_v1",
+		"metrics": ["conversions", "totalUsers", "eventValue"],
+		"dimensions": ["eventName"],
+		"sort": ["-conversions"]
+	},
+	{
+		"reference_key": "google_analytics_4:ecommerce_purchase_revenue",
+		"component": "number_v1",
+		"metrics": ["purchaseRevenue"]
+	},
+	{
+		"reference_key": "google_analytics_4:gross_ecommerce_purchase_revenue",
+		"component": "number_v1",
+		"metrics": ["grossPurchaseRevenue"]
+	},
+	{
+		"reference_key": "google_analytics_4:featured_channels",
+		"component": "datatable_v1",
+		"metrics": ["sessions", "purchaseRevenue", "transactions", "averagePurchaseRevenue"],
+		"dimensions": ["sessionSource"],
+		"sort": ["-purchaseRevenue"]
+	},
+	{
+		"reference_key": "google_analytics_4:session_source_platform",
+		"component": "datatable_v1",
+		"metrics": ["activeUsers", "sessions", "engagedSessions", "avgEngagementTime", "eventsPerSession", "engagementRate"],
+		"dimensions": ["sessionSourcePlatform"],
+		"sort": ["-activeUsers"]
+	},
+	{
+		"reference_key": "google_analytics_4:utm_source",
+		"component": "datatable_v1",
+		"metrics": ["engagedSessions", "advertiserAdClicks", "conversions", "totalRevenue"],
+		"dimensions": ["source"],
+		"sort": ["-conversions"],
+		"added_date": "2024-04-04"
+	},
+	{
+		"reference_key": "google_analytics_4:utm_medium",
+		"component": "datatable_v1",
+		"metrics": ["engagedSessions", "advertiserAdClicks", "conversions", "totalRevenue"],
+		"dimensions": ["medium"],
+		"sort": ["-conversions"],
+		"added_date": "2024-04-04"
+	},
+	{
+		"reference_key": "google_analytics_4:utm_campaignName",
+		"component": "datatable_v1",
+		"metrics": ["engagedSessions", "advertiserAdClicks", "conversions", "totalRevenue"],
+		"dimensions": ["sessionCampaignName"],
+		"sort": ["-conversions"],
+		"added_date": "2024-04-04"
+	},
+	{
+		"reference_key": "google_analytics_4:utm_manualAdContent",
+		"component": "datatable_v1",
+		"metrics": ["engagedSessions", "conversions", "totalRevenue"],
+		"dimensions": ["manualAdContent"],
+		"sort": ["-conversions"],
+		"added_date": "2024-04-04"
+	},
+	{
+		"reference_key": "google_analytics_4:utm_manualTerm",
+		"component": "datatable_v1",
+		"metrics": ["engagedSessions", "conversions", "totalRevenue"],
+		"dimensions": ["manualTerm"],
+		"sort": ["-conversions"],
+		"added_date": "2024-04-04"
+	},
+	{
+		"reference_key": "google_analytics_4:cart_to_view_rate",
+		"component": "number_v1",
+		"metrics": ["cartToViewRate"]
+	},
+	{
+		"reference_key": "google_analytics_4:bounce_rate",
+		"component": "number_v1",
+		"metrics": ["bounceRate"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:return_on_ad_spend",
+		"component": "number_v1",
+		"metrics": ["returnOnAdSpend"],
+		"dimensions": ["sessionGoogleAdsAccountName"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:average_engagement_time_chart",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["avgEngagementTime"],
+		"dimensions": ["date"]
+	},
+	{
+		"reference_key": "google_analytics_4:users_by_device",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["activeUsers"],
+		"dimensions": ["deviceCategory"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:sessions_by_device",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["sessions"],
+		"dimensions": ["deviceCategory"],
+		"added_date": "2023-11-20"
+	},
+	{
+		"reference_key": "google_analytics_4:screen_page_views",
+		"component": "datatable_v1",
+		"metrics": ["screenPageViews"],
+		"dimensions": ["pageTitle"],
+		"sort": ["-screenPageViews"]
+	},
+	{
+		"reference_key": "google_analytics_4:users_over_time",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["totalUsers"],
+		"dimensions": ["date"]
+	},
+	{
+		"reference_key": "google_analytics_4:purchase_journey",
+		"component": "pipeline_v1",
+		"metrics": ["activeUsers", "itemViewEvents", "addToCarts", "checkouts", "ecommercePurchases"]
+	}]
+}

@@ -1,0 +1,171 @@
+{
+	"metrics": {
+		"impressions":
+		{
+			"label": "Impressions"
+		},
+		"reach":
+		{
+			"label": "Reach"
+		},
+		"saves":
+		{
+			"label": "Saved"
+		},
+		"likes":
+		{
+			"label": "Organic Likes"
+		},
+		"shares":
+		{
+			"label": "Organic Shares"
+		},
+		"followers":
+		{
+			"label": "Followers",
+			"group_by": "latest_value"
+		},
+		"count":
+		{
+			"label": "Count"
+		},
+		"taps_forward":
+		{
+			"label": "Stories Taps Forward"
+		},
+		"taps_back":
+		{
+			"label": "Stories Taps Back"
+		},
+		"exits":
+		{
+			"label": "Stories Exits"
+		},
+		"retention":
+		{
+			"label": "Stories Retention"
+		},
+		"reach:average":
+		{
+			"label": "Average stories reach"
+		},
+		"type":
+		{
+			"label": "Type"
+		},
+		"comments":
+		{
+			"label": "Organic Comments"
+		},
+		"saved":
+		{
+			"label": "Organic Saved"
+		},
+		"video_views":
+		{
+			"label": "Video views"
+		},
+		"created_at":
+		{
+			"label": "Created at",
+			"formatting_function": "format_to_date_full",
+			"isDate": true
+		},
+		"like_count":
+		{
+			"label": "Posts Likes"
+		},
+		"comments_count":
+		{
+			"label": "Posts Comments"
+		},
+		"new_followers":
+		{
+			"label": "New Followers"
+		},
+		"replies":
+		{
+			"label": "Stories Total Replies"
+		},
+		"plays":
+		{
+			"label": "Plays"
+		},
+		"ctr":
+		{
+			"label": "CTR"
+		},
+		"engagement":
+		{
+			"label": "Organic Engagement"
+		},
+		"engagement_rate":
+		{
+			"label": "Organic Engagement Rate",
+			"formatting_function": "percentage"
+		},
+		"follows":
+		{
+			"label": "Started Following"
+		},
+		"profile_visits":
+		{
+			"label": "Organic Profile visits"
+		},
+		"total_interactions":
+		{
+			"label": "Interactions"
+		},
+		"post_engagement_rate":
+		{
+			"label": "Engagement rate for posts"
+		},
+		"online_followers":
+		{
+			"label": "Online Followers"
+		}
+	},
+	"dimensions":
+	{
+		"city":
+		{
+			"label": "City",
+			"options": ["align_left"]
+		},
+		"country":
+		{
+			"label": "Country",
+			"options": ["align_left"]
+		},
+		"gender":
+		{
+			"label": "Gender",
+			"options": ["align_left"]
+		},
+		"clicks_breakdown":
+		{
+			"label": "Click Type",
+			"options": ["align_left"]
+		},
+		"media":
+		{
+			"label": "Post",
+			"options": ["align_left"]
+		},
+		"reels":
+		{
+			"label": "Reel",
+			"options": ["align_left"]
+		},
+		"date":
+		{
+			"label": "Date",
+			"options": ["align_left"]
+		},
+		"hour":
+		{
+			"label": "Hour",
+			"options": ["align_left"]
+		}
+	}
+}

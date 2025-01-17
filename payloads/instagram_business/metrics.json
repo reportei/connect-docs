@@ -1,0 +1,575 @@
+{
+  "metrics": [
+    {
+        "metrics": ["impressions"],
+        "reference_key": "ig:impressions",
+        "component": "number_v1",
+        "type": "total_impressions"
+    },
+    {
+        "metrics": ["reach"],
+        "reference_key": "ig:reach",
+        "component": "number_v1"
+    },
+    {
+        "metrics": ["reach"],
+        "dimensions": ["total"],
+        "reference_key": "ig:total_reach",
+        "component": "number_v1",
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "metrics": ["reach"],
+        "dimensions": ["ad"],
+        "reference_key": "ig:paid_reach",
+        "component": "number_v1",
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "metrics": ["reach"],
+        "dimensions": ["organic"],
+        "reference_key": "ig:organic_reach",
+        "component": "number_v1",
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "metrics": ["reach"],
+        "dimensions": ["follower"],
+        "reference_key": "ig:follower_reach",
+        "component": "number_v1",
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "metrics": ["reach"],
+        "dimensions": ["non_follower"],
+        "reference_key": "ig:non_follower_reach",
+        "component": "number_v1",
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "metrics": ["profile_views"],
+        "reference_key": "ig:profile_views",
+        "component": "number_v1"
+    },
+    {
+        "metrics": ["impressions", "reach"],
+        "dimensions": ["date"],
+        "reference_key": "ig:impressions_reach_profile_views_over_time",
+        "component": "chart_v1",
+        "chart_type": "line"
+    },
+    {
+        "metrics": ["reach"],
+        "dimensions": ["date"],
+        "reference_key": "ig:reach_over_time",
+        "component": "chart_v1",
+        "chart_type": "line"
+    },
+    {
+        "metrics": ["followers"],
+        "dimensions": ["gender"],
+        "reference_key": "ig:followers_gender",
+        "component": "chart_v1",
+        "chart_type": "pie"
+    },
+    {
+        "metrics": ["followers"],
+        "dimensions": ["age", "gender"],
+        "reference_key": "ig:followers_gender_age",
+        "component": "chart_v1",
+        "chart_type": "bar"
+    },
+    {
+        "reference_key": "ig:followers_city",
+        "component": "datatable_v1",
+        "metrics": ["followers"],
+        "dimensions": ["city"],
+        "sort": ["-followers"]
+    },
+    {
+        "reference_key": "ig:followers_country",
+        "component": "datatable_v1",
+        "metrics": ["followers"],
+        "dimensions": ["country"],
+        "sort": ["-followers"]
+    },
+    {
+        "reference_key": "ig:clicks_breakdown",
+        "component": "datatable_v1",
+        "metrics": ["count", "ctr"],
+        "dimensions": ["clicks_breakdown"],
+        "sort": ["-count"]
+    },
+    {
+        "reference_key": "ig:total_clicks",
+        "component": "number_v1",
+        "metrics": ["count", "ctr"],
+        "dimensions": ["clicks_breakdown"]
+    },
+    {
+        "reference_key": "ig:stories_reach",
+        "component": "number_v1",
+        "metrics": ["reach"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_reach_total",
+        "component": "number_v1",
+        "metrics": ["reach"],
+        "dimensions": ["story"],
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "reference_key": "ig:stories_reach_average",
+        "component": "number_v1",
+        "metrics": ["reach:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_count",
+        "component": "number_v1",
+        "metrics": ["count"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:media_datatable",
+        "component": "datatable_v1",
+        "metrics": ["type", "reach", "impressions", "engagement", "engagement_rate", "likes", "comments", "saved", "total_interactions", "follows", "profile_visits", "shares", "created_at"],
+        "dimensions": ["media"],
+        "sort": ["-reach"]
+    },
+    {
+        "reference_key": "ig:igtv_datatable",
+        "component": "datatable_v1",
+        "metrics": ["type", "reach", "impressions", "engagement", "likes", "comments", "saved", "total_interactions", "created_at"],
+        "dimensions": ["igtv"],
+        "sort": ["-reach"]
+    },
+    {
+        "reference_key": "ig:reels_datatable",
+        "component": "datatable_v1",
+        "metrics": ["reach", "plays", "total_interactions", "engagement_rate", "likes", "saved", "comments", "shares", "created_at"],
+        "dimensions": ["reels"],
+        "sort": ["-reach"]
+    },
+    {
+        "reference_key": "ig:media_count",
+        "component": "number_v1",
+        "metrics": ["count"],
+        "dimensions": ["media"],
+        "type": "total_posts_count"
+    },
+    {
+        "reference_key": "ig:like_count",
+        "component": "number_v1",
+        "metrics": ["likes"],
+        "dimensions": ["media"],
+        "type": "total_likes"
+    },
+    {
+        "reference_key": "ig:like_count_insights",
+        "component": "number_v1",
+        "metrics": ["likes"],
+        "dimensions": ["post"],
+        "type": "total_likes"
+    },
+    {
+        "reference_key": "ig:reels_like_count",
+        "component": "number_v1",
+        "metrics": ["likes"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_like_count_insights",
+        "component": "number_v1",
+        "metrics": ["likes"],
+        "dimensions": ["reel"]
+    },
+    {
+        "reference_key": "ig:comments_count",
+        "component": "number_v1",
+        "metrics": ["comments"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:comments_count_insights",
+        "component": "number_v1",
+        "metrics": ["comments"],
+        "dimensions": ["post"]
+    },
+    {
+        "reference_key": "ig:reels_comments_count",
+        "component": "number_v1",
+        "metrics": ["comments"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_comments_count_insights",
+        "component": "number_v1",
+        "metrics": ["comments"],
+        "dimensions": ["reel"]
+    },
+    {
+        "reference_key": "ig:media_reach",
+        "component": "number_v1",
+        "metrics": ["reach"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:post_reach",
+        "component": "number_v1",
+        "metrics": ["reach"],
+        "dimensions": ["post"],
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "reference_key": "ig:reels_reach",
+        "component": "number_v1",
+        "metrics": ["reach"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_reach_total",
+        "component": "number_v1",
+        "metrics": ["reach"],
+        "dimensions": ["reel"],
+        "custom":
+        {
+            "custom_period": "30ED"
+        }
+    },
+    {
+        "reference_key": "ig:media_engagement",
+        "component": "number_v1",
+        "metrics": ["engagement"],
+        "dimensions": ["media"],
+        "type": "total_posts_engagement"
+    },
+    {
+        "reference_key": "ig:media_saved",
+        "component": "number_v1",
+        "metrics": ["saved"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:media_saved_insights",
+        "component": "number_v1",
+        "metrics": ["saves"],
+        "dimensions": ["post"]
+    },
+    {
+        "reference_key": "ig:reels_saved",
+        "component": "number_v1",
+        "metrics": ["saved"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_saved_insights",
+        "component": "number_v1",
+        "metrics": ["saves"],
+        "dimensions": ["reel"]
+    },
+    {
+        "reference_key": "ig:media_impressions",
+        "component": "number_v1",
+        "metrics": ["impressions"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:reels_count",
+        "component": "number_v1",
+        "metrics": ["count"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_interactions",
+        "component": "number_v1",
+        "metrics": ["total_interactions"],
+        "dimensions": ["reel"]
+    },
+    {
+        "reference_key": "ig:reels_plays",
+        "component": "number_v1",
+        "metrics": ["plays"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_shares",
+        "component": "number_v1",
+        "metrics": ["shares"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:reels_shares_insights",
+        "component": "number_v1",
+        "metrics": ["shares"],
+        "dimensions": ["reel"]
+    },
+    {
+        "reference_key": "ig:post_follows_count",
+        "component": "number_v1",
+        "metrics": ["follows"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:post_profile_visits_count",
+        "component": "number_v1",
+        "metrics": ["profile_visits"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:post_shares_count",
+        "component": "number_v1",
+        "metrics": ["shares"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:post_shares_count_insights",
+        "component": "number_v1",
+        "metrics": ["shares"],
+        "dimensions": ["post"]
+    },
+    {
+        "reference_key": "ig:post_total_interactions_count",
+        "component": "number_v1",
+        "metrics": ["total_interactions"],
+        "dimensions": ["post"]
+    },
+    {
+        "reference_key": "ig:post_profile_activity_count",
+        "component": "number_v1",
+        "metrics": ["profile_activity"],
+        "dimensions": ["media"]
+    },
+    {
+        "reference_key": "ig:followers_count",
+        "component": "number_v1",
+        "metrics": ["followers"]
+    },
+    {
+        "reference_key": "ig:new_followers_count",
+        "component": "number_v1",
+        "metrics": ["new_followers"],
+        "type": "new_followers"
+    },
+    {
+        "reference_key": "ig:current_followers_count",
+        "component": "number_v1",
+        "metrics": ["current_followers"]
+    },
+    {
+        "reference_key": "ig:followers_count_chart",
+        "component": "chart_v1",
+        "chart_type": "line",
+        "metrics": ["followers"],
+        "dimensions": ["date"]
+    },
+    {
+        "reference_key": "ig:new_followers_count_chart",
+        "component": "chart_v1",
+        "chart_type": "line",
+        "metrics": ["new_followers"],
+        "dimensions": ["date"]
+    },
+    {
+        "reference_key": "ig:stories_impressions_average",
+        "component": "number_v1",
+        "metrics": ["impressions:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_impressions",
+        "component": "number_v1",
+        "metrics": ["impressions"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:replies",
+        "component": "number_v1",
+        "metrics": ["replies"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:replies_average",
+        "component": "number_v1",
+        "metrics": ["replies:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:taps_forward_average",
+        "component": "number_v1",
+        "metrics": ["taps_forward:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:taps_forward",
+        "component": "number_v1",
+        "metrics": ["taps_forward"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:taps_back_average",
+        "component": "number_v1",
+        "metrics": ["taps_back:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:taps_back",
+        "component": "number_v1",
+        "metrics": ["taps_back"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:exits",
+        "component": "number_v1",
+        "metrics": ["exits"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:exits_average",
+        "component": "number_v1",
+        "metrics": ["exits:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:retention",
+        "component": "number_v1",
+        "metrics": ["retention"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_follows",
+        "component": "number_v1",
+        "metrics": ["follows"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_profile_activity",
+        "component": "number_v1",
+        "metrics": ["profile_activity"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_profile_visits",
+        "component": "number_v1",
+        "metrics": ["profile_visits"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_shares",
+        "component": "number_v1",
+        "metrics": ["shares"],
+        "dimensions": ["story"]
+    },
+    {
+        "reference_key": "ig:stories_total_interactions",
+        "component": "number_v1",
+        "metrics": ["total_interactions"],
+        "dimensions": ["story"]
+    },
+    {
+        "reference_key": "ig:stories_swipe_forward",
+        "component": "number_v1",
+        "metrics": ["swipe_forward"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_follows_average",
+        "component": "number_v1",
+        "metrics": ["follows:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_profile_activity_average",
+        "component": "number_v1",
+        "metrics": ["profile_activity:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_profile_visits_average",
+        "component": "number_v1",
+        "metrics": ["profile_visits:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_shares_average",
+        "component": "number_v1",
+        "metrics": ["shares:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_total_interactions_average",
+        "component": "number_v1",
+        "metrics": ["total_interactions:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_swipe_forward_average",
+        "component": "number_v1",
+        "metrics": ["swipe_forward:average"],
+        "dimensions": ["stories"]
+    },
+    {
+        "reference_key": "ig:stories_datagrid",
+        "component": "datagrid_v1",
+        "metrics": ["reach", "impressions", "follows", "taps_forwards", "taps_back", "exits", "retention", "answers", "automatic_forward", "swipe_back", "swipe_down", "swipe_forward", "swipe_up", "likes", "shares", "total_interactions", "date"],
+        "dimensions": ["stories"],
+        "sort": ["-reach"]
+    },
+    {
+        "reference_key": "ig:post_engagement_rate",
+        "component": "number_v1",
+        "dimensions": ["media"],
+        "metrics": ["post_engagement_rate"]
+    },
+    {
+        "reference_key": "ig:reels_engagement_rate",
+        "component": "number_v1",
+        "metrics": ["reels_engagement_rate"],
+        "dimensions": ["media", "reels"]
+    },
+    {
+        "reference_key": "ig:online_followers_per_day",
+        "component": "chart_v1",
+        "chart_type": "bar",
+        "metrics": ["online_followers"],
+        "dimensions": ["date"]
+    },
+    {
+        "reference_key": "ig:online_followers_per_hour",
+        "component": "chart_v1",
+        "chart_type": "bar",
+        "metrics": ["online_followers"],
+        "dimensions": ["hour"]
+    },
+    {
+        "metrics": ["warning_organic_data"],
+        "reference_key": "ig:warning_organic_data",
+        "component": "wysiwyg_v1",
+        "custom":
+        {
+            "values": ""
+        }
+    }]
+}
