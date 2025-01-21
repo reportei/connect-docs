@@ -1,0 +1,84 @@
+{
+    "metrics": {
+        "emails_sent": {
+            "label": "Emails Sent"
+        },
+        "unsubscribed": {
+            "label": "Unsubscribes"
+        },
+        "clicks.clicks_total": {
+            "label": "Total Clicks"
+        },
+        "clicks.unique_clicks": {
+            "label": "Click Rate"
+        },
+        "opens.opens_total": {
+            "label": "Total Openings"
+        },
+        "opens.unique_opens": {
+            "label": "Open Rate"
+        },
+        "campaign_title": {
+            "label": "Number of Campaigns"
+        },
+        "bounces.soft_bounces": {
+            "label": "Soft Bounces"
+        },
+        "bounces.hard_bounces": {
+            "label": "Hard Bounces"
+        },
+        "forwards.forwards_count": {
+            "label": "Total Forwards"
+        },
+        "forwards.forwards_opens": {
+            "label": "Forward Openings"
+        },
+        "opens.open_rate": {
+            "label": "Open Rate",
+            "formatting_function": "percentage"
+        },
+        "clicks.click_rate": {
+            "label": "Click Rate",
+            "formatting_function": "percentage"
+        },
+        "ecommerce.total_orders": {
+            "label": "Total Orders"
+        },
+        "ecommerce.total_spent": {
+            "label": "Total Spent"
+        },
+        "ecommerce.total_revenue": {
+            "label": "Total Revenue"
+        },
+        "name": {
+            "label": "Name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "stats.member_count": {
+            "label": "Member Count"
+        },
+        "stats.open_rate": {
+            "label": "Open Rate",
+            "formatting_function": "add_percentage"
+        },
+        "stats.click_rate": {
+            "label": "Click Rate",
+            "formatting_function": "add_percentage"
+        },
+        "stats.campaign_last_sent": {
+            "label": "Campaign Last Sent",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        }
+    },
+    "dimensions": {
+        "campaign_title": {
+            "label": "Name",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

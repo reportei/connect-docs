@@ -1,0 +1,307 @@
+{
+    "metrics": [
+        {
+            "reference_key": "hubspot_crm:pipelines",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "pipelines"
+            ],
+            "widgets": [],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:pipeline_deals_funnel",
+            "component": "pipeline_v1",
+            "metrics": [
+                "pipeline_deals_funnel"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:created_contacts",
+            "component": "number_v1",
+            "metrics": [
+                "created_contacts"
+            ],
+            "dimensions": [
+                "contact"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:assigned_contacts",
+            "component": "number_v1",
+            "metrics": [
+                "assigned_contacts"
+            ],
+            "dimensions": [
+                "contact"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:worked_contacts",
+            "component": "number_v1",
+            "metrics": [
+                "worked_contacts"
+            ],
+            "dimensions": [
+                "contact"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:unworked_contacts",
+            "component": "number_v1",
+            "metrics": [
+                "unworked_contacts"
+            ],
+            "dimensions": [
+                "contact"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:created_deals",
+            "component": "number_v1",
+            "metrics": [
+                "created_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:closed_deals",
+            "component": "number_v1",
+            "metrics": [
+                "closed_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:lost_deals",
+            "component": "number_v1",
+            "metrics": [
+                "lost_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:closed_rate_deals",
+            "component": "number_v1",
+            "metrics": [
+                "closed_rate_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:lost_rate_deals",
+            "component": "number_v1",
+            "metrics": [
+                "lost_rate_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:total_amount_deals",
+            "component": "number_v1",
+            "metrics": [
+                "total_amount_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:average_amount_deals",
+            "component": "number_v1",
+            "metrics": [
+                "average_amount_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:completed_tasks",
+            "component": "number_v1",
+            "metrics": [
+                "completed_tasks"
+            ],
+            "dimensions": [
+                "task"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:unstarted_tasks",
+            "component": "number_v1",
+            "metrics": [
+                "unstarted_tasks"
+            ],
+            "dimensions": [
+                "task"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:emails_sent",
+            "component": "number_v1",
+            "metrics": [
+                "emails_sent"
+            ],
+            "dimensions": [
+                "email"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:completed_calls",
+            "component": "number_v1",
+            "metrics": [
+                "completed_calls"
+            ],
+            "dimensions": [
+                "call"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:average_call_duration",
+            "component": "number_v1",
+            "metrics": [
+                "calls_duration"
+            ],
+            "dimensions": [
+                "call"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:reason_lost_deals",
+            "component": "datatable_v1",
+            "metrics": [
+                "lost_deals"
+            ],
+            "dimensions": [
+                "reason"
+            ],
+            "sort": [
+                "-lost_deals"
+            ],
+            "table": "reason_lost_deals_datatable"
+        },
+        {
+            "reference_key": "hubspot_crm:summary_activities",
+            "component": "datatable_v1",
+            "metrics": [
+                "count_activities",
+                "completed_tasks",
+                "unstarted_tasks"
+            ],
+            "dimensions": [
+                "type_tasks"
+            ],
+            "sort": [
+                "-count_activities"
+            ],
+            "table": "summary_activities_datatable"
+        },
+        {
+            "reference_key": "hubspot_crm:activities_per_representative",
+            "component": "datatable_v1",
+            "metrics": [
+                "outgoing_calls",
+                "sent_emails"
+            ],
+            "dimensions": [
+                "delegate"
+            ],
+            "sort": [
+                "-outgoing_calls"
+            ],
+            "table": "activities_per_representative"
+        },
+        {
+            "reference_key": "hubspot_crm:deals_closed_owner",
+            "component": "datatable_v1",
+            "metrics": [
+                "closed_deals",
+                "total_amount_deals"
+            ],
+            "dimensions": [
+                "owner"
+            ],
+            "sort": [
+                "-closed_deals"
+            ],
+            "table": "deal_closed_owner_datatable"
+        },
+        {
+            "reference_key": "hubspot_crm:closed_lost_deals",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "chart": "closed_lost_deals_chart",
+            "metrics": [
+                "lost_deals",
+                "closed_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:deals_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "chart": "deals_over_time_chart",
+            "metrics": [
+                "created_deals",
+                "lost_deals",
+                "closed_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:deals_target",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "chart": "deals_target_chart",
+            "metrics": [
+                "target",
+                "total_deals"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        },
+        {
+            "reference_key": "hubspot_crm:revenue_source_deals",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "chart": "deals_revenue_source_chart",
+            "metrics": [
+                "organic_search",
+                "paid_search",
+                "email_mkt",
+                "social_media",
+                "referrals",
+                "other_campaigns",
+                "direct_traffic",
+                "offline",
+                "paid_social",
+                "others"
+            ],
+            "dimensions": [
+                "deal"
+            ]
+        }
+    ]
+}

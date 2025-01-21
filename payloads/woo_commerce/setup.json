@@ -1,0 +1,122 @@
+{
+    "metrics": {
+        "username": {
+            "label": "Username"
+        },
+        "last_active": {
+            "label": "Last Active"
+        },
+        "registered": {
+            "label": "Registered"
+        },
+        "email": {
+            "label": "Email"
+        },
+        "orders_count": {
+            "label": "Orders Count"
+        },
+        "total_spent": {
+            "label": "Total Spent",
+            "formatting_function": "currency"
+        },
+        "total_sales": {
+            "label": "Total Sales",
+            "formatting_function": "currency"
+        },
+        "net_sales": {
+            "label": "Liquid Sales",
+            "formatting_function": "currency"
+        },
+        "refunds": {
+            "label": "Refunds",
+            "formatting_function": "currency"
+        },
+        "tax": {
+            "label": "Tax",
+            "formatting_function": "currency"
+        },
+        "shipping": {
+            "label": "Shipping",
+            "formatting_function": "currency"
+        },
+        "aov": {
+            "label": "AOV"
+        },
+        "country": {
+            "label": "Country"
+        },
+        "city": {
+            "label": "City"
+        },
+        "region": {
+            "label": "Region"
+        },
+        "coupon_code": {
+            "label": "Coupon code"
+        },
+        "orders": {
+            "label": "Orders"
+        },
+        "coupons": {
+            "label": "Coupons"
+        },
+        "discount_amount": {
+            "label": "Discount amount",
+            "formatting_function": "currency"
+        },
+        "sales": {
+            "label": "Sales",
+            "formatting_function": "currency"
+        },
+        "items_sold": {
+            "label": "Items Sold"
+        },
+        "avg_order_value": {
+            "label": "Average Order Value"
+        },
+        "sku": {
+            "label": "SKU"
+        },
+        "stock": {
+            "label": "Stock"
+        },
+        "variations": {
+            "label": "Variations"
+        },
+        "unique_products": {
+            "label": "Products"
+        }
+    },
+    "dimensions": {
+        "featured_customers": {
+            "label": "Customer name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "coupon": {
+            "label": "Coupon",
+            "options": [
+                "align_left"
+            ]
+        },
+        "category": {
+            "label": "Category",
+            "options": [
+                "align_left"
+            ]
+        },
+        "products": {
+            "label": "Product",
+            "options": [
+                "align_left"
+            ]
+        },
+        "daily_revenue": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

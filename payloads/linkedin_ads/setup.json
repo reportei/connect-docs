@@ -1,0 +1,362 @@
+{
+    "metrics": {
+        "costInLocalCurrency": {
+            "label": "Cost",
+            "formatting_function": "currency"
+        },
+        "impressions": {
+            "label": "Impressions"
+        },
+        "clicks": {
+            "label": "Clicks"
+        },
+        "totalEngagements": {
+            "label": "Total Engagement"
+        },
+        "createdAt": {
+            "label": "Created at",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        },
+        "likes": {
+            "label": "Likes Total"
+        },
+        "follows": {
+            "label": "Followers Gained"
+        },
+        "shares": {
+            "label": "Shares"
+        },
+        "comments": {
+            "label": "Total Comments"
+        },
+        "externalWebsiteConversions": {
+            "label": "Total Conversions"
+        },
+        "conversionValueInLocalCurrency": {
+            "label": "Value of conversions"
+        },
+        "costPerConversion": {
+            "label": "Cost Per Conversion",
+            "formatting_function": "currency"
+        },
+        "conversionsRate": {
+            "label": "Conversion Rate",
+            "formatting_function": "add_percentage"
+        },
+        "averageCtr": {
+            "label": "Average CTR",
+            "formatting_function": "add_percentage"
+        },
+        "averageCpc": {
+            "label": "Average CPC",
+            "formatting_function": "currency"
+        },
+        "averageCpm": {
+            "label": "Average CPM",
+            "formatting_function": "currency"
+        },
+        "oneClickLeads": {
+            "label": "Leads"
+        },
+        "costPerLead": {
+            "label": "Cost per lead"
+        },
+        "externalWebsitePostClickConversions": {
+            "label": "Total number of clicks on your ads that led to a conversion"
+        },
+        "externalWebsitePostViewConversions": {
+            "label": "Total number of views on your ads that led to a conversion"
+        },
+        "videoViews": {
+            "label": "Views"
+        },
+        "videoStarts": {
+            "label": "Reproductions"
+        },
+        "costPerView": {
+            "label": "CPV"
+        },
+        "viewRate": {
+            "label": "View Rate",
+            "formatting_function": "add_percentage"
+        },
+        "opensRate": {
+            "label": "Open Rate",
+            "formatting_function": "add_percentage"
+        },
+        "clicksPerOpensRate": {
+            "label": "Clicks per Open Rate",
+            "formatting_function": "add_percentage"
+        },
+        "costPerSends": {
+            "label": "Cost per Send",
+            "formatting_function": "currency"
+        },
+        "costPerOpenMessage": {
+            "label": "Cost per Open Message",
+            "formatting_function": "currency"
+        },
+        "actionClicks": {
+            "label": "Action Clicks"
+        },
+        "adUnitClicks": {
+            "label": "Ad Unit Clicks"
+        },
+        "textUrlClicks": {
+            "label": "Text Url Clicks"
+        },
+        "cardClicks": {
+            "label": "Card Clicks"
+        },
+        "approximateMemberReach": {
+            "label": "Approximate Member Reach"
+        },
+        "cardImpressions": {
+            "label": "Card Impressions"
+        },
+        "commentLikes": {
+            "label": "Comment Likes"
+        },
+        "companyPageClicks": {
+            "label": "Company Page Clicks"
+        },
+        "documentCompletions": {
+            "label": "Document Completions"
+        },
+        "documentFirstQuartileCompletions": {
+            "label": "Document First Quartile Completions"
+        },
+        "documentMidpointCompletions": {
+            "label": "Document Midpoint Completions"
+        },
+        "documentThirdQuartileCompletions": {
+            "label": "Document Third Quartile Completions"
+        },
+        "downloadClicks": {
+            "label": "Download Clicks"
+        },
+        "fullScreenPlays": {
+            "label": "Full Screen Plays"
+        },
+        "headlineClicks": {
+            "label": "Headline Clicks"
+        },
+        "headlineImpressions": {
+            "label": "Headline Impressions"
+        },
+        "jobApplications": {
+            "label": "Job Applications"
+        },
+        "jobApplyClicks": {
+            "label": "Job Apply Clicks"
+        },
+        "landingPageClicks": {
+            "label": "Landing Page Clicks"
+        },
+        "leadGenerationMailContactInfoShares": {
+            "label": "Lead Generation Mail Contact Info Shares"
+        },
+        "leadGenerationMailInterestedClicks": {
+            "label": "Lead Generation Mail Interested Clicks"
+        },
+        "oneClickLeadFormOpens": {
+            "label": "One Click Lead Form Opens"
+        },
+        "opens": {
+            "label": "Opens"
+        },
+        "postClickJobApplications": {
+            "label": "Post Click Job Applications"
+        },
+        "postClickJobApplyClicks": {
+            "label": "Post Click Job Apply Clicks"
+        },
+        "postClickRegistrations": {
+            "label": "Post Click Registrations"
+        },
+        "postViewJobApplications": {
+            "label": "Post View Job Applications"
+        },
+        "postViewJobApplyClicks": {
+            "label": "Post View Job Apply Clicks"
+        },
+        "postViewRegistrations": {
+            "label": "Post View Registrations"
+        },
+        "reactions": {
+            "label": "Reactions"
+        },
+        "registrations": {
+            "label": "Registrations"
+        },
+        "sends": {
+            "label": "Sends"
+        },
+        "talentLeads": {
+            "label": "Talent Leads"
+        },
+        "videoCompletions": {
+            "label": "Video Completions"
+        },
+        "videoFirstQuartileCompletions": {
+            "label": "Video First Quartile Completions"
+        },
+        "videoMidpointCompletions": {
+            "label": "Video Midpoint Completions"
+        },
+        "videoThirdQuartileCompletions": {
+            "label": "Video Third Quartile Completions"
+        },
+        "viralCardClicks": {
+            "label": "Viral Card Clicks"
+        },
+        "viralCardImpressions": {
+            "label": "Viral Card Impressions"
+        },
+        "viralClicks": {
+            "label": "Viral Clicks"
+        },
+        "viralCommentLikes": {
+            "label": "Viral Comment Likes"
+        },
+        "viralComments": {
+            "label": "Viral Comments"
+        },
+        "viralCompanyPageClicks": {
+            "label": "Viral Company Page Clicks"
+        },
+        "viralDownloadClicks": {
+            "label": "Viral Download Clicks"
+        },
+        "viralExternalWebsiteConversions": {
+            "label": "Viral External Website Conversions"
+        },
+        "viralExternalWebsitePostClickConversions": {
+            "label": "Viral External Website Post Click Conversions"
+        },
+        "viralExternalWebsitePostViewConversions": {
+            "label": "Viral External Website Post View Conversions"
+        },
+        "viralFollows": {
+            "label": "Viral Follows"
+        },
+        "viralFullScreenPlays": {
+            "label": "Viral Full Screen Plays"
+        },
+        "viralImpressions": {
+            "label": "Viral Impressions"
+        },
+        "viralJobApplications": {
+            "label": "Viral Job Applications"
+        },
+        "viralJobApplyClicks": {
+            "label": "Viral Job Apply Clicks"
+        },
+        "viralLandingPageClicks": {
+            "label": "Viral Landing Page Clicks"
+        },
+        "viralLikes": {
+            "label": "Viral Likes"
+        },
+        "viralReactions": {
+            "label": "Viral Reactions"
+        },
+        "viralRegistrations": {
+            "label": "Viral Registrations"
+        },
+        "viralShares": {
+            "label": "Viral Shares"
+        },
+        "viralTotalEngagements": {
+            "label": "Viral Engagements"
+        },
+        "viralVideoViews": {
+            "label": "Viral Video Views"
+        },
+        "results": {
+            "label": "Results"
+        },
+        "costPerResult": {
+            "label": "Cost per results",
+            "formatting_function": "currency"
+        }
+    },
+    "dimensions": {
+        "posts": {
+            "label": "Ads",
+            "options": [
+                "align_left"
+            ]
+        },
+        "dateRange": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        },
+        "sponsoredMessaging": {
+            "label": "Sponsored Messaging"
+        },
+        "campaigns": {
+            "label": "Campaign",
+            "options": [
+                "align_left"
+            ]
+        },
+        "campaignGroups": {
+            "label": "Campaign Group",
+            "options": [
+                "align_left"
+            ]
+        },
+        "seniorities": {
+            "label": "Seniority",
+            "options": [
+                "align_left"
+            ]
+        },
+        "titles": {
+            "label": "Job titles",
+            "options": [
+                "align_left"
+            ]
+        },
+        "industries": {
+            "label": "Industry Sector",
+            "options": [
+                "align_left"
+            ]
+        },
+        "functions": {
+            "label": "Job functions",
+            "options": [
+                "align_left"
+            ]
+        },
+        "regions": {
+            "label": "Region",
+            "options": [
+                "align_left"
+            ]
+        },
+        "countries": {
+            "label": "Country",
+            "options": [
+                "align_left"
+            ]
+        },
+        "companies": {
+            "label": "Company",
+            "options": [
+                "align_left"
+            ]
+        },
+        "companySize": {
+            "label": "Company Size",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

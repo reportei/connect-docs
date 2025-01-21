@@ -1,0 +1,63 @@
+{
+    "metrics": {
+        "calls": {
+            "label": "Calls"
+        },
+        "answered_calls": {
+            "label": "Answered calls"
+        },
+        "lost_calls": {
+            "label": "Missed calls"
+        },
+        "lost_calls_rate": {
+            "label": "Missed calls rate"
+        },
+        "incomplete_calls": {
+            "label": "Incomplete calls"
+        },
+        "opportunity_calls": {
+            "label": "Opportunities"
+        },
+        "returned_calls": {
+            "label": "Returned calls"
+        },
+        "unique_calls": {
+            "label": "Unique calls"
+        },
+        "consumer_first_call": {
+            "label": "Calls per consumer"
+        }
+    },
+    "dimensions": {
+        "days": {
+            "label": "Day",
+            "options": [
+                "align_left"
+            ]
+        },
+        "units": {
+            "label": "Units",
+            "options": [
+                "align_left"
+            ]
+        },
+        "campaigns": {
+            "label": "Campaigns",
+            "options": [
+                "align_left"
+            ]
+        },
+        "adgroups": {
+            "label": "Ad groups",
+            "options": [
+                "align_left"
+            ]
+        },
+        "adverts": {
+            "label": "Adverts",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

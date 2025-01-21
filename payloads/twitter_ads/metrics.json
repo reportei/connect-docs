@@ -1,0 +1,181 @@
+{
+    "metrics": [
+        {
+            "reference_key": "tads:campaigns",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "campaigns"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "tads:featured_campaigns",
+            "component": "datatable_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "likes",
+                "replies",
+                "retweets",
+                "billed_charge_local_micro",
+                "total_clicks",
+                "engagements"
+            ],
+            "sort": [
+                "-engagements"
+            ]
+        },
+        {
+            "reference_key": "tads:likes",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "likes"
+            ]
+        },
+        {
+            "reference_key": "tads:impressions",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "tads:engagements",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "engagements"
+            ]
+        },
+        {
+            "reference_key": "tads:follows",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "follows"
+            ]
+        },
+        {
+            "reference_key": "tads:retweets",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "retweets"
+            ]
+        },
+        {
+            "reference_key": "tads:unfollows",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "unfollows"
+            ]
+        },
+        {
+            "reference_key": "tads:clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "clicks"
+            ]
+        },
+        {
+            "reference_key": "tads:replies",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "replies"
+            ]
+        },
+        {
+            "reference_key": "tads:url_clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "url_clicks"
+            ]
+        },
+        {
+            "reference_key": "tads:total_clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "total_clicks"
+            ]
+        },
+        {
+            "reference_key": "tads:app_clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "app_clicks"
+            ]
+        },
+        {
+            "reference_key": "tads:cpe",
+            "component": "number_v1",
+            "dimensions": [
+                "billing"
+            ],
+            "metrics": [
+                "cpe"
+            ]
+        },
+        {
+            "reference_key": "tads:cpc",
+            "component": "number_v1",
+            "dimensions": [
+                "billing"
+            ],
+            "metrics": [
+                "cpc"
+            ]
+        },
+        {
+            "reference_key": "tads:spend",
+            "component": "number_v1",
+            "dimensions": [
+                "billing"
+            ],
+            "metrics": [
+                "billed_charge_local_micro"
+            ]
+        },
+        {
+            "reference_key": "tads:engagement_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "engagement"
+            ],
+            "metrics": [
+                "engagement_rate"
+            ]
+        }
+    ]
+}

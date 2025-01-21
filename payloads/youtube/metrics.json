@@ -1,0 +1,314 @@
+{
+    "metrics": [
+        {
+            "reference_key": "youtube:views",
+            "component": "number_v1",
+            "metrics": [
+                "views"
+            ]
+        },
+        {
+            "reference_key": "youtube:likes",
+            "component": "number_v1",
+            "metrics": [
+                "likes"
+            ]
+        },
+        {
+            "reference_key": "youtube:dislikes",
+            "component": "number_v1",
+            "metrics": [
+                "dislikes"
+            ]
+        },
+        {
+            "reference_key": "youtube:comments",
+            "component": "number_v1",
+            "metrics": [
+                "comments"
+            ]
+        },
+        {
+            "reference_key": "youtube:shares",
+            "component": "number_v1",
+            "metrics": [
+                "shares"
+            ]
+        },
+        {
+            "reference_key": "youtube:subscribers_gained",
+            "component": "number_v1",
+            "metrics": [
+                "subscribersGained"
+            ]
+        },
+        {
+            "reference_key": "youtube:subscribers_lost",
+            "component": "number_v1",
+            "metrics": [
+                "subscribersLost"
+            ]
+        },
+        {
+            "reference_key": "youtube:subscribers_variation",
+            "component": "number_v1",
+            "isCalculated": true,
+            "metrics": [
+                "subscribers_variation"
+            ]
+        },
+        {
+            "reference_key": "youtube:estimated_minutes_watched",
+            "component": "number_v1",
+            "metrics": [
+                "estimatedMinutesWatched"
+            ]
+        },
+        {
+            "reference_key": "youtube:average_view_percentage",
+            "component": "number_v1",
+            "dimensions": [
+                "channel"
+            ],
+            "metrics": [
+                "averageViewPercentage"
+            ]
+        },
+        {
+            "reference_key": "youtube:average_view_duration",
+            "component": "number_v1",
+            "dimensions": [
+                "channel"
+            ],
+            "metrics": [
+                "averageViewDuration"
+            ]
+        },
+        {
+            "reference_key": "youtube:view_count",
+            "component": "number_v1",
+            "metrics": [
+                "viewCount"
+            ]
+        },
+        {
+            "reference_key": "youtube:subscriber_count",
+            "component": "number_v1",
+            "metrics": [
+                "subscriberCount"
+            ]
+        },
+        {
+            "reference_key": "youtube:video_count",
+            "component": "number_v1",
+            "metrics": [
+                "videoCount"
+            ]
+        },
+        {
+            "reference_key": "youtube:engaging_videos",
+            "component": "datatable_v1",
+            "filter": "publishedAt",
+            "metrics": [
+                "views",
+                "likes",
+                "subscribersGained",
+                "publishedAt"
+            ],
+            "dimensions": [
+                "video"
+            ],
+            "sort": [
+                "-views"
+            ]
+        },
+        {
+            "reference_key": "youtube:all_videos",
+            "component": "datatable_v1",
+            "filter": "publishedAt",
+            "metrics": [
+                "views",
+                "likes",
+                "subscribersGained",
+                "publishedAt"
+            ],
+            "dimensions": [
+                "video"
+            ],
+            "sort": [
+                "-views"
+            ]
+        },
+        {
+            "reference_key": "youtube:most_accessed_countries",
+            "component": "datatable_v1",
+            "metrics": [
+                "views",
+                "averageViewDuration",
+                "estimatedMinutesWatched"
+            ],
+            "dimensions": [
+                "country"
+            ],
+            "sort": [
+                "-views"
+            ]
+        },
+        {
+            "reference_key": "youtube:subscribers_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "subscribersGained"
+            ],
+            "dimensions": [
+                "day"
+            ]
+        },
+        {
+            "reference_key": "youtube:channel_display_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "estimatedMinutesWatched"
+            ],
+            "dimensions": [
+                "day"
+            ]
+        },
+        {
+            "reference_key": "youtube:viewers_by_age_and_gender",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "metrics": [
+                "viewerPercentage"
+            ],
+            "dimensions": [
+                "ageGroup",
+                "gender"
+            ]
+        },
+        {
+            "reference_key": "youtube:views_by_gender",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "metrics": [
+                "viewerPercentage"
+            ],
+            "dimensions": [
+                "gender"
+            ],
+            "added_date": "2023-05-05"
+        },
+        {
+            "reference_key": "youtube:views_by_age",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "metrics": [
+                "viewerPercentage"
+            ],
+            "dimensions": [
+                "ageGroup"
+            ],
+            "added_date": "2023-05-05"
+        },
+        {
+            "reference_key": "youtube:views_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "views"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        },
+        {
+            "reference_key": "youtube:estimated_minutes_watched_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "estimatedMinutesWatched"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        },
+        {
+            "reference_key": "youtube:likes_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "likes"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        },
+        {
+            "reference_key": "youtube:dislikes_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "dislikes"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        },
+        {
+            "reference_key": "youtube:shares_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "shares"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        },
+        {
+            "reference_key": "youtube:subscribers_gained_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "subscribersGained"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        },
+        {
+            "reference_key": "youtube:subscribers_lost_shorts",
+            "component": "number_v1",
+            "metrics": [
+                "subscribersLost"
+            ],
+            "dimensions": [
+                "shorts"
+            ],
+            "filters": [
+                "creatorContentType==shorts"
+            ],
+            "added_date": "2024-05-27"
+        }
+    ]
+}

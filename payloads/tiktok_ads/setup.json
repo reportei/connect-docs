@@ -1,0 +1,1306 @@
+{
+    "metrics": {
+        "ad_id": {
+            "label": "Ad Name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "campaign_id": {
+            "label": "Campaign name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "province_id": {
+            "label": "Subregions name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "impressions": {
+            "label": "Impressions"
+        },
+        "clicks": {
+            "label": "Clicks"
+        },
+        "cpc": {
+            "label": "CPC",
+            "formatting_function": "currency"
+        },
+        "spend": {
+            "label": "Spend",
+            "formatting_function": "currency"
+        },
+        "ctr": {
+            "label": "CTR",
+            "formatting_function": "add_percentage"
+        },
+        "cpm": {
+            "label": "CPM",
+            "formatting_function": "currency"
+        },
+        "cost_per_conversion": {
+            "label": "CPA",
+            "formatting_function": "currency"
+        },
+        "conversion_rate": {
+            "label": "CVR%",
+            "formatting_function": "percentage"
+        },
+        "frequency": {
+            "label": "Frequency"
+        },
+        "conversion": {
+            "label": "Conversions"
+        },
+        "reach": {
+            "label": "Reach"
+        },
+        "result": {
+            "label": "Result"
+        },
+        "cost_per_result": {
+            "label": "Cost per Result",
+            "formatting_function": "currency"
+        },
+        "result_rate": {
+            "label": "Result Rate (%)",
+            "formatting_function": "percentage"
+        },
+        "video_play_actions": {
+            "label": "Video Views"
+        },
+        "average_video_play": {
+            "label": "Video Average Watch Time"
+        },
+        "average_video_play_per_user": {
+            "label": "Video Average Watch Time Per Person"
+        },
+        "video_views_p25": {
+            "label": "Video Views at 25%"
+        },
+        "video_views_p50": {
+            "label": "Video Views at 50%"
+        },
+        "video_views_p75": {
+            "label": "Video Views at 75%"
+        },
+        "video_views_p100": {
+            "label": "Video Views at 100%"
+        },
+        "video_watched_2s": {
+            "label": "2-Second Video Views"
+        },
+        "video_watched_6s": {
+            "label": "6-Second Video Views"
+        },
+        "app_event_add_to_cart": {
+            "label": "Add to Cart"
+        },
+        "cost_per_total_app_event_add_to_cart": {
+            "label": "Cost per Add to Cart",
+            "formatting_function": "currency"
+        },
+        "app_event_add_to_cart_rate": {
+            "label": "Add to Cart Rate",
+            "formatting_function": "percentage"
+        },
+        "button_click": {
+            "label": "Total Button Click Value"
+        },
+        "cost_per_button_click": {
+            "label": "Cost per Button Click",
+            "formatting_function": "currency"
+        },
+        "button_click_rate": {
+            "label": "Button click rate",
+            "formatting_function": "percentage"
+        },
+        "profile_visits": {
+            "label": "Profile visits"
+        },
+        "profile_visits_rate": {
+            "label": "Profile visits rate",
+            "formatting_function": "percentage"
+        },
+        "likes": {
+            "label": "Likes"
+        },
+        "comments": {
+            "label": "Comments"
+        },
+        "shares": {
+            "label": "Shares"
+        },
+        "follows": {
+            "label": "New followers"
+        },
+        "duet_clicks": {
+            "label": "Duet clicks"
+        },
+        "total_purchase": {
+            "label": "Total Purchase",
+            "formatting_function": "currency"
+        },
+        "value_per_total_purchase": {
+            "label": "Value per Total Purchase",
+            "formatting_function": "currency"
+        },
+        "total_purchase_value": {
+            "label": "Total Purchase Value",
+            "formatting_function": "currency"
+        },
+        "total_active_pay_roas": {
+            "label": "ROAS",
+            "formatting_function": "currency"
+        },
+        "purchase": {
+            "label": "Purchase",
+            "formatting_function": "currency"
+        },
+        "cost_per_purchase": {
+            "label": "Cost per Purchase",
+            "formatting_function": "currency"
+        },
+        "subscribe": {
+            "label": "Subscribe"
+        },
+        "cost_per_subscribe": {
+            "label": "Cost per Subscribe",
+            "formatting_function": "currency"
+        },
+        "subscribe_rate": {
+            "label": "Subscribe Rate",
+            "formatting_function": "add_percentage"
+        },
+        "total_subscribe": {
+            "label": "Total Subscribe"
+        },
+        "cost_per_total_subscribe": {
+            "label": "Cost per Total Subscribe"
+        },
+        "value_per_checkout": {
+            "label": "Value per Checkout",
+            "formatting_function": "currency"
+        },
+        "value_per_total_subscribe": {
+            "label": "Value per Total Subscribe",
+            "formatting_function": "currency"
+        },
+        "total_subscribe_value": {
+            "label": "Total Subscribe Value",
+            "formatting_function": "currency"
+        },
+        "cost_per_checkout": {
+            "label": "Cost per Checkout",
+            "formatting_function": "currency"
+        },
+        "checkout_rate": {
+            "label": "Checkout Rate",
+            "formatting_function": "add_percentage"
+        },
+        "total_checkout": {
+            "label": "Total Checkout"
+        },
+        "cost_per_total_checkout": {
+            "label": "Cost per Total Checkout",
+            "formatting_function": "currency"
+        },
+        "total_checkout_value": {
+            "label": "Total Checkout Value",
+            "formatting_function": "currency"
+        },
+        "checkout": {
+            "label": "Checkout",
+            "formatting_function": "currency"
+        },
+        "engagements": {
+            "label": "Engagements"
+        },
+        "engagement_rate": {
+            "label": "Engagement Rate",
+            "formatting_function": "add_percentage"
+        },
+        "skan_result": {
+            "label": "Result (SKAN)"
+        },
+        "skan_cost_per_result": {
+            "label": "Cost per Result (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_result_rate": {
+            "label": "Result Rate (%) (SKAN)",
+            "formatting_function": "percentage"
+        },
+        "skan_conversion": {
+            "label": "Conversions (SKAN)"
+        },
+        "skan_cost_per_conversion": {
+            "label": "CPA (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_conversion_rate_v2": {
+            "label": "CVR% (SKAN)",
+            "formatting_function": "percentage"
+        },
+        "skan_click_time_conversion": {
+            "label": "Conversions (SKAN click time)"
+        },
+        "skan_purchase": {
+            "label": "Unique Purchase (SKAN)"
+        },
+        "skan_cost_per_purchase": {
+            "label": "Cost per Unique Purchase (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_purchase_rate": {
+            "label": "Unique Purchase Rate (SKAN)",
+            "formatting_function": "percentage"
+        },
+        "skan_total_purchase": {
+            "label": "Total Purchase (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_cost_per_total_purchase": {
+            "label": "Cost per Purchase (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_total_purchase_value": {
+            "label": "Total Purchase Value (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_total_repetitive_active_pay_roas": {
+            "label": "Purchase ROAS (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_add_to_cart": {
+            "label": "Unique Add to Cart (SKAN)"
+        },
+        "skan_cost_per_add_to_cart": {
+            "label": "Cost per Unique Add to Cart (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_add_to_cart_rate": {
+            "label": "Unique Add to Cart Rate (SKAN)",
+            "formatting_function": "percentage"
+        },
+        "skan_total_add_to_cart": {
+            "label": "Total Add to Cart (SKAN)"
+        },
+        "skan_cost_per_total_add_to_cart": {
+            "label": "Cost per Add to Cart (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_total_add_to_cart_value": {
+            "label": "Total Add to Cart Value (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_checkout": {
+            "label": "Unique Checkout (SKAN)"
+        },
+        "skan_cost_per_checkout": {
+            "label": "Cost per Unique Checkout (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_checkout_rate": {
+            "label": "Unique Checkout Rate (SKAN)",
+            "formatting_function": "percentage"
+        },
+        "skan_total_checkout": {
+            "label": "Total Checkout (SKAN)"
+        },
+        "skan_cost_per_total_checkout": {
+            "label": "Cost per Checkout (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_total_checkout_value": {
+            "label": "Total Checkout Value (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_sales_lead": {
+            "label": "Unique Generate Lead (SKAN)"
+        },
+        "skan_cost_per_sales_lead": {
+            "label": "Cost per Unique Generate Lead (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_sales_lead_rate": {
+            "label": "Unique Generate Lead Rate (SKAN)",
+            "formatting_function": "percentage"
+        },
+        "skan_total_sales_lead": {
+            "label": "Total Generate Lead (SKAN)"
+        },
+        "skan_cost_per_total_sales_lead": {
+            "label": "Cost per Generate Lead (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_total_sales_lead_value": {
+            "label": "Total Generate Lead Value (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_vta_conversion": {
+            "label": "VTA Conversion (SKAN)"
+        },
+        "skan_cost_per_vta_conversion": {
+            "label": "Cost per VTA Conversion (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_vta_purchase": {
+            "label": "VTA Purchase (SKAN)"
+        },
+        "skan_cost_per_vta_purchase": {
+            "label": "Cost per VTA Purchase (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_cta_conversion": {
+            "label": "CTA Conversion (SKAN)"
+        },
+        "skan_cost_per_cta_conversion": {
+            "label": "Cost per CTA Conversion (SKAN)",
+            "formatting_function": "currency"
+        },
+        "skan_cta_purchase": {
+            "label": "CTA Purchase (SKAN)"
+        },
+        "skan_cost_per_cta_purchase": {
+            "label": "Cost per CTA Purchase (SKAN)"
+        },
+        "sales_lead": {
+            "label": "Unique Generate Lead"
+        },
+        "cost_per_sales_lead": {
+            "label": "Cost per Unique Generate Lead",
+            "formatting_function": "currency"
+        },
+        "sales_lead_rate": {
+            "label": "Generate Lead Rate (%)",
+            "formatting_function": "add_percentage"
+        },
+        "total_sales_lead": {
+            "label": "Generate Lead (Total No.)"
+        },
+        "cost_per_total_sales_lead": {
+            "label": "Cost per Generate Lead",
+            "formatting_function": "currency"
+        },
+        "value_per_total_sales_lead": {
+            "label": "Value per Generate Lead",
+            "formatting_function": "currency"
+        },
+        "total_sales_lead_value": {
+            "label": "Total Generate Lead Value",
+            "formatting_function": "currency"
+        },
+        "offline_shopping_events": {
+            "label": "Payments completed (offline)"
+        },
+        "cost_per_offline_shopping_event": {
+            "label": "Cost per complete payment (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_shopping_event_rate": {
+            "label": "Unique payment completion rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_shopping_event": {
+            "label": "Value per complete payment (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_shopping_events_value": {
+            "label": "Payment completion value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_shopping_events_roas": {
+            "label": "Payment completion ROAS (offline)",
+            "formatting_function": "currency"
+        },
+        "complete_payment_roas": {
+            "label": "Payment completion ROAS",
+            "formatting_function": "currency"
+        },
+        "complete_payment": {
+            "label": "Payments completed",
+            "formatting_function": "currency"
+        },
+        "cost_per_complete_payment": {
+            "label": "Cost per complete payment",
+            "formatting_function": "currency"
+        },
+        "complete_payment_rate": {
+            "label": "Unique payment completion rate",
+            "formatting_function": "currency"
+        },
+        "value_per_complete_payment": {
+            "label": "Value per complete payment",
+            "formatting_function": "currency"
+        },
+        "total_complete_payment_rate": {
+            "label": "Payment completion value",
+            "formatting_function": "currency"
+        },
+        "total_landing_page_view": {
+            "label": "Total Landing Page View"
+        },
+        "cost_per_landing_page_view": {
+            "label": "Cost per Landing Page View",
+            "formatting_function": "currency"
+        },
+        "landing_page_view_rate": {
+            "label": "Landing Page View Rate",
+            "formatting_function": "add_percentage"
+        },
+        "total_pageview": {
+            "label": "Total Page View"
+        },
+        "cost_per_pageview": {
+            "label": "Cost per Page View",
+            "formatting_function": "currency"
+        },
+        "pageview_rate": {
+            "label": "Page View Rate",
+            "formatting_function": "add_percentage"
+        },
+        "avg_value_per_pageview": {
+            "label": "Value per Page View",
+            "formatting_function": "currency"
+        },
+        "total_value_per_pageview": {
+            "label": "Total Page View Value",
+            "formatting_function": "currency"
+        },
+        "page_content_view_events": {
+            "label": "Content views"
+        },
+        "cost_per_page_content_view_event": {
+            "label": "Cost per content view",
+            "formatting_function": "currency"
+        },
+        "page_content_view_event_rate": {
+            "label": "Unique content view",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_page_content_view_event": {
+            "label": "Value per content view",
+            "formatting_function": "currency"
+        },
+        "total_page_view_content_events_value": {
+            "label": "Content view value",
+            "formatting_function": "currency"
+        },
+        "web_event_add_to_cart": {
+            "label": "Adds to cart (web)"
+        },
+        "cost_per_web_event_add_to_cart": {
+            "label": "Cost per add to cart (web)",
+            "formatting_function": "currency"
+        },
+        "web_event_add_to_cart_rate": {
+            "label": "Unique add to cart rate (web)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_web_event_add_to_cart": {
+            "label": "Value per add to cart (web)",
+            "formatting_function": "currency"
+        },
+        "total_web_event_add_to_cart_value": {
+            "label": "Add to cart value (web)",
+            "formatting_function": "currency"
+        },
+        "on_web_order": {
+            "label": "Orders placed"
+        },
+        "cost_per_on_web_order": {
+            "label": "Cost per order placed",
+            "formatting_function": "currency"
+        },
+        "on_web_order_rate": {
+            "label": "Unique orders placed",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_on_web_order": {
+            "label": "Value per order placed",
+            "formatting_function": "currency"
+        },
+        "total_on_web_order_value": {
+            "label": "Orders placed value",
+            "formatting_function": "currency"
+        },
+        "initiate_checkout": {
+            "label": "Checkouts initiated"
+        },
+        "cost_per_initiate_checkout": {
+            "label": "Cost per checkout initiated",
+            "formatting_function": "currency"
+        },
+        "initiate_checkout_rate": {
+            "label": "Unique checkout initiation rate",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_initiate_checkout": {
+            "label": "Value per checkout initiated",
+            "formatting_function": "currency"
+        },
+        "total_initiate_checkout_value": {
+            "label": "Checkout initiation value",
+            "formatting_function": "currency"
+        },
+        "on_web_add_to_wishlist": {
+            "label": "Adds to wishlist"
+        },
+        "cost_per_on_web_add_to_wishlist": {
+            "label": "Cost per add to wishlist",
+            "formatting_function": "currency"
+        },
+        "on_web_add_to_wishlist_per_click": {
+            "label": "Unique add to wishlist",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_on_web_add_to_wishlist": {
+            "label": "Value per add to wishlist",
+            "formatting_function": "currency"
+        },
+        "total_on_web_add_to_wishlist_value": {
+            "label": "Add to wishlist value",
+            "formatting_function": "currency"
+        },
+        "add_billing": {
+            "label": "Payment info adds"
+        },
+        "cost_per_add_billing": {
+            "label": "Cost per payment info add",
+            "formatting_function": "currency"
+        },
+        "add_billing_rate": {
+            "label": "Unique payment info add rate",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_add_billing": {
+            "label": "Value per payment info add",
+            "formatting_function": "currency"
+        },
+        "total_add_billing_value": {
+            "label": "Payment info add value",
+            "formatting_function": "currency"
+        },
+        "custom_page_events": {
+            "label": "Custom events"
+        },
+        "cost_per_custom_page_event": {
+            "label": "Cost per custom event",
+            "formatting_function": "currency"
+        },
+        "custom_page_event_rate": {
+            "label": "Custom event rate",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_custom_page_event": {
+            "label": "Value per custom event",
+            "formatting_function": "currency"
+        },
+        "custom_page_events_value": {
+            "label": "Custom event value",
+            "formatting_function": "currency"
+        },
+        "onsite_add_to_wishlist": {
+            "label": "Adds to wishlist (onsite)"
+        },
+        "cost_per_onsite_add_to_wishlist": {
+            "label": "Cost per add to wishlist (onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_add_to_wishlist_rate": {
+            "label": "Unique add to wishlist rate (onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_add_to_wishlist": {
+            "label": "Value per add to wishlist (onsite)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_add_to_wishlist_value": {
+            "label": "Add to wishlist value (onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_add_billing": {
+            "label": "Total Add Billing (Onsite)"
+        },
+        "cost_per_onsite_add_billing": {
+            "label": "Cost per Add Billing (Onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_add_billing_rate": {
+            "label": "Add Billing Rate (Onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_add_billing": {
+            "label": "Value per Add Billing (Onsite)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_add_billing_value": {
+            "label": "Total Add Billing Value (Onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_form": {
+            "label": "Form submissions (onsite)"
+        },
+        "cost_per_onsite_form": {
+            "label": "Cost per form submitted (onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_form_rate": {
+            "label": "Unique form submission rate (onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_form": {
+            "label": "Value per form submitted (onsite)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_form_value": {
+            "label": "Form submission value (onsite)",
+            "formatting_function": "currency"
+        },
+        "ix_page_view_count": {
+            "label": "Page Views (Onsite)"
+        },
+        "cost_per_ix_page_view_count": {
+            "label": "Cost per Page Views (Onsite)",
+            "formatting_function": "currency"
+        },
+        "ix_page_view_count_rate": {
+            "label": "Page Views Rate (Onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_shopping_roas": {
+            "label": "ROAS (Shop)"
+        },
+        "onsite_shopping": {
+            "label": "Purchases (Shop)"
+        },
+        "cost_per_onsite_shopping": {
+            "label": "Cost per purchase (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_shopping_rate": {
+            "label": "Purchase rate (Shop)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_shopping": {
+            "label": "Average order value (Shop)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_shopping_value": {
+            "label": "Gross revenue (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_initiate_checkout_count": {
+            "label": "Checkouts initiated (Shop)"
+        },
+        "cost_per_onsite_initiate_checkout_count": {
+            "label": "Cost per checkout initiated (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_initiate_checkout_count_rate": {
+            "label": "Checkout initiation rate (Shop)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_initiate_checkout_count": {
+            "label": "Value per checkout initiated (Shop)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_initiate_checkout_count_value": {
+            "label": "Checkout initiation value (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_on_web_detail": {
+            "label": "Product page views (Shop)"
+        },
+        "cost_per_onsite_on_web_detail": {
+            "label": "Cost per product page view (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_on_web_detail_rate": {
+            "label": "Product page view rate (Shop)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_on_web_detail": {
+            "label": "Value per product page view (Shop)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_on_web_detail_value": {
+            "label": "Product page view value (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_on_web_cart": {
+            "label": "Add to cart (Shop)"
+        },
+        "cost_per_onsite_on_web_cart": {
+            "label": "Cost per add to cart (Shop)",
+            "formatting_function": "currency"
+        },
+        "onsite_on_web_cart_rate": {
+            "label": "Add to cart rate (Shop)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_onsite_on_web_cart": {
+            "label": "Value per add to cart (Shop)",
+            "formatting_function": "currency"
+        },
+        "total_onsite_on_web_cart_value": {
+            "label": "Add to cart value (Shop)",
+            "formatting_function": "currency"
+        },
+        "engaged_view": {
+            "label": "6-second focused views"
+        },
+        "engaged_view_15s": {
+            "label": "15-second focused views"
+        },
+        "clicks_on_music_disc": {
+            "label": "Sound clicks"
+        },
+        "stitch_clicks": {
+            "label": "Stitch button clicks"
+        },
+        "sound_usage_clicks": {
+            "label": "Use sound button clicks"
+        },
+        "anchor_clicks": {
+            "label": "Anchor clicks"
+        },
+        "anchor_click_rate": {
+            "label": "Anchor click rate",
+            "formatting_function": "add_percentage"
+        },
+        "clicks_on_hashtag_challenge": {
+            "label": "Hashtag clicks"
+        },
+        "live_views": {
+            "label": "LIVE views"
+        },
+        "live_unique_views": {
+            "label": "LIVE unique views"
+        },
+        "live_effective_views": {
+            "label": "10-second LIVE views"
+        },
+        "live_product_clicks": {
+            "label": "LIVE Product Clicks"
+        },
+        "real_time_app_install": {
+            "label": "Real-time App Install"
+        },
+        "real_time_app_install_cost": {
+            "label": "Cost per Real-time App Install",
+            "formatting_function": "currency"
+        },
+        "app_install": {
+            "label": "App Install"
+        },
+        "cost_per_app_install": {
+            "label": "Cost per App Install",
+            "formatting_function": "currency"
+        },
+        "registration": {
+            "label": "Unique registrations (app)"
+        },
+        "cost_per_registration": {
+            "label": "Unique cost per registration (app)",
+            "formatting_function": "currency"
+        },
+        "registration_rate": {
+            "label": "Unique registration rate (app)",
+            "formatting_function": "add_percentage"
+        },
+        "total_registration": {
+            "label": "Registrations (app)"
+        },
+        "cost_per_total_registration": {
+            "label": "Cost per registration (app)",
+            "formatting_function": "currency"
+        },
+        "view_content": {
+            "label": "Unique content views (app)"
+        },
+        "cost_per_view_content": {
+            "label": "Unique cost per content view (app)",
+            "formatting_function": "currency"
+        },
+        "view_content_rate": {
+            "label": "Unique content view rate (app)",
+            "formatting_function": "add_percentage"
+        },
+        "total_view_content": {
+            "label": "Content views (app)",
+            "formatting_function": "currency"
+        },
+        "cost_per_total_view_content": {
+            "label": "Cost per content view (app)",
+            "formatting_function": "currency"
+        },
+        "value_per_total_view_content": {
+            "label": "Value per content view (app)",
+            "formatting_function": "currency"
+        },
+        "total_view_content_value": {
+            "label": "Content view value (app)",
+            "formatting_function": "currency"
+        },
+        "add_payment_info": {
+            "label": "Unique payment info adds (app)"
+        },
+        "cost_per_add_payment_info": {
+            "label": "Unique cost per payment info add (app)",
+            "formatting_function": "currency"
+        },
+        "add_payment_info_rate": {
+            "label": "Unique payment info add rate (app)",
+            "formatting_function": "add_percentage"
+        },
+        "total_add_payment_info": {
+            "label": "Payment info adds (app)",
+            "formatting_function": "currency"
+        },
+        "cost_total_add_payment_info": {
+            "label": "Cost per payment info add (app)",
+            "formatting_function": "currency"
+        },
+        "add_to_wishlist": {
+            "label": "Unique adds to wishlist (app)"
+        },
+        "cost_per_add_to_wishlist": {
+            "label": "Unique cost per add to wishlist (app)",
+            "formatting_function": "currency"
+        },
+        "add_to_wishlist_rate": {
+            "label": "Unique add to wishlist rate (app)",
+            "formatting_function": "add_percentage"
+        },
+        "total_add_to_wishlist": {
+            "label": "Adds to wishlist (app)"
+        },
+        "cost_per_total_add_to_wishlist": {
+            "label": "Cost per add to wishlist (app)",
+            "formatting_function": "currency"
+        },
+        "value_per_total_add_to_wishlist": {
+            "label": "Value per add to wishlist (app)",
+            "formatting_function": "currency"
+        },
+        "total_add_to_wishlist_value": {
+            "label": "Add to wishlist value (app)",
+            "formatting_function": "currency"
+        },
+        "online_consult": {
+            "label": "Contacts (page)"
+        },
+        "cost_per_online_consult": {
+            "label": "Cost per contact (page)",
+            "formatting_function": "currency"
+        },
+        "online_consult_rate": {
+            "label": "Value per contact (page)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_online_consult": {
+            "label": "Contact value (page)",
+            "formatting_function": "currency"
+        },
+        "total_online_consult_value": {
+            "label": "Unique contact rate (page)",
+            "formatting_function": "currency"
+        },
+        "user_registration": {
+            "label": "Registrations completed (page)"
+        },
+        "cost_per_user_registration": {
+            "label": "Cost per complete registration (page)",
+            "formatting_function": "currency"
+        },
+        "user_registration_rate": {
+            "label": "Unique registration completion rate (page)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_user_registration": {
+            "label": "Value per complete registration (page)",
+            "formatting_function": "currency"
+        },
+        "total_user_registration_value": {
+            "label": "Registration completion value (page)",
+            "formatting_function": "currency"
+        },
+        "form": {
+            "label": "Form submissions (page)"
+        },
+        "cost_per_form": {
+            "label": "Cost per form submitted (page)",
+            "formatting_function": "currency"
+        },
+        "form_rate": {
+            "label": "Unique form submission rate (page)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_form": {
+            "label": "Value per form submitted (page)",
+            "formatting_function": "currency"
+        },
+        "total_form_value": {
+            "label": "Form submission value (page)",
+            "formatting_function": "currency"
+        },
+        "download_start": {
+            "label": "Downloads (page)"
+        },
+        "cost_per_download_start": {
+            "label": "Cost per download (page)",
+            "formatting_function": "currency"
+        },
+        "download_start_rate": {
+            "label": "Unique download rate (page)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_download_start": {
+            "label": "Value per download (page)",
+            "formatting_function": "currency"
+        },
+        "total_download_start_value": {
+            "label": "Download value (page)",
+            "formatting_function": "currency"
+        },
+        "on_web_subscribe": {
+            "label": "Downloads (page)"
+        },
+        "cost_per_on_web_subscribe": {
+            "label": "Cost per download (page)",
+            "formatting_function": "currency"
+        },
+        "on_web_subscribe_per_click": {
+            "label": "Unique download rate (page)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_on_web_subscribe": {
+            "label": "Value per download (page)",
+            "formatting_function": "currency"
+        },
+        "total_on_web_subscribe_value": {
+            "label": "Download value (page)",
+            "formatting_function": "currency"
+        },
+        "onsite_download_start": {
+            "label": "Total App Store Click (Onsite)"
+        },
+        "cost_per_onsite_download_start": {
+            "label": "Cost per App Store Click (Onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_download_start_rate": {
+            "label": "App Store Click Rate (Onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "onsite_destination_visits": {
+            "label": "Total Destination Visit (Onsite)"
+        },
+        "cost_per_onsite_destination_visit": {
+            "label": "Cost per Destination Visit (Onsite)",
+            "formatting_function": "currency"
+        },
+        "onsite_destination_visit_rate": {
+            "label": "Destination Visit Rate (Onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "ix_button_click_count": {
+            "label": "Outbound clicks (Onsite)"
+        },
+        "cost_per_ix_button_click_count": {
+            "label": "Cost per call-to-action button clicks (Onsite)",
+            "formatting_function": "currency"
+        },
+        "ix_button_click_count_rate": {
+            "label": "Call-to-action button clicks rate (Onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "ix_product_click_count": {
+            "label": "Product Clicks (Instant Experience)"
+        },
+        "cost_per_ix_product_click_count": {
+            "label": "Cost per Product Clicks (Onsite)",
+            "formatting_function": "currency"
+        },
+        "ix_product_click_count_rate": {
+            "label": "Product Clicks Rate (Onsite)",
+            "formatting_function": "add_percentage"
+        },
+        "offline_contact_events": {
+            "label": "Contacts (offline)"
+        },
+        "cost_per_offline_contact_event": {
+            "label": "Cost per contact (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_contact_event_rate": {
+            "label": "Unique contact rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_contact_event": {
+            "label": "Value per contact (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_contact_events_value": {
+            "label": "Contact value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_subscribe_events": {
+            "label": "Subscriptions (offline)"
+        },
+        "cost_per_offline_subscribe_event": {
+            "label": "Cost per subscription (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_subscribe_event_rate": {
+            "label": "Unique subscription rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_subscribe_event": {
+            "label": "Value per subscription (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_subscribe_events_value": {
+            "label": "Subscription value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_form_events": {
+            "label": "Form submissions (offline)"
+        },
+        "cost_per_offline_form_event": {
+            "label": "Cost per form submitted (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_form_event_rate": {
+            "label": "Unique form submission rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_form_event": {
+            "label": "Value per form submitted (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_form_events_value": {
+            "label": "Payment info add value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_payment_info_events": {
+            "label": "Payment info adds (offline)"
+        },
+        "cost_per_offline_add_payment_info_event": {
+            "label": "Cost per payment info add (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_payment_info_event_rate": {
+            "label": "Unique payment info add rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_add_payment_info_event": {
+            "label": "Value per payment info add (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_to_cart_events": {
+            "label": "Adds to cart (offline)"
+        },
+        "cost_per_offline_add_to_cart_event": {
+            "label": "Cost per add to cart (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_to_cart_event_rate": {
+            "label": "Unique add to cart rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_add_to_cart_event": {
+            "label": "Value per add to cart (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_to_cart_events_value": {
+            "label": "Add to cart value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_to_wishlist_events": {
+            "label": "Adds to wishlist (offline)"
+        },
+        "cost_per_offline_add_to_wishlist_event": {
+            "label": "Cost per add to wishlist (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_to_wishlist_event_rate": {
+            "label": "Unique add to wishlist rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_add_to_wishlist_event": {
+            "label": "Value per add to wishlist (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_add_to_wishlist_events_value": {
+            "label": "Add to wishlist value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_click_button_events": {
+            "label": "Button clicks (offline)"
+        },
+        "cost_per_offline_click_button_event": {
+            "label": "Cost per button click (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_click_button_event_rate": {
+            "label": "Unique button click rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_click_button_event": {
+            "label": "Value per button click (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_click_button_events_value": {
+            "label": "Button click value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_complete_registration_events": {
+            "label": "Registrations completed (offline)"
+        },
+        "cost_per_offline_complete_registration_event": {
+            "label": "Cost per complete registration (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_complete_registration_event_rate": {
+            "label": "Unique registration completion rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_complete_registration_event": {
+            "label": "Value per complete registration (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_complete_registration_events_value": {
+            "label": "Registration completion value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_download_events": {
+            "label": "Downloads (offline)"
+        },
+        "cost_per_offline_download_event": {
+            "label": "Cost per download (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_download_event_rate": {
+            "label": "Unique download rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_download_event": {
+            "label": "Value per download (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_download_events_value": {
+            "label": "Download value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_initiate_checkout_events": {
+            "label": "Checkouts initiated (offline)"
+        },
+        "cost_per_offline_initiate_checkout_event": {
+            "label": "Cost per checkout initiated (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_initiate_checkout_event_rate": {
+            "label": "Unique checkout initiation rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_initiate_checkout_event": {
+            "label": "Value per checkout initiated (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_initiate_checkout_events_value": {
+            "label": "Checkout initiation value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_place_order_events": {
+            "label": "Orders placed (offline)"
+        },
+        "cost_per_offline_place_order_event": {
+            "label": "Cost per order placed (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_place_order_event_rate": {
+            "label": "Unique orders placed rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_place_order_event": {
+            "label": "Value per order placed (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_place_order_events_value": {
+            "label": "Orders placed value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_search_events": {
+            "label": "Searches (offline)"
+        },
+        "cost_per_offline_search_event": {
+            "label": "Cost per search (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_search_event_rate": {
+            "label": "Unique search rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_search_event": {
+            "label": "Value per search (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_search_events_value": {
+            "label": "Search value (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_view_content_events": {
+            "label": "Content views (offline)"
+        },
+        "cost_per_offline_view_content_event": {
+            "label": "Cost per content view (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_view_content_event_rate": {
+            "label": "Unique content view rate (offline)",
+            "formatting_function": "add_percentage"
+        },
+        "value_per_offline_view_content_event": {
+            "label": "Value per content view (offline)",
+            "formatting_function": "currency"
+        },
+        "offline_view_content_events_value": {
+            "label": "Content view value (offline)",
+            "formatting_function": "currency"
+        }
+    },
+    "dimensions": {
+        "campaign_id": {
+            "label": "Campaign",
+            "options": [
+                "align_left"
+            ],
+            "formatting_function": "capitalize"
+        },
+        "stat_time_day": {
+            "label": "Dia",
+            "options": [
+                "align_left"
+            ]
+        },
+        "platform": {
+            "label": "Plataforma",
+            "options": [
+                "align_left"
+            ],
+            "formatting_function": "capitalize"
+        },
+        "country_code": {
+            "label": "Country",
+            "options": [
+                "align_left"
+            ],
+            "formatting_function": "capitalize"
+        }
+    }
+}

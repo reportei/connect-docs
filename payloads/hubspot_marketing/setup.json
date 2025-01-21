@@ -1,0 +1,181 @@
+{
+    "metrics": {
+        "stats.counters.sent": {
+            "label": "Sent"
+        },
+        "stats.counters.delivered": {
+            "label": "Delivered"
+        },
+        "stats.counters.open": {
+            "label": "Open"
+        },
+        "stats.counters.click": {
+            "label": "Click"
+        },
+        "stats.counters.spamreport": {
+            "label": "Spam report"
+        },
+        "stats.counters.hardbounced": {
+            "label": "Hard bounced"
+        },
+        "stats.counters.unsubscribed": {
+            "label": "Unsubscribed"
+        },
+        "openratio": {
+            "label": "Open rate",
+            "formatting_function": "percentage"
+        },
+        "deliveredratio": {
+            "label": "Delivered rate",
+            "formatting_function": "percentage"
+        },
+        "clickratio": {
+            "label": "Click rate",
+            "formatting_function": "percentage"
+        },
+        "clickthroughratio": {
+            "label": "Clickthrough rate",
+            "formatting_function": "percentage"
+        },
+        "unsubscribedratio": {
+            "label": "Unsubscribed rate",
+            "formatting_function": "percentage"
+        },
+        "hardbounceratio": {
+            "label": "Hard bounced rate",
+            "formatting_function": "percentage"
+        },
+        "spamreportratio": {
+            "label": "Spam report rate",
+            "formatting_function": "percentage"
+        },
+        "visits": {
+            "label": "Sessions"
+        },
+        "leads": {
+            "label": "Customers"
+        },
+        "rawViews": {
+            "label": "Views"
+        },
+        "contacts": {
+            "label": "Contacts"
+        },
+        "bounceRate": {
+            "label": "Bounce rate",
+            "formatting_function": "percentage"
+        },
+        "visitors": {
+            "label": "Visitors"
+        },
+        "sessionToContactRate": {
+            "label": "Session to contact rate",
+            "formatting_function": "percentage"
+        },
+        "newVisitorSessionRate": {
+            "label": "New visitors session rate",
+            "formatting_function": "percentage"
+        },
+        "timePerSession": {
+            "label": "Time per session",
+            "formatting_function": "seconds_to_minutes"
+        },
+        "contactsPerPageview": {
+            "label": "Contacts per pageview"
+        },
+        "pageviewsPerSession": {
+            "label": "Pageviews per session"
+        },
+        "subscribers": {
+            "label": "Subscribers"
+        },
+        "nonContactSubmissions": {
+            "label": "New contacts"
+        },
+        "desktop": {
+            "label": "Desktop"
+        },
+        "mobile": {
+            "label": "Mobile"
+        },
+        "others": {
+            "label": "Others device"
+        },
+        "entrances": {
+            "label": "Entrances"
+        },
+        "timePerPageview": {
+            "label": "Time per pageview",
+            "formatting_function": "seconds_to_minutes"
+        },
+        "pageBounceRate": {
+            "label": "Page bounce rate",
+            "formatting_function": "percentage"
+        },
+        "formViews": {
+            "label": "Form views"
+        },
+        "submissionratio": {
+            "label": "Submissions rate",
+            "formatting_function": "percentage"
+        },
+        "submissions": {
+            "label": "Submissions"
+        },
+        "lastedmodified": {
+            "label": "Lasted modified",
+            "formatting_function": "unix_epoch_time_to_client_date",
+            "isDate": true
+        }
+    },
+    "dimensions": {
+        "emails": {
+            "label": "Email",
+            "options": [
+                "align_left"
+            ]
+        },
+        "source": {
+            "label": "Source",
+            "options": [
+                "align_left"
+            ]
+        },
+        "date": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        },
+        "countries": {
+            "label": "Countries",
+            "options": [
+                "align_left"
+            ]
+        },
+        "device": {
+            "label": "Device",
+            "options": [
+                "align_left"
+            ]
+        },
+        "utm_campaigns": {
+            "label": "Utm campaigns",
+            "options": [
+                "align_left"
+            ]
+        },
+        "top_pages": {
+            "label": "Pages",
+            "options": [
+                "align_left"
+            ]
+        },
+        "forms_name": {
+            "label": "Forms",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

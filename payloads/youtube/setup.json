@@ -1,0 +1,87 @@
+{
+    "metrics": {
+        "views": {
+            "label": "Views"
+        },
+        "likes": {
+            "label": "Likes"
+        },
+        "dislikes": {
+            "label": "Dislikes"
+        },
+        "comments": {
+            "label": "Comments"
+        },
+        "shares": {
+            "label": "Shares"
+        },
+        "subscribersGained": {
+            "label": "New subscriptions"
+        },
+        "subscribersLost": {
+            "label": "Lost subscriptions"
+        },
+        "estimatedMinutesWatched": {
+            "label": "Total time watched",
+            "formatting_function": "minutes_to_hours"
+        },
+        "averageViewPercentage": {
+            "label": "Average % of video watched",
+            "formatting_function": "add_percentage"
+        },
+        "averageViewDuration": {
+            "label": "Average view duration",
+            "formatting_function": "seconds_to_minutes"
+        },
+        "viewerPercentage": {
+            "label": "Viewers percentage",
+            "formatting_function": "add_percentage"
+        },
+        "viewCount": {
+            "label": "Channel's views"
+        },
+        "subscriberCount": {
+            "label": "Channel's subscriptions"
+        },
+        "videoCount": {
+            "label": "Channel's videos"
+        },
+        "publishedAt": {
+            "label": "Published at",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        }
+    },
+    "dimensions": {
+        "video": {
+            "label": "Video",
+            "options": [
+                "align_left"
+            ]
+        },
+        "country": {
+            "label": "Country",
+            "options": [
+                "align_left"
+            ]
+        },
+        "ageGroup": {
+            "label": "Age",
+            "options": [
+                "align_left"
+            ]
+        },
+        "gender": {
+            "label": "Gender",
+            "options": [
+                "align_left"
+            ]
+        },
+        "day": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

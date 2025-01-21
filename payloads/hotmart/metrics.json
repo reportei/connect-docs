@@ -1,0 +1,198 @@
+{
+    "metrics": [
+        {
+            "reference_key": "ht:campaigns",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "campaigns"
+            ],
+            "widgets": []
+        },
+        {
+            "metrics": [
+                "final_revenue_usd"
+            ],
+            "reference_key": "ht:final_revenue_usd",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "final_revenue_brl"
+            ],
+            "reference_key": "ht:final_revenue_brl",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "revenue_usd"
+            ],
+            "reference_key": "ht:revenue_usd",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "revenue_brl"
+            ],
+            "reference_key": "ht:revenue_brl",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "chargeback_usd"
+            ],
+            "reference_key": "ht:chargeback_usd",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "chargeback_brl"
+            ],
+            "reference_key": "ht:chargeback_brl",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "canceled_usd"
+            ],
+            "reference_key": "ht:canceled_usd",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "canceled_brl"
+            ],
+            "reference_key": "ht:canceled_brl",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "refunded_chargeback_usd"
+            ],
+            "reference_key": "ht:refunded_chargeback_usd",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "refunded_chargeback_brl"
+            ],
+            "reference_key": "ht:refunded_chargeback_brl",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "refunded_usd"
+            ],
+            "reference_key": "ht:refunded_usd",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "refunded_brl"
+            ],
+            "reference_key": "ht:refunded_brl",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "sales_count"
+            ],
+            "reference_key": "ht:complete_count",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "canceled_sales_count"
+            ],
+            "reference_key": "ht:canceled_sales_count",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "chargeback_count"
+            ],
+            "reference_key": "ht:chargeback_count",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "final_sales_amount"
+            ],
+            "reference_key": "ht:final_sales_amount",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "refunded_sales_count"
+            ],
+            "reference_key": "ht:refunded_sales_count",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "total_refunded_sales_count"
+            ],
+            "reference_key": "ht:total_refunded_sales_count",
+            "component": "number_v1"
+        },
+        {
+            "metrics": [
+                "sales_count"
+            ],
+            "reference_key": "ht:purchases_by_product",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "dimensions": [
+                "product"
+            ]
+        },
+        {
+            "metrics": [
+                "sales_count"
+            ],
+            "reference_key": "ht:purchases_over_time",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "metrics": [
+                "revenue_usd"
+            ],
+            "reference_key": "ht:revenue_over_time_usd",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "metrics": [
+                "revenue_brl"
+            ],
+            "reference_key": "ht:revenue_over_time_brl",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "metrics": [
+                "sales_count",
+                "sales_rate",
+                "revenue_brl",
+                "revenue_brl_rate",
+                "revenue_usd",
+                "revenue_usd_rate"
+            ],
+            "reference_key": "ht:revenue_by_product",
+            "component": "datatable_v1",
+            "dimensions": [
+                "product.name"
+            ]
+        }
+    ]
+}

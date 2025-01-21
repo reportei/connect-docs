@@ -1,0 +1,96 @@
+{
+    "metrics": {
+        "total_contacts": {
+            "label": "Total contacts"
+        },
+        "total_subscriptions": {
+            "label": "Total subscriptions"
+        },
+        "total_unsubscriptions": {
+            "label": "Total unsubscriptions"
+        },
+        "sent_emails": {
+            "label": "Sent emails"
+        },
+        "total_email_openings": {
+            "label": "Total opened emails"
+        },
+        "unique_email_openings": {
+            "label": "Unique opened emails"
+        },
+        "clicks": {
+            "label": "Clicks"
+        },
+        "unique_clicks": {
+            "label": "Unique clicks"
+        },
+        "hard_bounces": {
+            "label": "Hard bounces"
+        },
+        "soft_bounces": {
+            "label": "Soft bounces"
+        },
+        "complaints": {
+            "label": "Complaints"
+        },
+        "email_unsubscriptions": {
+            "label": "Email unsubscriptions"
+        },
+        "email_openings_rate": {
+            "label": "Opened emails rate"
+        },
+        "unique_email_openings_rate": {
+            "label": "Unique opened emails rate"
+        },
+        "clicks_rate": {
+            "label": "Clicks rate"
+        },
+        "unique_clicks_rate": {
+            "label": "Unique clicks rate"
+        },
+        "hard_bounces_rate": {
+            "label": "Hard bounces rate"
+        },
+        "complaints_rate": {
+            "label": "Complaints rate"
+        },
+        "email_unsubscriptions_rate": {
+            "label": "Email unsubscriptions rate"
+        },
+        "delivered_emails": {
+            "label": "Delivered emails"
+        }
+    },
+    "dimensions": {
+        "contact": {
+            "label": "Contact",
+            "options": [
+                "align_left"
+            ]
+        },
+        "email": {
+            "label": "Email",
+            "options": [
+                "align_left"
+            ]
+        },
+        "sms": {
+            "label": "Sms",
+            "options": [
+                "align_left"
+            ]
+        },
+        "web_push": {
+            "label": "Web push",
+            "options": [
+                "align_left"
+            ]
+        },
+        "automation": {
+            "label": "Automation",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

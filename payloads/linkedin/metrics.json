@@ -1,0 +1,184 @@
+{
+    "metrics": [
+        {
+            "reference_key": "li:followers",
+            "component": "number_v1",
+            "metrics": [
+                "followers"
+            ]
+        },
+        {
+            "reference_key": "li:followers_total",
+            "component": "number_v1",
+            "metrics": [
+                "followers_total"
+            ]
+        },
+        {
+            "reference_key": "li:impressions",
+            "component": "number_v1",
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "li:engagement",
+            "component": "number_v1",
+            "metrics": [
+                "engagement"
+            ]
+        },
+        {
+            "reference_key": "li:comments",
+            "component": "number_v1",
+            "metrics": [
+                "comments_total"
+            ]
+        },
+        {
+            "reference_key": "li:shares",
+            "component": "number_v1",
+            "metrics": [
+                "shares_total"
+            ]
+        },
+        {
+            "reference_key": "li:reach",
+            "component": "number_v1",
+            "metrics": [
+                "reach"
+            ]
+        },
+        {
+            "reference_key": "li:posts_total",
+            "component": "number_v1",
+            "metrics": [
+                "posts_total"
+            ]
+        },
+        {
+            "reference_key": "li:followers_history",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "followers_history"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "li:page_views_history",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "views_history"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "li:impressions_history",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "impressions_history"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "li:posts",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "shares",
+                "likes",
+                "clicks",
+                "comments",
+                "engagement",
+                "created_at"
+            ],
+            "dimensions": [
+                "posts"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "li:followers_by_region",
+            "component": "datatable_v1",
+            "metrics": [
+                "followers"
+            ],
+            "dimensions": [
+                "region"
+            ],
+            "sort": [
+                "-followers"
+            ]
+        },
+        {
+            "reference_key": "li:followers_by_industry",
+            "component": "datatable_v1",
+            "metrics": [
+                "followers"
+            ],
+            "dimensions": [
+                "industry"
+            ],
+            "sort": [
+                "-followers"
+            ]
+        },
+        {
+            "reference_key": "li:followers_by_function",
+            "component": "datatable_v1",
+            "metrics": [
+                "followers"
+            ],
+            "dimensions": [
+                "function"
+            ],
+            "sort": [
+                "-followers"
+            ]
+        },
+        {
+            "reference_key": "li:total_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "clicks_total"
+            ]
+        },
+        {
+            "reference_key": "li:total_likes",
+            "component": "number_v1",
+            "metrics": [
+                "likes_total"
+            ]
+        },
+        {
+            "reference_key": "li:all_posts",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "shares",
+                "likes",
+                "clicks",
+                "comments",
+                "engagement",
+                "created_at"
+            ],
+            "dimensions": [
+                "posts"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        }
+    ]
+}

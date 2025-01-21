@@ -1,0 +1,132 @@
+{
+    "metrics": {
+        "uniqueopens": {
+            "label": "Unique Opens"
+        },
+        "opens_rate": {
+            "label": "Open Rate",
+            "formatting_function": "percentage"
+        },
+        "send_amt": {
+            "label": "Total Sends"
+        },
+        "uniquelinkclicks": {
+            "label": "Unique Clicks"
+        },
+        "linkclicks": {
+            "label": "Total Clicks on Links"
+        },
+        "linkclicks_rate": {
+            "label": "Link Clicks Rate",
+            "formatting_function": "percentage"
+        },
+        "unsubscribes": {
+            "label": "Unsubscribes"
+        },
+        "hardbounces": {
+            "label": "Total Bounced"
+        },
+        "hardbounces_rate": {
+            "label": "Bounces Rate",
+            "formatting_function": "percentage"
+        },
+        "replies": {
+            "label": "Total Replies"
+        },
+        "created_deals": {
+            "label": "Deals created"
+        },
+        "won": {
+            "label": "Deals Won"
+        },
+        "lost": {
+            "label": "Lost Deals"
+        },
+        "value": {
+            "label": "Total value of deals created",
+            "formatting_function": "currency"
+        },
+        "average_value": {
+            "label": "Average value of deals created",
+            "formatting_function": "currency"
+        },
+        "won_value": {
+            "label": "Total Value of Won Deals",
+            "formatting_function": "currency"
+        },
+        "average_won_value": {
+            "label": "Average value of won deals",
+            "formatting_function": "currency"
+        },
+        "lost_value": {
+            "label": "Total Value of Lost Deals",
+            "formatting_function": "currency"
+        },
+        "average_lost_value": {
+            "label": "Average Values of Lost Deals",
+            "formatting_function": "currency"
+        },
+        "entries": {
+            "label": "Total Entries"
+        },
+        "average_entries": {
+            "label": "Average Entries"
+        },
+        "total_contacts": {
+            "label": "Total Contacts"
+        },
+        "new_contacts": {
+            "label": "New Contacts"
+        },
+        "contacts_over_time": {
+            "label": "Contacts Over Time"
+        },
+        "total_deals": {
+            "label": "Total Deals"
+        },
+        "won_deals": {
+            "label": "Deals Won"
+        },
+        "lost_deals": {
+            "label": "Lost Deals"
+        },
+        "status": {
+            "label": "Status"
+        },
+        "contactAutomations": {
+            "label": "Contacts"
+        },
+        "goals": {
+            "label": "Goals"
+        },
+        "campaigns": {
+            "label": "Campaigns"
+        },
+        "deals_over_time": {
+            "label": "Deals Over Time"
+        },
+        "deals_by_value": {
+            "label": "Deals by Value Range"
+        },
+        "unsubscribes_rate": {
+            "0": "Unsubscribes Rate",
+            "formatting_function": "percentage"
+        },
+        "forwards_rate": {
+            "0": "Forwards Rate",
+            "formatting_function": "percentage"
+        },
+        "name": {
+            "label": "Name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "cdate": {
+            "label": "Created at",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        }
+    },
+    "dimensions": []
+}

@@ -1,0 +1,157 @@
+{
+    "metrics": [
+        {
+            "reference_key": "pinterest:impressions",
+            "component": "number_v1",
+            "dimensions": [
+                "user"
+            ],
+            "metrics": [
+                "impression"
+            ]
+        },
+        {
+            "reference_key": "pinterest:engagement",
+            "component": "number_v1",
+            "dimensions": [
+                "user"
+            ],
+            "metrics": [
+                "engagement"
+            ]
+        },
+        {
+            "reference_key": "pinterest:engagement_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "user"
+            ],
+            "metrics": [
+                "engagement_rate"
+            ]
+        },
+        {
+            "reference_key": "pinterest:clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "user"
+            ],
+            "metrics": [
+                "pin_click"
+            ]
+        },
+        {
+            "reference_key": "pinterest:clicks_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "user"
+            ],
+            "metrics": [
+                "pin_click_rate"
+            ]
+        },
+        {
+            "reference_key": "pinterest:saved",
+            "component": "number_v1",
+            "dimensions": [
+                "user"
+            ],
+            "metrics": [
+                "save"
+            ]
+        },
+        {
+            "reference_key": "pinterest:pins",
+            "component": "datatable_v1",
+            "metrics": [
+                "description",
+                "impression",
+                "save",
+                "created_at"
+            ],
+            "dimensions": [
+                "board_pin"
+            ],
+            "sort": [
+                "-impression"
+            ]
+        },
+        {
+            "reference_key": "pinterest:total_pins",
+            "component": "number_v1",
+            "dimensions": [
+                "pins"
+            ],
+            "metrics": [
+                "total_pins"
+            ]
+        },
+        {
+            "reference_key": "pinterest:total_period_pins",
+            "component": "number_v1",
+            "dimensions": [
+                "pins"
+            ],
+            "metrics": [
+                "total_period_pins"
+            ]
+        },
+        {
+            "reference_key": "pinterest:total_boards",
+            "component": "number_v1",
+            "dimensions": [
+                "boards"
+            ],
+            "metrics": [
+                "total_boards"
+            ]
+        },
+        {
+            "reference_key": "pinterest:impressions_by_pin_format",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "dimensions": [
+                "pin_format"
+            ],
+            "metrics": [
+                "impression"
+            ]
+        },
+        {
+            "reference_key": "pinterest:impressions_by_platform",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "dimensions": [
+                "app_type"
+            ],
+            "metrics": [
+                "impression"
+            ]
+        },
+        {
+            "reference_key": "pinterest:engagement_by_pin_format",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "dimensions": [
+                "pin_format"
+            ],
+            "metrics": [
+                "engagement"
+            ]
+        },
+        {
+            "reference_key": "pinterest:boards",
+            "component": "datatable_v1",
+            "metrics": [
+                "pin_count",
+                "save"
+            ],
+            "dimensions": [
+                "boards"
+            ],
+            "sort": [
+                "-pin_count"
+            ]
+        }
+    ]
+}

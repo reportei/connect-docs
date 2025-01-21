@@ -1,0 +1,91 @@
+{
+    "metrics": {
+        "pipeline_deals_funnel": {
+            "label": "Deals funnel"
+        },
+        "created_contacts": {
+            "label": "Created contact"
+        },
+        "assigned_contacts": {
+            "label": "Assigned contacts"
+        },
+        "worked_contacts": {
+            "label": "Worked contacts"
+        },
+        "unworked_contacts": {
+            "label": "Unworked contacts"
+        },
+        "created_deals": {
+            "label": "New created deals"
+        },
+        "closed_deals": {
+            "label": "Closed deals"
+        },
+        "lost_deals": {
+            "label": "Lost deals"
+        },
+        "closed_rate_deals": {
+            "label": "Deals closing rate",
+            "formatting_function": "percentage"
+        },
+        "lost_rate_deals": {
+            "label": "Deals loss rate",
+            "formatting_function": "percentage"
+        },
+        "total_amount_deals": {
+            "label": "Total revenue",
+            "formatting_function": "currency"
+        },
+        "average_amount_deals": {
+            "label": "Average total value of closed deals",
+            "formatting_function": "currency"
+        },
+        "completed_tasks": {
+            "label": "Completed tasks"
+        },
+        "unstarted_tasks": {
+            "label": "Unstarted tasks"
+        },
+        "completed_calls": {
+            "label": "Completed calls"
+        },
+        "calls_duration": {
+            "label": "Calls duration"
+        },
+        "scheduled_meetings": {
+            "label": "Scheduled meetings"
+        },
+        "count_activities": {
+            "label": "Count activities"
+        },
+        "held_meetings": {
+            "label": "Held meetings"
+        }
+    },
+    "dimensions": {
+        "reason": {
+            "label": "Reason",
+            "options": [
+                "align_left"
+            ]
+        },
+        "type_tasks": {
+            "label": "Activities",
+            "options": [
+                "align_left"
+            ]
+        },
+        "owner": {
+            "label": "Owner",
+            "options": [
+                "align_left"
+            ]
+        },
+        "delegate": {
+            "label": "Representative",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

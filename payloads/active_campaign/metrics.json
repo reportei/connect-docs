@@ -1,0 +1,438 @@
+{
+    "metrics": [
+        {
+            "reference_key": "active_campaigns:opens",
+            "metrics": [
+                "uniqueopens"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:opens_rate",
+            "metrics": [
+                "opens_rate"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:send",
+            "metrics": [
+                "send_amt"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:unique_clicks",
+            "metrics": [
+                "uniquelinkclicks"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:clicks",
+            "metrics": [
+                "linkclicks"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:clicks_rate",
+            "metrics": [
+                "linkclicks_rate"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:unsubscribes",
+            "metrics": [
+                "unsubscribes"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:bounces",
+            "metrics": [
+                "hardbounces"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:bounces_rate",
+            "metrics": [
+                "hardbounces_rate"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:replies",
+            "metrics": [
+                "replies"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:created_deals",
+            "metrics": [
+                "created_deals"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:won_deals",
+            "metrics": [
+                "won"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:lost_deals",
+            "metrics": [
+                "lost"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:deals_values_brl",
+            "metrics": [
+                "value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "brl",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:deals_values_usd",
+            "metrics": [
+                "value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "usd",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_deals_values_brl",
+            "metrics": [
+                "average_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "brl",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_deals_values_usd",
+            "metrics": [
+                "average_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "usd",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:won_deals_values_brl",
+            "metrics": [
+                "won_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "brl",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:won_deals_values_usd",
+            "metrics": [
+                "won_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "usd",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_won_deals_values_brl",
+            "metrics": [
+                "average_won_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "brl",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_won_deals_values_usd",
+            "metrics": [
+                "average_won_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "usd",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:lost_deals_values_brl",
+            "metrics": [
+                "lost_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "brl",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:lost_deals_values_usd",
+            "metrics": [
+                "lost_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "usd",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_lost_deals_values_brl",
+            "metrics": [
+                "average_lost_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "brl",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_lost_deals_values_usd",
+            "metrics": [
+                "average_lost_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "currency": "usd",
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:total_entries",
+            "metrics": [
+                "entries"
+            ],
+            "dimensions": [
+                "forms"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:average_entries",
+            "metrics": [
+                "average_entries"
+            ],
+            "dimensions": [
+                "forms"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:total_contacts",
+            "metrics": [
+                "total_contacts"
+            ],
+            "dimensions": [
+                "contacts"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:new_contacts",
+            "metrics": [
+                "new_contacts"
+            ],
+            "dimensions": [
+                "contacts"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "active_campaigns:contacts_over_time",
+            "metrics": [
+                "contacts_over_time"
+            ],
+            "dimensions": [
+                "contacts"
+            ],
+            "chart_type": "line",
+            "component": "chart_v1"
+        },
+        {
+            "reference_key": "active_campaigns:campaigns",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "send_amt",
+                "uniqueopens",
+                "linkclicks",
+                "unsubscribes",
+                "hardbounces",
+                "cdate"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "sort": [
+                "-opens"
+            ]
+        },
+        {
+            "reference_key": "active_campaigns:pipeline_summary",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "total_deals",
+                "created_deals",
+                "won_deals",
+                "lost_deals"
+            ],
+            "dimensions": [
+                "dealGroups",
+                "deals"
+            ],
+            "sort": [
+                "-total_deals"
+            ]
+        },
+        {
+            "reference_key": "active_campaigns:automation_summary",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "status",
+                "contactAutomations",
+                "campaigns",
+                "goals"
+            ],
+            "dimensions": [
+                "automations"
+            ],
+            "sort": [
+                "-contactAutomations"
+            ]
+        },
+        {
+            "reference_key": "active_campaigns:automation_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "status",
+                "contactAutomations",
+                "campaigns",
+                "send_amt",
+                "uniqueopens",
+                "linkclicks",
+                "unsubscribes",
+                "hardbounces",
+                "opens_rate",
+                "linkclicks_rate",
+                "unsubscribes_rate",
+                "forwards_rate",
+                "hardbounces_rate"
+            ],
+            "dimensions": [
+                "automations"
+            ],
+            "sort": [
+                "-uniqueopens"
+            ]
+        },
+        {
+            "reference_key": "active_campaigns:deals_over_time",
+            "metrics": [
+                "deals_over_time"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "chart_type": "line",
+            "component": "chart_v1"
+        },
+        {
+            "reference_key": "active_campaigns:deals_by_value",
+            "metrics": [
+                "deals_by_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "chart_type": "bar",
+            "component": "chart_v1"
+        },
+        {
+            "reference_key": "active_campaigns:campaigns_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "opens_rate",
+                "linkclicks_rate",
+                "forwards_rate",
+                "unsubscribes_rate",
+                "hardbounces_rate",
+                "cdate"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "sort": [
+                "-opens"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "metrics": [
+        {
+            "reference_key": "phonetrack:campaigns",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "campaigns"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "phonetrack:calls",
+            "component": "number_v1",
+            "metrics": [
+                "calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:answered_calls",
+            "component": "number_v1",
+            "metrics": [
+                "answered_calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:lost_calls",
+            "component": "number_v1",
+            "metrics": [
+                "lost_calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:incomplete_calls",
+            "component": "number_v1",
+            "metrics": [
+                "incomplete_calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:opportunity_calls",
+            "component": "number_v1",
+            "metrics": [
+                "opportunity_calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:returned_calls",
+            "component": "number_v1",
+            "metrics": [
+                "returned_calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:unique_calls",
+            "component": "number_v1",
+            "metrics": [
+                "unique_calls"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:returned_calls_rate",
+            "component": "number_v1",
+            "metrics": [
+                "returned_calls_rate"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:opportunity_calls_rate",
+            "component": "number_v1",
+            "metrics": [
+                "opportunity_calls_rate"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:lost_calls_rate",
+            "component": "number_v1",
+            "metrics": [
+                "lost_calls_rate"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:average_call_duration",
+            "component": "number_v1",
+            "metrics": [
+                "average_call_duration"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:calls_per_unit",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "calls"
+            ],
+            "dimensions": [
+                "units"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:calls_per_campaign",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "calls"
+            ],
+            "dimensions": [
+                "campaigns"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:calls_per_advert",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "calls"
+            ],
+            "dimensions": [
+                "adverts"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:first_calls_chart",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "consumer_first_call"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:calls_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "calls"
+            ],
+            "dimensions": [
+                "days"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:calls_days_units",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "metrics": [
+                "daily_calls_average"
+            ],
+            "dimensions": [
+                "units"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:featured_campaigns",
+            "component": "datatable_v1",
+            "metrics": [
+                "calls",
+                "unique_calls",
+                "opportunity_calls",
+                "lost_calls",
+                "returned_calls"
+            ],
+            "dimensions": [
+                "campaigns"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:featured_adgroup",
+            "component": "datatable_v1",
+            "metrics": [
+                "calls",
+                "unique_calls",
+                "opportunity_calls",
+                "lost_calls",
+                "returned_calls"
+            ],
+            "dimensions": [
+                "adgroups"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:featured_ads",
+            "component": "datatable_v1",
+            "metrics": [
+                "calls",
+                "unique_calls",
+                "opportunity_calls",
+                "lost_calls",
+                "returned_calls"
+            ],
+            "dimensions": [
+                "adverts"
+            ]
+        },
+        {
+            "reference_key": "phonetrack:featured_units",
+            "component": "datatable_v1",
+            "metrics": [
+                "calls",
+                "answered_calls",
+                "opportunity_calls",
+                "lost_calls",
+                "returned_calls",
+                "unique_calls",
+                "consumer_first_call"
+            ],
+            "dimensions": [
+                "units"
+            ]
+        }
+    ]
+}

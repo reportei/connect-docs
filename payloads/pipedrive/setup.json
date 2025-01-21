@@ -1,0 +1,90 @@
+{
+    "metrics": {
+        "leads_count": {
+            "label": "Total Leads"
+        },
+        "archived_leads": {
+            "label": "Archived Leads"
+        },
+        "deals_count": {
+            "label": "Total Deals"
+        },
+        "won_count": {
+            "label": "Value of Won Deals"
+        },
+        "lost_count": {
+            "label": "Value of Lost Deals"
+        },
+        "avg_duration": {
+            "label": "Deal Duration"
+        },
+        "total_value": {
+            "label": "Total Value of Deals"
+        },
+        "won_value": {
+            "label": "Value of Won Deals"
+        },
+        "lost_value": {
+            "label": "Value of Lost Deals"
+        },
+        "average_won_value": {
+            "label": "Average Value of Won Deals"
+        },
+        "activities_count": {
+            "label": "Total Planned Activities"
+        },
+        "completed_activities_count": {
+            "label": "Archived Leads"
+        },
+        "tasks_count": {
+            "label": "Total Planned Tasks"
+        },
+        "completed_tasks_count": {
+            "label": "Total Completed Activities"
+        },
+        "meetings_count": {
+            "label": "Total Planned meetings"
+        },
+        "completed_meetings_count": {
+            "label": "Total Meetings Completed"
+        },
+        "calls_count": {
+            "label": "Total Planned Calls"
+        },
+        "calls_complete_count": {
+            "label": "Total Completed Calls"
+        },
+        "emails_count": {
+            "label": "Total Sent e-mails"
+        },
+        "emails_received_count": {
+            "label": "Total Received Emails"
+        }
+    },
+    "dimensions": {
+        "leads": {
+            "label": "Leads",
+            "options": [
+                "align_left"
+            ]
+        },
+        "deals": {
+            "label": "Deals",
+            "options": [
+                "align_left"
+            ]
+        },
+        "activities": {
+            "label": "Tasks",
+            "options": [
+                "align_left"
+            ]
+        },
+        "call_logs": {
+            "label": "Calls",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

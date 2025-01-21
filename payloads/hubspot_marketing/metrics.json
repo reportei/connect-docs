@@ -1,0 +1,558 @@
+{
+    "metrics": [
+        {
+            "reference_key": "hubspot_marketing:sent_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.sent"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:delivered_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.delivered"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:click_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.click"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:open_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.open"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:hardbounced_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.hardbounced"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:spamreport_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.spamreport"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:unsubscribed_emails",
+            "component": "number_v1",
+            "metrics": [
+                "stats.counters.unsubscribed"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:unsubscribedratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "unsubscribedratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:spamreportratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "spamreportratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:hardbounceratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "hardbounceratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:openratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "openratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:deliveredratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "deliveredratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:clickratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "clickratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:clickthroughratio_emails",
+            "component": "number_v1",
+            "metrics": [
+                "clickthroughratio"
+            ],
+            "dimensions": [
+                "emails"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:entrances_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_entrances"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:exits_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_exits"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:rawViews_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_rawViews"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:pageBounceRate_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_pageBounceRate"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:submissions_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_submissions"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:contacts_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_contacts"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:timePerPageview_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_timePerPageview"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:exitsPerPageview_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_exitsPerPageview"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:ctaViews_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_ctaViews"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:sentRate_landing_pages",
+            "component": "number_v1",
+            "metrics": [
+                "landing_sentRate"
+            ],
+            "dimensions": [
+                "landing"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:rawViews_blogs",
+            "component": "number_v1",
+            "metrics": [
+                "blog_rawViews"
+            ],
+            "dimensions": [
+                "blog_post"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:pageBounceRate_blogs",
+            "component": "number_v1",
+            "metrics": [
+                "blog_pageBounceRate"
+            ],
+            "dimensions": [
+                "blog_post"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:rawViews_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_visits"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:page_sessions_views_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_pageviewsPerSession"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:new_sessions_rate_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_newVisitorSessionRate"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:time_per_session_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_timePerSession"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:bounce_rate_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_bounceRate"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:customers_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_customers"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:conversions_customers_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_contactToCustomerRate"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:conversions_contact_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_sessionToContactRate"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:new_visitors_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_visitors"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:new_contacts_sites",
+            "component": "number_v1",
+            "metrics": [
+                "sites_contacts"
+            ],
+            "dimensions": [
+                "sites"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:emails_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "stats.counters.sent",
+                "stats.counters.delivered",
+                "stats.counters.open",
+                "openratio",
+                "deliveredratio",
+                "clickratio",
+                "clickthroughratio"
+            ],
+            "dimensions": [
+                "emails"
+            ],
+            "sort": [
+                "-sent"
+            ],
+            "table": "emails_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:forms_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "formViews",
+                "submissionratio",
+                "submissions",
+                "lastedmodified"
+            ],
+            "dimensions": [
+                "forms_name"
+            ],
+            "sort": [
+                "-formViews"
+            ],
+            "table": "forms_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:blogs_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "totals.rawViews"
+            ],
+            "dimensions": [
+                "blogs_name"
+            ],
+            "sort": [
+                "-sent"
+            ],
+            "table": "blogs_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:forms_per_origin_datatable_landing",
+            "component": "datatable_v1",
+            "metrics": [
+                "visits",
+                "contacts",
+                "conversions"
+            ],
+            "dimensions": [
+                "source"
+            ],
+            "sort": [
+                "-visits"
+            ],
+            "table": "forms_per_origin_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:sites_countries_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "rawViews",
+                "newVisitorSessionRate",
+                "sessionToContactRate",
+                "contacts",
+                "contactsPerPageview",
+                "visitors",
+                "bounceRate",
+                "timePerSession"
+            ],
+            "dimensions": [
+                "countries"
+            ],
+            "sort": [
+                "-rawViews"
+            ],
+            "table": "countries_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:sites_utm_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "visits",
+                "leads",
+                "bounceRate",
+                "newVisitorSessionRate",
+                "pageviewsPerSession",
+                "timePerSession"
+            ],
+            "dimensions": [
+                "utm_campaigns"
+            ],
+            "sort": [
+                "-sessions"
+            ],
+            "table": "utm_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:origin_datatable_sites",
+            "component": "datatable_v1",
+            "metrics": [
+                "timePerSession",
+                "visits",
+                "contacts",
+                "leads",
+                "bounceRate",
+                "pageviewsPerSession"
+            ],
+            "dimensions": [
+                "source"
+            ],
+            "sort": [
+                "-visits"
+            ],
+            "table": "origin_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:top_pages_datatable_sites",
+            "component": "datatable_v1",
+            "metrics": [
+                "rawViews",
+                "entrances",
+                "timePerPageview",
+                "pageBounceRate"
+            ],
+            "dimensions": [
+                "top_pages"
+            ],
+            "sort": [
+                "-rawViews"
+            ],
+            "table": "top_pages_datatable"
+        },
+        {
+            "reference_key": "hubspot_marketing:sessions_by_device_chart",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "chart": "sessions_by_device_chart",
+            "metrics": [
+                "desktop",
+                "mobile",
+                "others"
+            ],
+            "dimensions": [
+                "device"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:contacts_type_chart",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "chart": "contacts_type_chart",
+            "metrics": [
+                "nonContactSubmissions",
+                "contacts"
+            ],
+            "dimensions": [
+                "type"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:sessions_over_time_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "chart": "sessions_over_time_chart",
+            "metrics": [
+                "visits"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "hubspot_marketing:customers_over_time_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "chart": "customers_over_time_chart",
+            "metrics": [
+                "customers"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        }
+    ]
+}

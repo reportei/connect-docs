@@ -1,0 +1,939 @@
+{
+    "metrics": [
+        {
+            "reference_key": "li_ads:clicks",
+            "component": "number_v1",
+            "metrics": [
+                "clicks"
+            ]
+        },
+        {
+            "reference_key": "li_ads:likes",
+            "component": "number_v1",
+            "metrics": [
+                "likes"
+            ]
+        },
+        {
+            "reference_key": "li_ads:impressions",
+            "component": "number_v1",
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "li_ads:follows",
+            "component": "number_v1",
+            "metrics": [
+                "follows"
+            ]
+        },
+        {
+            "reference_key": "li_ads:total_engagements",
+            "component": "number_v1",
+            "metrics": [
+                "totalEngagements"
+            ]
+        },
+        {
+            "reference_key": "li_ads:shares",
+            "component": "number_v1",
+            "metrics": [
+                "shares"
+            ]
+        },
+        {
+            "reference_key": "li_ads:comments",
+            "component": "number_v1",
+            "metrics": [
+                "comments"
+            ]
+        },
+        {
+            "reference_key": "li_ads:cost",
+            "component": "number_v1",
+            "metrics": [
+                "costInLocalCurrency"
+            ]
+        },
+        {
+            "reference_key": "li_ads:clicks_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "clicks"
+            ],
+            "dimensions": [
+                "dateRange"
+            ]
+        },
+        {
+            "reference_key": "li_ads:impressions_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "impressions"
+            ],
+            "dimensions": [
+                "dateRange"
+            ]
+        },
+        {
+            "reference_key": "li_ads:posts",
+            "component": "datatable_v1",
+            "metrics": [
+                "costInLocalCurrency",
+                "impressions",
+                "clicks",
+                "totalEngagements",
+                "createdAt"
+            ],
+            "dimensions": [
+                "posts"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "li_ads:campaigns",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "campaigns"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "summary",
+            "component": "container_v1",
+            "container_type": "summary",
+            "metrics": [],
+            "dimensions": [
+                "summary"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "li_ads:conversionsRate",
+            "component": "number_v1",
+            "metrics": [
+                "conversionsRate"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:externalWebsiteConversions",
+            "component": "number_v1",
+            "metrics": [
+                "externalWebsiteConversions"
+            ]
+        },
+        {
+            "reference_key": "li_ads:externalWebsitePostClickConversions",
+            "component": "number_v1",
+            "metrics": [
+                "externalWebsitePostClickConversions"
+            ]
+        },
+        {
+            "reference_key": "li_ads:externalWebsitePostViewConversions",
+            "component": "number_v1",
+            "metrics": [
+                "externalWebsitePostViewConversions"
+            ]
+        },
+        {
+            "reference_key": "li_ads:oneClickLeads",
+            "component": "number_v1",
+            "metrics": [
+                "oneClickLeads"
+            ]
+        },
+        {
+            "reference_key": "li_ads:costPerLead",
+            "component": "number_v1",
+            "metrics": [
+                "costPerLead"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:conversionValueInLocalCurrency",
+            "component": "number_v1",
+            "metrics": [
+                "conversionValueInLocalCurrency"
+            ]
+        },
+        {
+            "reference_key": "li_ads:costPerConversion",
+            "component": "number_v1",
+            "metrics": [
+                "costPerConversion"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:averageCtr",
+            "component": "number_v1",
+            "metrics": [
+                "averageCtr"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:averageCpc",
+            "component": "number_v1",
+            "metrics": [
+                "averageCpc"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:averageCpm",
+            "component": "number_v1",
+            "metrics": [
+                "averageCpm"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:videoViews",
+            "component": "number_v1",
+            "metrics": [
+                "videoViews"
+            ]
+        },
+        {
+            "reference_key": "li_ads:videoStarts",
+            "component": "number_v1",
+            "metrics": [
+                "videoStarts"
+            ]
+        },
+        {
+            "reference_key": "li_ads:costPerView",
+            "component": "number_v1",
+            "metrics": [
+                "costPerView"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:viewRate",
+            "component": "number_v1",
+            "metrics": [
+                "viewRate"
+            ],
+            "calculated": true
+        },
+        {
+            "reference_key": "li_ads:featuredCampaigns",
+            "component": "datatable_v1",
+            "metrics": [
+                "clicks",
+                "impressions",
+                "costInLocalCurrency",
+                "totalEngagements"
+            ],
+            "dimensions": [
+                "campaigns"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "li_ads:cardClicks",
+            "component": "number_v1",
+            "metrics": [
+                "cardClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:actionClicks",
+            "component": "number_v1",
+            "metrics": [
+                "actionClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:adUnitClicks",
+            "component": "number_v1",
+            "metrics": [
+                "adUnitClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:approximateMemberReach",
+            "component": "number_v1",
+            "metrics": [
+                "approximateMemberReach"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:cardImpressions",
+            "component": "number_v1",
+            "metrics": [
+                "cardImpressions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:commentLikes",
+            "component": "number_v1",
+            "metrics": [
+                "commentLikes"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:companyPageClicks",
+            "component": "number_v1",
+            "metrics": [
+                "companyPageClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:documentCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "documentCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:documentFirstQuartileCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "documentFirstQuartileCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:documentMidpointCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "documentMidpointCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:documentThirdQuartileCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "documentThirdQuartileCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:downloadClicks",
+            "component": "number_v1",
+            "metrics": [
+                "downloadClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:fullScreenPlays",
+            "component": "number_v1",
+            "metrics": [
+                "fullScreenPlays"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:headlineClicks",
+            "component": "number_v1",
+            "metrics": [
+                "headlineClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:headlineImpressions",
+            "component": "number_v1",
+            "metrics": [
+                "headlineImpressions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:jobApplications",
+            "component": "number_v1",
+            "metrics": [
+                "jobApplications"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:jobApplyClicks",
+            "component": "number_v1",
+            "metrics": [
+                "jobApplyClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:landingPageClicks",
+            "component": "number_v1",
+            "metrics": [
+                "landingPageClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:leadGenerationMailContactInfoShares",
+            "component": "number_v1",
+            "metrics": [
+                "leadGenerationMailContactInfoShares"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:leadGenerationMailInterestedClicks",
+            "component": "number_v1",
+            "metrics": [
+                "leadGenerationMailInterestedClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:oneClickLeadFormOpens",
+            "component": "number_v1",
+            "metrics": [
+                "oneClickLeadFormOpens"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:opens",
+            "component": "number_v1",
+            "metrics": [
+                "opens"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:postClickJobApplications",
+            "component": "number_v1",
+            "metrics": [
+                "postClickJobApplications"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:postClickJobApplyClicks",
+            "component": "number_v1",
+            "metrics": [
+                "postClickJobApplyClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:postClickRegistrations",
+            "component": "number_v1",
+            "metrics": [
+                "postClickRegistrations"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:postViewJobApplications",
+            "component": "number_v1",
+            "metrics": [
+                "postViewJobApplications"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:postViewJobApplyClicks",
+            "component": "number_v1",
+            "metrics": [
+                "postViewJobApplyClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:postViewRegistrations",
+            "component": "number_v1",
+            "metrics": [
+                "postViewRegistrations"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:reactions",
+            "component": "number_v1",
+            "metrics": [
+                "reactions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:registrations",
+            "component": "number_v1",
+            "metrics": [
+                "registrations"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:sends",
+            "component": "number_v1",
+            "metrics": [
+                "sends"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:talentLeads",
+            "component": "number_v1",
+            "metrics": [
+                "talentLeads"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:textUrlClicks",
+            "component": "number_v1",
+            "metrics": [
+                "textUrlClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:videoCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "videoCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:videoFirstQuartileCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "videoFirstQuartileCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:videoMidpointCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "videoMidpointCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:videoThirdQuartileCompletions",
+            "component": "number_v1",
+            "metrics": [
+                "videoThirdQuartileCompletions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralCardClicks",
+            "component": "number_v1",
+            "metrics": [
+                "viralCardClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralCardImpressions",
+            "component": "number_v1",
+            "metrics": [
+                "viralCardImpressions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralClicks",
+            "component": "number_v1",
+            "metrics": [
+                "viralClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralCommentLikes",
+            "component": "number_v1",
+            "metrics": [
+                "viralCommentLikes"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralComments",
+            "component": "number_v1",
+            "metrics": [
+                "viralComments"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralCompanyPageClicks",
+            "component": "number_v1",
+            "metrics": [
+                "viralCompanyPageClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralDownloadClicks",
+            "component": "number_v1",
+            "metrics": [
+                "viralDownloadClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralExternalWebsiteConversions",
+            "component": "number_v1",
+            "metrics": [
+                "viralExternalWebsiteConversions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralExternalWebsitePostClickConversions",
+            "component": "number_v1",
+            "metrics": [
+                "viralExternalWebsitePostClickConversions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralExternalWebsitePostViewConversions",
+            "component": "number_v1",
+            "metrics": [
+                "viralExternalWebsitePostViewConversions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralFollows",
+            "component": "number_v1",
+            "metrics": [
+                "viralFollows"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralFullScreenPlays",
+            "component": "number_v1",
+            "metrics": [
+                "viralFullScreenPlays"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralImpressions",
+            "component": "number_v1",
+            "metrics": [
+                "viralImpressions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralJobApplications",
+            "component": "number_v1",
+            "metrics": [
+                "viralJobApplications"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralJobApplyClicks",
+            "component": "number_v1",
+            "metrics": [
+                "viralJobApplyClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralLandingPageClicks",
+            "component": "number_v1",
+            "metrics": [
+                "viralLandingPageClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralLikes",
+            "component": "number_v1",
+            "metrics": [
+                "viralLikes"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralReactions",
+            "component": "number_v1",
+            "metrics": [
+                "viralReactions"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralRegistrations",
+            "component": "number_v1",
+            "metrics": [
+                "viralRegistrations"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralShares",
+            "component": "number_v1",
+            "metrics": [
+                "viralShares"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralTotalEngagements",
+            "component": "number_v1",
+            "metrics": [
+                "viralTotalEngagements"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:viralVideoViews",
+            "component": "number_v1",
+            "metrics": [
+                "viralVideoViews"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:featuredSponsoredMessaging",
+            "component": "datatable_v1",
+            "metrics": [
+                "sends",
+                "opens",
+                "clicks",
+                "actionClicks",
+                "adUnitClicks",
+                "textUrlClicks",
+                "opensRate",
+                "clicksPerOpensRate",
+                "costPerSends",
+                "costPerOpenMessage"
+            ],
+            "dimensions": [
+                "sponsoredMessaging"
+            ],
+            "sort": [
+                "-actionClicks"
+            ],
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:opensRate",
+            "component": "number_v1",
+            "metrics": [
+                "opensRate"
+            ],
+            "calculated": true,
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:clicksPerOpensRate",
+            "component": "number_v1",
+            "metrics": [
+                "clicksPerOpensRate"
+            ],
+            "calculated": true,
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:costPerSends",
+            "component": "number_v1",
+            "metrics": [
+                "costPerSends"
+            ],
+            "calculated": true,
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:costPerOpenMessage",
+            "component": "number_v1",
+            "metrics": [
+                "costPerOpenMessage"
+            ],
+            "calculated": true,
+            "added_date": "2024-07-22"
+        },
+        {
+            "reference_key": "li_ads:featuredCampaignGroups",
+            "component": "datatable_v1",
+            "metrics": [
+                "clicks",
+                "impressions",
+                "costInLocalCurrency",
+                "totalEngagements"
+            ],
+            "dimensions": [
+                "campaignGroups"
+            ],
+            "sort": [
+                "-impressions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceCompanySize",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "companySize"
+            ],
+            "sort": [
+                "-impressions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceSeniorities",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "seniorities"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceTitles",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "titles"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceIndustries",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "industries"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceFunctions",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "functions"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceRegion",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "regions"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceCountries",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "countries"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        },
+        {
+            "reference_key": "li_ads:performanceCompanies",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "clicks",
+                "averageCtr",
+                "externalWebsiteConversions",
+                "conversionsRate"
+            ],
+            "dimensions": [
+                "companies"
+            ],
+            "sort": [
+                "-externalWebsiteConversions"
+            ],
+            "added_date": "2024-07-16"
+        }
+    ]
+}

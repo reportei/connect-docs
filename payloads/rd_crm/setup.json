@@ -1,0 +1,41 @@
+{
+    "metrics": {
+        "name": {
+            "label": "Name"
+        },
+        "sales": {
+            "label": "Sales"
+        },
+        "tasks": {
+            "label": "Task"
+        },
+        "lost": {
+            "label": "Lost Opportunities"
+        },
+        "created": {
+            "label": "Created Opportunities"
+        },
+        "done": {
+            "label": "Done"
+        },
+        "deals": {
+            "label": "Opportunities"
+        },
+        "win": {
+            "label": "Sales"
+        },
+        "won_deals_value": {
+            "label": "Total Sales Value"
+        },
+        "lost_rate_reason": {
+            "label": "Lost Rate by Reason"
+        },
+        "calls": {
+            "label": "Calls"
+        },
+        "pending": {
+            "label": "Pending"
+        }
+    },
+    "dimensions": []
+}

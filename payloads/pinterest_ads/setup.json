@@ -1,0 +1,430 @@
+{
+    "metrics": {
+        "engagement_rate": {
+            "label": "Total Engagement Rate"
+        },
+        "total_engagement": {
+            "label": "Total Engagement"
+        },
+        "engagement_1": {
+            "label": "Paid Engagement"
+        },
+        "total_conversions": {
+            "label": "Total Conversions"
+        },
+        "impression_1_gross": {
+            "label": "Total Impressions"
+        },
+        "impression_1": {
+            "label": "Paid Impressions"
+        },
+        "ctr": {
+            "label": "Total CTR",
+            "formatting_function": "percentage"
+        },
+        "cpm_in_micro_dollar": {
+            "label": "CPM",
+            "formatting_function": "currency"
+        },
+        "spend_in_micro_dollar": {
+            "label": "Total spend",
+            "formatting_function": "currency"
+        },
+        "repin_1": {
+            "label": "Total Pins Saved"
+        },
+        "clickthrough_1": {
+            "label": "Total Pin Clicks"
+        },
+        "outbound_click_1": {
+            "label": "Clicks on Link"
+        },
+        "total_video_avg_watchtime_in_second": {
+            "label": "Video Average Watchtime"
+        },
+        "total_video_3sec_views": {
+            "label": "3-Second Video Views"
+        },
+        "total_video_p25_combined": {
+            "label": "Videos played at 25%"
+        },
+        "total_video_p50_combined": {
+            "label": "Videos played at 50%"
+        },
+        "total_video_p75_combined": {
+            "label": "Videos played at 75%"
+        },
+        "total_video_p95_combined": {
+            "label": "Videos played at 95%"
+        },
+        "total_video_p100_complete": {
+            "label": "Videos played at 200%"
+        },
+        "CHECKOUT_ROAS": {
+            "label": "Total ROAS (Checkout)"
+        },
+        "CLICKTHROUGH_1_GROSS": {
+            "label": "Gross Pin clicks"
+        },
+        "CLICKTHROUGH_2": {
+            "label": "Earned Pin clicks"
+        },
+        "COST_PER_LEAD": {
+            "label": "Cost per lead"
+        },
+        "COST_PER_OUTBOUND_CLICK_IN_DOLLAR": {
+            "label": "CPOC"
+        },
+        "CTR_2": {
+            "label": "Earned CTR"
+        },
+        "CUSTOM_ROAS": {
+            "label": "Total ROAS (Custom)"
+        },
+        "ECPCV_IN_DOLLAR": {
+            "label": "CPCV (100%)"
+        },
+        "ECPCV_P95_IN_DOLLAR": {
+            "label": "CPCV (95%)"
+        },
+        "ECPC_IN_DOLLAR": {
+            "label": "CPC"
+        },
+        "ECPE_IN_DOLLAR": {
+            "label": "CPE"
+        },
+        "ECPV_IN_DOLLAR": {
+            "label": "CPV"
+        },
+        "ENGAGEMENT_2": {
+            "label": "Earned engagements"
+        },
+        "IDEA_PIN_PRODUCT_TAG_VISIT_1": {
+            "label": "Paid Idea Pin product tag visits"
+        },
+        "IDEA_PIN_PRODUCT_TAG_VISIT_2": {
+            "label": "Earned Idea Pin product tag visits"
+        },
+        "IMPRESSION_2": {
+            "label": "Earned impressions"
+        },
+        "INAPP_CHECKOUT_COST_PER_ACTION": {
+            "label": "In-app CPA (Checkout)"
+        },
+        "LEADS": {
+            "label": "Leads"
+        },
+        "OUTBOUND_CLICK_1": {
+            "label": "Paid outbound clicks"
+        },
+        "OUTBOUND_CLICK_2": {
+            "label": "Earned outbound clicks"
+        },
+        "PAGE_VISIT_COST_PER_ACTION": {
+            "label": "Total CPA (Page visit)"
+        },
+        "PAGE_VISIT_ROAS": {
+            "label": "Total ROAS (Page visit)"
+        },
+        "QUIZ_COMPLETED": {
+            "label": "Completed quiz"
+        },
+        "QUIZ_COMPLETION_RATE": {
+            "label": "Quiz completion rate"
+        },
+        "QUIZ_PIN_RESULT_OPEN": {
+            "label": "Total Quiz Pin Result Opened"
+        },
+        "REPIN_2": {
+            "label": "Earned saves"
+        },
+        "REPIN_RATE": {
+            "label": "Paid save rate"
+        },
+        "SHOWCASE_AVERAGE_SUBPAGE_CLOSEUP_PER_SESSION": {
+            "label": "Average Showcase Card Closeups"
+        },
+        "SHOWCASE_CARD_THUMBNAIL_SWIPE_BACKWARD": {
+            "label": "Total Showcase Card Thumbnail Swipe Backward"
+        },
+        "SHOWCASE_CARD_THUMBNAIL_SWIPE_FORWARD": {
+            "label": "Total Showcase Card Thumbnail Swipe Forward"
+        },
+        "SHOWCASE_PIN_CLICKTHROUGH": {
+            "label": "Total Showcase Title Pin Outbound Clicks"
+        },
+        "SHOWCASE_SUBPAGE_CLICKTHROUGH": {
+            "label": "Total Showcase Card Outbound Clicks"
+        },
+        "SHOWCASE_SUBPAGE_CLOSEUP": {
+            "label": "Total Showcase Card Closeups"
+        },
+        "SHOWCASE_SUBPAGE_IMPRESSION": {
+            "label": "Total Showcase Card Impressions"
+        },
+        "SHOWCASE_SUBPAGE_REPIN": {
+            "label": "Total Showcase Card Saves"
+        },
+        "SHOWCASE_SUBPAGE_SWIPE_LEFT": {
+            "label": "Total Showcase Card Swipe Forward"
+        },
+        "SHOWCASE_SUBPAGE_SWIPE_RIGHT": {
+            "label": "Total Showcase Card Swipe Backward"
+        },
+        "SHOWCASE_SUBPIN_CLICKTHROUGH": {
+            "label": "Total Showcase Featured Pin Outbound Clicks"
+        },
+        "SHOWCASE_SUBPIN_IMPRESSION": {
+            "label": "Total Showcase Featured Pin Impressions"
+        },
+        "SHOWCASE_SUBPIN_REPIN": {
+            "label": "Total Showcase Featured Pin Saves"
+        },
+        "SHOWCASE_SUBPIN_SWIPE_LEFT": {
+            "label": "Total Showcase Featured Pin Swipe Forward"
+        },
+        "SHOWCASE_SUBPIN_SWIPE_RIGHT": {
+            "label": "Total Showcase Featured Pin Swipe Backward"
+        },
+        "TOTAL_ADD_TO_CART_CONVERSION_RATE": {
+            "label": "Total conversion rate (Add to cart)"
+        },
+        "TOTAL_CHECKOUT": {
+            "label": "Purchase completions"
+        },
+        "TOTAL_CHECKOUT_CONVERSION_RATE": {
+            "label": "Total conversion rate (Checkout)"
+        },
+        "TOTAL_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total order value (Checkout)"
+        },
+        "TOTAL_CLICK_ADD_TO_CART": {
+            "label": "Total click-through conversions (Add to cart)"
+        },
+        "TOTAL_CLICK_CHECKOUT": {
+            "label": "Total click-through conversions (Checkout)"
+        },
+        "TOTAL_CLICK_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total click-through order value (Checkout)"
+        },
+        "TOTAL_CLICK_LEAD": {
+            "label": "Total click-through conversions (Lead)"
+        },
+        "TOTAL_CLICK_SIGNUP": {
+            "label": "Total click-through conversions (Signup)"
+        },
+        "TOTAL_CLICK_SIGNUP_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total click-through order value (Signup)"
+        },
+        "TOTAL_CUSTOM": {
+            "label": "Total conversions (Custom)"
+        },
+        "TOTAL_CUSTOM_CONVERSION_RATE": {
+            "label": "Total conversion rate (Custom)"
+        },
+        "TOTAL_CUSTOM_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total order value (Custom)"
+        },
+        "TOTAL_ENGAGEMENT_CHECKOUT": {
+            "label": "Total engagement conversions (Checkout)"
+        },
+        "TOTAL_ENGAGEMENT_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total engagement order value (Checkout)"
+        },
+        "TOTAL_ENGAGEMENT_LEAD": {
+            "label": "Total engagement conversions (Lead)"
+        },
+        "TOTAL_ENGAGEMENT_SIGNUP": {
+            "label": "Total engagement conversions (Signup)"
+        },
+        "TOTAL_ENGAGEMENT_SIGNUP_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total engagement order value (Signup)"
+        },
+        "TOTAL_IDEA_PIN_PRODUCT_TAG_VISIT": {
+            "label": "Total Idea Pin product tag visits"
+        },
+        "TOTAL_IMPRESSION_FREQUENCY": {
+            "label": "Frequency"
+        },
+        "TOTAL_IMPRESSION_USER": {
+            "label": "Reach"
+        },
+        "TOTAL_LEAD": {
+            "label": "Total conversions (Lead)"
+        },
+        "TOTAL_LEAD_CONVERSION_RATE": {
+            "label": "Total conversion rate (Lead)"
+        },
+        "TOTAL_OFFLINE_CHECKOUT": {
+            "label": "Offline conversions (Checkout)"
+        },
+        "TOTAL_PAGE_VISIT": {
+            "label": "Total conversions (Page visit)"
+        },
+        "TOTAL_PAGE_VISIT_CONVERSION_RATE": {
+            "label": "Total conversion rate (Page visit)"
+        },
+        "TOTAL_REPIN_RATE": {
+            "label": "Total save rate"
+        },
+        "TOTAL_SEARCH_CONVERSION_RATE": {
+            "label": "Total conversion rate (Website search)"
+        },
+        "TOTAL_SIGNUP": {
+            "label": "Total conversions (Signup)"
+        },
+        "TOTAL_SIGNUP_CONVERSION_RATE": {
+            "label": "Total conversion rate (Signup)"
+        },
+        "TOTAL_SIGNUP_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total order value (Signup)"
+        },
+        "TOTAL_UNKNOWN_CONVERSION_RATE": {
+            "label": "Total conversion rate (Unknown)"
+        },
+        "TOTAL_VIDEO_MRC_VIEWS": {
+            "label": "Video views"
+        },
+        "TOTAL_VIDEO_P0_COMBINED": {
+            "label": "Total video starts"
+        },
+        "TOTAL_VIEW_ADD_TO_CART": {
+            "label": "Total view-through conversions (Add to cart)"
+        },
+        "TOTAL_VIEW_CATEGORY_CONVERSION_RATE": {
+            "label": "Total conversion rate (Category view)"
+        },
+        "TOTAL_VIEW_CHECKOUT": {
+            "label": "Total view-through conversions (Checkout)"
+        },
+        "TOTAL_VIEW_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total view-through order value (Checkout)"
+        },
+        "TOTAL_VIEW_LEAD": {
+            "label": "Total view-through conversions (Lead)"
+        },
+        "TOTAL_VIEW_SIGNUP": {
+            "label": "Total view-through conversions (Signup)"
+        },
+        "TOTAL_VIEW_SIGNUP_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Total view-through order value (Signup)"
+        },
+        "TOTAL_WATCH_VIDEO_CONVERSION_RATE": {
+            "label": "Total conversion rate (Watch video)"
+        },
+        "TOTAL_WEB_CHECKOUT": {
+            "label": "Web conversions (Checkout)"
+        },
+        "TOTAL_WEB_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Web order value (Checkout)"
+        },
+        "TOTAL_WEB_CLICK_CHECKOUT": {
+            "label": "Web click-through conversions (Checkout)"
+        },
+        "TOTAL_WEB_CLICK_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Web click-through order value (Checkout)"
+        },
+        "TOTAL_WEB_ENGAGEMENT_CHECKOUT": {
+            "label": "Web engagement conversions (Checkout)"
+        },
+        "TOTAL_WEB_ENGAGEMENT_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Web engagement order value (Checkout)"
+        },
+        "TOTAL_WEB_SESSIONS": {
+            "label": "Web sessions"
+        },
+        "TOTAL_WEB_VIEW_CHECKOUT": {
+            "label": "Web view-through conversions (Checkout)"
+        },
+        "TOTAL_WEB_VIEW_CHECKOUT_VALUE_IN_MICRO_DOLLAR": {
+            "label": "Web view-through order value (Checkout)"
+        },
+        "VIDEO_3SEC_VIEWS_2": {
+            "label": "Earned 3s video views"
+        },
+        "VIDEO_LENGTH": {
+            "label": "Video length"
+        },
+        "VIDEO_MRC_VIEWS_2": {
+            "label": "Earned video views"
+        },
+        "VIDEO_P0_COMBINED_2": {
+            "label": "Earned video starts"
+        },
+        "VIDEO_P100_COMPLETE_2": {
+            "label": "Earned video played at 100%"
+        },
+        "VIDEO_P25_COMBINED_2": {
+            "label": "Earned video played at 25%"
+        },
+        "VIDEO_P50_COMBINED_2": {
+            "label": "Earned video played at 50%"
+        },
+        "VIDEO_P75_COMBINED_2": {
+            "label": "Earned video played at 75%"
+        },
+        "VIDEO_P95_COMBINED_2": {
+            "label": "Earned video played at 95%"
+        },
+        "WEB_CHECKOUT_COST_PER_ACTION": {
+            "label": "Web CPA (Checkout)"
+        },
+        "WEB_CHECKOUT_ROAS": {
+            "label": "Web ROAS (Checkout)"
+        },
+        "WEB_SESSIONS_1": {
+            "label": "Paid web sessions"
+        },
+        "WEB_SESSIONS_2": {
+            "label": "Earned web sessions"
+        },
+        "CAMPAIGN_OBJECTIVE_TYPE": {
+            "label": "Result"
+        },
+        "cost_per_result_in_micro_dollar": {
+            "label": "Cost per results",
+            "formatting_function": "currency"
+        },
+        "total_checkout_value_in_micro_dollar": {
+            "label": "Revenue"
+        },
+        "total_page_visit": {
+            "label": "Page visits"
+        },
+        "total_checkout": {
+            "label": "Buyers"
+        }
+    },
+    "dimensions": {
+        "campaign_name": {
+            "label": "Campaign",
+            "options": [
+                "align_left"
+            ]
+        },
+        "day": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        },
+        "ad_id": {
+            "label": "Ad",
+            "options": [
+                "align_left"
+            ]
+        },
+        "ad_group_id": {
+            "label": "Ad Group",
+            "options": [
+                "align_left"
+            ]
+        },
+        "keywords": {
+            "label": "Keywords",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

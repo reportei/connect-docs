@@ -1,0 +1,358 @@
+{
+    "metrics": [
+        {
+            "reference_key": "woo_commerce:number_orders_total",
+            "component": "number_v1",
+            "metrics": [
+                "orders_total"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_pending_orders",
+            "component": "number_v1",
+            "metrics": [
+                "pending_orders"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_on_hold_orders",
+            "component": "number_v1",
+            "metrics": [
+                "on_hold_orders"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:revenue_by_day",
+            "component": "datatable_v1",
+            "metrics": [
+                "orders",
+                "sales",
+                "net_sales",
+                "refunds",
+                "tax",
+                "shipping",
+                "coupons"
+            ],
+            "dimensions": [
+                "daily_revenue"
+            ],
+            "sort": [
+                "-sales"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:featured_customers_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "email",
+                "username",
+                "total_spent",
+                "orders_count",
+                "aov",
+                "city",
+                "region",
+                "country",
+                "last_active",
+                "registered"
+            ],
+            "dimensions": [
+                "featured_customers"
+            ],
+            "sort": [
+                "-total_spent"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:category_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "items_sold",
+                "net_sales",
+                "unique_products",
+                "orders",
+                "total_sales"
+            ],
+            "dimensions": [
+                "category"
+            ],
+            "sort": [
+                "-net_sales"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:refunds_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "refunds"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:coupon_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "coupon_code",
+                "orders",
+                "discount_amount",
+                "sales"
+            ],
+            "dimensions": [
+                "coupon"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:number_net_discount",
+            "component": "number_v1",
+            "metrics": [
+                "net_discount"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_total_taxes",
+            "component": "number_v1",
+            "metrics": [
+                "total_taxes"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_refunds",
+            "component": "number_v1",
+            "metrics": [
+                "refunds"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_items_sold",
+            "component": "number_v1",
+            "metrics": [
+                "items_sold"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_avg_order_value",
+            "component": "number_v1",
+            "metrics": [
+                "avg_order_value"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_total_sales",
+            "component": "number_v1",
+            "metrics": [
+                "total_sales"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_net_sales",
+            "component": "number_v1",
+            "metrics": [
+                "net_sales"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_gross_sales",
+            "component": "number_v1",
+            "metrics": [
+                "gross_sales"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_order_tax",
+            "component": "number_v1",
+            "metrics": [
+                "order_tax"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_orders_with_coupon",
+            "component": "number_v1",
+            "metrics": [
+                "orders_with_coupon"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:number_total_delivery",
+            "component": "number_v1",
+            "metrics": [
+                "total_delivery"
+            ],
+            "dimensions": [
+                "orders"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:orders_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "orders"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:deliveries_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "deliveries"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:avg_order_value_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "avg_order_value"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:items_sold_over_time",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "metrics": [
+                "items_sold"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:coupon_value_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "coupon_value"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:total_sales_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "total_sales"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:net_sales_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "net_sales"
+            ],
+            "dimensions": [
+                "date"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:number_products_out_of_stock",
+            "component": "number_v1",
+            "metrics": [
+                "products_out_of_stock"
+            ],
+            "dimensions": [
+                "products"
+            ]
+        },
+        {
+            "reference_key": "woo_commerce:tax_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "code",
+                "rate",
+                "total_tax",
+                "order_tax",
+                "shipping_tax",
+                "orders"
+            ],
+            "dimensions": [
+                "orders"
+            ],
+            "sort": []
+        },
+        {
+            "reference_key": "woo_commerce:product_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "sku",
+                "items_sold",
+                "net_sales",
+                "orders",
+                "category",
+                "variations",
+                "status",
+                "stock"
+            ],
+            "dimensions": [
+                "products"
+            ],
+            "sort": [
+                "-net_sales"
+            ]
+        }
+    ]
+}

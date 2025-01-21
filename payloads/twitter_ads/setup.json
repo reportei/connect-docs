@@ -1,0 +1,58 @@
+{
+    "metrics": {
+        "likes": {
+            "label": "Impressions"
+        },
+        "replies": {
+            "label": "Replies"
+        },
+        "retweets": {
+            "label": "Retweets"
+        },
+        "billed_charge_local_micro": {
+            "label": "Spend",
+            "formatting_function": "currency"
+        },
+        "total_clicks": {
+            "label": "Total Clicks"
+        },
+        "engagements": {
+            "label": "Engagement"
+        },
+        "impressions": {
+            "label": "Impressions"
+        },
+        "follows": {
+            "label": "Follows"
+        },
+        "unfollows": {
+            "label": "Unfollows"
+        },
+        "clicks": {
+            "label": "Clicks"
+        },
+        "url_clicks": {
+            "label": "Link clicks"
+        },
+        "app_clicks": {
+            "label": "App clicks"
+        },
+        "cpe": {
+            "label": "CPE"
+        },
+        "cpc": {
+            "label": "CPC"
+        },
+        "engagement_rate": {
+            "label": "Engagement rate"
+        }
+    },
+    "dimensions": {
+        "engagement": {
+            "label": "Campaign",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

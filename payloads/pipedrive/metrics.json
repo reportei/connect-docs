@@ -1,0 +1,309 @@
+{
+    "metrics": [
+        {
+            "reference_key": "pipedrive:pipelines",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "pipelines"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "pipedrive:summary",
+            "component": "container_v1",
+            "container_type": "summary",
+            "metrics": [],
+            "dimensions": [
+                {
+                    "field": "summary"
+                }
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "pipedrive:total_leads",
+            "component": "number_v1",
+            "dimensions": [
+                "leads"
+            ],
+            "metrics": [
+                "leads_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:archived_leads",
+            "component": "number_v1",
+            "dimensions": [
+                "leads"
+            ],
+            "metrics": [
+                "archived_leads"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_deals",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "deals_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_won_deals",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "won_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_lost_deals",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "lost_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:average_duration_deals",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "avg_duration"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_deals_value",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "total_value"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:won_deals_value",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "won_value"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:lost_deals_value",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "lost_value"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:average_won_deals_value",
+            "component": "number_v1",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "average_won_value"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_activities",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "activities_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:completed_activities",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "completed_activities_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_tasks",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "tasks_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:completed_tasks",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "completed_tasks_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_meetings",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "meetings_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:completed_meetings",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "completed_meetings_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_calls",
+            "component": "number_v1",
+            "dimensions": [
+                "call_logs"
+            ],
+            "metrics": [
+                "calls_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:total_complete_calls",
+            "component": "number_v1",
+            "dimensions": [
+                "call_logs"
+            ],
+            "metrics": [
+                "calls_complete_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:sent_emails",
+            "component": "number_v1",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "emails_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:received_emails",
+            "component": "number_v1",
+            "dimensions": [
+                "mailbox"
+            ],
+            "metrics": [
+                "emails_received_count"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:won_deals_by_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "won_by_time"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:deals_by_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "deals_by_time"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:values_by_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "values_by_time"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:activities_done_and_planned",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "dimensions": [
+                "activities"
+            ],
+            "metrics": [
+                "activities_done_and_planned"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:deals_won_and_lost",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "dimensions": [
+                "deals"
+            ],
+            "metrics": [
+                "deals_won_and_lost"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:users_table",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "total_activities",
+                "total_planned_activities",
+                "total_done_activities",
+                "won_count",
+                "won_value",
+                "lost_value"
+            ],
+            "dimensions": [
+                "users",
+                "deals",
+                "activities"
+            ]
+        },
+        {
+            "reference_key": "pipedrive:pipeline_summary",
+            "component": "pipeline_v1",
+            "metrics": [
+                "pipeline_summary"
+            ],
+            "dimensions": [
+                "deals",
+                "stages"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,349 @@
+{
+    "metrics": [
+        {
+            "reference_key": "rd_crm:pipelines",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "pipelines"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "rd_crm:summary",
+            "component": "container_v1",
+            "container_type": "summary",
+            "metrics": [],
+            "dimensions": [
+                {
+                    "field": "summary"
+                }
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "rd_crm:pipeline_summary",
+            "component": "pipeline_v1",
+            "metrics": [
+                "pipeline_summary"
+            ],
+            "dimensions": [
+                "deals"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:created_deals",
+            "metrics": [
+                "created"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:lost_deals_value",
+            "metrics": [
+                "lost_deals_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:open_deals",
+            "metrics": [
+                "open"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:paused_deals",
+            "metrics": [
+                "paused"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:lost_deals",
+            "metrics": [
+                "lost"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:won_deals",
+            "metrics": [
+                "win"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:won_deals_value",
+            "metrics": [
+                "won_deals_value"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:average_ticket",
+            "metrics": [
+                "average_ticket"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:conversion_rate",
+            "metrics": [
+                "conversion_rate"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:opportunities_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "opportunities_over_time"
+            ],
+            "dimensions": [
+                "deals"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:value_of_sales",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "value_of_sales"
+            ],
+            "dimensions": [
+                "deals",
+                "products"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:performance_by_funnel",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "sales",
+                "lost"
+            ],
+            "dimensions": [
+                "performance_by_funnel"
+            ],
+            "sort": [
+                "-sales"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:created_tasks",
+            "metrics": [
+                "created"
+            ],
+            "dimensions": [
+                "tasks"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:tasks",
+            "component": "datatable_v1",
+            "metrics": [
+                "created",
+                "done",
+                "pending"
+            ],
+            "dimensions": [
+                "tasks"
+            ],
+            "sort": [
+                "-done"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:completed_tasks",
+            "metrics": [
+                "completed"
+            ],
+            "dimensions": [
+                "tasks"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:completed_calls",
+            "metrics": [
+                "call"
+            ],
+            "dimensions": [
+                "tasks"
+            ],
+            "component": "number_v1"
+        },
+        {
+            "reference_key": "rd_crm:users_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "deals",
+                "win",
+                "won_deals_value",
+                "lost"
+            ],
+            "dimensions": [
+                "deals"
+            ],
+            "sort": [
+                "-win"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:lost_reasons",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "lost",
+                "lost_rate_reason"
+            ],
+            "dimensions": [
+                "lost_reasons"
+            ],
+            "sort": [
+                "-lost"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:calls_by_user",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "calls"
+            ],
+            "dimensions": [
+                "calls_user"
+            ],
+            "sort": [
+                "-calls"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:calls_by_team",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "calls"
+            ],
+            "dimensions": [
+                "calls_team"
+            ],
+            "sort": [
+                "-name"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:deals_by_team",
+            "component": "datatable_v1",
+            "metrics": [
+                "name",
+                "win"
+            ],
+            "dimensions": [
+                "deals_team"
+            ],
+            "sort": [
+                "-win"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:calls_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "calls_over_time"
+            ],
+            "dimensions": [
+                "tasks"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:opportunities_by_user",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "opportunities_by_user"
+            ],
+            "dimensions": [
+                "deals"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:sales_by_user",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "sales_by_user"
+            ],
+            "dimensions": [
+                "deals"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:sales_value_by_user",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "sales_value_by_user"
+            ],
+            "dimensions": [
+                "deals"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:sales_value_by_team",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "sales_value_by_team"
+            ],
+            "dimensions": [
+                "deals",
+                "teams"
+            ]
+        },
+        {
+            "reference_key": "rd_crm:lost_opportunities_by_user",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "lost_opportunities_by_user"
+            ],
+            "dimensions": [
+                "deals"
+            ]
+        }
+    ]
+}

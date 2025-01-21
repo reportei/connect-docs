@@ -1,0 +1,126 @@
+{
+    "metrics": [
+        {
+            "reference_key": "search_console:clicks",
+            "component": "number_v1",
+            "metrics": [
+                "clicks"
+            ]
+        },
+        {
+            "reference_key": "search_console:impressions",
+            "component": "number_v1",
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "search_console:ctr",
+            "component": "number_v1",
+            "metrics": [
+                "ctr"
+            ]
+        },
+        {
+            "reference_key": "search_console:position",
+            "component": "number_v1",
+            "metrics": [
+                "position"
+            ]
+        },
+        {
+            "reference_key": "search_console:query",
+            "component": "datatable_v1",
+            "metrics": [
+                "clicks",
+                "impressions",
+                "ctr",
+                "position"
+            ],
+            "dimensions": [
+                "query"
+            ],
+            "sort": [
+                "-clicks"
+            ]
+        },
+        {
+            "reference_key": "search_console:pages",
+            "component": "datatable_v1",
+            "metrics": [
+                "clicks",
+                "impressions",
+                "ctr",
+                "position"
+            ],
+            "dimensions": [
+                "page"
+            ],
+            "sort": [
+                "-clicks"
+            ]
+        },
+        {
+            "reference_key": "search_console:country",
+            "component": "datatable_v1",
+            "metrics": [
+                "clicks",
+                "impressions",
+                "ctr",
+                "position"
+            ],
+            "dimensions": [
+                "country"
+            ],
+            "sort": [
+                "-clicks"
+            ]
+        },
+        {
+            "reference_key": "search_console:ctr_and_position_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "ctr",
+                "position"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "search_console:clicks_and_impressions_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "clicks",
+                "impressions"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "search_console:clicks_by_device",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "clicks"
+            ],
+            "dimensions": [
+                "device"
+            ]
+        },
+        {
+            "reference_key": "search_console:impressions_by_device",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "metrics": [
+                "impressions"
+            ],
+            "dimensions": [
+                "device"
+            ]
+        }
+    ]
+}

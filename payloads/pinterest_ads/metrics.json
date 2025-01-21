@@ -1,0 +1,1319 @@
+{
+    "metrics": [
+        {
+            "reference_key": "pinterest_ads:campaigns",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "campaigns"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "pinterest_ads:summary",
+            "component": "container_v1",
+            "container_type": "summary",
+            "metrics": [],
+            "dimensions": [
+                {
+                    "field": "summary"
+                }
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "pinterest_ads:engagement_rate",
+            "component": "number_v1",
+            "metrics": [
+                "engagement_rate"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:paid_engagement_rate",
+            "component": "number_v1",
+            "metrics": [
+                "eengagement_rate"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_engagement",
+            "component": "number_v1",
+            "metrics": [
+                "total_engagement"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:paid_engagement",
+            "component": "number_v1",
+            "metrics": [
+                "engagement_1"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_conversions",
+            "component": "number_v1",
+            "metrics": [
+                "total_conversions"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_impressions",
+            "component": "number_v1",
+            "metrics": [
+                "impression_1_gross"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:paid_impressions",
+            "component": "number_v1",
+            "metrics": [
+                "impression_1"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_ctr",
+            "component": "number_v1",
+            "metrics": [
+                "ctr"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:cpm",
+            "component": "number_v1",
+            "metrics": [
+                "cpm_in_micro_dollar"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:spend",
+            "component": "number_v1",
+            "metrics": [
+                "spend_in_micro_dollar"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:repin",
+            "component": "number_v1",
+            "metrics": [
+                "repin_1"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:clicks",
+            "component": "number_v1",
+            "metrics": [
+                "clickthrough_1"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:link_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "outbound_click_1"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_average_watchtime",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_avg_watchtime_in_second"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_3s_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_3sec_views"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_25_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_p25_combined"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_50_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_p50_combined"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_75_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_p75_combined"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_95_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_p95_combined"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_100_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_video_p100_complete"
+            ],
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:clicks_saves_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "clickthrough_1",
+                "repin_1"
+            ],
+            "dimensions": [
+                "day"
+            ]
+        },
+        {
+            "reference_key": "pinterest_ads:top_campaigns",
+            "component": "datatable_v1",
+            "metrics": [
+                "repin_1",
+                "engagement_1",
+                "ctr"
+            ],
+            "dimensions": [
+                "campaign_name"
+            ]
+        },
+        {
+            "reference_key": "pinterest_ads:checkout_roas",
+            "component": "number_v1",
+            "metrics": [
+                "CHECKOUT_ROAS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:clickthrough_1_gross",
+            "component": "number_v1",
+            "metrics": [
+                "CLICKTHROUGH_1_GROSS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:clickthrough_2",
+            "component": "number_v1",
+            "metrics": [
+                "CLICKTHROUGH_2"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "pinterest_ads:cost_per_lead",
+            "component": "number_v1",
+            "metrics": [
+                "COST_PER_LEAD"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "pinterest_ads:cost_per_outbound_click_in_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "COST_PER_OUTBOUND_CLICK_IN_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:ctr_2",
+            "component": "number_v1",
+            "metrics": [
+                "CTR_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:custom_roas",
+            "component": "number_v1",
+            "metrics": [
+                "CUSTOM_ROAS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:ecpcv_in_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "ECPCV_IN_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:ecpcv_p95_in_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "ECPCV_P95_IN_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:ecpc_in_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "ECPC_IN_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:ecpe_in_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "ECPE_IN_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:ecpv_in_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "ECPV_IN_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:engagement_2",
+            "component": "number_v1",
+            "metrics": [
+                "ENGAGEMENT_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:idea_pin_product_tag_visit_1",
+            "component": "number_v1",
+            "metrics": [
+                "IDEA_PIN_PRODUCT_TAG_VISIT_1"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:idea_pin_product_tag_visit_2",
+            "component": "number_v1",
+            "metrics": [
+                "IDEA_PIN_PRODUCT_TAG_VISIT_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:impression_2",
+            "component": "number_v1",
+            "metrics": [
+                "IMPRESSION_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:inapp_checkout_cost_per_action",
+            "component": "number_v1",
+            "metrics": [
+                "INAPP_CHECKOUT_COST_PER_ACTION"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:leads",
+            "component": "number_v1",
+            "metrics": [
+                "LEADS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:outbound_click_1",
+            "component": "number_v1",
+            "metrics": [
+                "OUTBOUND_CLICK_1"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:outbound_click_2",
+            "component": "number_v1",
+            "metrics": [
+                "OUTBOUND_CLICK_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:page_visit_cost_per_action",
+            "component": "number_v1",
+            "metrics": [
+                "PAGE_VISIT_COST_PER_ACTION"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:page_visit_roas",
+            "component": "number_v1",
+            "metrics": [
+                "PAGE_VISIT_ROAS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:quiz_completed",
+            "component": "number_v1",
+            "metrics": [
+                "QUIZ_COMPLETED"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:quiz_completion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "QUIZ_COMPLETION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:quiz_pin_result_open",
+            "component": "number_v1",
+            "metrics": [
+                "QUIZ_PIN_RESULT_OPEN"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:repin_2",
+            "component": "number_v1",
+            "metrics": [
+                "REPIN_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:repin_rate",
+            "component": "number_v1",
+            "metrics": [
+                "REPIN_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_average_subpage_closeup_per_session",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_AVERAGE_SUBPAGE_CLOSEUP_PER_SESSION"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_card_thumbnail_swipe_backward",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_CARD_THUMBNAIL_SWIPE_BACKWARD"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_card_thumbnail_swipe_forward",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_CARD_THUMBNAIL_SWIPE_FORWARD"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_pin_clickthrough",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_PIN_CLICKTHROUGH"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpage_clickthrough",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPAGE_CLICKTHROUGH"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpage_closeup",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPAGE_CLOSEUP"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpage_impression",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPAGE_IMPRESSION"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpage_repin",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPAGE_REPIN"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpage_swipe_left",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPAGE_SWIPE_LEFT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpage_swipe_right",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPAGE_SWIPE_RIGHT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpin_clickthrough",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPIN_CLICKTHROUGH"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpin_impression",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPIN_IMPRESSION"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpin_repin",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPIN_REPIN"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpin_swipe_left",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPIN_SWIPE_LEFT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:showcase_subpin_swipe_right",
+            "component": "number_v1",
+            "metrics": [
+                "SHOWCASE_SUBPIN_SWIPE_RIGHT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_add_to_cart_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_ADD_TO_CART_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_checkout_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CHECKOUT_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_click_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CLICK_ADD_TO_CART"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_click_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CLICK_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_click_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CLICK_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_click_lead",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CLICK_LEAD"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_click_signup",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CLICK_SIGNUP"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_click_signup_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CLICK_SIGNUP_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_custom",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CUSTOM"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_custom_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CUSTOM_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_custom_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_CUSTOM_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_engagement_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_ENGAGEMENT_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_engagement_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_ENGAGEMENT_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_engagement_lead",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_ENGAGEMENT_LEAD"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_engagement_signup",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_ENGAGEMENT_SIGNUP"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_engagement_signup_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_ENGAGEMENT_SIGNUP_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_idea_pin_product_tag_visit",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_IDEA_PIN_PRODUCT_TAG_VISIT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_impression_frequency",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_IMPRESSION_FREQUENCY"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_impression_user",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_IMPRESSION_USER"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_lead",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_LEAD"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_lead_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_LEAD_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_offline_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_OFFLINE_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_page_visit",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_PAGE_VISIT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_page_visit_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_PAGE_VISIT_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_repin_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_REPIN_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_search_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_SEARCH_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_signup",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_SIGNUP"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_signup_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_SIGNUP_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_signup_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_SIGNUP_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_unknown_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_UNKNOWN_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_video_mrc_views",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIDEO_MRC_VIEWS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_video_p0_combined",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIDEO_P0_COMBINED"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_ADD_TO_CART"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_category_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_CATEGORY_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_lead",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_LEAD"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_signup",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_SIGNUP"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_view_signup_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_VIEW_SIGNUP_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_watch_video_conversion_rate",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WATCH_VIDEO_CONVERSION_RATE"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_click_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_CLICK_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_click_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_CLICK_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_engagement_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_ENGAGEMENT_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_engagement_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_ENGAGEMENT_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_sessions",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_SESSIONS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_view_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_VIEW_CHECKOUT"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:total_web_view_checkout_value_in_micro_dollar",
+            "component": "number_v1",
+            "metrics": [
+                "TOTAL_WEB_VIEW_CHECKOUT_VALUE_IN_MICRO_DOLLAR"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_3sec_views_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_3SEC_VIEWS_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_length",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_LENGTH"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_mrc_views_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_MRC_VIEWS_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_p0_combined_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_P0_COMBINED_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_p100_complete_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_P100_COMPLETE_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_p25_combined_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_P25_COMBINED_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_p50_combined_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_P50_COMBINED_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_p75_combined_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_P75_COMBINED_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:video_p95_combined_2",
+            "component": "number_v1",
+            "metrics": [
+                "VIDEO_P95_COMBINED_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:web_checkout_cost_per_action",
+            "component": "number_v1",
+            "metrics": [
+                "WEB_CHECKOUT_COST_PER_ACTION"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:web_checkout_roas",
+            "component": "number_v1",
+            "metrics": [
+                "WEB_CHECKOUT_ROAS"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:web_sessions_1",
+            "component": "number_v1",
+            "metrics": [
+                "WEB_SESSIONS_1"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:web_sessions_2",
+            "component": "number_v1",
+            "metrics": [
+                "WEB_SESSIONS_2"
+            ],
+            "added_date": "2024-07-01",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:top_ads",
+            "component": "datatable_v1",
+            "metrics": [
+                "spend_in_micro_dollar",
+                "CAMPAIGN_OBJECTIVE_TYPE",
+                "cost_per_result_in_micro_dollar",
+                "impression_1_gross",
+                "cpm_in_micro_dollar",
+                "clickthrough_1",
+                "ctr"
+            ],
+            "sort": [
+                "-spend_in_micro_dollar"
+            ],
+            "dimensions": [
+                "ad_id"
+            ],
+            "added_date": "2024-07-23"
+        },
+        {
+            "reference_key": "pinterest_ads:top_ad_groups",
+            "component": "datatable_v1",
+            "metrics": [
+                "spend_in_micro_dollar",
+                "CAMPAIGN_OBJECTIVE_TYPE",
+                "cost_per_result_in_micro_dollar",
+                "impression_1_gross",
+                "cpm_in_micro_dollar",
+                "clickthrough_1",
+                "ctr"
+            ],
+            "dimensions": [
+                "ad_group_id"
+            ],
+            "sort": [
+                "-spend_in_micro_dollar"
+            ],
+            "added_date": "2024-07-23"
+        },
+        {
+            "reference_key": "pinterest_ads:top_keywords",
+            "component": "datatable_v1",
+            "metrics": [
+                "spend_in_micro_dollar",
+                "cpm_in_micro_dollar",
+                "ctr",
+                "impression_1_gross",
+                "clickthrough_1"
+            ],
+            "dimensions": [
+                "keywords"
+            ],
+            "sort": [
+                "-spend_in_micro_dollar"
+            ],
+            "added_date": "2024-07-23"
+        },
+        {
+            "reference_key": "pinterest_ads:clicks_and_ctr_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "clickthrough_1",
+                "ctr"
+            ],
+            "dimensions": [
+                "day"
+            ],
+            "custom": {
+                "two_axis": true
+            },
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "pinterest_ads:cpm_and_impressions_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "cpm_in_micro_dollar",
+                "impression_1_gross"
+            ],
+            "dimensions": [
+                "day"
+            ],
+            "custom": {
+                "two_axis": true
+            },
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "pinterest_ads:spend_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "spend_in_micro_dollar"
+            ],
+            "dimensions": [
+                "day"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "pinterest_ads:revenue",
+            "component": "number_v1",
+            "metrics": [
+                "total_checkout_value_in_micro_dollar"
+            ],
+            "added_date": "2024-12-06",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:additions_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "total_click_add_to_cart",
+                "total_view_add_to_cart"
+            ],
+            "added_date": "2024-12-06",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:page_visits",
+            "component": "number_v1",
+            "metrics": [
+                "total_page_visit"
+            ],
+            "added_date": "2024-12-06",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:purchase_completions",
+            "component": "number_v1",
+            "metrics": [
+                "total_checkout"
+            ],
+            "added_date": "2024-12-06",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:average_order_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_checkout_value_in_micro_dollar",
+                "total_checkout"
+            ],
+            "added_date": "2024-12-06",
+            "dimensions": []
+        },
+        {
+            "reference_key": "pinterest_ads:buyers",
+            "component": "number_v1",
+            "metrics": [
+                "total_checkout"
+            ],
+            "added_date": "2024-12-06",
+            "dimensions": []
+        }
+    ]
+}

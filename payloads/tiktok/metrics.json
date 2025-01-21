@@ -1,0 +1,79 @@
+{
+    "metrics": [
+        {
+            "reference_key": "tiktok:video_count",
+            "component": "number_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "video_count"
+            ]
+        },
+        {
+            "reference_key": "tiktok:likes",
+            "component": "number_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "like_count"
+            ]
+        },
+        {
+            "reference_key": "tiktok:comments",
+            "component": "number_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "comment_count"
+            ]
+        },
+        {
+            "reference_key": "tiktok:share",
+            "component": "number_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "share_count"
+            ]
+        },
+        {
+            "reference_key": "tiktok:views",
+            "component": "number_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "view_count"
+            ]
+        },
+        {
+            "reference_key": "tiktok:follows",
+            "component": "number_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "followers"
+            ],
+            "added_date": "2024-08-01"
+        },
+        {
+            "reference_key": "tiktok:top_videos",
+            "component": "datatable_v1",
+            "dimensions": [
+                "video"
+            ],
+            "metrics": [
+                "view_count",
+                "like_count",
+                "share_count",
+                "comment_count",
+                "create_time"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "metrics": {
+        "clicks": {
+            "label": "Clicks"
+        },
+        "impressions": {
+            "label": "Impressions"
+        },
+        "ctr": {
+            "label": "CTR",
+            "formatting_function": "percentage"
+        },
+        "position": {
+            "label": "Average Position"
+        }
+    },
+    "dimensions": {
+        "query": {
+            "label": "Query",
+            "options": [
+                "align_left"
+            ]
+        },
+        "page": {
+            "label": "Page",
+            "options": [
+                "align_left"
+            ]
+        },
+        "country": {
+            "label": "Country",
+            "options": [
+                "align_left"
+            ]
+        },
+        "device": {
+            "label": "Device",
+            "options": [
+                "align_left"
+            ]
+        },
+        "date": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "metrics": {
+        "video_count": {
+            "label": "Number of Videos",
+            "options": [
+                "align_left"
+            ]
+        },
+        "like_count": {
+            "label": "Total likes",
+            "options": [
+                "align_left"
+            ]
+        },
+        "comment_count": {
+            "label": "Comments",
+            "options": [
+                "align_left"
+            ]
+        },
+        "share_count": {
+            "label": "Total Shares"
+        },
+        "view_count": {
+            "label": "Total views"
+        },
+        "create_time": {
+            "label": "Created at",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        }
+    },
+    "dimensions": {
+        "video": {
+            "label": "Title",
+            "options": [
+                "align_left"
+            ],
+            "formatting_function": "capitalize"
+        }
+    }
+}

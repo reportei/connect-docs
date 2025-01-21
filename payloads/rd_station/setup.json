@@ -1,0 +1,116 @@
+{
+    "metrics": {
+        "rdstation_leads_converted": {
+            "label": "Leads conversions"
+        },
+        "rdstation_qualified_leads_conversions": {
+            "label": "Qualified Leads conversions"
+        },
+        "rdstation_opportunities_conversions": {
+            "label": "Opportunities conversions"
+        },
+        "rdstation_clients_conversions": {
+            "label": "Customers conversions"
+        },
+        "fitscore": {
+            "label": "Score",
+            "options": [
+                "align_left"
+            ]
+        },
+        "interest": {
+            "label": "Interest Score",
+            "options": [
+                "align_left"
+            ]
+        },
+        "tags": {
+            "label": "Tag",
+            "options": [
+                "align_left"
+            ]
+        },
+        "rdstation_last_conversion_identifiers": {
+            "label": "Conversion Identifier",
+            "options": [
+                "align_left"
+            ]
+        },
+        "rdstation_last_conversion_origin": {
+            "label": "Source",
+            "options": [
+                "align_left"
+            ]
+        },
+        "workflow_emails:email_delivered_count": {
+            "label": "Delivered"
+        },
+        "workflow_emails:email_delivered_rate": {
+            "label": "Delivered Rate"
+        },
+        "workflow_emails:email_dropped_count": {
+            "label": "Dropped"
+        },
+        "workflow_emails:email_opened_unique_count": {
+            "label": "Opened"
+        },
+        "workflow_emails:email_opened_rate": {
+            "label": "Opened Rate"
+        },
+        "workflow_emails:email_clicked_unique_count": {
+            "label": "Clicked"
+        },
+        "workflow_emails:email_clicked_rate": {
+            "label": "Clicked Rate"
+        },
+        "workflow_emails:updated_at": {
+            "label": "Last change",
+            "isDate": true
+        },
+        "conversions:visits_count": {
+            "label": "Visitors in the period"
+        },
+        "conversions:conversion_rate": {
+            "label": "Conversion rate"
+        },
+        "conversions:conversion_count": {
+            "label": "Leads in the period"
+        },
+        "conversions:asset_updated_at": {
+            "label": "Date of change",
+            "isDate": true
+        }
+    },
+    "dimensions": {
+        "workflow_emails:email_name": {
+            "label": "Email",
+            "options": [
+                "align_left"
+            ]
+        },
+        "workflow_emails:workflow_name": {
+            "label": "Workflow",
+            "options": [
+                "align_left"
+            ]
+        },
+        "conversions:Embeddable": {
+            "label": "Form name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "conversions:LandingPage": {
+            "label": "landing page name",
+            "options": [
+                "align_left"
+            ]
+        },
+        "conversions:Popup": {
+            "label": "Pop up name",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

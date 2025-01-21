@@ -1,0 +1,177 @@
+{
+    "metrics": [
+        {
+            "reference_key": "mailchimp:emails_sent",
+            "component": "number_v1",
+            "metrics": [
+                "emails_sent"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:unsubscribed",
+            "component": "number_v1",
+            "metrics": [
+                "unsubscribed"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:clicks_total",
+            "component": "number_v1",
+            "metrics": [
+                "clicks.clicks_total"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:clicks_total_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "emails_sent"
+            ],
+            "metrics": [
+                "clicks.unique_clicks"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:unique_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "clicks.unique_clicks"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:opens_total",
+            "component": "number_v1",
+            "metrics": [
+                "opens.opens_total"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:opens_total_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "emails_sent"
+            ],
+            "metrics": [
+                "opens.unique_opens"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:unique_opens",
+            "component": "number_v1",
+            "metrics": [
+                "opens.unique_opens"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:campaigns_count",
+            "component": "number_v1",
+            "metrics": [
+                "campaign_title"
+            ],
+            "dimensions": [
+                "count"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:soft_bounces",
+            "component": "number_v1",
+            "metrics": [
+                "bounces.soft_bounces"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:hard_bounces",
+            "component": "number_v1",
+            "metrics": [
+                "bounces.hard_bounces"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:forwards_count",
+            "component": "number_v1",
+            "metrics": [
+                "forwards.forwards_count"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:forwards_opens",
+            "component": "number_v1",
+            "metrics": [
+                "forwards.forwards_opens"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:timeseries",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "metrics": [
+                "unique_opens",
+                "recipients_clicks"
+            ],
+            "dimensions": [
+                "timeseries"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:opens_by_day",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "members.opens"
+            ],
+            "dimensions": [
+                "date"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:top_campaigns",
+            "component": "datatable_v1",
+            "metrics": [
+                "emails_sent",
+                "opens.unique_opens",
+                "opens.open_rate",
+                "clicks.unique_clicks",
+                "clicks.click_rate",
+                "bounces.soft_bounces",
+                "bounces.hard_bounces"
+            ],
+            "dimensions": [
+                "campaign_title"
+            ],
+            "sort": [
+                "-opens.unique_opens"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:ecommerce_summary",
+            "component": "datatable_v1",
+            "metrics": [
+                "ecommerce.total_orders",
+                "ecommerce.total_spent",
+                "ecommerce.total_revenue"
+            ],
+            "dimensions": [
+                "campaign_title"
+            ],
+            "sort": [
+                "-ecommerce.total_orders"
+            ]
+        },
+        {
+            "reference_key": "mailchimp:lists",
+            "component": "datatable_v1",
+            "metrics": [
+                "stats.member_count",
+                "stats.open_rate",
+                "stats.click_rate",
+                "stats.campaign_last_sent"
+            ],
+            "dimensions": [
+                "lists"
+            ],
+            "sort": [
+                "-stats.open_rate"
+            ]
+        }
+    ]
+}

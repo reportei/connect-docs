@@ -1,0 +1,363 @@
+{
+    "metrics": [
+        {
+            "reference_key": "rdstation:leads_converted",
+            "component": "number_v1",
+            "metrics": [
+                "rdstation_leads_converted"
+            ]
+        },
+        {
+            "reference_key": "rdstation:qualified_leads_conversions",
+            "component": "number_v1",
+            "metrics": [
+                "rdstation_qualified_leads_conversions"
+            ]
+        },
+        {
+            "reference_key": "rdstation:opportunities_conversions",
+            "component": "number_v1",
+            "metrics": [
+                "rdstation_opportunities_conversions"
+            ]
+        },
+        {
+            "reference_key": "rdstation:clients_conversions",
+            "component": "number_v1",
+            "metrics": [
+                "rdstation_clients_conversions"
+            ]
+        },
+        {
+            "reference_key": "rdstation:leads_converted_history",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "rdstation_leads_converted_history"
+            ]
+        },
+        {
+            "reference_key": "rdstation:opportunities_conversions_history",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "rdstation_opportunities_conversions_history",
+                "rdstation_clients_conversions_history"
+            ]
+        },
+        {
+            "reference_key": "rdstation:leads_converted_history",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": []
+        },
+        {
+            "reference_key": "rdstation:fitscore",
+            "component": "datatable_v1",
+            "metrics": [
+                "fitscore"
+            ]
+        },
+        {
+            "reference_key": "rdstation:interest",
+            "component": "datatable_v1",
+            "metrics": [
+                "interest"
+            ]
+        },
+        {
+            "reference_key": "rdstation:tags",
+            "component": "datatable_v1",
+            "metrics": [
+                "tags"
+            ]
+        },
+        {
+            "reference_key": "rdstation:last_conversion_identifiers",
+            "component": "datatable_v1",
+            "metrics": [
+                "rdstation_last_conversion_identifiers"
+            ]
+        },
+        {
+            "reference_key": "rdstation:last_conversion_origin",
+            "component": "datatable_v1",
+            "metrics": [
+                "rdstation_last_conversion_origin"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_email_count",
+            "component": "number_v1",
+            "metrics": [
+                "emails:email_count"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_campaign_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "emails:campaign_performance"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_lead_total",
+            "component": "number_v1",
+            "metrics": [
+                "emails:lead_total"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_marked_as_spam",
+            "component": "number_v1",
+            "metrics": [
+                "emails:marked_as_spam"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_unique_bounces",
+            "component": "number_v1",
+            "metrics": [
+                "emails:unique_bounces"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_total_unique_openings",
+            "component": "number_v1",
+            "metrics": [
+                "emails:total_unique_openings"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_total_unique_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "emails:total_unique_clicks"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_total_of_delivered",
+            "component": "number_v1",
+            "metrics": [
+                "emails:total_of_ delivered"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_total_of_dropped",
+            "component": "number_v1",
+            "metrics": [
+                "emails:total_of_dropped"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_emails_sent",
+            "component": "number_v1",
+            "metrics": [
+                "emails:total_emails_sents"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_total_unsubscribe",
+            "component": "number_v1",
+            "metrics": [
+                "emails:total_unsubscribe"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_opening_rate",
+            "component": "number_v1",
+            "metrics": [
+                "emails:opening_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_clicks_rate",
+            "component": "number_v1",
+            "metrics": [
+                "emails:clicks_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_delivered_rate",
+            "component": "number_v1",
+            "metrics": [
+                "emails:delivered_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_bounces_rate",
+            "component": "number_v1",
+            "metrics": [
+                "emails:bounces_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_spam_rate",
+            "component": "number_v1",
+            "metrics": [
+                "emails:spam_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_unsubscribe_rate",
+            "component": "number_v1",
+            "metrics": [
+                "emails:unsubscribe_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_contacts_count",
+            "component": "number_v1",
+            "metrics": [
+                "funnel:contacts_count"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_visitors_count",
+            "component": "number_v1",
+            "metrics": [
+                "funnel:visitors_count"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_qualified_contacts_count",
+            "component": "number_v1",
+            "metrics": [
+                "funnel:qualified_contacts_count"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_opportunities_count",
+            "component": "number_v1",
+            "metrics": [
+                "funnel:opportunities_count"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_sales_count",
+            "component": "number_v1",
+            "metrics": [
+                "funnel:sales_count"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_contacts_count_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "funnel:contacts_count"
+            ],
+            "dimensions": [
+                "funnel"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_qualified_contacts_count_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "funnel:qualified_contacts_count"
+            ],
+            "dimensions": [
+                "funnel"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_opportunities_count_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "funnel:opportunities_count"
+            ],
+            "dimensions": [
+                "funnel"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_sales_count_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "funnel:sales_count"
+            ],
+            "dimensions": [
+                "funnel"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_visitors_count_chart",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "metrics": [
+                "funnel:visitors_count"
+            ],
+            "dimensions": [
+                "funnel"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_converesions_landing_page_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "conversions:visits_count",
+                "conversions:conversion_rate",
+                "conversions:conversion_count",
+                "conversions:asset_updated_at"
+            ],
+            "dimensions": [
+                "conversions:LandingPage"
+            ],
+            "sort": [
+                "conversions:conversion_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_converesions_pop_up_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "conversions:visits_count",
+                "conversions:conversion_rate",
+                "conversions:conversion_count",
+                "conversions:asset_updated_at"
+            ],
+            "dimensions": [
+                "conversions:Popup"
+            ],
+            "sort": [
+                "conversions:conversion_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_converesions_form_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "conversions:visits_count",
+                "conversions:conversion_rate",
+                "conversions:conversion_count",
+                "conversions:asset_updated_at"
+            ],
+            "dimensions": [
+                "conversions:Embeddable"
+            ],
+            "sort": [
+                "conversions:conversion_rate"
+            ]
+        },
+        {
+            "reference_key": "rdstation_experiment_workflow_interaction_emails_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "workflow_emails:email_delivered_count",
+                "workflow_emails:email_opened_unique_count",
+                "workflow_emails:email_clicked_unique_count",
+                "workflow_emails:updated_at"
+            ],
+            "sort": [
+                "-workflow_emails:updated_at"
+            ],
+            "dimensions": [
+                "workflow_emails:workflow_name"
+            ]
+        }
+    ]
+}

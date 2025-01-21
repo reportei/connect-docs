@@ -1,0 +1,3912 @@
+{
+    "metrics": [
+        {
+            "reference_key": "tiktok_ads:campaigns",
+            "component": "container_v1",
+            "container_type": "campaigns",
+            "metrics": [
+                "campaigns"
+            ],
+            "widgets": []
+        },
+        {
+            "reference_key": "tiktok_ads:impressions",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "clicks"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:cpc",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "cpc"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:spend",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "spend"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:ctr",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "ctr"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:cpm",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "cpm"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:cpa",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "cost_per_conversion"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:cvr",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "conversion_rate"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:frequency",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "frequency"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:conversions",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "conversion"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:reach",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "reach"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:sales_lead",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "sales_lead"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_sales_lead",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "cost_per_sales_lead"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:sales_lead_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "sales_lead_rate"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:total_sales_lead",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "total_sales_lead"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_sales_lead",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "cost_per_total_sales_lead"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_total_sales_lead",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "value_per_total_sales_lead"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:total_sales_lead_value",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "total_sales_lead_value"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:result",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "result"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_result",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "cost_per_result"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:result_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "advertiser_id"
+            ],
+            "metrics": [
+                "result_rate"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_play_actions",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_play_actions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:average_video_play",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "average_video_play"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:average_video_play_per_user",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "average_video_play_per_user"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_views_p25",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_views_p25"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_views_p50",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_views_p50"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_views_p75",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_views_p75"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_views_p100",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_views_p100"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_watched_2s",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_watched_2s"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:video_watched_6s",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "video_watched_6s"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:add_to_cart",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "app_event_add_to_cart"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_add_to_cart",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "cost_per_total_app_event_add_to_cart"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:add_to_cart_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "app_event_add_to_cart_rate"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:button_click",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "button_click"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:button_click_cost",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "cost_per_button_click"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:button_click_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "button_click_rate"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:impressions_by_gender",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "dimensions": [
+                "gender"
+            ],
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:impressions_by_age",
+            "component": "chart_v1",
+            "chart_type": "bar",
+            "dimensions": [
+                "age"
+            ],
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:performance_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "dimensions": [
+                "stat_time_day"
+            ],
+            "metrics": [
+                "spend",
+                "impressions",
+                "clicks",
+                "conversion"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:impressions_by_platform",
+            "component": "chart_v1",
+            "chart_type": "pie",
+            "dimensions": [
+                "platform"
+            ],
+            "metrics": [
+                "impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:top_campaigns",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions",
+                "spend",
+                "conversion",
+                "cpc",
+                "cpm",
+                "result"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:media_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "spend",
+                "impressions",
+                "conversion",
+                "cpc",
+                "cpm",
+                "result"
+            ],
+            "dimensions": [
+                "ad_id"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:top_countries",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions"
+            ],
+            "dimensions": [
+                "country_code"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:top_regions",
+            "component": "datatable_v1",
+            "metrics": [
+                "impressions"
+            ],
+            "dimensions": [
+                "province_id"
+            ],
+            "sort": [
+                "-impressions"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:boosted_datatable",
+            "component": "datatable_v1",
+            "metrics": [
+                "profile_visits",
+                "profile_visits_rate",
+                "likes",
+                "comments",
+                "shares",
+                "follows"
+            ],
+            "dimensions": [
+                "ad_id"
+            ],
+            "sort": [
+                "-likes"
+            ]
+        },
+        {
+            "reference_key": "tiktok_ads:follows",
+            "component": "number_v1",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "metrics": [
+                "follows"
+            ],
+            "added_date": "2024-04-16"
+        },
+        {
+            "reference_key": "tiktok_ads:comments",
+            "component": "number_v1",
+            "metrics": [
+                "comments"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:likes",
+            "component": "number_v1",
+            "metrics": [
+                "likes"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:shares",
+            "component": "number_v1",
+            "metrics": [
+                "shares"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:profile_visits",
+            "component": "number_v1",
+            "metrics": [
+                "profile_visits"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:profile_visits_rate",
+            "component": "number_v1",
+            "metrics": [
+                "profile_visits_rate"
+            ],
+            "formatting_function": "add_percentage",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:duet_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "duet_clicks"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "total_purchase"
+            ],
+            "formatting_function": "currency",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_total_purchase"
+            ],
+            "formatting_function": "currency",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_total_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_total_purchase"
+            ],
+            "formatting_function": "currency",
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_purchase_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_purchase_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_active_pay_roas",
+            "component": "number_v1",
+            "metrics": [
+                "total_active_pay_roas"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:purchase",
+            "component": "number_v1",
+            "metrics": [
+                "purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:purchase_rate",
+            "component": "number_v1",
+            "metrics": [
+                "purchase_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:subscribe_rate",
+            "component": "number_v1",
+            "metrics": [
+                "subscribe_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "total_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_total_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_total_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_total_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_subscribe_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_subscribe_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:checkout_rate",
+            "component": "number_v1",
+            "metrics": [
+                "checkout_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "total_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_total_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_checkout_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_checkout_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:checkout",
+            "component": "number_v1",
+            "metrics": [
+                "checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "currency",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:engagements",
+            "component": "number_v1",
+            "metrics": [
+                "engagements"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:engagement_rate",
+            "component": "number_v1",
+            "metrics": [
+                "engagement_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-07-01"
+        },
+        {
+            "reference_key": "tiktok_ads:complete_payment_roas",
+            "component": "number_v1",
+            "metrics": [
+                "complete_payment_roas"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-10-01"
+        },
+        {
+            "reference_key": "tiktok_ads:complete_payment",
+            "component": "number_v1",
+            "metrics": [
+                "complete_payment"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-10-01"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_complete_payment",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_complete_payment"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-10-01"
+        },
+        {
+            "reference_key": "tiktok_ads:complete_payment_rate",
+            "component": "number_v1",
+            "metrics": [
+                "complete_payment_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-10-01"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_complete_payment",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_complete_payment"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-10-01"
+        },
+        {
+            "reference_key": "tiktok_ads:total_complete_payment_rate",
+            "component": "number_v1",
+            "metrics": [
+                "total_complete_payment_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "formatting_function": "add_percentage",
+            "added_date": "2024-10-01"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_result",
+            "component": "number_v1",
+            "metrics": [
+                "skan_result"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_result",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_result"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_result_rate",
+            "component": "number_v1",
+            "metrics": [
+                "skan_result_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_conversion_rate_v2",
+            "component": "number_v1",
+            "metrics": [
+                "skan_conversion_rate_v2"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_click_time_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_click_time_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_purchase_rate",
+            "component": "number_v1",
+            "metrics": [
+                "skan_purchase_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_total_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_total_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_purchase_value",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_purchase_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_repetitive_active_pay_roas",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_repetitive_active_pay_roas"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "skan_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_add_to_cart_rate",
+            "component": "number_v1",
+            "metrics": [
+                "skan_add_to_cart_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_total_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_total_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_add_to_cart_value",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_add_to_cart_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "skan_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_checkout_rate",
+            "component": "number_v1",
+            "metrics": [
+                "skan_checkout_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_total_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_total_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_checkout_value",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_checkout_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_sales_lead",
+            "component": "number_v1",
+            "metrics": [
+                "skan_sales_lead"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_sales_lead",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_sales_lead"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_sales_lead_rate",
+            "component": "number_v1",
+            "metrics": [
+                "skan_sales_lead_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_sales_lead",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_sales_lead"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_total_sales_lead",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_total_sales_lead"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_total_sales_lead_value",
+            "component": "number_v1",
+            "metrics": [
+                "skan_total_sales_lead_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_vta_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_vta_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_vta_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_vta_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_vta_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_vta_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_vta_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_vta_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cta_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cta_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_cta_conversion",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_cta_conversion"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cta_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cta_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:skan_cost_per_cta_purchase",
+            "component": "number_v1",
+            "metrics": [
+                "skan_cost_per_cta_purchase"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_shopping_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_shopping_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_shopping_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_shopping_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_shopping_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_shopping_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_shopping_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_shopping_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_shopping_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_shopping_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_shopping_events_roas",
+            "component": "number_v1",
+            "metrics": [
+                "offline_shopping_events_roas"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-07-29"
+        },
+        {
+            "reference_key": "tiktok_ads:total_landing_page_view",
+            "component": "number_v1",
+            "metrics": [
+                "total_landing_page_view"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_landing_page_view",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_landing_page_view"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:landing_page_view_rate",
+            "component": "number_v1",
+            "metrics": [
+                "landing_page_view_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_pageview",
+            "component": "number_v1",
+            "metrics": [
+                "total_pageview"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_pageview",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_pageview"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:pageview_rate",
+            "component": "number_v1",
+            "metrics": [
+                "pageview_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:avg_value_per_pageview",
+            "component": "number_v1",
+            "metrics": [
+                "avg_value_per_pageview"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_value_per_pageview",
+            "component": "number_v1",
+            "metrics": [
+                "total_value_per_pageview"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:page_content_view_events",
+            "component": "number_v1",
+            "metrics": [
+                "page_content_view_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_page_content_view_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_page_content_view_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:page_content_view_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "page_content_view_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_page_content_view_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_page_content_view_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_page_view_content_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_page_view_content_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:web_event_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "web_event_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_web_event_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_web_event_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:web_event_add_to_cart_rate",
+            "component": "number_v1",
+            "metrics": [
+                "web_event_add_to_cart_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_web_event_add_to_cart",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_web_event_add_to_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_web_event_add_to_cart_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_web_event_add_to_cart_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:on_web_order",
+            "component": "number_v1",
+            "metrics": [
+                "on_web_order"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_on_web_order",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_on_web_order"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:on_web_order_rate",
+            "component": "number_v1",
+            "metrics": [
+                "on_web_order_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_on_web_order",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_on_web_order"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_on_web_order_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_on_web_order_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:initiate_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "initiate_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_initiate_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_initiate_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:initiate_checkout_rate",
+            "component": "number_v1",
+            "metrics": [
+                "initiate_checkout_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_initiate_checkout",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_initiate_checkout"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_initiate_checkout_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_initiate_checkout_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:on_web_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "on_web_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_on_web_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_on_web_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:on_web_add_to_wishlist_per_click",
+            "component": "number_v1",
+            "metrics": [
+                "on_web_add_to_wishlist_per_click"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_on_web_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_on_web_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_on_web_add_to_wishlist_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_on_web_add_to_wishlist_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:add_billing",
+            "component": "number_v1",
+            "metrics": [
+                "add_billing"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_add_billing",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_add_billing"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:add_billing_rate",
+            "component": "number_v1",
+            "metrics": [
+                "add_billing_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_add_billing",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_add_billing"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_add_billing_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_add_billing_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:custom_page_events",
+            "component": "number_v1",
+            "metrics": [
+                "custom_page_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_custom_page_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_custom_page_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:custom_page_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "custom_page_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_custom_page_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_custom_page_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:custom_page_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "custom_page_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_add_to_wishlist_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_add_to_wishlist_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_add_to_wishlist_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_add_to_wishlist_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_add_billing",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_add_billing"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_add_billing",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_add_billing"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_add_billing_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_add_billing_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_add_billing",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_add_billing"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_add_billing_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_add_billing_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_form",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_form"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_form",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_form"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_form_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_form_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_form",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_form"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_form_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_form_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:ix_page_view_count",
+            "component": "number_v1",
+            "metrics": [
+                "ix_page_view_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_ix_page_view_count",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_ix_page_view_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:ix_page_view_count_rate",
+            "component": "number_v1",
+            "metrics": [
+                "ix_page_view_count_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_shopping_roas",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_shopping_roas"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_shopping",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_shopping"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_shopping",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_shopping"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_shopping_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_shopping_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_shopping",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_shopping"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_shopping_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_shopping_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_initiate_checkout_count",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_initiate_checkout_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_initiate_checkout_count",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_initiate_checkout_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_initiate_checkout_count_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_initiate_checkout_count_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_initiate_checkout_count",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_initiate_checkout_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_initiate_checkout_count_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_initiate_checkout_count_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_on_web_detail",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_on_web_detail"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_on_web_detail",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_on_web_detail"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_on_web_detail_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_on_web_detail_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_on_web_detail",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_on_web_detail"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_on_web_detail_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_on_web_detail_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_on_web_cart",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_on_web_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_on_web_cart",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_on_web_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_on_web_cart_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_on_web_cart_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_onsite_on_web_cart",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_onsite_on_web_cart"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_onsite_on_web_cart_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_onsite_on_web_cart_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:engaged_view",
+            "component": "number_v1",
+            "metrics": [
+                "engaged_view"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:engaged_view_15s",
+            "component": "number_v1",
+            "metrics": [
+                "engaged_view_15s"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:clicks_on_music_disc",
+            "component": "number_v1",
+            "metrics": [
+                "clicks_on_music_disc"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:stitch_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "stitch_clicks"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:sound_usage_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "sound_usage_clicks"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:anchor_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "anchor_clicks"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:anchor_click_rate",
+            "component": "number_v1",
+            "metrics": [
+                "anchor_click_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:clicks_on_hashtag_challenge",
+            "component": "number_v1",
+            "metrics": [
+                "clicks_on_hashtag_challenge"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:live_views",
+            "component": "number_v1",
+            "metrics": [
+                "live_views"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:live_unique_views",
+            "component": "number_v1",
+            "metrics": [
+                "live_unique_views"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:live_effective_views",
+            "component": "number_v1",
+            "metrics": [
+                "live_effective_views"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:live_product_clicks",
+            "component": "number_v1",
+            "metrics": [
+                "live_product_clicks"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:real_time_app_install",
+            "component": "number_v1",
+            "metrics": [
+                "real_time_app_install"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:real_time_app_install_cost",
+            "component": "number_v1",
+            "metrics": [
+                "real_time_app_install_cost"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:app_install",
+            "component": "number_v1",
+            "metrics": [
+                "app_install"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_app_install",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_app_install"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:registration",
+            "component": "number_v1",
+            "metrics": [
+                "registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_registration",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:registration_rate",
+            "component": "number_v1",
+            "metrics": [
+                "registration_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_registration",
+            "component": "number_v1",
+            "metrics": [
+                "total_registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_registration",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_total_registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:view_content",
+            "component": "number_v1",
+            "metrics": [
+                "view_content"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_view_content",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_view_content"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:view_content_rate",
+            "component": "number_v1",
+            "metrics": [
+                "view_content_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_view_content",
+            "component": "number_v1",
+            "metrics": [
+                "total_view_content"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_view_content",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_total_view_content"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_total_view_content",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_total_view_content"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_view_content_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_view_content_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:add_payment_info",
+            "component": "number_v1",
+            "metrics": [
+                "add_payment_info"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_add_payment_info",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_add_payment_info"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:add_payment_info_rate",
+            "component": "number_v1",
+            "metrics": [
+                "add_payment_info_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_add_payment_info",
+            "component": "number_v1",
+            "metrics": [
+                "total_add_payment_info"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_total_add_payment_info",
+            "component": "number_v1",
+            "metrics": [
+                "cost_total_add_payment_info"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:add_to_wishlist_rate",
+            "component": "number_v1",
+            "metrics": [
+                "add_to_wishlist_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "total_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_total_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_total_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_total_add_to_wishlist",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_total_add_to_wishlist"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_add_to_wishlist_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_add_to_wishlist_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:online_consult",
+            "component": "number_v1",
+            "metrics": [
+                "online_consult"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_online_consult",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_online_consult"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:online_consult_rate",
+            "component": "number_v1",
+            "metrics": [
+                "online_consult_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_online_consult",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_online_consult"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_online_consult_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_online_consult_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:user_registration",
+            "component": "number_v1",
+            "metrics": [
+                "user_registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_user_registration",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_user_registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:user_registration_rate",
+            "component": "number_v1",
+            "metrics": [
+                "user_registration_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_user_registration",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_user_registration"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_user_registration_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_user_registration_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:form",
+            "component": "number_v1",
+            "metrics": [
+                "form"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_form",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_form"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:form_rate",
+            "component": "number_v1",
+            "metrics": [
+                "form_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_form",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_form"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_form_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_form_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:download_start",
+            "component": "number_v1",
+            "metrics": [
+                "download_start"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_download_start",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_download_start"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:download_start_rate",
+            "component": "number_v1",
+            "metrics": [
+                "download_start_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_download_start",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_download_start"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_download_start_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_download_start_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:on_web_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "on_web_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_on_web_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_on_web_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:on_web_subscribe_per_click",
+            "component": "number_v1",
+            "metrics": [
+                "on_web_subscribe_per_click"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_on_web_subscribe",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_on_web_subscribe"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:total_on_web_subscribe_value",
+            "component": "number_v1",
+            "metrics": [
+                "total_on_web_subscribe_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_download_start",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_download_start"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_download_start",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_download_start"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_download_start_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_download_start_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_destination_visits",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_destination_visits"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_onsite_destination_visit",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_onsite_destination_visit"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:onsite_destination_visit_rate",
+            "component": "number_v1",
+            "metrics": [
+                "onsite_destination_visit_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:ix_button_click_count",
+            "component": "number_v1",
+            "metrics": [
+                "ix_button_click_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_ix_button_click_count",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_ix_button_click_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:ix_button_click_count_rate",
+            "component": "number_v1",
+            "metrics": [
+                "ix_button_click_count_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:ix_product_click_count",
+            "component": "number_v1",
+            "metrics": [
+                "ix_product_click_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_ix_product_click_count",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_ix_product_click_count"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:ix_product_click_count_rate",
+            "component": "number_v1",
+            "metrics": [
+                "ix_product_click_count_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_contact_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_contact_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_contact_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_contact_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_contact_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_contact_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_contact_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_contact_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_contact_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_contact_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_subscribe_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_subscribe_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_subscribe_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_subscribe_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_subscribe_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_subscribe_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_subscribe_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_subscribe_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_subscribe_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_subscribe_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_form_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_form_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_form_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_form_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_form_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_form_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_form_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_form_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_form_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_form_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_payment_info_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_payment_info_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_add_payment_info_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_add_payment_info_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_payment_info_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_payment_info_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_add_payment_info_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_add_payment_info_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_payment_info_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_payment_info_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_to_cart_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_to_cart_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_add_to_cart_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_add_to_cart_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_to_cart_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_to_cart_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_add_to_cart_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_add_to_cart_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_to_cart_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_to_cart_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_to_wishlist_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_to_wishlist_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_add_to_wishlist_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_add_to_wishlist_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_to_wishlist_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_to_wishlist_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_add_to_wishlist_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_add_to_wishlist_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_add_to_wishlist_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_add_to_wishlist_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_click_button_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_click_button_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_click_button_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_click_button_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_click_button_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_click_button_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_click_button_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_click_button_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_click_button_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_click_button_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_complete_registration_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_complete_registration_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_complete_registration_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_complete_registration_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_complete_registration_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_complete_registration_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_complete_registration_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_complete_registration_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_complete_registration_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_complete_registration_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_download_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_download_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_download_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_download_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_download_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_download_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_download_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_download_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_download_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_download_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_initiate_checkout_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_initiate_checkout_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_initiate_checkout_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_initiate_checkout_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_initiate_checkout_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_initiate_checkout_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_initiate_checkout_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_initiate_checkout_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_initiate_checkout_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_initiate_checkout_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_place_order_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_place_order_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_place_order_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_place_order_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_place_order_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_place_order_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_place_order_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_place_order_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_place_order_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_place_order_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_search_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_search_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_search_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_search_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_search_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_search_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_search_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_search_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_search_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_search_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_view_content_events",
+            "component": "number_v1",
+            "metrics": [
+                "offline_view_content_events"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:cost_per_offline_view_content_event",
+            "component": "number_v1",
+            "metrics": [
+                "cost_per_offline_view_content_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_view_content_event_rate",
+            "component": "number_v1",
+            "metrics": [
+                "offline_view_content_event_rate"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:value_per_offline_view_content_event",
+            "component": "number_v1",
+            "metrics": [
+                "value_per_offline_view_content_event"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        },
+        {
+            "reference_key": "tiktok_ads:offline_view_content_events_value",
+            "component": "number_v1",
+            "metrics": [
+                "offline_view_content_events_value"
+            ],
+            "dimensions": [
+                "campaign_id"
+            ],
+            "added_date": "2024-12-23"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "metrics": {
+        "impression": {
+            "label": "Impressions"
+        },
+        "engagement": {
+            "label": "Engagement"
+        },
+        "engagement_rate": {
+            "label": "Engagement Rate"
+        },
+        "pin_click": {
+            "label": "Clicks"
+        },
+        "pin_click_rate": {
+            "label": "Pins click rate"
+        },
+        "save": {
+            "label": "Total pins saved"
+        },
+        "description": {
+            "label": "Description"
+        },
+        "total_pins": {
+            "label": "Total pins"
+        },
+        "total_boards": {
+            "label": "Total boards"
+        },
+        "pin_count": {
+            "label": "Pins"
+        },
+        "created_at": {
+            "label": "Created at",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        }
+    },
+    "dimensions": {
+        "board_pin": {
+            "label": "Pin",
+            "options": [
+                "align_left"
+            ]
+        },
+        "boards": {
+            "label": "Board",
+            "options": [
+                "align_left"
+            ]
+        },
+        "app_type": {
+            "label": "Platform",
+            "options": [
+                "align_left"
+            ]
+        },
+        "pin_format": {
+            "label": "Format",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "metrics": {
+        "sales_count": {
+            "label": "Sales"
+        },
+        "sales_rate": {
+            "label": "Sales rate",
+            "formatting_function": "percentage"
+        },
+        "revenue_brl": {
+            "label": "Revenue (R$)",
+            "formatting_function": "currency_brl"
+        },
+        "revenue_brl_rate": {
+            "label": "Revenue rate (R$)",
+            "formatting_function": "percentage"
+        },
+        "revenue_usd": {
+            "label": "Revenue ($)",
+            "formatting_function": "currency_usd"
+        },
+        "revenue_usd_rate": {
+            "label": "Revenue rate ($)",
+            "formatting_function": "percentage"
+        }
+    },
+    "dimensions": {
+        "product.name": {
+            "label": "Product",
+            "options": [
+                "align_left"
+            ]
+        },
+        "date": {
+            "label": "Date",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

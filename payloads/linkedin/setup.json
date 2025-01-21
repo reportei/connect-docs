@@ -1,0 +1,53 @@
+{
+    "metrics": {
+        "impressions": {
+            "label": "Impressions"
+        },
+        "shares": {
+            "label": "Shares"
+        },
+        "likes": {
+            "label": "Likes"
+        },
+        "clicks": {
+            "label": "Clicks"
+        },
+        "comments": {
+            "label": "Comments"
+        },
+        "engagement": {
+            "label": "Engagement"
+        },
+        "created_at": {
+            "label": "Created at",
+            "formatting_function": "format_to_date_full",
+            "isDate": true
+        },
+        "followers": {
+            "label": "New followers"
+        },
+        "followers_total": {
+            "label": "Current number of followers"
+        },
+        "reach": {
+            "label": "Reach"
+        },
+        "posts_total": {
+            "label": "Posts Count"
+        },
+        "total_clicks": {
+            "label": "Total Clicks"
+        },
+        "total_likes": {
+            "label": "Total Likes"
+        }
+    },
+    "dimensions": {
+        "posts": {
+            "label": "Post",
+            "options": [
+                "align_left"
+            ]
+        }
+    }
+}

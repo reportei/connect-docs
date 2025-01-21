@@ -1,0 +1,300 @@
+{
+    "metrics": [
+        {
+            "reference_key": "egoi:total_contacts",
+            "component": "number_v1",
+            "dimensions": [
+                "contact"
+            ],
+            "metrics": [
+                "total_contacts"
+            ]
+        },
+        {
+            "reference_key": "egoi:total_subscriptions",
+            "component": "number_v1",
+            "dimensions": [
+                "contact"
+            ],
+            "metrics": [
+                "total_subscriptions"
+            ]
+        },
+        {
+            "reference_key": "egoi:total_unsubscriptions",
+            "component": "number_v1",
+            "dimensions": [
+                "contact"
+            ],
+            "metrics": [
+                "total_unsubscriptions"
+            ]
+        },
+        {
+            "reference_key": "egoi:contacts_performance_table",
+            "component": "datatable_v1",
+            "metrics": [
+                "total_subscriptions",
+                "total_subscriptions_rate",
+                "total_unsubscriptions",
+                "total_unsubscriptions_rate",
+                "total_contacts"
+            ],
+            "dimensions": [
+                "contact"
+            ],
+            "sort": [
+                "-total_subscriptions"
+            ]
+        },
+        {
+            "reference_key": "egoi:sent_emails",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "sent_emails"
+            ]
+        },
+        {
+            "reference_key": "egoi:total_email_openings",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "total_email_openings"
+            ]
+        },
+        {
+            "reference_key": "egoi:unique_email_openings",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "unique_email_openings"
+            ]
+        },
+        {
+            "reference_key": "egoi:clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "clicks"
+            ]
+        },
+        {
+            "reference_key": "egoi:unique_clicks",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "unique_clicks"
+            ]
+        },
+        {
+            "reference_key": "egoi:hard_bounces",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "hard_bounces"
+            ]
+        },
+        {
+            "reference_key": "egoi:soft_bounces",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "soft_bounces"
+            ]
+        },
+        {
+            "reference_key": "egoi:complaints",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "complaints"
+            ]
+        },
+        {
+            "reference_key": "egoi:email_unsubscriptions",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "email_unsubscriptions"
+            ]
+        },
+        {
+            "reference_key": "egoi:email_openings_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "email_openings_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:unique_email_openings_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "unique_email_openings_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:clicks_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "clicks_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:unique_clicks_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "unique_clicks_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:hard_bounces_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "hard_bounces_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:complaints_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "complaints_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:email_unsubscriptions_rate",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "email_unsubscriptions_rate"
+            ]
+        },
+        {
+            "reference_key": "egoi:delivered_emails",
+            "component": "number_v1",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "delivered_emails"
+            ]
+        },
+        {
+            "reference_key": "egoi:email_campaigns_over_time",
+            "component": "chart_v1",
+            "chart_type": "line",
+            "dimensions": [
+                "email"
+            ],
+            "metrics": [
+                "sent_emails",
+                "unique_email_openings",
+                "clicks"
+            ]
+        },
+        {
+            "reference_key": "egoi:email_campaign_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "sent_emails",
+                "delivered_emails",
+                "unique_email_openings",
+                "unique_email_openings_rate",
+                "unique_clicks",
+                "unique_clicks_rate",
+                "hard_bounces",
+                "email_unsubscriptions",
+                "complaints"
+            ],
+            "dimensions": [
+                "email"
+            ],
+            "sort": [
+                "-sent_emails"
+            ]
+        },
+        {
+            "reference_key": "egoi:sms_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "sms_sent",
+                "sms_sent_rate"
+            ],
+            "dimensions": [
+                "sms"
+            ],
+            "sort": [
+                "-sms_sent"
+            ]
+        },
+        {
+            "reference_key": "egoi:web_push_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "web_push_sent",
+                "web_push_sent_rate",
+                "web_push_clicks",
+                "web_push_clicks_rate"
+            ],
+            "dimensions": [
+                "web_push"
+            ],
+            "sort": [
+                "-web_push_sent"
+            ]
+        },
+        {
+            "reference_key": "egoi:automation_performance",
+            "component": "datatable_v1",
+            "metrics": [
+                "created",
+                "contacts_list",
+                "status"
+            ],
+            "dimensions": [
+                "automation"
+            ],
+            "sort": [
+                "-created"
+            ]
+        }
+    ]
+}
