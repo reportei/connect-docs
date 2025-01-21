@@ -35,7 +35,9 @@ _Metric Structure_:
     * `datatable_v1`: Returns tabular data.
     * `chart_v1`: Returns data in a format that can be visualized in a chart.
 
-<!-- **For a list of available metrics and dimensions per integration**, see [Metrics](https://github.com/reportei/connect-docs/blob/master/sections/metrics.md#metrics) -->
+**For a list of available metrics and dimensions per integration**, see [Payloads](https://github.com/reportei/connect-docs/blob/master/payloads)
+
+Every folder in `/payloads` contains two json files: `metrics.json` which contains predefined metrics with specific components and `setup.json` which contains the available metrics and dimensions to build your own payloads.
 
 **Note**: Depending on the network of the customer integration, some combinations of metrics and dimensions may not be compatible.
 
