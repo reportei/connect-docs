@@ -1,0 +1,78 @@
+{
+	"metrics": [
+	{
+		"reference_key": "gmb:total_views",
+		"component": "number_v1",
+		"metrics": ["total_views"]
+	},
+	{
+		"reference_key": "gmb:total_search_views",
+		"component": "number_v1",
+		"metrics": ["total_search_views"]
+	},
+	{
+		"reference_key": "gmb:total_map_views",
+		"component": "number_v1",
+		"metrics": ["total_map_views"]
+	},
+	{
+		"reference_key": "gmb:total_actions",
+		"component": "number_v1",
+		"metrics": ["total_actions"]
+	},
+	{
+		"reference_key": "gmb:daily_views",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["daily_views"]
+	},
+	{
+		"reference_key": "gmb:daily_actions",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["daily_actions"]
+	},
+	{
+		"reference_key": "gmb:daily_searches",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["daily_searches"]
+	},
+	{
+		"reference_key": "gmb:total_directions_actions",
+		"component": "number_v1",
+		"metrics": ["total_directions_actions"]
+	},
+	{
+		"reference_key": "gmb:total_calls_actions",
+		"component": "number_v1",
+		"metrics": ["total_calls_actions"]
+	},
+	{
+		"reference_key": "gmb:total_website_clicks_actions",
+		"component": "number_v1",
+		"metrics": ["total_website_clicks_actions"]
+	},
+	{
+		"reference_key": "gmb:total_bookings_actions",
+		"component": "number_v1",
+		"metrics": ["total_bookings_actions"]
+	},
+	{
+		"reference_key": "gmb:total_food_orders_actions",
+		"component": "number_v1",
+		"metrics": ["total_food_orders_actions"]
+	},
+	{
+		"reference_key": "gmb:search_maps_views",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["search_maps_views"]
+	},
+	{
+		"reference_key": "gmb:search_types_searches",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["search_types_searches"]
+	}]
+}

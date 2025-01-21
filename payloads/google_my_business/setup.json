@@ -1,0 +1,81 @@
+{
+	"metrics":
+	{
+		"total_views":
+		{
+			"label": "Total views"
+		},
+		"total_search_views":
+		{
+			"label": "Google Search views"
+		},
+		"total_map_views":
+		{
+			"label": "Google Maps views"
+		},
+		"total_actions":
+		{
+			"label": "Total actions"
+		},
+		"daily_views":
+		{
+			"label": "Daily views"
+		},
+		"daily_actions":
+		{
+			"label": "Daily actions"
+		},
+		"daily_searches":
+		{
+			"label": "Daily searches"
+		},
+		"total_directions_actions":
+		{
+			"label": "Driving direction requested"
+		},
+		"total_calls_actions":
+		{
+			"label": "Calls"
+		},
+		"total_website_clicks_actions":
+		{
+			"label": "Website clicks"
+		},
+		"total_bookings_actions":
+		{
+			"label": "Bookings"
+		},
+		"total_food_orders_actions":
+		{
+			"label": "Orders"
+		},
+		"views":
+		{
+			"label": "Views"
+		},
+		"clicks":
+		{
+			"label": "Clicks"
+		},
+		"created_at":
+		{
+			"label": "Created at",
+			"formatting_function": "format_to_date_full",
+			"isDate": true
+		},
+		"updated_at":
+		{
+			"label": "Updated at",
+			"formatting_function": "format_to_date_full",
+			"isDate": true
+		}
+	},
+	"dimensions":
+	{
+		"posts":
+		{
+			"label": "Post",
+			"options": ["align_left"]
+		}
+	}
+}

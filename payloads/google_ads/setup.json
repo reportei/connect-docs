@@ -1,0 +1,895 @@
+{
+	"metrics":
+	{
+		"metrics.clicks":
+		{
+			"label": "Clicks"
+		},
+		"metrics.cost_micros":
+		{
+			"label": "Cost",
+			"formatting_function": "currency"
+		},
+		"metrics.impressions":
+		{
+			"label": "Impressions"
+		},
+		"metrics.conversions":
+		{
+			"label": "Conversions"
+		},
+		"metrics.absolute_top_impression_percentage":
+		{
+			"label": "% of Ads on 1st position",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.cost_per_conversion":
+		{
+			"label": "Cost per Conversion",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"metrics.all_conversions":
+		{
+			"label": "All Conversions"
+		},
+		"metrics.cost_per_all_conversions":
+		{
+			"label": "Cost per all conversions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"metrics.ctr":
+		{
+			"label": "CTR",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.average_cpc":
+		{
+			"label": "Average CPC",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"metrics.conversions_from_interactions_rate":
+		{
+			"label": "Conversion Rate",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.video_views":
+		{
+			"label": "Video Views"
+		},
+		"metrics.average_cpv":
+		{
+			"label": "Average CPV"
+		},
+		"metrics.phone_calls":
+		{
+			"label": "Phone calls"
+		},
+		"metrics.video_view_rate":
+		{
+			"label": "View Rate",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"targeting_location":
+		{
+			"label": "Campaing Target Location"
+		},
+		"metrics.conversions_value_per_cost":
+		{
+			"label": "Conversions Value per Cost",
+			"group_by": "recalculate"
+		},
+		"campaign.name":
+		{
+			"label": "Campaign Name"
+		},
+		"campaign.status":
+		{
+			"label": "Campaign Status"
+		},
+		"ad_group.name":
+		{
+			"label": "Ad Group"
+		},
+		"metrics.average_cpm":
+		{
+			"label": "Average CPM",
+			"formatting_function": "currency"
+		},
+		"metrics.interaction_rate":
+		{
+			"label": "Interaction Rate",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.average_cost":
+		{
+			"label": "Average Cost",
+			"formatting_function": "currency"
+		},
+		"metrics.interactions":
+		{
+			"label": "Interactions"
+		},
+		"metrics.roas":
+		{
+			"label": "ROAS",
+			"group_by": "recalculate"
+		},
+		"metrics.ptr":
+		{
+			"label": "PTR",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.conversions_value":
+		{
+			"label": "Conversions Value",
+			"formatting_function": "currency"
+		},
+		"detail_placement_view.group_placement_target_url":
+		{
+			"label": "Placement (Detail)",
+			"options": ["align_left"]
+		},
+		"campaign.advertising_channel_type":
+		{
+			"label": "Campaign Type",
+			"options": ["align_left"]
+		},
+		"metrics.content_budget_lost_impression_share":
+		{
+			"label": "Lost impression share by budget",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.content_rank_lost_impression_share":
+		{
+			"label": "Lost impression share by rank",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.search_budget_lost_impression_share":
+		{
+			"label": "Search Network Lost Impression Share (Budget)",
+			"formatting_function": "percentage",
+			"group_by": "recalculate"
+		},
+		"metrics.historical_creative_quality_score":
+		{
+			"label": "Ad Quality"
+		},
+		"metrics.all_conversions_value":
+		{
+			"label": "All Conversions Value",
+			"formatting_function": "currency"
+		},
+		"metrics.top_impression_percentage":
+		{
+			"label": "% impressions (top)",
+			"formatting_function": "percentage",
+			"options": ["align_left"]
+		},
+		"ad_group_ad.ad.final_urls":
+		{
+			"label": "Final URL"
+		},
+		"utm_source":
+		{
+			"label": "UTM Source"
+		},
+		"utm_medium":
+		{
+			"label": "UTM Medium"
+		},
+		"utm_campaign":
+		{
+			"label": "UTM Campaign"
+		},
+		"utm_term":
+		{
+			"label": "UTM Term"
+		},
+		"utm_content":
+		{
+			"label": "UTM Content"
+		},
+		"metrics.active_view_cpm":
+		{
+			"label": "Active View Cost Per Thousand Impressions"
+		},
+		"metrics.active_view_ctr":
+		{
+			"label": "Active View Click-Through Rate"
+		},
+		"metrics.active_view_impressions":
+		{
+			"label": "Active View Impressions Count"
+		},
+		"metrics.active_view_measurability":
+		{
+			"label": "Active View Measurability Rate"
+		},
+		"metrics.active_view_measurable_cost_micros":
+		{
+			"label": "Active View Measurable Cost in Micros"
+		},
+		"metrics.active_view_measurable_impressions":
+		{
+			"label": "Active View Measurable Impressions"
+		},
+		"metrics.active_view_viewability":
+		{
+			"label": "Active View Viewability Percentage"
+		},
+		"metrics.all_conversions_by_conversion_date":
+		{
+			"label": "All Conversions by Conversion Date"
+		},
+		"metrics.all_conversions_from_interactions_rate":
+		{
+			"label": "All Conversions from Interactions Rate"
+		},
+		"metrics.all_conversions_value_by_conversion_date":
+		{
+			"label": "All Conversion Value by Conversion Date"
+		},
+		"metrics.all_new_customer_lifetime_value":
+		{
+			"label": "Lifetime Value of New Customers"
+		},
+		"metrics.average_cart_size":
+		{
+			"label": "Average Cart Size"
+		},
+		"metrics.average_cpe":
+		{
+			"label": "Average Cost Per Engagement (CPE)"
+		},
+		"metrics.average_order_value_micros":
+		{
+			"label": "Average Order Value (Micro Units)"
+		},
+		"metrics.average_page_views":
+		{
+			"label": "Average Page Views"
+		},
+		"metrics.average_time_on_site":
+		{
+			"label": "Average Time on Site"
+		},
+		"metrics.bounce_rate":
+		{
+			"label": "Bounce Rate"
+		},
+		"metrics.content_impression_share":
+		{
+			"label": "Content Impression Share"
+		},
+		"metrics.conversions_by_conversion_date":
+		{
+			"label": "Conversions by Conversion Date"
+		},
+		"metrics.conversions_value_by_conversion_date":
+		{
+			"label": "Conversion Value by Conversion Date"
+		},
+		"metrics.cost_of_goods_sold_micros":
+		{
+			"label": "Cost of Goods Sold in Micros"
+		},
+		"metrics.cost_per_current_model_attributed_conversion":
+		{
+			"label": "Cost Per Current Model Attributed Conversion"
+		},
+		"metrics.cross_device_conversions":
+		{
+			"label": "Cross-Device Conversions"
+		},
+		"metrics.cross_sell_cost_of_goods_sold_micros":
+		{
+			"label": "Cross-Sell Cost of Goods Sold in Micros"
+		},
+		"metrics.cross_sell_gross_profit_micros":
+		{
+			"label": "Cross-Sell Gross Profit in Micros"
+		},
+		"metrics.cross_sell_revenue_micros":
+		{
+			"label": "Cross-Sell Revenue in Micros"
+		},
+		"metrics.cross_sell_units_sold":
+		{
+			"label": "Cross-Sell Units Sold"
+		},
+		"metrics.current_model_attributed_conversions":
+		{
+			"label": "Current Model Attributed Conversions"
+		},
+		"metrics.current_model_attributed_conversions_value":
+		{
+			"label": "Value of Current Model Attributed Conversions"
+		},
+		"metrics.engagement_rate":
+		{
+			"label": "Engagement Rate"
+		},
+		"metrics.engagements":
+		{
+			"label": "Total Engagements"
+		},
+		"metrics.gmail_forwards":
+		{
+			"label": "Gmail Forwards"
+		},
+		"metrics.gmail_saves":
+		{
+			"label": "Gmail Saves"
+		},
+		"metrics.gmail_secondary_clicks":
+		{
+			"label": "Gmail Secondary Clicks"
+		},
+		"metrics.gross_profit_margin":
+		{
+			"label": "Gross Profit Margin"
+		},
+		"metrics.gross_profit_micros":
+		{
+			"label": "Gross Profit in Micros"
+		},
+		"metrics.interaction_event_types":
+		{
+			"label": "Types of Interaction Events"
+		},
+		"metrics.lead_cost_of_goods_sold_micros":
+		{
+			"label": "Lead Cost of Goods Sold in Micros"
+		},
+		"metrics.lead_gross_profit_micros":
+		{
+			"label": "Lead Gross Profit in Micros"
+		},
+		"metrics.lead_revenue_micros":
+		{
+			"label": "Lead Revenue in Micros"
+		},
+		"metrics.lead_units_sold":
+		{
+			"label": "Lead Units Sold"
+		},
+		"metrics.new_customer_lifetime_value":
+		{
+			"label": "New Customer Lifetime Value"
+		},
+		"metrics.orders":
+		{
+			"label": "Total Orders"
+		},
+		"metrics.percent_new_visitors":
+		{
+			"label": "Percentage of New Visitors"
+		},
+		"metrics.phone_impressions":
+		{
+			"label": "Phone Impressions"
+		},
+		"metrics.phone_through_rate":
+		{
+			"label": "Phone Through Rate",
+			"formatting_function": "percentage"
+		},
+		"metrics.relative_ctr":
+		{
+			"label": "Relative Click-Through Rate"
+		},
+		"metrics.revenue_micros":
+		{
+			"label": "Revenue in Micros"
+		},
+		"metrics.search_absolute_top_impression_share":
+		{
+			"label": "Search Absolute Top Impression Share"
+		},
+		"metrics.search_budget_lost_absolute_top_impression_share":
+		{
+			"label": "Search Budget Lost at Absolute Top Impression Share"
+		},
+		"metrics.search_budget_lost_top_impression_share":
+		{
+			"label": "Search Budget Lost at Top Impression Share"
+		},
+		"metrics.search_exact_match_impression_share":
+		{
+			"label": "Search Exact Match Impression Share"
+		},
+		"metrics.search_impression_share":
+		{
+			"label": "Search Impression Share"
+		},
+		"metrics.search_rank_lost_absolute_top_impression_share":
+		{
+			"label": "Search Rank Lost at Absolute Top Impression Share"
+		},
+		"metrics.search_rank_lost_impression_share":
+		{
+			"label": "Search Rank Lost Impression Share"
+		},
+		"metrics.search_rank_lost_top_impression_share":
+		{
+			"label": "Search Rank Lost at Top Impression Share"
+		},
+		"metrics.search_top_impression_share":
+		{
+			"label": "Search Top Impression Share"
+		},
+		"metrics.units_sold":
+		{
+			"label": "Units Sold"
+		},
+		"metrics.value_per_all_conversions":
+		{
+			"label": "Value Per All Conversions"
+		},
+		"metrics.value_per_all_conversions_by_conversion_date":
+		{
+			"label": "Value Per All Conversions by Conversion Date"
+		},
+		"metrics.value_per_conversion":
+		{
+			"label": "Value Per Conversion"
+		},
+		"metrics.value_per_conversions_by_conversion_date":
+		{
+			"label": "Value Per Conversions by Conversion Date"
+		},
+		"metrics.value_per_current_model_attributed_conversion":
+		{
+			"label": "Value Per Current Model Attributed Conversion"
+		},
+		"metrics.video_quartile_p100_rate":
+		{
+			"label": "100% Video Completion Rate"
+		},
+		"metrics.video_quartile_p25_rate":
+		{
+			"label": "25% Video View Rate"
+		},
+		"metrics.video_quartile_p50_rate":
+		{
+			"label": "50% Video View Rate"
+		},
+		"metrics.video_quartile_p75_rate":
+		{
+			"label": "75% Video View Rate"
+		},
+		"metrics.view_through_conversions":
+		{
+			"label": "View-Through Conversions"
+		},
+		"metrics.all_conversions_from_interactions_value_per_interaction":
+		{
+			"label": "All Conversions from Interactions Value Per Interaction"
+		},
+		"metrics.all_conversions_value_per_cost":
+		{
+			"label": "All Conversions Value Per Cost"
+		},
+		"metrics.all_conversions_from_click_to_call":
+		{
+			"label": "All Conversions from Click to Call"
+		},
+		"metrics.all_conversions_from_directions":
+		{
+			"label": "All Conversions from Directions"
+		},
+		"metrics.all_conversions_from_location_asset_click_to_call":
+		{
+			"label": "All Conversions from Location Asset Click to Call"
+		},
+		"metrics.all_conversions_from_location_asset_directions":
+		{
+			"label": "All Conversions from Location Asset Directions"
+		},
+		"metrics.all_conversions_from_location_asset_menu":
+		{
+			"label": "All Conversions from Location Asset Menu"
+		},
+		"metrics.all_conversions_from_location_asset_order":
+		{
+			"label": "All Conversions from Location Asset Order"
+		},
+		"metrics.all_conversions_from_location_asset_other_engagement":
+		{
+			"label": "All Conversions from Location Asset Other Engagements"
+		},
+		"metrics.all_conversions_from_location_asset_store_visits":
+		{
+			"label": "All Conversions from Location Asset Store Visits"
+		},
+		"metrics.all_conversions_from_location_asset_website":
+		{
+			"label": "All Conversions from Location Asset Website"
+		},
+		"metrics.all_conversions_from_menu":
+		{
+			"label": "All Conversions from Menu"
+		},
+		"metrics.all_conversions_from_order":
+		{
+			"label": "All Conversions from Order"
+		},
+		"metrics.all_conversions_from_other_engagement":
+		{
+			"label": "All Conversions from Other Engagements"
+		},
+		"metrics.all_conversions_from_store_visit":
+		{
+			"label": "All Conversions from Store Visit"
+		},
+		"metrics.all_conversions_from_store_website":
+		{
+			"label": "All Conversions from Store Website"
+		},
+		"metrics.average_impression_frequency_per_user":
+		{
+			"label": "Average Impression Frequency Per User"
+		},
+		"metrics.average_target_cpa_micros":
+		{
+			"label": "Average Target Cost Per Acquisition (CPA) in Micros"
+		},
+		"metrics.average_target_roas":
+		{
+			"label": "Average Target Return On Ad Spend (ROAS)"
+		},
+		"metrics.current_model_attributed_conversions_from_interactions_rate":
+		{
+			"label": "Current Model Attributed Conversions from Interactions Rate"
+		},
+		"metrics.current_model_attributed_conversions_from_interactions_value_per_interaction":
+		{
+			"label": "Current Model Attributed Conversions Value Per Interaction"
+		},
+		"metrics.current_model_attributed_conversions_value_per_cost":
+		{
+			"label": "Current Model Attributed Conversions Value Per Cost"
+		},
+		"metrics.eligible_impressions_from_location_asset_store_reach":
+		{
+			"label": "Eligible Impressions from Location Asset Store Reach"
+		},
+		"metrics.invalid_click_rate":
+		{
+			"label": "Invalid Click Rate"
+		},
+		"metrics.invalid_clicks":
+		{
+			"label": "Total Invalid Clicks"
+		},
+		"metrics.optimization_score_uplift":
+		{
+			"label": "Optimization Score Uplift"
+		},
+		"metrics.optimization_score_url":
+		{
+			"label": "Optimization Score URL"
+		},
+		"metrics.publisher_organic_clicks":
+		{
+			"label": "Publisher Organic Clicks"
+		},
+		"metrics.publisher_purchased_clicks":
+		{
+			"label": "Publisher Purchased Clicks"
+		},
+		"metrics.publisher_unknown_clicks":
+		{
+			"label": "Publisher Unknown Clicks"
+		},
+		"metrics.search_click_share":
+		{
+			"label": "Search Click Share"
+		},
+		"metrics.sk_ad_network_installs":
+		{
+			"label": "SK Ad Network Installs"
+		},
+		"metrics.sk_ad_network_total_conversions":
+		{
+			"label": "SK Ad Network Total Conversions"
+		},
+		"metrics.unique_users":
+		{
+			"label": "Unique Users"
+		},
+		"metrics.view_through_conversions_from_location_asset_click_to_call":
+		{
+			"label": "View-Through Conversions from Location Asset Click to Call"
+		},
+		"metrics.view_through_conversions_from_location_asset_directions":
+		{
+			"label": "View-Through Conversions from Location Asset Directions"
+		},
+		"metrics.view_through_conversions_from_location_asset_menu":
+		{
+			"label": "View-Through Conversions from Location Asset Menu"
+		},
+		"metrics.view_through_conversions_from_location_asset_order":
+		{
+			"label": "View-Through Conversions from Location Asset Order"
+		},
+		"metrics.view_through_conversions_from_location_asset_other_engagement":
+		{
+			"label": "View-Through Conversions from Location Asset Other Engagement"
+		},
+		"metrics.view_through_conversions_from_location_asset_store_visits":
+		{
+			"label": "View-Through Conversions from Location Asset Store Visits"
+		},
+		"metrics.view_through_conversions_from_location_asset_website":
+		{
+			"label": "View-Through Conversions from Location Asset Website"
+		},
+		"metrics.historical_landing_page_quality_score":
+		{
+			"label": "Historical Landing Page Quality Score"
+		},
+		"metrics.historical_quality_score":
+		{
+			"label": "Historical Quality Score"
+		},
+		"metrics.historical_search_predicted_ctr":
+		{
+			"label": "Historical Search Predicted Click-Through Rate (CTR)"
+		},
+		"metrics.conversions_from_interactions_value_per_interaction":
+		{
+			"label": "Conversions from Interactions Value Per Interaction"
+		},
+		"metrics.conversion_page_view":
+		{
+			"label": "Page View"
+		},
+		"metrics.conversion_add_to_cart":
+		{
+			"label": "Add to Cart"
+		},
+		"metrics.conversion_begin_checkout":
+		{
+			"label": "Begin Checkout"
+		},
+		"metrics.conversion_purchase":
+		{
+			"label": "Purchase"
+		},
+		"metrics.conversion_book_appointment":
+		{
+			"label": "Book Appointment"
+		},
+		"metrics.conversion_contact":
+		{
+			"label": "Contact"
+		},
+		"metrics.conversion_download":
+		{
+			"label": "Download"
+		},
+		"metrics.conversion_converted_lead":
+		{
+			"label": "Converted Lead"
+		},
+		"metrics.conversion_engagement":
+		{
+			"label": "Conversion Engagement"
+		},
+		"metrics.conversion_get_directions":
+		{
+			"label": "Get Directions"
+		},
+		"metrics.conversion_outbound_click":
+		{
+			"label": "Outbound Click"
+		},
+		"metrics.conversion_phone_call_lead":
+		{
+			"label": "Phone Call Lead"
+		},
+		"metrics.conversion_qualified_lead":
+		{
+			"label": "Qualified Lead"
+		},
+		"metrics.conversion_request_quote":
+		{
+			"label": "Request Quote"
+		},
+		"metrics.conversion_sign_up":
+		{
+			"label": "Subscribe"
+		},
+		"metrics.conversion_store_visit":
+		{
+			"label": "Store Visit"
+		},
+		"metrics.conversion_store_sale":
+		{
+			"label": "Store Sale"
+		},
+		"metrics.conversion_submit_lead_form":
+		{
+			"label": "Submit Lead Form"
+		},
+		"metrics.conversion_subscribe_paid":
+		{
+			"label": "Subscribe Paid"
+		}
+	},
+	"dimensions":
+	{
+		"ad_group":
+		{
+			"label": "Ad Group",
+			"options": ["align_left"]
+		},
+		"keyword_view":
+		{
+			"label": "Keyword",
+			"options": ["align_left"]
+		},
+		"campaign":
+		{
+			"label": "Campaigns",
+			"options": ["align_left"]
+		},
+		"device":
+		{
+			"label": "Device"
+		},
+		"date":
+		{
+			"label": "Date"
+		},
+		"user_location_view":
+		{
+			"label": "Country",
+			"options": ["align_left"]
+		},
+		"video":
+		{
+			"label": "Video",
+			"options": ["align_left"]
+		},
+		"conversion_action_name":
+		{
+			"label": "Custom conversions",
+			"options": ["align_left"]
+		},
+		"search_term_view":
+		{
+			"label": "Search Terms",
+			"options": ["align_left"]
+		},
+		"detail_placement_view":
+		{
+			"label": "Placement (Group)",
+			"options": ["align_left"]
+		},
+		"ad_group_ad":
+		{
+			"label": "Ad",
+			"options": ["align_left"]
+		},
+		"age_range_view":
+		{
+			"label": "Age",
+			"options": ["align_left"]
+		},
+		"gender_view":
+		{
+			"label": "Gender",
+			"options": ["align_left"]
+		},
+		"smart_campaign_search_term_view":
+		{
+			"label": "Smart campaigns search terms",
+			"options": ["align_left"]
+		},
+		"interaction_rate":
+		{
+			"label": "Interaction Rate",
+			"formatting_function": "percentage",
+			"options": ["align_left"]
+		},
+		"interactions":
+		{
+			"label": "Interactions",
+			"options": ["align_left"]
+		},
+		"top_impression_percentage":
+		{
+			"label": "% Impressions (top)",
+			"formatting_function": "percentage",
+			"options": ["align_left"]
+		},
+		"engagements":
+		{
+			"label": "Engagements",
+			"options": ["align_left"]
+		},
+		"engagement_rate":
+		{
+			"label": "Engagement Rate",
+			"formatting_function": "percentage",
+			"options": ["align_left"]
+		},
+		"cpe":
+		{
+			"label": "Average CPE",
+			"formatting_function": "currency",
+			"group_by": "recalculate",
+			"options": ["align_left"]
+		},
+		"absolute_top_impression_percentage":
+		{
+			"label": "% of Impressions (1st Position)",
+			"formatting_function": "percentage",
+			"options": ["align_left"]
+		},
+		"geographic_view_city":
+		{
+			"label": "City",
+			"options": ["align_left"]
+		},
+		"geographic_view_state":
+		{
+			"label": "State",
+			"options": ["align_left"]
+		},
+		"geographic_view_region":
+		{
+			"label": "Region",
+			"options": ["align_left"]
+		},
+		"geographic_view_airport":
+		{
+			"label": "Airport",
+			"options": ["align_left"]
+		},
+		"geographic_view_county":
+		{
+			"label": "County",
+			"options": ["align_left"]
+		},
+		"geographic_view_district":
+		{
+			"label": "District",
+			"options": ["align_left"]
+		},
+		"geographic_view_province":
+		{
+			"label": "Province",
+			"options": ["align_left"]
+		},
+		"geographic_view_postal_code":
+		{
+			"label": "Postal Code",
+			"options": ["align_left"]
+		},
+		"geographic_view_metro":
+		{
+			"label": "Metro",
+			"options": ["align_left"]
+		},
+		"geographic_view_country":
+		{
+			"label": "Country",
+			"options": ["align_left"]
+		}
+	}
+}

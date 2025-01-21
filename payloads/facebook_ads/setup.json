@@ -1,0 +1,1950 @@
+{
+	"metrics":
+	{
+		"results":
+		{
+			"label": "Results",
+			"options": ["align_right"]
+		},
+		"cost_per_results":
+		{
+			"label": "Cost per results",
+			"formatting_function": "currency",
+			"options": ["align_right"]
+		},
+		"reach":
+		{
+			"label": "Reach"
+		},
+		"impressions":
+		{
+			"label": "Impressions"
+		},
+		"campaign_name":
+		{
+			"label": "Campaign Name"
+		},
+		"adset_name":
+		{
+			"label": "Ad set Name"
+		},
+		"status":
+		{
+			"label": "status "
+		},
+		"start_time":
+		{
+			"label": "Start of campaign",
+			"isDate": true
+		},
+		"stop_time":
+		{
+			"label": "End of campaign",
+			"isDate": true
+		},
+		"created_time":
+		{
+			"label": "Creation date (ad)",
+			"isDate": true
+		},
+		"cpm":
+		{
+			"label": "CPM",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"frequency":
+		{
+			"label": "Frequency"
+		},
+		"objective":
+		{
+			"label": "Objective"
+		},
+		"spend":
+		{
+			"label": "Amount spent",
+			"formatting_function": "currency"
+		},
+		"cpc":
+		{
+			"label": "CPC",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"inline_link_clicks":
+		{
+			"label": "Total clicks on the link"
+		},
+		"actions":
+		{
+			"label": "Number of Actions"
+		},
+		"unique_actions":
+		{
+			"label": "People making actions"
+		},
+		"clicks":
+		{
+			"label": "Clicks"
+		},
+		"ctr":
+		{
+			"label": "CTR (All)",
+			"formatting_function": "add_percentage",
+			"group_by": "recalculate"
+		},
+		"inline_link_click_ctr":
+		{
+			"label": "CTR (Link click rate)",
+			"formatting_function": "add_percentage",
+			"group_by": "recalculate"
+		},
+		"spend_by_actions":
+		{
+			"label": "Cost per action",
+			"formatting_function": "currency"
+		},
+		"website_purchase_roas":
+		{
+			"label": "Website Purchase ROAS",
+			"group_by": "recalculate"
+		},
+		"actions:app_custom_event.fb_mobile_achievement_unlocked":
+		{
+			"label": "Mobile App Feature Unlocks"
+		},
+		"actions:app_custom_event.fb_mobile_activate_app":
+		{
+			"label": "Mobile App Starts"
+		},
+		"actions:app_custom_event.fb_mobile_add_payment_info":
+		{
+			"label": "Mobile App Payment Details"
+		},
+		"actions:app_custom_event.fb_mobile_add_to_cart":
+		{
+			"label": "Mobile App Adds To Cart"
+		},
+		"actions:app_custom_event.fb_mobile_add_to_wishlist":
+		{
+			"label": "Mobile App Adds to Wishlist"
+		},
+		"actions:app_custom_event.fb_mobile_complete_registration":
+		{
+			"label": "Mobile App Registrations"
+		},
+		"actions:app_custom_event.fb_mobile_content_view":
+		{
+			"label": "Mobile App Content Views"
+		},
+		"actions:app_custom_event.fb_mobile_initiated_checkout":
+		{
+			"label": "Mobile App Checkouts"
+		},
+		"actions:app_custom_event.fb_mobile_level_achieved":
+		{
+			"label": "Mobile App Achievements"
+		},
+		"actions:app_custom_event.fb_mobile_purchase":
+		{
+			"label": "Mobile App Purchases"
+		},
+		"actions:app_custom_event.fb_mobile_rate":
+		{
+			"label": "Mobile App Ratings"
+		},
+		"actions:app_custom_event.fb_mobile_search":
+		{
+			"label": "Mobile App Searchs"
+		},
+		"actions:app_custom_event.fb_mobile_spent_credits":
+		{
+			"label": "Mobile App Credit Spends"
+		},
+		"actions:app_custom_event.fb_mobile_tutorial_completion":
+		{
+			"label": "Mobile App Tutorial Completions"
+		},
+		"actions:app_custom_event.other":
+		{
+			"label": "Other Mobile App Actions"
+		},
+		"actions:app_install":
+		{
+			"label": "App Installs"
+		},
+		"actions:app_use":
+		{
+			"label": "App Uses"
+		},
+		"actions:credit_spent":
+		{
+			"label": "Credit Spends"
+		},
+		"actions:games.plays":
+		{
+			"label": "Game Plays"
+		},
+		"actions:link_click":
+		{
+			"label": "Link Clicks"
+		},
+		"actions:mobile_app_install":
+		{
+			"label": "Mobile App Installs"
+		},
+		"actions:offsite_conversion.fb_pixel_add_to_wishlist":
+		{
+			"label": "Adds To Wishlist"
+		},
+		"actions:offsite_conversion.fb_pixel_complete_registration":
+		{
+			"label": "Completed Registration"
+		},
+		"actions:offsite_conversion.fb_pixel_custom":
+		{
+			"label": "Custom pixel events"
+		},
+		"actions:offsite_conversion.fb_pixel_initiate_checkout":
+		{
+			"label": "Initiates Checkout"
+		},
+		"actions:offsite_conversion.fb_pixel_view_content":
+		{
+			"label": "Content Views (Facebook Pixel)"
+		},
+		"actions:onsite_conversion.flow_complete":
+		{
+			"label": "On-Facebook Workflow Completions"
+		},
+		"actions:onsite_conversion.messaging_block":
+		{
+			"label": "Blocked Messaging Conversations"
+		},
+		"actions:onsite_conversion.messaging_first_reply":
+		{
+			"label": "New message contacts"
+		},
+		"actions:onsite_conversion.purchase":
+		{
+			"label": "On-Facebook Purchases"
+		},
+		"outbound_clicks":
+		{
+			"label": "Outbound Clicks"
+		},
+		"actions:rsvp":
+		{
+			"label": "Event Responses"
+		},
+		"actions:contact_mobile_app":
+		{
+			"label": "Mobile App Contacts"
+		},
+		"actions:contact_offline":
+		{
+			"label": "Offline Contacts"
+		},
+		"actions:customize_product_total":
+		{
+			"label": "Products Customized"
+		},
+		"actions:customize_product_website":
+		{
+			"label": "Website Products Customized"
+		},
+		"actions:customize_product_mobile_app":
+		{
+			"label": "Mobile App Products Customized"
+		},
+		"actions:customize_product_offline":
+		{
+			"label": "Offline Products Customized"
+		},
+		"actions:donate_total":
+		{
+			"label": "Donations"
+		},
+		"actions:donate_website":
+		{
+			"label": "Website Donations"
+		},
+		"actions:donate_on_facebook":
+		{
+			"label": "On Facebook Donations"
+		},
+		"actions:donate_mobile_app":
+		{
+			"label": "Mobile App Donations"
+		},
+		"actions:donate_offline":
+		{
+			"label": "Offline Donations"
+		},
+		"actions:find_location_total":
+		{
+			"label": "Location Searches"
+		},
+		"actions:find_location_website":
+		{
+			"label": "Website Location Searches"
+		},
+		"actions:find_location_mobile_app":
+		{
+			"label": "Mobile App Location Searches"
+		},
+		"actions:find_location_offline":
+		{
+			"label": "Offline App Location Searches"
+		},
+		"actions:schedule_total":
+		{
+			"label": "Appointments Scheduled"
+		},
+		"actions:schedule_website":
+		{
+			"label": "Website Appointments Scheduled"
+		},
+		"actions:schedule_mobile_app":
+		{
+			"label": "Mobile App Appointments Scheduled"
+		},
+		"actions:schedule_offline":
+		{
+			"label": "Offline App Appointments Scheduled"
+		},
+		"actions:start_trial_total":
+		{
+			"label": "Trials Started"
+		},
+		"actions:start_trial_website":
+		{
+			"label": "Website Trials Started"
+		},
+		"actions:start_trial_mobile_app":
+		{
+			"label": "Mobile App Trials Started"
+		},
+		"actions:start_trial_offline":
+		{
+			"label": "Offline Trials Started"
+		},
+		"actions:submit_application_total":
+		{
+			"label": "Applications Submitted"
+		},
+		"actions:submit_application_website":
+		{
+			"label": "Website Applications Submitted"
+		},
+		"actions:submit_application_mobile_app":
+		{
+			"label": "Mobile App Applications Submitted"
+		},
+		"actions:submit_application_offline":
+		{
+			"label": "Offline Applications Submitted"
+		},
+		"actions:submit_application_on_facebook":
+		{
+			"label": "On Facebook Applications Submitted"
+		},
+		"actions:subscribe_total":
+		{
+			"label": "Total Subscriptions"
+		},
+		"actions:subscribe_website":
+		{
+			"label": "Website Subscriptions"
+		},
+		"actions:subscribe_mobile_app":
+		{
+			"label": "Mobile App Subscriptions"
+		},
+		"actions:subscribe_offline":
+		{
+			"label": "Offline Subscriptions"
+		},
+		"actions:recurring_subscription_payment_total":
+		{
+			"label": "Total Recurring Subscription Payments"
+		},
+		"actions:recurring_subscription_payment_website":
+		{
+			"label": "Website Recurring Subscription Payments"
+		},
+		"actions:recurring_subscription_payment_mobile_app":
+		{
+			"label": "Mobile App Recurring Subscription Payments"
+		},
+		"actions:recurring_subscription_payment_offline":
+		{
+			"label": "Offline Recurring Subscription Payments"
+		},
+		"actions:cancel_subscription_total":
+		{
+			"label": "Total Canceled Subscriptions"
+		},
+		"actions:cancel_subscription_website":
+		{
+			"label": "Website Canceled Subscriptions"
+		},
+		"actions:cancel_subscription_mobile_app":
+		{
+			"label": "Mobile App Canceled Subscriptions"
+		},
+		"actions:cancel_subscription_offline":
+		{
+			"label": "Offline Canceled Subscriptions"
+		},
+		"actions:ad_click_mobile_app":
+		{
+			"label": "In-App Ad Clicks"
+		},
+		"actions:ad_impression_mobile_app":
+		{
+			"label": "In-App Ad Impressions"
+		},
+		"actions:click_to_call_call_confirm":
+		{
+			"label": "Call Confirmation Clicks"
+		},
+		"actions:purchase":
+		{
+			"label": "Purchases"
+		},
+		"actions:comment":
+		{
+			"label": "Comments"
+		},
+		"actions:video_view":
+		{
+			"label": "3-Second Video Plays"
+		},
+		"actions:photo_view":
+		{
+			"label": "Photo views"
+		},
+		"actions:landing_page_view":
+		{
+			"label": "Landing Page Views"
+		},
+		"actions:lead":
+		{
+			"label": "Total Leads"
+		},
+		"actions:view_content":
+		{
+			"label": "Content Views"
+		},
+		"actions:post_reaction":
+		{
+			"label": "Reactions to publication"
+		},
+		"actions:page_engagement":
+		{
+			"label": "Page Engagement"
+		},
+		"actions:post_engagement":
+		{
+			"label": "Post Engagement"
+		},
+		"actions:like":
+		{
+			"label": "Followers or likes"
+		},
+		"actions:post":
+		{
+			"label": "Posts Shares"
+		},
+		"actions:checkin":
+		{
+			"label": "Check-ins"
+		},
+		"actions:omni_add_to_cart":
+		{
+			"label": "Adds to Cart"
+		},
+		"actions:omni_search":
+		{
+			"label": "Searches"
+		},
+		"actions:omni_complete_registration":
+		{
+			"label": "Registrations Completed"
+		},
+		"actions:offsite_conversion.fb_pixel_purchase":
+		{
+			"label": "Website Purchase"
+		},
+		"actions:onsite_conversion.fb_pixel_add_to_cart":
+		{
+			"label": "Offline Add To Cart"
+		},
+		"actions:onsite_conversion.messaging_conversation_started_7d":
+		{
+			"label": "Messaging conversations started"
+		},
+		"actions:onsite_conversion.post_save":
+		{
+			"label": "Post saves"
+		},
+		"actions:offsite_conversion.fb_pixel_lead":
+		{
+			"label": "Website leads"
+		},
+		"actions:offsite_conversion.fb_pixel_add_to_cart":
+		{
+			"label": "Website Adds to Cart"
+		},
+		"actions:offsite_conversion.fb_pixel_search":
+		{
+			"label": "Website Searches"
+		},
+		"actions:offsite_conversion.fb_pixel_add_payment_info":
+		{
+			"label": "Adds of Payment Info"
+		},
+		"actions:omni_initiated_checkout":
+		{
+			"label": "Checkouts Initiated"
+		},
+		"actions:onsite_conversion.lead_grouped":
+		{
+			"label": "Meta leads"
+		},
+		"actions:contact_total":
+		{
+			"label": "Total Contacts"
+		},
+		"actions:contact_website":
+		{
+			"label": "Website Contacts"
+		},
+		"action_values:offsite_conversion.fb_pixel_purchase":
+		{
+			"label": "Website Purchase Conversion Value",
+			"formatting_function": "currency"
+		},
+		"action_values:omni_purchase":
+		{
+			"label": "Purchase Conversion Value",
+			"formatting_function": "currency"
+		},
+		"action_values:omni_add_to_cart":
+		{
+			"label": "Add to cart Conversion Value",
+			"formatting_function": "currency"
+		},
+		"spend:contact_website":
+		{
+			"label": "Cost per Website Contacts"
+		},
+		"spend:omni_add_to_cart":
+		{
+			"label": "Cost per Adds to Cart",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_achievement_unlocked":
+		{
+			"label": "Cost per Mobile App Feature Unlocks",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_activate_app":
+		{
+			"label": "Cost per Mobile App Starts",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_add_payment_info":
+		{
+			"label": "Cost per Mobile App Payment Details",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_add_to_cart":
+		{
+			"label": "Cost per Mobile App Adds To Cart",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_add_to_wishlist":
+		{
+			"label": "Cost per Mobile App Adds to Wishlist",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_complete_registration":
+		{
+			"label": "Cost per Mobile App Registrations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_content_view":
+		{
+			"label": "Cost per Mobile App Content Views",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_initiated_checkout":
+		{
+			"label": "Cost per Mobile App Checkouts",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_level_achieved":
+		{
+			"label": "Cost per Mobile App Achievements",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_purchase":
+		{
+			"label": "Cost per Mobile App Purchases",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_rate":
+		{
+			"label": "Cost per Mobile App Ratings",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_search":
+		{
+			"label": "Cost per Mobile App Searchs",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_spent_credits":
+		{
+			"label": "Cost per Mobile App Credit Spends",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.fb_mobile_tutorial_completion":
+		{
+			"label": "Cost per Mobile App Tutorial Completions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_custom_event.other":
+		{
+			"label": "Cost per Other Mobile App Actions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_install":
+		{
+			"label": "Cost per App Installs",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:app_use":
+		{
+			"label": "Cost per App Uses",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:credit_spent":
+		{
+			"label": "Cost for Credit Spends",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:games.plays":
+		{
+			"label": "Cost per Game Plays",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:link_click":
+		{
+			"label": "Cost per Link Clicks",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:mobile_app_install":
+		{
+			"label": "Cost per Mobile App Installs",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_add_to_wishlist":
+		{
+			"label": "Cost per Adds To Wishlist",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_complete_registration":
+		{
+			"label": "Cost per Completed Registration",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_custom":
+		{
+			"label": "Cost per Custom pixel events",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_initiate_checkout":
+		{
+			"label": "Cost per Initiates Checkout",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_view_content":
+		{
+			"label": "Cost per Views Content",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.flow_complete":
+		{
+			"label": "Cost for On-Facebook Workflow Completions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.messaging_block":
+		{
+			"label": "Cost for Blocked Messaging Conversations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.messaging_first_reply":
+		{
+			"label": "Cost for New Messaging Conversations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.purchase":
+		{
+			"label": "Cost for On-Facebook Purchases",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"cost_per_outbound_click":
+		{
+			"label": "Cost per Outbound Clicks",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:rsvp":
+		{
+			"label": "Cost per Event Responses",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:contact_mobile_app":
+		{
+			"label": "Cost per Mobile App Contacts",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:contact_offline":
+		{
+			"label": "Cost per Offline Contacts",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:customize_product_total":
+		{
+			"label": "Cost for Products Customized",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:customize_product_website":
+		{
+			"label": "Cost for Website Products Customized",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:customize_product_mobile_app":
+		{
+			"label": "Cost for Mobile App Products Customized",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:customize_product_offline":
+		{
+			"label": "Cost for Offline Products Customized",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:donate_total":
+		{
+			"label": "Cost for Donations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:donate_website":
+		{
+			"label": "Cost for Website Donations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:donate_on_facebook":
+		{
+			"label": "Cost for On Facebook Donations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:donate_mobile_app":
+		{
+			"label": "Cost for Mobile App Donations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:donate_offline":
+		{
+			"label": "Cost for Offline Donations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:find_location_total":
+		{
+			"label": "Cost for Location Searches",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:find_location_website":
+		{
+			"label": "Cost for Website Location Searches",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:find_location_mobile_app":
+		{
+			"label": "Cost for Mobile App Location Searches",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:find_location_offline":
+		{
+			"label": "Cost for Offline App Location Searches",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:schedule_total":
+		{
+			"label": "Cost for Appointments Scheduled",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:schedule_website":
+		{
+			"label": "Cost for Website Appointments Scheduled",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:schedule_mobile_app":
+		{
+			"label": "Cost for Mobile App Appointments Scheduled",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:schedule_offline":
+		{
+			"label": "Cost for Offline App Appointments Scheduled",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:start_trial_total":
+		{
+			"label": "Cost for Trials Started",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:start_trial_website":
+		{
+			"label": "Cost for Website Trials Started",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:start_trial_mobile_app":
+		{
+			"label": "Cost for Mobile App Trials Started",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:start_trial_offline":
+		{
+			"label": "Cost for Offline Trials Started",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:submit_application_total":
+		{
+			"label": "Cost for Applications Submitted",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:submit_application_website":
+		{
+			"label": "Cost for Website Applications Submitted",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:submit_application_mobile_app":
+		{
+			"label": "Cost per Mobile App Application Submitted",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:submit_application_offline":
+		{
+			"label": "Cost per Offline Application Submitted",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:submit_application_on_facebook":
+		{
+			"label": "Cost per On Facebook Application Submitted",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:subscribe_total":
+		{
+			"label": "Cost for Total Subscriptions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:subscribe_website":
+		{
+			"label": "Cost per Website Subscription",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:subscribe_mobile_app":
+		{
+			"label": "Cost per Mobile App Subscription",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:subscribe_offline":
+		{
+			"label": "Cost per Offline Subscription",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:recurring_subscription_payment_total":
+		{
+			"label": "Cost for Total Recurring Subscription Payments",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:recurring_subscription_payment_website":
+		{
+			"label": "Cost per Website Recurring Subscription Payment",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:recurring_subscription_payment_mobile_app":
+		{
+			"label": "Cost per Mobile App Recurring Subscription Payment",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:recurring_subscription_payment_offline":
+		{
+			"label": "Cost per Offline Recurring Subscription Payment",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:cancel_subscription_total":
+		{
+			"label": "Cost for Total Canceled Subscriptions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:cancel_subscription_website":
+		{
+			"label": "Cost per Website Canceled Subscription",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:cancel_subscription_mobile_app":
+		{
+			"label": "Cost per Mobile App Canceled Subscription",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:cancel_subscription_offline":
+		{
+			"label": "Cost per Offline Canceled Subscription",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:ad_click_mobile_app":
+		{
+			"label": "Cost per In-App Ad Click",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:ad_impression_mobile_app":
+		{
+			"label": "Cost per In-App Ad Impression",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:click_to_call_call_confirm":
+		{
+			"label": "Cost per Call Confirmation Click",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:purchase":
+		{
+			"label": "Cost per purchase",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.lead_grouped":
+		{
+			"label": "Cost per Facebook leads",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:lead":
+		{
+			"label": "Cost per lead",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_lead":
+		{
+			"label": "Cost per website lead",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.messaging_conversation_started_7d":
+		{
+			"label": "Cost per conversations initiated per message",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_purchase":
+		{
+			"label": "Cost per website purchase",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:landing_page_view":
+		{
+			"label": "Cost per landing page view",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"video_p25_watched_actions":
+		{
+			"label": "Videos 25% watched"
+		},
+		"video_p50_watched_actions":
+		{
+			"label": "Videos 50% watched"
+		},
+		"video_p75_watched_actions":
+		{
+			"label": "Videos 75% watched"
+		},
+		"video_p95_watched_actions":
+		{
+			"label": "Videos 95% watched"
+		},
+		"video_thruplay_watched_actions":
+		{
+			"label": "Thruplays"
+		},
+		"spend:checkin":
+		{
+			"label": "Cost per Check-ins",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:comment":
+		{
+			"label": "Cost per Post Comments",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_add_payment_info":
+		{
+			"label": "Cost per Adds Payment Info",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_add_to_cart":
+		{
+			"label": "Cost per offline add to cart",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:like":
+		{
+			"label": "Cost per Followers or likes",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:offsite_conversion.fb_pixel_search":
+		{
+			"label": "Cost per Searches",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:onsite_conversion.messaging_user_subscribed":
+		{
+			"label": "Messaging Subscriptions"
+		},
+		"spend:onsite_conversion.messaging_user_subscribed":
+		{
+			"label": "Cost per Messaging Subscriptions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:onsite_conversion.post_save":
+		{
+			"label": "Cost per Post Saves",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:photo_view":
+		{
+			"label": "Cost per Page Photo Views",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:post":
+		{
+			"label": "Cost per Post Shares",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:post_reaction":
+		{
+			"label": "Cost per Post Reactions",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:video_view":
+		{
+			"label": "Cost per 3-Second Video Views",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:contact_total":
+		{
+			"label": "Cost per Contacts",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:click_to_call_native_call_placed":
+		{
+			"label": "Calls Placed (Only available in select countries)"
+		},
+		"spend:click_to_call_native_call_placed":
+		{
+			"label": "Cost per Calls Placed (Only available in select countries)",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:click_to_call_native_20s_call_connect":
+		{
+			"label": "20s Calls Placed (Only available in select countries)"
+		},
+		"spend:click_to_call_native_20s_call_connect":
+		{
+			"label": "Cost per 20s Calls Placed (Only available in select countries)",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:click_to_call_native_60s_call_connect":
+		{
+			"label": "60s Calls Placed (Only available in select countries)"
+		},
+		"spend:click_to_call_native_60s_call_connect":
+		{
+			"label": "Cost per 60s Calls Placed (Only available in select countries)",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:page_engagement":
+		{
+			"label": "Cost per Page Engagement",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:post_engagement":
+		{
+			"label": "Cost per Post Engagement",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:leadgen_grouped":
+		{
+			"label": "On-Facebook Leads Coming from Messenger and Instant Forms"
+		},
+		"spend:leadgen_grouped":
+		{
+			"label": "Cost per On-Facebook Leads Coming from Messenger and Instant Forms",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_app_install":
+		{
+			"label": "App Installs"
+		},
+		"spend:omni_app_install":
+		{
+			"label": "Cost per App Installs",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_purchase":
+		{
+			"label": "Purchases"
+		},
+		"spend:omni_purchase":
+		{
+			"label": "Cost per Purchases",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:omni_complete_registration":
+		{
+			"label": "Cost per Registrations Completed",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_view_content":
+		{
+			"label": "Content Views (Omnichannel)"
+		},
+		"spend:omni_view_content":
+		{
+			"label": "Cost per Content Views",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:omni_search":
+		{
+			"label": "Cost per Searches",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"spend:omni_initiated_checkout":
+		{
+			"label": "Cost per Checkouts Initiated",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_achievement_unlocked":
+		{
+			"label": "Achievements Unlocked"
+		},
+		"spend:omni_achievement_unlocked":
+		{
+			"label": "Cost per Achievements Unlocked",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_activate_app":
+		{
+			"label": "App Activations"
+		},
+		"spend:omni_activate_app":
+		{
+			"label": "Cost per App Activations",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_level_achieved":
+		{
+			"label": "Levels Achieved"
+		},
+		"spend:omni_level_achieved":
+		{
+			"label": "Cost per Levels Achieved",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_rate":
+		{
+			"label": "Ratings Submitted"
+		},
+		"spend:omni_rate":
+		{
+			"label": "Cost per Ratings Submitted",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_spend_credits":
+		{
+			"label": "Credit Spends"
+		},
+		"spend:omni_spend_credits":
+		{
+			"label": "Cost per Credit Spends",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_tutorial_completion":
+		{
+			"label": "Tutorials Completed"
+		},
+		"spend:omni_tutorial_completion":
+		{
+			"label": "Cost per Tutorials Completed",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"actions:omni_custom":
+		{
+			"label": "Custom Events"
+		},
+		"spend:omni_custom":
+		{
+			"label": "Cost per Custom Events",
+			"formatting_function": "currency",
+			"group_by": "recalculate"
+		},
+		"destination_urls":
+		{
+			"label": "Final URL"
+		},
+		"utm_source":
+		{
+			"label": "UTM Source Link"
+		},
+		"utm_medium":
+		{
+			"label": "UTM Medium Link"
+		},
+		"utm_campaign":
+		{
+			"label": "UTM Campaign Link"
+		},
+		"utm_term":
+		{
+			"label": "UTM Term Link"
+		},
+		"utm_content":
+		{
+			"label": "UTM Content Link"
+		},
+		"utm_source_tag":
+		{
+			"label": "UTM Source Meta"
+		},
+		"utm_medium_tag":
+		{
+			"label": "UTM Medium Meta"
+		},
+		"utm_campaign_tag":
+		{
+			"label": "UTM Campaign Meta"
+		},
+		"utm_term_tag":
+		{
+			"label": "UTM Term Meta"
+		},
+		"utm_content_tag":
+		{
+			"label": "UTM Content Meta"
+		},
+		"account_currency":
+		{
+			"label": "Account Currency"
+		},
+		"account_id":
+		{
+			"label": "Account ID"
+		},
+		"account_name":
+		{
+			"label": "Account Name"
+		},
+		"action_values":
+		{
+			"label": "Values of Actions"
+		},
+		"ad_click_actions":
+		{
+			"label": "Click Actions per Ad"
+		},
+		"ad_id":
+		{
+			"label": "Ad ID"
+		},
+		"ad_impression_actions":
+		{
+			"label": "Impression Actions per Ad"
+		},
+		"ad_name":
+		{
+			"label": "Ad Name"
+		},
+		"adjusted_offline_purchase":
+		{
+			"label": "Adjusted Offline Purchases"
+		},
+		"adset_end":
+		{
+			"label": "Ad Set End Date"
+		},
+		"adset_id":
+		{
+			"label": "Ad Set ID"
+		},
+		"adset_start":
+		{
+			"label": "Ad Set Start Date"
+		},
+		"age_targeting":
+		{
+			"label": "Age Targeting"
+		},
+		"attribution_setting":
+		{
+			"label": "Attribution Settings"
+		},
+		"auction_bid":
+		{
+			"label": "Amount Auction Bid"
+		},
+		"auction_competitiveness":
+		{
+			"label": "Auction Competitiveness"
+		},
+		"auction_max_competitor_bid":
+		{
+			"label": "Maximum Competitor Bid in Auction"
+		},
+		"buying_type":
+		{
+			"label": "Buying Type"
+		},
+		"campaign_id":
+		{
+			"label": "Campaign ID"
+		},
+		"canvas_avg_view_percent":
+		{
+			"label": "Average View Percentage on Canvas"
+		},
+		"canvas_avg_view_time":
+		{
+			"label": "Average View Time on Canvas"
+		},
+		"catalog_segment_actions":
+		{
+			"label": "Catalog Segment Actions"
+		},
+		"catalog_segment_value":
+		{
+			"label": "Catalog Segment Value"
+		},
+		"catalog_segment_value_mobile_purchase_roas":
+		{
+			"label": "Mobile Purchase ROAS for Catalog Segment"
+		},
+		"catalog_segment_value_omni_purchase_roas":
+		{
+			"label": "Omni-channel Purchase ROAS for Catalog Segment"
+		},
+		"catalog_segment_value_website_purchase_roas":
+		{
+			"label": "Website Purchase ROAS for Catalog Segment"
+		},
+		"conversion_rate_ranking":
+		{
+			"label": "Conversion Rate Ranking"
+		},
+		"conversion_values":
+		{
+			"label": "Conversion Values"
+		},
+		"conversions":
+		{
+			"label": "Total Conversions"
+		},
+		"converted_product_quantity":
+		{
+			"label": "Quantity of Products Converted"
+		},
+		"converted_product_value":
+		{
+			"label": "Value of Converted Products"
+		},
+		"cost_per_15_sec_video_view":
+		{
+			"label": "Cost per 15-Second Video View"
+		},
+		"cost_per_2_sec_continuous_video_view":
+		{
+			"label": "Cost per 2-Second Continuous Video View"
+		},
+		"cost_per_action_type":
+		{
+			"label": "Cost per Action Type"
+		},
+		"cost_per_ad_click":
+		{
+			"label": "Cost per Ad Click"
+		},
+		"cost_per_conversion":
+		{
+			"label": "Cost per Conversion"
+		},
+		"cost_per_dda_countby_convs":
+		{
+			"label": "Cost per DDA Conversion Count"
+		},
+		"cost_per_estimated_ad_recallers":
+		{
+			"label": "Cost per Estimated Ad Recall"
+		},
+		"cost_per_inline_link_click":
+		{
+			"label": "Cost per Inline Link Click"
+		},
+		"cost_per_inline_post_engagement":
+		{
+			"label": "Cost per Inline Post Engagement"
+		},
+		"cost_per_one_thousand_ad_impression":
+		{
+			"label": "Cost per 1,000 Ad Impressions"
+		},
+		"cost_per_thruplay":
+		{
+			"label": "Cost per ThruPlay",
+			"formatting_function": "currency"
+		},
+		"cost_per_unique_action_type":
+		{
+			"label": "Cost per Unique Action Type"
+		},
+		"cost_per_unique_click":
+		{
+			"label": "Cost per Unique Click"
+		},
+		"cost_per_unique_conversion":
+		{
+			"label": "Cost per Unique Conversion"
+		},
+		"cost_per_unique_inline_link_click":
+		{
+			"label": "Cost per Unique Inline Link Click"
+		},
+		"cost_per_unique_outbound_click":
+		{
+			"label": "Cost per Unique Outbound Click"
+		},
+		"cpp":
+		{
+			"label": "Cost per Point (CPP)"
+		},
+		"creative_media_type":
+		{
+			"label": "Creative Media Type"
+		},
+		"date_start":
+		{
+			"label": "Start Date"
+		},
+		"date_stop":
+		{
+			"label": "End Date"
+		},
+		"dda_countby_convs":
+		{
+			"label": "DDA Conversion Count"
+		},
+		"dda_results":
+		{
+			"label": "DDA Campaign Results"
+		},
+		"engagement_rate_ranking":
+		{
+			"label": "Engagement Rate Ranking"
+		},
+		"estimated_ad_recall_rate":
+		{
+			"label": "Estimated Ad Recall Rate"
+		},
+		"estimated_ad_recall_rate_lower_bound":
+		{
+			"label": "Lower Bound of Estimated Ad Recall Rate"
+		},
+		"estimated_ad_recall_rate_upper_bound":
+		{
+			"label": "Upper Bound of Estimated Ad Recall Rate"
+		},
+		"estimated_ad_recallers":
+		{
+			"label": "Estimated Number of Ad Recallers"
+		},
+		"estimated_ad_recallers_lower_bound":
+		{
+			"label": "Lower Bound of Estimated Ad Recallers"
+		},
+		"estimated_ad_recallers_upper_bound":
+		{
+			"label": "Upper Bound of Estimated Ad Recallers"
+		},
+		"full_view_impressions":
+		{
+			"label": "Full View Impressions"
+		},
+		"full_view_reach":
+		{
+			"label": "Full View Reach"
+		},
+		"gender_targeting":
+		{
+			"label": "Gender Targeting"
+		},
+		"inline_post_engagement":
+		{
+			"label": "Inline Post Engagement"
+		},
+		"instagram_upcoming_event_reminders_set":
+		{
+			"label": "Instagram Upcoming Event Reminders Set"
+		},
+		"instant_experience_clicks_to_open":
+		{
+			"label": "Clicks to Open Instant Experience"
+		},
+		"instant_experience_clicks_to_start":
+		{
+			"label": "Clicks to Start Instant Experience"
+		},
+		"instant_experience_outbound_clicks":
+		{
+			"label": "Outbound Clicks from Instant Experience"
+		},
+		"interactive_component_tap":
+		{
+			"label": "Interactive Component Taps"
+		},
+		"labels":
+		{
+			"label": "Labels"
+		},
+		"location":
+		{
+			"label": "Location"
+		},
+		"marketing_messages_cost_per_delivered":
+		{
+			"label": "Cost per Delivered Marketing Message"
+		},
+		"marketing_messages_cost_per_link_btn_click":
+		{
+			"label": "Cost per Link Button Click in Marketing Messages"
+		},
+		"marketing_messages_spend":
+		{
+			"label": "Marketing Messages Spend"
+		},
+		"marketing_messages_website_purchase_values":
+		{
+			"label": "Website Purchase Values from Marketing Messages"
+		},
+		"mobile_app_purchase_roas":
+		{
+			"label": "Mobile App Purchase ROAS"
+		},
+		"onsite_conversion_messaging_detected_purchase_deduped":
+		{
+			"label": "Onsite Conversion Deduped Purchases Detected via Messaging"
+		},
+		"optimization_goal":
+		{
+			"label": "Optimization Goal"
+		},
+		"outbound_clicks_ctr":
+		{
+			"label": "Click-Through Rate for Outbound Clicks"
+		},
+		"place_page_name":
+		{
+			"label": "Place Page Name"
+		},
+		"purchase_roas":
+		{
+			"label": "Purchase ROAS"
+		},
+		"qualifying_question_qualify_answer_rate":
+		{
+			"label": "Qualifying Question Answer Rate"
+		},
+		"quality_ranking":
+		{
+			"label": "Quality Ranking"
+		},
+		"shops_assisted_purchases":
+		{
+			"label": "Shops Assisted Purchases"
+		},
+		"social_spend":
+		{
+			"label": "Social Media Spend"
+		},
+		"total_postbacks":
+		{
+			"label": "Total Postbacks"
+		},
+		"total_postbacks_detailed":
+		{
+			"label": "Detailed Total Postbacks"
+		},
+		"total_postbacks_detailed_v4":
+		{
+			"label": "Detailed Total Postbacks V4"
+		},
+		"unique_clicks":
+		{
+			"label": "Unique Clicks"
+		},
+		"unique_conversions":
+		{
+			"label": "Unique Conversions"
+		},
+		"unique_ctr":
+		{
+			"label": "Unique Click-Through Rate (CTR)"
+		},
+		"unique_inline_link_click_ctr":
+		{
+			"label": "Unique Inline Link Click-Through Rate"
+		},
+		"unique_inline_link_clicks":
+		{
+			"label": "Unique Inline Link Clicks"
+		},
+		"unique_link_clicks_ctr":
+		{
+			"label": "Unique Link Clicks Click-Through Rate"
+		},
+		"unique_outbound_clicks":
+		{
+			"label": "Unique Outbound Clicks"
+		},
+		"unique_outbound_clicks_ctr":
+		{
+			"label": "Unique Outbound Clicks Click-Through Rate"
+		},
+		"unique_video_continuous_2_sec_watched_actions":
+		{
+			"label": "Unique 2-Second Continuous Video Watches"
+		},
+		"unique_video_view_15_sec":
+		{
+			"label": "Unique 15-Second Video Views"
+		},
+		"updated_time":
+		{
+			"label": "Last Updated Time"
+		},
+		"video_15_sec_watched_actions":
+		{
+			"label": "15-Second Video Watched Actions"
+		},
+		"video_30_sec_watched_actions":
+		{
+			"label": "30-Second Video Watched Actions"
+		},
+		"video_avg_time_watched_actions":
+		{
+			"label": "Average Time of Video Watched Actions"
+		},
+		"video_continuous_2_sec_watched_actions":
+		{
+			"label": "Continuous 2-Second Video Watches"
+		},
+		"video_p100_watched_actions":
+		{
+			"label": "100% Video Watch Completion"
+		},
+		"video_play_actions":
+		{
+			"label": "Video Play Actions"
+		},
+		"video_play_curve_actions":
+		{
+			"label": "Video Play Curve Actions"
+		},
+		"video_play_retention_0_to_15s_actions":
+		{
+			"label": "Video Play Retention: 0-15 Seconds"
+		},
+		"video_play_retention_20_to_60s_actions":
+		{
+			"label": "Video Play Retention: 20-60 Seconds"
+		},
+		"video_play_retention_graph_actions":
+		{
+			"label": "Video Play Retention Graph Actions"
+		},
+		"video_time_watched_actions":
+		{
+			"label": "Total Time of Video Watched"
+		},
+		"website_ctr":
+		{
+			"label": "Website Click-Through Rate (CTR)"
+		},
+		"wish_bid":
+		{
+			"label": "Wish Bid"
+		}
+	},
+	"dimensions":
+	{
+		"campaign":
+		{
+			"label": "Campaign Name",
+			"options": ["align_left"]
+		},
+		"action_type":
+		{
+			"label": "Type",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"publisher_platform":
+		{
+			"label": "Platform",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"publisher_platform_facebook":
+		{
+			"dimension":
+			{
+				"field": "publisher_platform",
+				"operator": "IN",
+				"value": ["facebook"]
+			},
+			"label": "Facebook",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"publisher_platform_instagram":
+		{
+			"dimension":
+			{
+				"field": "publisher_platform",
+				"operator": "IN",
+				"value": ["instagram"]
+			},
+			"label": "Instagram",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"publisher_platform_audience_network":
+		{
+			"dimension":
+			{
+				"field": "publisher_platform",
+				"operator": "IN",
+				"value": ["audience_network"]
+			},
+			"label": "Audience Network",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"publisher_platform_messenger":
+		{
+			"dimension":
+			{
+				"field": "publisher_platform",
+				"operator": "IN",
+				"value": ["messenger"]
+			},
+			"label": "Messenger",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"ad":
+		{
+			"label": "Ad",
+			"options": ["align_left"]
+		},
+		"region":
+		{
+			"label": "Regions",
+			"options": ["align_left"],
+			"formatting_function": "capitalize"
+		},
+		"device_platform":
+		{
+			"label": "Device Platform",
+			"formatting_function": "capitalize"
+		},
+		"hourly_stats_aggregated_by_audience_time_zone":
+		{
+			"label": "Hour",
+			"options": ["align_left"]
+		},
+		"date_start":
+		{
+			"label": "Date",
+			"options": ["align_left"]
+		},
+		"adset":
+		{
+			"label": "Ad set",
+			"options": ["align_left"]
+		},
+		"age":
+		{
+			"label": "Age",
+			"options": ["align_left"]
+		},
+		"gender":
+		{
+			"label": "Gender",
+			"options": ["align_left"]
+		},
+		"country":
+		{
+			"label": "Country",
+			"options": ["align_left"]
+		}
+	},
+	"filters":
+	{
+		"action_attribution_windows": [
+		{
+			"label": "1-day view (1d_view)",
+			"value": "1d_view"
+		},
+		{
+			"label": "7-day view (7d_view)",
+			"value": "7d_view"
+		},
+		{
+			"label": "28-day view (28d_view)",
+			"value": "28d_view"
+		},
+		{
+			"label": "1-day click (1d_click)",
+			"value": "1d_click"
+		},
+		{
+			"label": "7-day click (7d_click)",
+			"value": "7d_click"
+		},
+		{
+			"label": "28-day click (28d_click)",
+			"value": "28d_click"
+		}]
+	}
+}

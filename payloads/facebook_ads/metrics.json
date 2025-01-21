@@ -1,0 +1,237 @@
+{
+	"metrics": [
+	{
+		"metrics": ["page_fans"],
+		"reference_key": "fb:likes",
+		"component": "number_v1"
+	},
+	{
+		"metrics": ["page_fans"],
+		"dimensions": ["difference"],
+		"reference_key": "fb:net_likes",
+		"component": "number_v1"
+	},
+	{
+		"metrics": ["page_impressions_unique"],
+		"reference_key": "fb:page_reach",
+		"component": "number_v1",
+		"type": "total_reach"
+	},
+	{
+		"metrics": ["page_impressions"],
+		"reference_key": "fb:page_impressions",
+		"component": "number_v1",
+		"type": "total_impressions"
+	},
+	{
+		"metrics": ["page_fans"],
+		"dimensions": ["city"],
+		"reference_key": "fb:page_reach_by_city",
+		"component": "datatable_v1",
+		"sort": ["-page_fans"]
+	},
+	{
+		"metrics": ["page_fans"],
+		"dimensions": ["country"],
+		"reference_key": "fb:page_reach_by_country",
+		"component": "datatable_v1",
+		"sort": ["-page_fans"]
+	},
+	{
+		"metrics": ["page_fan_adds_by_paid_non_paid_unique", "page_fan_removes"],
+		"dimensions": ["date"],
+		"reference_key": "fb:likes_over_time",
+		"component": "chart_v1",
+		"chart_type": "line"
+	},
+	{
+		"metrics": ["page_impressions_organic_unique", "page_impressions_paid_unique"],
+		"dimensions": ["date"],
+		"reference_key": "fb:reach_over_time",
+		"component": "chart_v1",
+		"chart_type": "line"
+	},
+	{
+		"metrics": ["page_messages_new_conversations_unique"],
+		"reference_key": "fb:page_messages_new",
+		"component": "number_v1"
+	},
+	{
+		"metrics": ["page_messages_new_conversations_unique"],
+		"dimensions": ["date"],
+		"reference_key": "fb:page_messages_new_over_time",
+		"component": "chart_v1",
+		"chart_type": "line"
+	},
+	{
+		"metrics": ["page_messages_reported_conversations_unique"],
+		"reference_key": "fb:page_messages_reported",
+		"component": "number_v1"
+	},
+	{
+		"metrics": ["page_posts_count"],
+		"reference_key": "fb:page_posts_count",
+		"component": "number_v1",
+		"type": "total_posts_count"
+	},
+	{
+		"reference_key": "fb:page_posts_shares",
+		"component": "number_v1",
+		"metrics": ["page_posts_shares"],
+		"type": "total_posts_share"
+	},
+	{
+		"reference_key": "fb:page_posts_reactions",
+		"component": "iconsList_v1",
+		"metrics": ["page_posts_reactions"]
+	},
+	{
+		"reference_key": "fb:page_posts_comments",
+		"component": "number_v1",
+		"metrics": ["page_posts_comments"],
+		"type": "total_comments"
+	},
+	{
+		"reference_key": "fb:page_posts_performance_by_type",
+		"component": "datatable_v1",
+		"metrics": ["page_posts", "reach", "reactions"],
+		"dimensions": ["posts_type"],
+		"sort": ["-reach"]
+	},
+	{
+		"reference_key": "fb:page_posts",
+		"component": "datatable_v1",
+		"metrics": ["type", "total_reach", "organic_reach", "paid_reach", "total_reactions", "comments", "shares", "post_video_views", "created_at"],
+		"dimensions": ["page_posts"],
+		"sort": ["-total_reach"]
+	},
+	{
+		"reference_key": "fb:page_impressions_organic_unique",
+		"component": "number_v1",
+		"metrics": ["page_impressions_organic_unique"]
+	},
+	{
+		"reference_key": "fb:page_posts_impressions",
+		"component": "number_v1",
+		"metrics": ["page_posts_impressions"]
+	},
+	{
+		"reference_key": "fb:page_posts_impressions_unique",
+		"component": "number_v1",
+		"metrics": ["page_posts_impressions_unique"]
+	},
+	{
+		"reference_key": "fb:page_post_rate_engagements",
+		"component": "number_v1",
+		"metrics": ["page_post_rate_engagements"]
+	},
+	{
+		"reference_key": "fb:page_post_engagements",
+		"component": "number_v1",
+		"metrics": ["page_post_engagements"],
+		"type": "total_posts_engagement"
+	},
+	{
+		"reference_key": "fb:page_fans_online_per_day",
+		"metrics": ["page_posts_impressions"],
+		"dimensions": ["day"],
+		"component": "chart_v1",
+		"chart_type": "bar"
+	},
+	{
+		"reference_key": "fb:page_post_organic_reach",
+		"metrics": ["posts_organic_reach"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:page_post_organic_impressions",
+		"metrics": ["page_posts_impressions_organic"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:page_organic_impressions",
+		"metrics": ["page_impressions_organic"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:total_video_views",
+		"metrics": ["page_video_views"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:paid_video_views",
+		"metrics": ["page_video_views_paid"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:organic_video_views",
+		"metrics": ["page_video_views_organic"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:page_reels_count",
+		"metrics": ["page_reels_count"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:post_impressions_unique",
+		"metrics": ["post_impressions_unique"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:blue_reels_play_count",
+		"metrics": ["blue_reels_play_count"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:post_video_avg_time_watched",
+		"metrics": ["post_video_avg_time_watched"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:post_video_likes_by_reaction_type",
+		"metrics": ["post_video_likes_by_reaction_type"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:post_video_social_actions_comments",
+		"metrics": ["post_video_social_actions_comments"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:post_video_social_actions_shares",
+		"metrics": ["post_video_social_actions_shares"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:post_video_view_time",
+		"metrics": ["post_video_view_time"],
+		"dimensions": ["video_reels"],
+		"component": "number_v1"
+	},
+	{
+		"reference_key": "fb:page_follows",
+		"metrics": ["page_follows"],
+		"component": "number_v1",
+		"added_date": "2024-07-25"
+	},
+	{
+		"reference_key": "fb:page_reels",
+		"component": "datatable_v1",
+		"metrics": ["reach", "plays", "avg_time", "likes", "comments", "shares", "time_played", "created_at"],
+		"dimensions": ["page_reels"],
+		"sort": ["-plays"]
+	},
+	{
+		"reference_key": "fb:page_posts_all_reactions",
+		"component": "number_v1",
+		"metrics": ["page_posts_all_reactions"],
+		"type": "total_likes"
+	}]
+}

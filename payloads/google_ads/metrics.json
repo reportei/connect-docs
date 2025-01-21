@@ -1,0 +1,593 @@
+{
+	"metrics": [
+	{
+		"reference_key": "gads:clicks",
+		"component": "number_v1",
+		"metrics": ["metrics.clicks"],
+		"type": "clicks"
+	},
+	{
+		"reference_key": "gads:count_campaigns",
+		"component": "number_v1",
+		"metrics": ["metrics.cost_micros"],
+		"dimensions": ["campaign"],
+		"type": "campaigns_count"
+	},
+	{
+		"reference_key": "gads:count_ads",
+		"component": "number_v1",
+		"metrics": ["metrics.cost_micros"],
+		"dimensions": ["ad_group_ad"],
+		"type": "ads_count"
+	},
+	{
+		"reference_key": "gads:clicks_per_device",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["metrics.clicks"],
+		"dimensions": ["device"]
+	},
+	{
+		"reference_key": "gads:clicks_ctr_per_day",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.clicks", "metrics.ctr"],
+		"dimensions": ["date"]
+	},
+	{
+		"reference_key": "gads:summary_per_adgroups",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.cost_micros", "metrics.impressions", "metrics.conversions", "metrics.absolute_top_impression_percentage", "metrics.cost_per_conversion"],
+		"dimensions": ["ad_group"],
+		"sort": ["-metrics.clicks"]
+	},
+	{
+		"reference_key": "gads:all_conversions",
+		"component": "number_v1",
+		"metrics": ["metrics.all_conversions"]
+	},
+	{
+		"reference_key": "gads:conversions_value",
+		"component": "number_v1",
+		"metrics": ["metrics.conversions_value"]
+	},
+	{
+		"reference_key": "gads:all_conversions_value",
+		"component": "number_v1",
+		"metrics": ["metrics.all_conversions_value"]
+	},
+	{
+		"reference_key": "gads:conversions",
+		"component": "number_v1",
+		"metrics": ["metrics.conversions"]
+	},
+	{
+		"reference_key": "gads:impressions",
+		"component": "number_v1",
+		"metrics": ["metrics.impressions"],
+		"type": "impressions"
+	},
+	{
+		"reference_key": "gads:video_views",
+		"component": "number_v1",
+		"metrics": ["metrics.video_views"],
+		"dimensions": ["video"]
+	},
+	{
+		"reference_key": "gads:conversions_by_device",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["metrics.conversions"],
+		"dimensions": ["device"]
+	},
+	{
+		"reference_key": "gads:impressions_by_gender",
+		"component": "chart_v1",
+		"chart_type": "bar",
+		"metrics": ["metrics.impressions"],
+		"dimensions": ["gender_view"]
+	},
+	{
+		"reference_key": "gads:impressions_by_age",
+		"component": "chart_v1",
+		"chart_type": "bar",
+		"metrics": ["metrics.impressions"],
+		"dimensions": ["age_range_view"]
+	},
+	{
+		"reference_key": "gads:ctr",
+		"component": "number_v1",
+		"metrics": ["metrics.ctr"]
+	},
+	{
+		"reference_key": "gads:cost_micros",
+		"component": "number_v1",
+		"metrics": ["metrics.cost_micros"],
+		"type": "spend"
+	},
+	{
+		"reference_key": "gads:cost_per_all_conversions",
+		"component": "number_v1",
+		"metrics": ["metrics.cost_per_all_conversions"]
+	},
+	{
+		"reference_key": "gads:cost_per_conversion",
+		"component": "number_v1",
+		"metrics": ["metrics.cost_per_conversion"]
+	},
+	{
+		"reference_key": "gads:average_cpm",
+		"component": "number_v1",
+		"metrics": ["metrics.average_cpm"]
+	},
+	{
+		"reference_key": "gads:average_cpc",
+		"component": "number_v1",
+		"metrics": ["metrics.average_cpc"]
+	},
+	{
+		"reference_key": "gads:average_cpv",
+		"component": "number_v1",
+		"metrics": ["metrics.average_cpv"]
+	},
+	{
+		"reference_key": "gads:conversions_from_interactions_rate",
+		"component": "number_v1",
+		"metrics": ["metrics.conversions_from_interactions_rate"]
+	},
+	{
+		"reference_key": "gads:cost_per_device",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["metrics.cost_micros"],
+		"dimensions": ["device"]
+	},
+	{
+		"reference_key": "gads:all_conversion_conversion_rate_per_day",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.all_conversions", "metrics.conversions_from_interactions_rate"],
+		"dimensions": ["date"]
+	},
+	{
+		"reference_key": "gads:conversion_conversion_rate_per_day",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.conversions", "metrics.conversions_from_interactions_rate"],
+		"dimensions": ["date"]
+	},
+	{
+		"reference_key": "gads:cost_average_cpc_per_day",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.cost_micros", "metrics.average_cpc"],
+		"dimensions": ["date"]
+	},
+	{
+		"reference_key": "gads:top_campaigns",
+		"component": "datatable_v1",
+		"metrics": ["campaign.advertising_channel_type", "metrics.clicks", "metrics.cost_micros", "metrics.impressions", "metrics.conversions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_per_conversion"],
+		"dimensions": ["campaign"],
+		"sort": ["-metrics.clicks"]
+	},
+	{
+		"reference_key": "gads:summary_per_keywords",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.cost_micros", "metrics.impressions", "metrics.conversions", "metrics.absolute_top_impression_percentage", "metrics.cost_per_conversion", "metrics.average_cpc"],
+		"dimensions": ["keyword_view"],
+		"sort": ["-metrics.clicks"]
+	},
+	{
+		"reference_key": "gads:summary_per_smart_campaign_search_term",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.cost_micros", "metrics.impressions"],
+		"dimensions": ["smart_campaign_search_term_view"],
+		"sort": ["-metrics.clicks"]
+	},
+	{
+		"reference_key": "gads:roas",
+		"component": "number_v1",
+		"metrics": ["metrics.roas"]
+	},
+	{
+		"reference_key": "gads:all_conversions_value_per_cost",
+		"component": "number_v1",
+		"metrics": ["metrics.all_conversions_value_per_cost"]
+	},
+	{
+		"reference_key": "gads:conversions_value_per_cost",
+		"component": "number_v1",
+		"metrics": ["metrics.conversions_value_per_cost"]
+	},
+	{
+		"reference_key": "gads:phone_calls",
+		"component": "number_v1",
+		"metrics": ["metrics.phone_calls"],
+		"dimensions": ["campaign"]
+	},
+	{
+		"reference_key": "gads:featured_videos",
+		"component": "datatable_v1",
+		"metrics": ["metrics.impressions", "metrics.video_views", "metrics.video_view_rate", "metrics.average_cpv", "metrics.cost_per_all_conversions", "metrics.clicks", "metrics.conversions", "metrics.cost_micros", "metrics.cost_per_conversion"],
+		"dimensions": ["video"],
+		"sort": ["-metrics.conversions"]
+	},
+	{
+		"reference_key": "gads:custom_conversion_actions",
+		"component": "datatable_v1",
+		"metrics": ["metrics.all_conversions"],
+		"dimensions": ["conversion_action_name"],
+		"sort": ["-metrics.all_conversions"]
+	},
+	{
+		"reference_key": "gads:search_term",
+		"component": "datatable_v1",
+		"metrics": ["metrics.average_cpv", "metrics.average_cpm", "metrics.cost_micros", "metrics.impressions", "metrics.interactions", "metrics.interaction_rate", "metrics.average_cost", "metrics.conversions", "metrics.cost_per_conversion"],
+		"dimensions": ["search_term_view"],
+		"sort": ["-metrics.impressions"]
+	},
+	{
+		"reference_key": "gads:detail_group_placement",
+		"component": "datatable_v1",
+		"metrics": ["detail_placement_view.group_placement_target_url", "campaign.name", "ad_group.name", "metrics.impressions", "metrics.interactions", "metrics.interaction_rate", "metrics.average_cost", "metrics.cost_micros", "metrics.conversions"],
+		"dimensions": ["detail_placement_view"],
+		"sort": ["-metrics.interactions"],
+		"custom":
+		{
+			"shouldNotExcludeMetrics": ["ad_group.name", "campaign.name", "detail_placement_view.group_placement_target_url"]
+		}
+	},
+	{
+		"reference_key": "gads:ads_summary_table",
+		"component": "datatable_v1",
+		"metrics": ["campaign.name", "ad_group.name", "metrics.impressions", "metrics.cost_per_all_conversions", "metrics.interactions", "metrics.interaction_rate", "metrics.average_cost", "metrics.conversions", "metrics.cost_per_conversion", "metrics.conversions_from_interactions_rate", "metrics.average_cpv"],
+		"sort": ["-metrics.impressions"],
+		"dimensions": ["ad_group_ad"],
+		"allAdsDatatable": true
+	},
+	{
+		"reference_key": "gads:text_ads_summary_table",
+		"component": "datatable_v1",
+		"metrics": ["campaign.name", "ad_group.name", "metrics.impressions", "metrics.cost_per_all_conversions", "metrics.interactions", "metrics.interaction_rate", "metrics.average_cost", "metrics.conversions", "metrics.cost_per_conversion", "metrics.conversions_from_interactions_rate", "metrics.average_cpv"],
+		"sort": ["-metrics.impressions"],
+		"dimensions": ["ad_group_ad"],
+		"textAdsDatatable": true,
+		"added_date": "2023-04-07"
+	},
+	{
+		"reference_key": "gads:video_impressions_by_time",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.impressions", "metrics.video_views"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_clicks_ctr_by_time",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.clicks", "metrics.ctr"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_conversions_by_time",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.conversions", "metrics.conversions_from_interactions_rate"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_cost_by_time",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["metrics.cost_micros", "metrics.average_cpm"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_view_rate",
+		"component": "number_v1",
+		"metrics": ["metrics.video_view_rate"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_conversions",
+		"component": "number_v1",
+		"metrics": ["metrics.conversions"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_conversions_rate",
+		"component": "number_v1",
+		"metrics": ["metrics.conversions_from_interactions_rate"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_ctr",
+		"component": "number_v1",
+		"metrics": ["metrics.ctr"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_impressions",
+		"component": "number_v1",
+		"metrics": ["metrics.impressions"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:video_clicks",
+		"component": "number_v1",
+		"metrics": ["metrics.clicks"],
+		"dimensions": ["video"],
+		"added_date": "2023-05-05"
+	},
+	{
+		"reference_key": "gads:interaction_rate",
+		"component": "number_v1",
+		"metrics": ["metrics.interaction_rate"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:interactions",
+		"component": "number_v1",
+		"metrics": ["metrics.interactions"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:top_impression_percentage",
+		"component": "number_v1",
+		"metrics": ["metrics.top_impression_percentage"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:engagements",
+		"component": "number_v1",
+		"metrics": ["metrics.engagements"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:engagement_rate",
+		"component": "number_v1",
+		"metrics": ["metrics.engagement_rate"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:cpe",
+		"component": "number_v1",
+		"metrics": ["metrics.cpe"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:absolute_top_impression_percentage",
+		"component": "number_v1",
+		"metrics": ["metrics.absolute_top_impression_percentage"],
+		"added_date": "2024-01-22"
+	},
+	{
+		"reference_key": "gads:performance_by_city",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_city"],
+		"targeting_region": "City",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_state",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_state"],
+		"targeting_region": "State",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_region",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_region"],
+		"targeting_region": "Region",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_airport",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_airport"],
+		"targeting_region": "Airport",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_county",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_county"],
+		"targeting_region": "County",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_district",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_district"],
+		"targeting_region": "District",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_postal_code",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_postal_code"],
+		"targeting_region": "PostalCode",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_metro",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_metro"],
+		"targeting_region": "Metro",
+		"added_date": "2024-07-16"
+	},
+	{
+		"reference_key": "gads:performance_by_country",
+		"component": "datatable_v1",
+		"metrics": ["metrics.clicks", "metrics.impressions", "metrics.ctr", "metrics.average_cpc", "metrics.cost_micros", "metrics.conversions_from_interactions_rate", "metrics.conversions", "metrics.cost_per_conversion"],
+		"sort": ["-metrics.clicks"],
+		"dimensions": ["geographic_view_country"],
+		"targeting_region": "Region"
+	},
+	{
+		"reference_key": "gads:conversions_page_views",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_page_view"],
+		"dimensions": ["conversion_page_view"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_add_to_cart"],
+		"dimensions": ["conversion_add_to_cart"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_begin_checkout",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_begin_checkout"],
+		"dimensions": ["conversion_begin_checkout"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_purchase",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_purchase"],
+		"dimensions": ["conversion_purchase"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_book_appointment",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_book_appointment"],
+		"dimensions": ["conversion_book_appointment"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_contact",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_contact"],
+		"dimensions": ["conversion_contact"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_download",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_download"],
+		"dimensions": ["conversion_download"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_converted_lead",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_converted_lead"],
+		"dimensions": ["conversion_converted_lead"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_engagement",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_engagement"],
+		"dimensions": ["conversion_engagement"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_get_directions",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_get_directions"],
+		"dimensions": ["conversion_get_directions"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_outbound_click",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_outbound_click"],
+		"dimensions": ["conversion_outbound_click"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_phone_call_lead",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_phone_call_lead"],
+		"dimensions": ["conversion_phone_call_lead"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_qualified_lead",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_qualified_lead"],
+		"dimensions": ["conversion_qualified_lead"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_request_quote",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_request_quote"],
+		"dimensions": ["conversion_request_quote"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_sign_up",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_sign_up"],
+		"dimensions": ["conversion_sign_up"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_store_visit",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_store_visit"],
+		"dimensions": ["conversion_store_visit"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_store_sale",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_store_sale"],
+		"dimensions": ["conversion_store_sale"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_submit_lead_form",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_submit_lead_form"],
+		"dimensions": ["conversion_submit_lead_form"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:conversion_subscribe_paid",
+		"component": "number_v1",
+		"metrics": ["metrics.conversion_subscribe_paid"],
+		"dimensions": ["conversion_subscribe_paid"],
+		"added_date": "2024-07-15"
+	},
+	{
+		"reference_key": "gads:ptr",
+		"component": "number_v1",
+		"metrics": ["metrics.ptr"],
+		"dimensions": ["campaign"],
+		"added_date": "2024-07-16"
+	}]
+}

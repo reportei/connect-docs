@@ -1,5 +1,5 @@
 {
-	"widgets": [
+	"metrics": [
 	{
 		"reference_key": "google_analytics_4:all_sessions",
 		"component": "number_v1",
