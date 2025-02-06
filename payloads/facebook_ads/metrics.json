@@ -1,237 +1,1961 @@
 {
-	"metrics": [
+	"widgets": [
 	{
-		"metrics": ["page_fans"],
-		"reference_key": "fb:likes",
-		"component": "number_v1"
-	},
-	{
-		"metrics": ["page_fans"],
-		"dimensions": ["difference"],
-		"reference_key": "fb:net_likes",
-		"component": "number_v1"
-	},
-	{
-		"metrics": ["page_impressions_unique"],
-		"reference_key": "fb:page_reach",
+		"reference_key": "fb_ads:cpc",
 		"component": "number_v1",
-		"type": "total_reach"
+		"metrics": ["cpc"]
 	},
 	{
-		"metrics": ["page_impressions"],
-		"reference_key": "fb:page_impressions",
+		"reference_key": "fb_ads:reach",
 		"component": "number_v1",
-		"type": "total_impressions"
+		"metrics": ["reach"],
+		"type": "reach"
 	},
 	{
-		"metrics": ["page_fans"],
-		"dimensions": ["city"],
-		"reference_key": "fb:page_reach_by_city",
-		"component": "datatable_v1",
-		"sort": ["-page_fans"]
+		"reference_key": "fb_ads:reach_facebook",
+		"component": "number_v1",
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
 	},
 	{
-		"metrics": ["page_fans"],
-		"dimensions": ["country"],
-		"reference_key": "fb:page_reach_by_country",
-		"component": "datatable_v1",
-		"sort": ["-page_fans"]
+		"reference_key": "fb_ads:reach_messenger",
+		"component": "number_v1",
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["messenger"]
+		}]
 	},
 	{
-		"metrics": ["page_fan_adds_by_paid_non_paid_unique", "page_fan_removes"],
-		"dimensions": ["date"],
-		"reference_key": "fb:likes_over_time",
+		"reference_key": "fb_ads:reach_audience_network",
+		"component": "number_v1",
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["audience_network"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:reach_instagram",
+		"component": "number_v1",
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:impressions",
+		"component": "number_v1",
+		"metrics": ["impressions"],
+		"type": "impressions"
+	},
+	{
+		"reference_key": "fb_ads:impressions_facebook",
+		"component": "number_v1",
+		"metrics": ["impressions"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:impressions_messenger",
+		"component": "number_v1",
+		"metrics": ["impressions"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["messenger"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:impressions_audience_network",
+		"component": "number_v1",
+		"metrics": ["impressions"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["audience_network"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:impressions_instagram",
+		"component": "number_v1",
+		"metrics": ["impressions"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:clicks",
+		"component": "number_v1",
+		"metrics": ["clicks"],
+		"type": "clicks"
+	},
+	{
+		"reference_key": "fb_ads:clicks_facebook",
+		"component": "number_v1",
+		"metrics": ["clicks"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:clicks_instagram",
+		"component": "number_v1",
+		"metrics": ["clicks"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:ctr",
+		"component": "number_v1",
+		"metrics": ["ctr"]
+	},
+	{
+		"reference_key": "fb_ads:ctr_facebook",
+		"component": "number_v1",
+		"metrics": ["ctr"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:ctr_instagram",
+		"component": "number_v1",
+		"metrics": ["ctr"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:frequency",
+		"component": "number_v1",
+		"metrics": ["frequency"]
+	},
+	{
+		"reference_key": "fb_ads:frequency_facebook",
+		"component": "number_v1",
+		"metrics": ["frequency"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:frequency_instagram",
+		"component": "number_v1",
+		"metrics": ["frequency"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:spend",
+		"component": "number_v1",
+		"metrics": ["spend"],
+		"type": "spend"
+	},
+	{
+		"reference_key": "fb_ads:spend_audience_network",
+		"component": "number_v1",
+		"metrics": ["spend"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["audience_network"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:spend_messenger",
+		"component": "number_v1",
+		"metrics": ["spend"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["messenger"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:spend_facebook",
+		"component": "number_v1",
+		"metrics": ["spend"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:spend_instagram",
+		"component": "number_v1",
+		"metrics": ["spend"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:cpc_facebook",
+		"component": "number_v1",
+		"metrics": ["cpc"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:cpc_instagram",
+		"component": "number_v1",
+		"metrics": ["cpc"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:cpm",
+		"component": "number_v1",
+		"metrics": ["cpm"]
+	},
+	{
+		"reference_key": "fb_ads:cpm_facebook",
+		"component": "number_v1",
+		"metrics": ["cpm"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:cpm_instagram",
+		"component": "number_v1",
+		"metrics": ["cpm"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:summary",
+		"component": "container_v1",
+		"container_type": "summary",
+		"metrics": [],
+		"dimensions": [
+		{
+			"field": "summary"
+		}],
+		"widgets": []
+	},
+	{
+		"reference_key": "fb_ads:impressions_reach_by_age",
 		"component": "chart_v1",
-		"chart_type": "line"
+		"chart_type": "bar",
+		"metrics": ["impressions", "reach"],
+		"dimensions": [
+		{
+			"field": "age"
+		}]
 	},
 	{
-		"metrics": ["page_impressions_organic_unique", "page_impressions_paid_unique"],
-		"dimensions": ["date"],
-		"reference_key": "fb:reach_over_time",
+		"reference_key": "fb_ads:impressions_reach_by_gender",
 		"component": "chart_v1",
-		"chart_type": "line"
+		"chart_type": "bar",
+		"metrics": ["impressions", "reach"],
+		"dimensions": [
+		{
+			"field": "gender"
+		}]
 	},
 	{
-		"metrics": ["page_messages_new_conversations_unique"],
-		"reference_key": "fb:page_messages_new",
-		"component": "number_v1"
-	},
-	{
-		"metrics": ["page_messages_new_conversations_unique"],
-		"dimensions": ["date"],
-		"reference_key": "fb:page_messages_new_over_time",
+		"reference_key": "fb_ads:impressions_reach_by_hour",
 		"component": "chart_v1",
-		"chart_type": "line"
+		"chart_type": "bar",
+		"metrics": ["impressions", "reach"],
+		"dimensions": [
+		{
+			"field": "hourly_stats_aggregated_by_audience_time_zone"
+		}]
 	},
 	{
-		"metrics": ["page_messages_reported_conversations_unique"],
-		"reference_key": "fb:page_messages_reported",
-		"component": "number_v1"
+		"reference_key": "fb_ads:reach_by_device_platform",
+		"component": "chart_v1",
+		"chart_type": "pie",
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "device_platform"
+		}]
 	},
 	{
-		"metrics": ["page_posts_count"],
-		"reference_key": "fb:page_posts_count",
-		"component": "number_v1",
-		"type": "total_posts_count"
-	},
-	{
-		"reference_key": "fb:page_posts_shares",
-		"component": "number_v1",
-		"metrics": ["page_posts_shares"],
-		"type": "total_posts_share"
-	},
-	{
-		"reference_key": "fb:page_posts_reactions",
-		"component": "iconsList_v1",
-		"metrics": ["page_posts_reactions"]
-	},
-	{
-		"reference_key": "fb:page_posts_comments",
-		"component": "number_v1",
-		"metrics": ["page_posts_comments"],
-		"type": "total_comments"
-	},
-	{
-		"reference_key": "fb:page_posts_performance_by_type",
+		"reference_key": "fb_ads:ads",
 		"component": "datatable_v1",
-		"metrics": ["page_posts", "reach", "reactions"],
-		"dimensions": ["posts_type"],
+		"metrics": ["results", "cost_per_results", "spend", "reach", "impressions", "cpm", "clicks", "cpc", "actions:page_engagement", "video_p25_watched_actions", "utm_campaign"],
+		"dimensions": [
+		{
+			"field": "ad"
+		}],
+		"sort": ["-results"],
+		"custom":
+		{
+			"sendByWebhook": true
+		}
+	},
+	{
+		"reference_key": "fb_ads:actions_by_type",
+		"component": "datatable_v1",
+		"metrics": ["actions", "spend_by_actions"],
+		"dimensions": [
+		{
+			"field": "action_type"
+		}],
+		"sort": ["-actions"]
+	},
+	{
+		"reference_key": "fb_ads:actions_by_platform",
+		"component": "datatable_v1",
+		"metrics": ["actions"],
+		"dimensions": [
+		{
+			"field": "action_type"
+		},
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook", "instagram"]
+		}],
+		"sort": ["-actions"]
+	},
+	{
+		"reference_key": "fb_ads:reach_by_region",
+		"component": "datatable_v1",
+		"metrics": ["reach", "impressions", "frequency", "spend", "cpm"],
+		"dimensions": [
+		{
+			"field": "region"
+		}],
 		"sort": ["-reach"]
 	},
 	{
-		"reference_key": "fb:page_posts",
+		"reference_key": "fb_ads:inline_link_clicks",
+		"component": "number_v1",
+		"metrics": ["inline_link_clicks"]
+	},
+	{
+		"reference_key": "fb_ads:instagram_link_clicks",
+		"component": "number_v1",
+		"metrics": ["inline_link_clicks"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:facebook_link_clicks",
+		"component": "number_v1",
+		"metrics": ["inline_link_clicks"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:inline_link_click_ctr",
+		"component": "number_v1",
+		"metrics": ["inline_link_click_ctr"]
+	},
+	{
+		"reference_key": "fb_ads:inline_link_click_ctr_instagram",
+		"component": "number_v1",
+		"metrics": ["inline_link_click_ctr"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}],
+		"added_date": "2025-01-01"
+	},
+	{
+		"reference_key": "fb_ads:inline_link_click_ctr_facebook",
+		"component": "number_v1",
+		"metrics": ["inline_link_click_ctr"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}],
+		"added_date": "2025-01-01"
+	},
+	{
+		"reference_key": "fb_ads:cost_per_inline_link_click",
+		"component": "number_v1",
+		"metrics": ["cost_per_inline_link_click"]
+	},
+	{
+		"reference_key": "fb_ads:insights_by_campaign",
 		"component": "datatable_v1",
-		"metrics": ["type", "total_reach", "organic_reach", "paid_reach", "total_reactions", "comments", "shares", "post_video_views", "created_at"],
-		"dimensions": ["page_posts"],
-		"sort": ["-total_reach"]
+		"metrics": ["reach", "impressions", "cpm", "frequency", "spend"],
+		"dimensions": [
+		{
+			"field": "campaign"
+		}],
+		"sort": ["-reach"]
 	},
 	{
-		"reference_key": "fb:page_impressions_organic_unique",
+		"reference_key": "fb_ads:count_ads",
 		"component": "number_v1",
-		"metrics": ["page_impressions_organic_unique"]
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "ad"
+		}],
+		"type": "ads_count"
 	},
 	{
-		"reference_key": "fb:page_posts_impressions",
+		"reference_key": "fb_ads:count_campaigns",
 		"component": "number_v1",
-		"metrics": ["page_posts_impressions"]
+		"metrics": ["reach"],
+		"dimensions": [
+		{
+			"field": "campaign"
+		}],
+		"type": "campaigns_count"
 	},
 	{
-		"reference_key": "fb:page_posts_impressions_unique",
+		"reference_key": "fb_ads:actions_page_engagement",
 		"component": "number_v1",
-		"metrics": ["page_posts_impressions_unique"]
+		"metrics": ["actions:page_engagement"]
 	},
 	{
-		"reference_key": "fb:page_post_rate_engagements",
+		"reference_key": "fb_ads:actions_post_engagement",
 		"component": "number_v1",
-		"metrics": ["page_post_rate_engagements"]
+		"metrics": ["actions:post_engagement"]
 	},
 	{
-		"reference_key": "fb:page_post_engagements",
+		"reference_key": "fb_ads:actions_post_engagement_facebook",
 		"component": "number_v1",
-		"metrics": ["page_post_engagements"],
-		"type": "total_posts_engagement"
-	},
-	{
-		"reference_key": "fb:page_fans_online_per_day",
-		"metrics": ["page_posts_impressions"],
-		"dimensions": ["day"],
-		"component": "chart_v1",
-		"chart_type": "bar"
-	},
-	{
-		"reference_key": "fb:page_post_organic_reach",
-		"metrics": ["posts_organic_reach"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:page_post_organic_impressions",
-		"metrics": ["page_posts_impressions_organic"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:page_organic_impressions",
-		"metrics": ["page_impressions_organic"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:total_video_views",
-		"metrics": ["page_video_views"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:paid_video_views",
-		"metrics": ["page_video_views_paid"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:organic_video_views",
-		"metrics": ["page_video_views_organic"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:page_reels_count",
-		"metrics": ["page_reels_count"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:post_impressions_unique",
-		"metrics": ["post_impressions_unique"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:blue_reels_play_count",
-		"metrics": ["blue_reels_play_count"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:post_video_avg_time_watched",
-		"metrics": ["post_video_avg_time_watched"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:post_video_likes_by_reaction_type",
-		"metrics": ["post_video_likes_by_reaction_type"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:post_video_social_actions_comments",
-		"metrics": ["post_video_social_actions_comments"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:post_video_social_actions_shares",
-		"metrics": ["post_video_social_actions_shares"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:post_video_view_time",
-		"metrics": ["post_video_view_time"],
-		"dimensions": ["video_reels"],
-		"component": "number_v1"
-	},
-	{
-		"reference_key": "fb:page_follows",
-		"metrics": ["page_follows"],
-		"component": "number_v1",
+		"metrics": ["actions:post_engagement"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}],
 		"added_date": "2024-07-25"
 	},
 	{
-		"reference_key": "fb:page_reels",
-		"component": "datatable_v1",
-		"metrics": ["reach", "plays", "avg_time", "likes", "comments", "shares", "time_played", "created_at"],
-		"dimensions": ["page_reels"],
-		"sort": ["-plays"]
+		"reference_key": "fb_ads:actions_post_engagement_instagram",
+		"component": "number_v1",
+		"metrics": ["actions:post_engagement"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}],
+		"added_date": "2024-07-25"
 	},
 	{
-		"reference_key": "fb:page_posts_all_reactions",
+		"reference_key": "fb_ads:actions_comment",
 		"component": "number_v1",
-		"metrics": ["page_posts_all_reactions"],
-		"type": "total_likes"
+		"metrics": ["actions:comment"]
+	},
+	{
+		"reference_key": "fb_ads:actions_video_view",
+		"component": "number_v1",
+		"metrics": ["actions:video_view"]
+	},
+	{
+		"reference_key": "fb_ads:actions_photo_view",
+		"component": "number_v1",
+		"metrics": ["actions:photo_view"]
+	},
+	{
+		"reference_key": "fb_ads:actions_landing_page_view",
+		"component": "number_v1",
+		"metrics": ["actions:landing_page_view"]
+	},
+	{
+		"reference_key": "fb_ads:actions_lead",
+		"component": "number_v1",
+		"metrics": ["actions:lead"]
+	},
+	{
+		"reference_key": "fb_ads:actions_contacts",
+		"component": "number_v1",
+		"metrics": ["actions:contact_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_contacts_website",
+		"component": "number_v1",
+		"metrics": ["actions:contact_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_contacts_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:contact_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_view_content",
+		"component": "number_v1",
+		"metrics": ["actions:view_content"]
+	},
+	{
+		"reference_key": "fb_ads:actions_contacts_offline",
+		"component": "number_v1",
+		"metrics": ["actions:contact_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_post_reaction",
+		"component": "number_v1",
+		"metrics": ["actions:post_reaction"]
+	},
+	{
+		"reference_key": "fb_ads:actions_like",
+		"component": "number_v1",
+		"metrics": ["actions:like"]
+	},
+	{
+		"reference_key": "fb_ads:actions_post",
+		"component": "number_v1",
+		"metrics": ["actions:post"]
+	},
+	{
+		"reference_key": "fb_ads:actions_checkin",
+		"component": "number_v1",
+		"metrics": ["actions:checkin"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["actions:omni_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_search",
+		"component": "number_v1",
+		"metrics": ["actions:omni_search"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_complete_registration",
+		"component": "number_v1",
+		"metrics": ["actions:omni_complete_registration"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_actions_omni_complete_registration",
+		"component": "number_v1",
+		"metrics": ["spend:omni_complete_registration"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_purchase",
+		"component": "number_v1",
+		"metrics": ["actions:omni_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_instagram_purchase",
+		"component": "number_v1",
+		"metrics": ["actions:omni_purchase"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:engagement_page_rate",
+		"component": "number_v1",
+		"metrics": ["actions:page_engagement", "reach"],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:engagement_page_rate_instagram",
+		"component": "number_v1",
+		"metrics": ["actions:page_engagement", "reach"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:engagement_page_rate_facebook",
+		"component": "number_v1",
+		"metrics": ["actions:page_engagement", "reach"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:actions_facebook_purchase",
+		"component": "number_v1",
+		"metrics": ["actions:omni_purchase"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:actions_start_trial_total",
+		"component": "number_v1",
+		"metrics": ["actions:start_trial_total"],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.fb_pixel_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.fb_pixel_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.messaging_conversation_started_7d",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.messaging_conversation_started_7d"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.messaging_conversation_started_7d_instagram",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.messaging_conversation_started_7d"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.messaging_conversation_started_7d_facebook",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.messaging_conversation_started_7d"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.post_save",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.post_save"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_lead",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_lead"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_search",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_search"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_add_payment_info",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_add_payment_info"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_initiated_checkout",
+		"component": "number_v1",
+		"metrics": ["actions:omni_initiated_checkout"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_purchase",
+		"component": "number_v1",
+		"metrics": ["spend:purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_video_view",
+		"component": "number_v1",
+		"metrics": ["spend:video_view"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_omni_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["spend:omni_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_conversion_value_omni_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["action_values:omni_add_to_cart"],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_onsite_conversion.fb_pixel_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.fb_pixel_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_offsite_conversion.fb_pixel_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_landing_page_view",
+		"component": "number_v1",
+		"metrics": ["spend:landing_page_view"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_lead",
+		"component": "number_v1",
+		"diff_type": "positive_bad",
+		"metrics": ["spend:lead"],
+		"custom":
+		{
+			"sendByWebhook": true
+		}
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_offsite_conversion.fb_pixel_lead",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_lead"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_offsite_conversion.fb_pixel_add_payment_info",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_add_payment_info"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_offsite_conversion.fb_pixel_purchase",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_purchase",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cost_per_omni_initiated_checkout",
+		"component": "number_v1",
+		"metrics": ["spend:omni_initiated_checkout"]
+	},
+	{
+		"reference_key": "fb_ads:actions_conversion_omni_initiated_checkout",
+		"component": "number_v1",
+		"metrics": ["action_values:omni_initiated_checkout"],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:video_p25_watched",
+		"component": "number_v1",
+		"metrics": ["video_p25_watched_actions"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_video_p25_watched",
+		"component": "number_v1",
+		"metrics": ["spend:video_p25_watched_actions"],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:video_p50_watched",
+		"component": "number_v1",
+		"metrics": ["video_p50_watched_actions"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_video_p50_watched",
+		"component": "number_v1",
+		"metrics": ["spend:video_p50_watched_actions"],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:video_p75_watched",
+		"component": "number_v1",
+		"metrics": ["video_p75_watched_actions"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_video_p75_watched",
+		"component": "number_v1",
+		"metrics": ["spend:video_p75_watched_actions"],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:video_p95_watched",
+		"component": "number_v1",
+		"metrics": ["video_p95_watched_actions"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_video_p95_watched",
+		"component": "number_v1",
+		"metrics": ["spend:video_p95_watched_actions"],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:thruplays",
+		"component": "number_v1",
+		"metrics": ["video_thruplay_watched_actions"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_thruplays",
+		"component": "number_v1",
+		"operation": "division",
+		"metrics": ["spend", "video_thruplay_watched_actions"]
+	},
+	{
+		"reference_key": "fb_ads:cost_per_contacts_total",
+		"component": "number_v1",
+		"operation": "division",
+		"metrics": ["spend:contact_total", "actions:contact_total"]
+	},
+	{
+		"reference_key": "fb_ads:current_account_balance",
+		"component": "number_v1",
+		"metrics": ["balance"]
+	},
+	{
+		"reference_key": "fb_ads:available_account_balance",
+		"component": "number_v1",
+		"operation": "subtract",
+		"metrics": ["spend_cap", "amount_spent", "balance"]
+	},
+	{
+		"reference_key": "fb_ads:website_roas",
+		"component": "number_v1",
+		"metrics": ["website_purchase_roas"]
+	},
+	{
+		"reference_key": "fb_ads:website_roas_instagram",
+		"component": "number_v1",
+		"metrics": ["website_purchase_roas"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:website_roas_facebook",
+		"component": "number_v1",
+		"metrics": ["website_purchase_roas"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:purchase_roas",
+		"component": "number_v1",
+		"metrics": ["purchase_roas"]
+	},
+	{
+		"reference_key": "fb_ads:roas_instagram",
+		"component": "number_v1",
+		"metrics": ["purchase_roas"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["instagram"]
+		}],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:roas_facebook",
+		"component": "number_v1",
+		"metrics": ["purchase_roas"],
+		"dimensions": [
+		{
+			"field": "publisher_platform",
+			"operator": "IN",
+			"value": ["facebook"]
+		}],
+		"added_date": "2023-10-16"
+	},
+	{
+		"reference_key": "fb_ads:purchase_conversion_value",
+		"component": "number_v1",
+		"metrics": ["action_values:omni_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:website_purchase_conversion_value",
+		"component": "number_v1",
+		"metrics": ["action_values:offsite_conversion.fb_pixel_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:spend_contacts_website",
+		"component": "number_v1",
+		"metrics": ["spend:contact_website"],
+		"added_date": "2023-08-01"
+	},
+	{
+		"reference_key": "fb_ads:spend_by_date",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"dimensions": [
+		{
+			"field": "date_start"
+		}],
+		"metrics": ["spend"]
+	},
+	{
+		"reference_key": "fb_ads:spend-actions_onsite_conversion.messaging_conversation_started_7d",
+		"component": "number_v1",
+		"diff_type": "positive_bad",
+		"metrics": ["spend:onsite_conversion.messaging_conversation_started_7d"]
+	},
+	{
+		"reference_key": "fb_ads:spend-actions_onsite_conversion.messaging_conversation_started_7d_campaigns",
+		"component": "number_v1",
+		"diff_type": "positive_bad",
+		"metrics": ["spend:onsite_conversion.messaging_conversation_started_7d"],
+		"dimensions": [
+		{
+			"field": "campaign"
+		}]
+	},
+	{
+		"reference_key": "fb_ads:adset",
+		"component": "datatable_v1",
+		"metrics": ["reach", "impressions", "clicks", "cpc", "cpm", "spend"],
+		"dimensions": [
+		{
+			"field": "adset"
+		}],
+		"sort": ["-reach"]
+	},
+	{
+		"reference_key": "fb_ads:clicks_and_ctr_by_date",
+		"component": "chart_v1",
+		"chart_type": "line",
+		"metrics": ["ctr", "clicks"],
+		"dimensions": [
+		{
+			"field": "date_start"
+		}]
+	},
+	{
+		"reference_key": "fb_ads:facebook_leads",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.lead_grouped"]
+	},
+	{
+		"reference_key": "fb_ads:facebook_leads_cost",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.lead_grouped"]
+	},
+	{
+		"reference_key": "fb_ads:performance_by_platform",
+		"component": "datatable_v1",
+		"metrics": ["reach", "impressions", "spend", "cpm", "inline_link_clicks"],
+		"dimensions": [
+		{
+			"field": "device_platform"
+		}],
+		"sort": ["-reach"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_achievement_unlocked",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_achievement_unlocked"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_achievement_unlocked",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_achievement_unlocked"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_activate_app",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_activate_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_activate_app",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_activate_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_add_payment_info",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_add_payment_info"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_add_payment_info",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_add_payment_info"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_add_to_cart",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_add_to_cart"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_add_to_wishlist",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_add_to_wishlist"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_add_to_wishlist",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_add_to_wishlist"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_complete_registration",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_complete_registration"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_complete_registration",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_complete_registration"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_content_view",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_content_view"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_content_view",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_content_view"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_initiated_checkout",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_initiated_checkout"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_initiated_checkout",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_initiated_checkout"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_level_achieved",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_level_achieved"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_level_achieved",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_level_achieved"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_purchase",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_purchase",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_rate",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_rate"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_rate",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_rate"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_search",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_search"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_search",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_search"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_spent_credits",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_spent_credits"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_spent_credits",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_spent_credits"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.fb_mobile_tutorial_completion",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.fb_mobile_tutorial_completion"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.fb_mobile_tutorial_completion",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.fb_mobile_tutorial_completion"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_custom_event.other",
+		"component": "number_v1",
+		"metrics": ["actions:app_custom_event.other"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_custom_event.other",
+		"component": "number_v1",
+		"metrics": ["spend:app_custom_event.other"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_install",
+		"component": "number_v1",
+		"metrics": ["actions:app_install"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_install",
+		"component": "number_v1",
+		"metrics": ["spend:app_install"]
+	},
+	{
+		"reference_key": "fb_ads:actions_app_use",
+		"component": "number_v1",
+		"metrics": ["actions:app_use"]
+	},
+	{
+		"reference_key": "fb_ads:spend_app_use",
+		"component": "number_v1",
+		"metrics": ["spend:app_use"]
+	},
+	{
+		"reference_key": "fb_ads:spend_checkin",
+		"component": "number_v1",
+		"metrics": ["spend:checkin"]
+	},
+	{
+		"reference_key": "fb_ads:spend_comment",
+		"component": "number_v1",
+		"metrics": ["spend:comment"]
+	},
+	{
+		"reference_key": "fb_ads:actions_credit_spent",
+		"component": "number_v1",
+		"metrics": ["actions:credit_spent"]
+	},
+	{
+		"reference_key": "fb_ads:spend_credit_spent",
+		"component": "number_v1",
+		"metrics": ["spend:credit_spent"]
+	},
+	{
+		"reference_key": "fb_ads:actions_games.plays",
+		"component": "number_v1",
+		"metrics": ["actions:games.plays"]
+	},
+	{
+		"reference_key": "fb_ads:spend_games.plays",
+		"component": "number_v1",
+		"metrics": ["spend:games.plays"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_add_to_wishlist",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_add_to_wishlist"]
+	},
+	{
+		"reference_key": "fb_ads:spend_offsite_conversion.fb_pixel_add_to_wishlist",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_add_to_wishlist"]
+	},
+	{
+		"reference_key": "fb_ads:spend_like",
+		"component": "number_v1",
+		"metrics": ["spend:like"]
+	},
+	{
+		"reference_key": "fb_ads:actions_link_click",
+		"component": "number_v1",
+		"metrics": ["actions:link_click"]
+	},
+	{
+		"reference_key": "fb_ads:spend_link_click",
+		"component": "number_v1",
+		"metrics": ["spend:link_click"]
+	},
+	{
+		"reference_key": "fb_ads:spend_mobile_app_install",
+		"component": "number_v1",
+		"metrics": ["spend:mobile_app_install"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_complete_registration",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_complete_registration"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_custom",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_custom"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:spend_offsite_conversion.fb_pixel_custom",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_custom"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:spend_offsite_conversion.fb_pixel_initiate_checkout",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_initiate_checkout"]
+	},
+	{
+		"reference_key": "fb_ads:spend_offsite_conversion.fb_pixel_search",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_search"]
+	},
+	{
+		"reference_key": "fb_ads:actions_offsite_conversion.fb_pixel_view_content",
+		"component": "number_v1",
+		"metrics": ["actions:offsite_conversion.fb_pixel_view_content"]
+	},
+	{
+		"reference_key": "fb_ads:spend_offsite_conversion.fb_pixel_view_content",
+		"component": "number_v1",
+		"metrics": ["spend:offsite_conversion.fb_pixel_view_content"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.flow_complete",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.flow_complete"]
+	},
+	{
+		"reference_key": "fb_ads:spend_onsite_conversion.flow_complete",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.flow_complete"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.messaging_block",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.messaging_block"]
+	},
+	{
+		"reference_key": "fb_ads:spend_onsite_conversion.messaging_block",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.messaging_block"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.messaging_first_reply",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.messaging_first_reply"]
+	},
+	{
+		"reference_key": "fb_ads:spend_onsite_conversion.messaging_first_reply",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.messaging_first_reply"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.messaging_user_subscribed",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.messaging_user_subscribed"]
+	},
+	{
+		"reference_key": "fb_ads:spend_onsite_conversion.messaging_user_subscribed",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.messaging_user_subscribed"]
+	},
+	{
+		"reference_key": "fb_ads:spend_onsite_conversion.post_save",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.post_save"]
+	},
+	{
+		"reference_key": "fb_ads:actions_onsite_conversion.purchase",
+		"component": "number_v1",
+		"metrics": ["actions:onsite_conversion.purchase"]
+	},
+	{
+		"reference_key": "fb_ads:spend_onsite_conversion.purchase",
+		"component": "number_v1",
+		"metrics": ["spend:onsite_conversion.purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_outbound_click",
+		"component": "number_v1",
+		"metrics": ["outbound_clicks"]
+	},
+	{
+		"reference_key": "fb_ads:spend_outbound_click",
+		"component": "number_v1",
+		"metrics": ["cost_per_outbound_click"]
+	},
+	{
+		"reference_key": "fb_ads:spend_photo_view",
+		"component": "number_v1",
+		"metrics": ["spend:photo_view"]
+	},
+	{
+		"reference_key": "fb_ads:spend_post",
+		"component": "number_v1",
+		"metrics": ["spend:post"]
+	},
+	{
+		"reference_key": "fb_ads:spend_post_reaction",
+		"component": "number_v1",
+		"metrics": ["spend:post_reaction"]
+	},
+	{
+		"reference_key": "fb_ads:actions_rsvp",
+		"component": "number_v1",
+		"metrics": ["actions:rsvp"]
+	},
+	{
+		"reference_key": "fb_ads:spend_rsvp",
+		"component": "number_v1",
+		"metrics": ["spend:rsvp"]
+	},
+	{
+		"reference_key": "fb_ads:spend_contact_total",
+		"component": "number_v1",
+		"metrics": ["spend:contact_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_contact_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:contact_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_contact_offline",
+		"component": "number_v1",
+		"metrics": ["spend:contact_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_customize_product_total",
+		"component": "number_v1",
+		"metrics": ["actions:customize_product_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_customize_product_total",
+		"component": "number_v1",
+		"metrics": ["spend:customize_product_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_customize_product_website",
+		"component": "number_v1",
+		"metrics": ["actions:customize_product_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_customize_product_website",
+		"component": "number_v1",
+		"metrics": ["spend:customize_product_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_customize_product_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:customize_product_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_customize_product_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:customize_product_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_customize_product_offline",
+		"component": "number_v1",
+		"metrics": ["actions:customize_product_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_customize_product_offline",
+		"component": "number_v1",
+		"metrics": ["spend:customize_product_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_donate_total",
+		"component": "number_v1",
+		"metrics": ["actions:donate_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_donate_total",
+		"component": "number_v1",
+		"metrics": ["spend:donate_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_donate_website",
+		"component": "number_v1",
+		"metrics": ["actions:donate_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_donate_website",
+		"component": "number_v1",
+		"metrics": ["spend:donate_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_donate_on_facebook",
+		"component": "number_v1",
+		"metrics": ["actions:donate_on_facebook"]
+	},
+	{
+		"reference_key": "fb_ads:spend_donate_on_facebook",
+		"component": "number_v1",
+		"metrics": ["spend:donate_on_facebook"]
+	},
+	{
+		"reference_key": "fb_ads:actions_donate_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:donate_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_donate_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:donate_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_donate_offline",
+		"component": "number_v1",
+		"metrics": ["actions:donate_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_donate_offline",
+		"component": "number_v1",
+		"metrics": ["spend:donate_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_find_location_total",
+		"component": "number_v1",
+		"metrics": ["actions:find_location_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_find_location_total",
+		"component": "number_v1",
+		"metrics": ["spend:find_location_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_find_location_website",
+		"component": "number_v1",
+		"metrics": ["actions:find_location_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_find_location_website",
+		"component": "number_v1",
+		"metrics": ["spend:find_location_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_find_location_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:find_location_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_find_location_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:find_location_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_find_location_offline",
+		"component": "number_v1",
+		"metrics": ["actions:find_location_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_find_location_offline",
+		"component": "number_v1",
+		"metrics": ["spend:find_location_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_schedule_total",
+		"component": "number_v1",
+		"metrics": ["actions:schedule_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_schedule_total",
+		"component": "number_v1",
+		"metrics": ["spend:schedule_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_schedule_website",
+		"component": "number_v1",
+		"metrics": ["actions:schedule_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_schedule_website",
+		"component": "number_v1",
+		"metrics": ["spend:schedule_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_schedule_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:schedule_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_schedule_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:schedule_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_schedule_offline",
+		"component": "number_v1",
+		"metrics": ["actions:schedule_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_schedule_offline",
+		"component": "number_v1",
+		"metrics": ["spend:schedule_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_start_trial_total",
+		"component": "number_v1",
+		"metrics": ["spend:start_trial_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_start_trial_website",
+		"component": "number_v1",
+		"metrics": ["actions:start_trial_website"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:spend_start_trial_website",
+		"component": "number_v1",
+		"metrics": ["spend:start_trial_website"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:actions_start_trial_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:start_trial_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_start_trial_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:start_trial_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_start_trial_offline",
+		"component": "number_v1",
+		"metrics": ["actions:start_trial_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_start_trial_offline",
+		"component": "number_v1",
+		"metrics": ["spend:start_trial_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_submit_application_total",
+		"component": "number_v1",
+		"metrics": ["actions:submit_application_total"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:spend_submit_application_total",
+		"component": "number_v1",
+		"metrics": ["spend:submit_application_total"],
+		"added_date": "2023-10-20"
+	},
+	{
+		"reference_key": "fb_ads:actions_submit_application_website",
+		"component": "number_v1",
+		"metrics": ["actions:submit_application_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_submit_application_website",
+		"component": "number_v1",
+		"metrics": ["spend:submit_application_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_submit_application_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:submit_application_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_submit_application_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:submit_application_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_submit_application_offline",
+		"component": "number_v1",
+		"metrics": ["actions:submit_application_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_submit_application_offline",
+		"component": "number_v1",
+		"metrics": ["spend:submit_application_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_submit_application_on_facebook",
+		"component": "number_v1",
+		"metrics": ["actions:submit_application_on_facebook"]
+	},
+	{
+		"reference_key": "fb_ads:spend_submit_application_on_facebook",
+		"component": "number_v1",
+		"metrics": ["spend:submit_application_on_facebook"]
+	},
+	{
+		"reference_key": "fb_ads:actions_subscribe_total",
+		"component": "number_v1",
+		"metrics": ["actions:subscribe_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_subscribe_total",
+		"component": "number_v1",
+		"metrics": ["spend:subscribe_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_subscribe_website",
+		"component": "number_v1",
+		"metrics": ["actions:subscribe_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_subscribe_website",
+		"component": "number_v1",
+		"metrics": ["spend:subscribe_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_subscribe_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:subscribe_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_subscribe_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:subscribe_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_subscribe_offline",
+		"component": "number_v1",
+		"metrics": ["actions:subscribe_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_subscribe_offline",
+		"component": "number_v1",
+		"metrics": ["spend:subscribe_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_recurring_subscription_payment_total",
+		"component": "number_v1",
+		"metrics": ["actions:recurring_subscription_payment_total"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:spend_recurring_subscription_payment_total",
+		"component": "number_v1",
+		"metrics": ["spend:recurring_subscription_payment_total"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:actions_recurring_subscription_payment_website",
+		"component": "number_v1",
+		"metrics": ["actions:recurring_subscription_payment_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_recurring_subscription_payment_website",
+		"component": "number_v1",
+		"metrics": ["spend:recurring_subscription_payment_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_recurring_subscription_payment_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:recurring_subscription_payment_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_recurring_subscription_payment_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:recurring_subscription_payment_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_recurring_subscription_payment_offline",
+		"component": "number_v1",
+		"metrics": ["actions:recurring_subscription_payment_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_recurring_subscription_payment_offline",
+		"component": "number_v1",
+		"metrics": ["spend:recurring_subscription_payment_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cancel_subscription_total",
+		"component": "number_v1",
+		"metrics": ["actions:cancel_subscription_total"]
+	},
+	{
+		"reference_key": "fb_ads:spend_cancel_subscription_total",
+		"component": "number_v1",
+		"metrics": ["spend:cancel_subscription_total"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cancel_subscription_website",
+		"component": "number_v1",
+		"metrics": ["actions:cancel_subscription_website"]
+	},
+	{
+		"reference_key": "fb_ads:spend_cancel_subscription_website",
+		"component": "number_v1",
+		"metrics": ["spend:cancel_subscription_website"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cancel_subscription_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:cancel_subscription_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_cancel_subscription_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:cancel_subscription_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_cancel_subscription_offline",
+		"component": "number_v1",
+		"metrics": ["actions:cancel_subscription_offline"]
+	},
+	{
+		"reference_key": "fb_ads:spend_cancel_subscription_offline",
+		"component": "number_v1",
+		"metrics": ["spend:cancel_subscription_offline"]
+	},
+	{
+		"reference_key": "fb_ads:actions_ad_click_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:ad_click_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_ad_click_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:ad_click_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_ad_impression_mobile_app",
+		"component": "number_v1",
+		"metrics": ["actions:ad_impression_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_ad_impression_mobile_app",
+		"component": "number_v1",
+		"metrics": ["spend:ad_impression_mobile_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_click_to_call_call_confirm",
+		"component": "number_v1",
+		"metrics": ["actions:click_to_call_call_confirm"]
+	},
+	{
+		"reference_key": "fb_ads:spend_click_to_call_call_confirm",
+		"component": "number_v1",
+		"metrics": ["spend:click_to_call_call_confirm"]
+	},
+	{
+		"reference_key": "fb_ads:actions_click_to_call_native_call_placed",
+		"component": "number_v1",
+		"metrics": ["actions:click_to_call_native_call_placed"]
+	},
+	{
+		"reference_key": "fb_ads:spend_click_to_call_native_call_placed",
+		"component": "number_v1",
+		"metrics": ["spend:click_to_call_native_call_placed"]
+	},
+	{
+		"reference_key": "fb_ads:actions_click_to_call_native_20s_call_connect",
+		"component": "number_v1",
+		"metrics": ["actions:click_to_call_native_20s_call_connect"]
+	},
+	{
+		"reference_key": "fb_ads:spend_click_to_call_native_20s_call_connect",
+		"component": "number_v1",
+		"metrics": ["spend:click_to_call_native_20s_call_connect"]
+	},
+	{
+		"reference_key": "fb_ads:actions_click_to_call_native_60s_call_connect",
+		"component": "number_v1",
+		"metrics": ["actions:click_to_call_native_60s_call_connect"]
+	},
+	{
+		"reference_key": "fb_ads:spend_click_to_call_native_60s_call_connect",
+		"component": "number_v1",
+		"metrics": ["spend:click_to_call_native_60s_call_connect"]
+	},
+	{
+		"reference_key": "fb_ads:spend_page_engagement",
+		"component": "number_v1",
+		"metrics": ["spend:page_engagement"]
+	},
+	{
+		"reference_key": "fb_ads:spend_post_engagement",
+		"component": "number_v1",
+		"metrics": ["spend:post_engagement"]
+	},
+	{
+		"reference_key": "fb_ads:actions_leadgen_grouped",
+		"component": "number_v1",
+		"metrics": ["actions:leadgen_grouped"]
+	},
+	{
+		"reference_key": "fb_ads:spend_leadgen_grouped",
+		"component": "number_v1",
+		"metrics": ["spend:leadgen_grouped"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_app_install",
+		"component": "number_v1",
+		"metrics": ["actions:omni_app_install"]
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_purchase",
+		"component": "number_v1",
+		"metrics": ["spend:omni_purchase"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_view_content",
+		"component": "number_v1",
+		"metrics": ["actions:omni_view_content"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_achievement_unlocked",
+		"component": "number_v1",
+		"metrics": ["actions:omni_achievement_unlocked"]
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_achievement_unlocked",
+		"component": "number_v1",
+		"metrics": ["spend:omni_achievement_unlocked"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_activate_app",
+		"component": "number_v1",
+		"metrics": ["actions:omni_activate_app"]
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_activate_app",
+		"component": "number_v1",
+		"metrics": ["spend:omni_activate_app"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_level_achieved",
+		"component": "number_v1",
+		"metrics": ["actions:omni_level_achieved"]
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_level_achieved",
+		"component": "number_v1",
+		"metrics": ["spend:omni_level_achieved"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_rate",
+		"component": "number_v1",
+		"metrics": ["actions:omni_rate"]
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_rate",
+		"component": "number_v1",
+		"metrics": ["spend:omni_rate"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_spend_credits",
+		"component": "number_v1",
+		"metrics": ["actions:omni_spend_credits"]
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_tutorial_completion",
+		"component": "number_v1",
+		"metrics": ["actions:omni_tutorial_completion"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_tutorial_completion",
+		"component": "number_v1",
+		"metrics": ["spend:omni_tutorial_completion"],
+		"added_date": "2023-10-30"
+	},
+	{
+		"reference_key": "fb_ads:actions_omni_custom",
+		"component": "number_v1",
+		"metrics": ["actions:omni_custom"]
+	},
+	{
+		"reference_key": "fb_ads:spend_omni_custom",
+		"component": "number_v1",
+		"metrics": ["spend:omni_custom"]
+	},
+	{
+		"reference_key": "fads:account_currency",
+		"component": "number_v1",
+		"metrics": ["account_currency"]
+	},
+	{
+		"reference_key": "fads:account_id",
+		"component": "number_v1",
+		"metrics": ["account_id"]
+	},
+	{
+		"reference_key": "fads:account_name",
+		"component": "number_v1",
+		"metrics": ["account_name"]
+	},
+	{
+		"reference_key": "fads:estimated_ad_recallers_upper_bound",
+		"component": "number_v1",
+		"metrics": ["estimated_ad_recallers"],
+		"added_date": "2024-08-02"
+	},
+	{
+		"reference_key": "fads:action_values",
+		"component": "number_v1",
+		"metrics": ["action_values"]
 	}]
 }
