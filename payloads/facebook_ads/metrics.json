@@ -345,11 +345,7 @@
 		{
 			"field": "ad"
 		}],
-		"sort": ["-results"],
-		"custom":
-		{
-			"sendByWebhook": true
-		}
+		"sort": ["-results"]
 	},
 	{
 		"reference_key": "fb_ads:actions_by_type",
@@ -768,11 +764,7 @@
 		"reference_key": "fb_ads:actions_cost_per_lead",
 		"component": "number_v1",
 		"diff_type": "positive_bad",
-		"metrics": ["spend:lead"],
-		"custom":
-		{
-			"sendByWebhook": true
-		}
+		"metrics": ["spend:lead"]
 	},
 	{
 		"reference_key": "fb_ads:actions_cost_per_offsite_conversion.fb_pixel_lead",
