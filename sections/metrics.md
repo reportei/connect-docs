@@ -27,13 +27,15 @@ This endpoint will return an object with the values of the requested metrics.
 
 _Metric Structure_:
 1. `id`: A unique identifier for the metric.
-1. `reference_key`: The general name of the metric, e.g., ig:story_replies (Instagram story replies).
-1. `metrics`: An array of specific metric values requested, e.g., replies.
-1. `dimensions` (optional): Additional breakdown of the metric, e.g., stories, date, device.
-1. `component`: The type of the metric, which alters the final response structure. The available component types are:
+2. `reference_key`: The general name of the metric, e.g., ig:story_replies (Instagram story replies).
+3. `metrics`: An array of specific metric values requested, e.g., replies.
+4. `dimensions` (optional): Additional breakdown of the metric, e.g., stories, date, device.
+5. `component`: The type of the metric, which alters the final response structure. The available component types are:
     * `number_v1`: Returns a single numerical value.
     * `datatable_v1`: Returns tabular data.
     * `chart_v1`: Returns data in a format that can be visualized in a chart.
+6. `entity_id`: Id of the entity you want to filter the results by (ad id, campaign id or adset id)
+7. `entity_type`: Type of the entity you want to target (ad, campaign or adset)
 
 **For a list of available metrics and dimensions per integration**, see [Payloads](https://github.com/reportei/connect-docs/blob/master/payloads)
 
