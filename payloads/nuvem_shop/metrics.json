@@ -1,0 +1,350 @@
+{
+  "widgets": [
+    {
+      "reference_key": "nuvem_shop:sales",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:revenue",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "revenue_value"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:coupons",
+      "component": "number_v1",
+      "dimensions": [
+        "coupons"
+      ],
+      "metrics": [
+        "coupons_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:recurring_customers",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "recurring_customers_count"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:new_customers",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "new_customers_count"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:sold_products",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sold_products_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:average_ticket",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "average_ticket_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:all_sales",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:abandoned_checkouts",
+      "component": "number_v1",
+      "dimensions": [
+        "checkouts"
+      ],
+      "metrics": [
+        "all_abandoned_checkouts_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:selected_payment_methods",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:selected_shipping_methods",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:personal_data_filled",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:shipping_address_filled",
+      "component": "number_v1",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:number_of_installments",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "installments"
+      ],
+      "sort": [
+        "-revenue_value"
+      ]
+    },
+    {
+      "reference_key": "nuvem_shop:coupon_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "discount",
+        "shipping",
+        "validity",
+        "uses"
+      ],
+      "dimensions": [
+        "coupons"
+      ],
+      "sort": [
+        "-uses"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:province_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "revenue_value",
+        "sales_count",
+        "shipping_cost",
+        "delivery_time"
+      ],
+      "dimensions": [
+        "province"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:shipping_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "shipping"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:shipping_method_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "method"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:payment_method_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "method"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:payment_system_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "method"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:product_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "order_products"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:traffic_source_performance",
+      "component": "datatable_v1",
+      "metrics": [
+        "sales_count",
+        "revenue_value"
+      ],
+      "dimensions": [
+        "order_utm_sources"
+      ],
+      "sort": [
+        "-revenue_value"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:orders_over_time",
+      "component": "chart_v1",
+      "chart_type": "bar",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sales_count"
+      ],
+      "sort": [],
+      "custom": {
+        "sendByWebhook": true
+      }
+    },
+    {
+      "reference_key": "nuvem_shop:products_over_time",
+      "component": "chart_v1",
+      "chart_type": "bar",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "sold_products_count"
+      ],
+      "sort": []
+    },
+    {
+      "reference_key": "nuvem_shop:new_returning_customers_over_time",
+      "component": "chart_v1",
+      "chart_type": "bar",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "new_customers_count",
+        "recurring_customers_count"
+      ],
+      "custom": {
+        "sendByWebhook": true
+      },
+      "sort": []
+    },
+    {
+      "reference_key": "nuvem_shop:revenue_averageTicket_over_time",
+      "component": "chart_v1",
+      "chart_type": "bar",
+      "dimensions": [
+        "orders"
+      ],
+      "metrics": [
+        "revenue_value",
+        "average_ticket_count"
+      ],
+      "sort": []
+    }
+  ]
+}

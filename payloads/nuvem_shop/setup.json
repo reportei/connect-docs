@@ -1,0 +1,102 @@
+{
+  "metrics": {
+    "sales_count": {
+      "label": "Sales"
+    },
+    "coupons_count": {
+      "label": "Valid Coupons"
+    },
+    "new_customers_count": {
+      "label": "New Customers"
+    },
+    "sold_products_count": {
+      "label": "Sold Products"
+    },
+    "average_ticket_count": {
+      "label": "Average Ticket"
+    },
+    "shipping": {
+      "label": "Shipping"
+    },
+    "recurring_customers_count": {
+      "label": "Recurring Customers"
+    },
+    "validity": {
+      "label": "Validity"
+    },
+    "uses": {
+      "label": "Uses"
+    },
+    "carts_conversion": {
+      "label": "Cart Conversion",
+      "formatting_function": "add_percentage"
+    },
+    "all_abandoned_checkouts_count": {
+      "label": "Abandoned Carts"
+    },
+    "shipping_cost": {
+      "label": "Shipping Cost"
+    },
+    "delivery_time": {
+      "label": "Delivery Time"
+    },
+    "discount": {
+      "label": "Discount",
+      "formatting_function": "currency"
+    },
+    "revenue_value": {
+      "label": "Revenue",
+      "formatting_function": "currency"
+    }
+  },
+  "dimensions": {
+    "orders": {
+      "label": "Orders",
+      "options": [
+        "align_left"
+      ]
+    },
+    "coupons": {
+      "label": "Cupons",
+      "options": [
+        "align_left"
+      ]
+    },
+    "installments": {
+      "label": "Installments",
+      "options": [
+        "align_left"
+      ]
+    },
+    "province": {
+      "label": "Province",
+      "options": [
+        "align_left"
+      ]
+    },
+    "shipping": {
+      "label": "Shipping",
+      "options": [
+        "align_left"
+      ]
+    },
+    "method": {
+      "label": "Method",
+      "options": [
+        "align_left"
+      ]
+    },
+    "order_products": {
+      "label": "Products",
+      "options": [
+        "align_left"
+      ]
+    },
+    "order_utm_sources": {
+      "label": "Utm Sources",
+      "options": [
+        "align_left"
+      ]
+    }
+  }
+}
