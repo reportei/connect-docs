@@ -6,6 +6,28 @@ Endpoints:
 - [Get metrics data](#get-metrics-data)
 - [Get metrics data asynchronously](#get-metrics-data-async)
 
+This endpoint allows you to recreate exactly a dashboard present in Reportei Application, so we **HIGHLY** recommend you to check the [Reportei Application](https://app.reportei.com), create a test account, integrate your networks, generate a dashboard and then use this endpoint to get the data.
+
+Once you customized the dashboard, you can copy the JSON payload by hovering over the integration block or a specific widget and clicking the **</>** icon.
+
+**Copy JSON Payload From Integration Block**
+This will generate a JSON payload with the entire dashboard data.
+
+![Copy JSON Payload From Integration Block](../images/copy_payload_source.png)
+
+**Copy JSON Payload From Widget**
+This will generate a JSON payload with the single widget data only.
+
+![Copy JSON Payload From Widget](../images/copy_payload_widget.png)
+
+This pops up a modal with the JSON payload, you can copy it and use it in this endpoint.
+
+Once you copy it you will have the full payload for all endpoints documented on this section.
+
+![Copy JSON Payload Modal](../images/copy_payload_modal.png)
+
+**Note**: Dont forget to tick the "Format for Connect" checkbox.
+
 Get metrics data
 --------------
 
@@ -37,7 +59,9 @@ _Metric Structure_:
 6. `entity_id`: Id of the entity you want to filter the results by (ad id, campaign id or adset id)
 7. `entity_type`: Type of the entity you want to target (ad, campaign or adset)
 
-**For a list of available metrics and dimensions per integration**, see [Payloads](https://github.com/reportei/connect-docs/blob/master/payloads)
+**If you dont want to copy the payload from an existing Reportei dashboard, there is a list of available metrics and dimensions per integration in the link below.**
+
+[Payloads](https://github.com/reportei/connect-docs/blob/master/payloads)
 
 Every folder in `/payloads` contains two json files: `metrics.json` which contains predefined metrics with specific components and `setup.json` which contains the available metrics and dimensions to build your own payloads.
 
