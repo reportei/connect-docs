@@ -11,6 +11,7 @@ To use this API, you'll need the following:
 - The `x-customer-token` for endpoints that interact with specific customer data
 - Download the Postman collection for this API from [here](./sections/Reportei%20Connect.postman_collection.json)
 - Video guide on [how to use API](https://www.loom.com/share/2d692418e459450ab02280034ba3a31c?sid=06e3646f-fb91-4352-be7a-9ae558877914)  (portuguese only)
+- Guide on how to build queries and collect metrics [here](./sections/metrics.md)
 
 ## Authentication
 
